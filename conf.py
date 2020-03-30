@@ -136,22 +136,6 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
-# NAVIGATION_LINKS = {
-#     DEFAULT_LANG: (
-#         ("/index.html", "Home"),
-#         ("/archive.html", "Archives"),
-#         ("/categories/index.html", "Tags"),
-#         ("/rss.xml", "RSS feed"),
-#     ),
-
-#     "fr": (
-#         ("/fr/index.html", "Accueil"),
-#         ("/fr/archive.html", "Archives"),
-#         ("/fr/categories/index.html", "Étiquettes"),
-#         ("/fr/rss.xml", "Flux RSS"),
-#     ),
-# }
-
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/posts/", "Blog"),
@@ -305,7 +289,7 @@ DATE_FORMAT = 'YYYY-MM-dd'
 # 2 = using a string like “2 days ago”
 #
 # Your theme must support it, Bootstrap already does.
-# DATE_FANCINESS = 2
+DATE_FANCINESS = 2
 
 # Customize the locale/region used for a language.
 # For example, to use British instead of US English: LOCALES = {'en': 'en_GB'}
@@ -557,6 +541,23 @@ CATEGORY_DESCRIPTIONS = {
     }
 }
 
+# Set special titles for category pages. The default is "Posts about CATEGORY".
+CATEGORY_TITLES = {
+    DEFAULT_LANG: {
+        "machinelearning": "Machine Learning",
+        "tutorial": "Tutorials",
+        "book": "Books",
+        "finance": "Finance & Economy",
+    },
+
+    "fr": {
+        "machinelearning": "Machine Learning",
+        "tutorial": "Tutoriels",
+        "book": "Livres",
+        "finance": "Finances & Economies",
+    }
+}
+
 # Set the variable MAILCHIMP_SIGNUP
 MAILCHIMP_SIGNUP = """
 <!-- Begin Mailchimp Signup Form -->
@@ -574,23 +575,6 @@ MAILCHIMP_SIGNUP = """
 
 <!--End mc_embed_signup-->
 """
-
-# Set special titles for category pages. The default is "Posts about CATEGORY".
-CATEGORY_TITLES = {
-    DEFAULT_LANG: {
-        "machinelearning": "Machine Learning",
-        "tutorial": "Tutorials",
-        "book": "Books",
-        "finance": "Finance & Economy",
-    },
-
-    "fr": {
-        "machinelearning": "Machine Learning",
-        "tutorial": "Tutoriels",
-        "book": "Livres",
-        "finance": "Finances & Economies",
-    }
-}
 
 # If you do not want to display a category publicly, you can mark it as hidden.
 # The category will not be displayed on the category list page.
@@ -1037,7 +1021,7 @@ FAVICONS = (
 # }}                            A literal } (U+007D RIGHT CURLY BRACKET)
 
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
-INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
+INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{reading_time} minute read…</a></p>'
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
 FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
 
@@ -1241,20 +1225,19 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.m
 # the default right now)
 # (translatable)
 SOCIAL_BUTTONS_CODE = """
-<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e8200df33e04a9a"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul><li><a class="addthis_button_facebook"></a>
+<li><a class="addthis_button_google_plusone_share"></a>
+<li><a class="addthis_button_linkedin"></a>
+<li><a class="addthis_button_twitter"></a>
+</ul>
+</div>
+<script type = "text/javascript" src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e8200df33e04a9a" > </script >
+<!-- End of social buttons -->
 """
-# <!-- Social buttons -->
-# <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-# <a class="addthis_button_more">Share</a>
-# <ul><li><a class="addthis_button_facebook"></a>
-# <li><a class="addthis_button_google_plusone_share"></a>
-# <li><a class="addthis_button_linkedin"></a>
-# <li><a class="addthis_button_twitter"></a>
-# </ul>
-# </div>
-# <script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-# <!-- End of social buttons -->
-# """
 
 # Show link to source for the posts?
 SHOW_SOURCELINK = False
@@ -1373,7 +1356,16 @@ EXTRA_HEAD_DATA = """
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
-# BODY_END = ""
+BODY_END = """
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162183468-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-162183468-1');
+</script>
+"""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
