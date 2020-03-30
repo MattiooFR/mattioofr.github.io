@@ -3,6 +3,7 @@ Summary: A brief description of my document.
 Authors: Waylan Limberg
 date: 2020-03-28
 slug: test4
+category: finance
 
 # Woupi test
 

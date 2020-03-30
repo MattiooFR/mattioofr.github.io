@@ -142,8 +142,8 @@ NAVIGATION_LINKS = {
         (
             (
                 ("/categories/cat_machinelearning/", "Machine Learning"),
-                ("/categories/cat_trading/", "Finances"),
-                ("/categories/cat_books/", "Books"),
+                ("/categories/cat_finance/", "Finances"),
+                ("/categories/cat_book/", "Books"),
                 ("/archive.html/", "Archived Posts"),
             ),
             "Categories"
@@ -158,8 +158,8 @@ NAVIGATION_LINKS = {
         (
             (
                 ("/categories/cat_machinelearning/", "Machine Learning"),
-                ("/categories/cat_trading/", "Finances"),
-                ("/categories/cat_books/", "Livres"),
+                ("/categories/cat_finance/", "Finances"),
+                ("/categories/cat_book/", "Livres"),
                 ("/archive.html/", "Articles Archivés"),
             ),
             "Catégories"
@@ -468,7 +468,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 
 # If CATEGORY_PAGES_ARE_INDEXES is set to True, each category's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# CATEGORY_PAGES_ARE_INDEXES = False
+CATEGORY_PAGES_ARE_INDEXES = False
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description

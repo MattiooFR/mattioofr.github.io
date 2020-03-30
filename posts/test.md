@@ -3,7 +3,7 @@
 .. slug: test
 .. date: 2020-03-28 15:03:16 UTC+01:00
 .. tags:
-.. category:
+.. category: machinelearning
 .. link:
 .. description:
 .. type: text
