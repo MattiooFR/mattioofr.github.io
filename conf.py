@@ -1005,7 +1005,7 @@ FAVICONS = (
 )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -1288,7 +1288,7 @@ SEARCH_FORM = """
  <input type="text" name="q" class="form-control mr-sm-2" placeholder="Search">
  </div>
  <button type="submit" class="btn btn-secondary my-2 my-sm-0">
-    <i class="fas fa-search"></i></button>
+    <i class="fa fa-search"></i></button>
  </button>
  <input type="hidden" name="sitesearch" value="%s">
  </form>
