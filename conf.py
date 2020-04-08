@@ -1058,7 +1058,7 @@ CONTENT_FOOTER = '''
 <center>
 ''' + MAILCHIMP_SIGNUP + '''
 <br>
-Contents &copy; {date} <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+Contents &copy; {date} <a href="mailto:{email}">{author}</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> {license} - favicon made by <a href="https://www.flaticon.com/">FlatIcon</a>
 </center>
 <br>
 '''
