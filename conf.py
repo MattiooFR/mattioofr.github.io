@@ -178,7 +178,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap4"
+THEME = "bootstrap4-jinja"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -1351,7 +1351,7 @@ EXTRA_HEAD_DATA = """
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
-<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script>
 """
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
