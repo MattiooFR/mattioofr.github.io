@@ -80,33 +80,33 @@ Now if we want to deploy our app on Heroku we need to do a few things.
 
 1. Create a `Procfile` at the root of your folder. Paste this code inside :
 
-    ```bash
-        web: gunicorn app:app
+    ```text
+    web: gunicorn app:app
     ```
 
 2. We need to export all the python dependencies in a `requirements.txt` file :
 
     ```bash
-        pip freeze > requirements.txt
+    pip freeze > requirements.txt
 
-        # if you use poetry you can do as following
-        poetry export -f requirements.txt > requirements.txt
+    # if you use poetry you can do as following
+    poetry export -f requirements.txt > requirements.txt
     ```
 
 3. Install Heroku CLI on your machine and then login on your Heroku account ([here to register](https://signup.heroku.com/)):
 
     ```bash
-        # if you are on mac and use homebrew
-        brew tap heroku/brew && brew install heroku
+    # if you are on mac and use homebrew
+    brew tap heroku/brew && brew install heroku
 
-        # you can also use npm
-        npm install -g heroku
+    # you can also use npm
+    npm install -g heroku
     ```
 
 4. Once Heroku is available on your terminal, we can create your Heroku App :
 
     ```bash
-        heroku create <name_of_your_app>
+    heroku create <name_of_your_app>
     ```
 
     Now if you check your Heroku Dashboard in the browser, you'll see an application with that name. But it doesn't have our code or anything yet - it's completely empty. Let's get our code up there.
@@ -114,22 +114,22 @@ Now if we want to deploy our app on Heroku we need to do a few things.
 5. The next step is initializing git in your repository, and add the Heroku remote in your git repository :
 
     ```bash
-        git init
-        heroku git:remote -a <name_of_your_app>
+    git init
+    heroku git:remote -a <name_of_your_app>
     ```
 
 6. Now before pushing our app on Heroku, we need to set that `EXCITED` variable to true. You can do that on the web interface of Heroku, or using the CLI with :
 
     ```bash
-        heroku config:set EXCITED=True
+    heroku config:set EXCITED=True
     ```
 
 7. To push our web app to Heroku we can simply do :
 
     ```bash
-        git add .
-        git commit -m"deploying app on heroku"
-        git push heroku master
+    git add .
+    git commit -m"deploying app on heroku"
+    git push heroku master
     ```
 
 Now if you look at [https://name_of_your_app.heroku.com](https://name_of_your_app.heroku.com) you should have a nice excited greeting message : `Hello !!!!`
