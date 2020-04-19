@@ -475,86 +475,22 @@ CATEGORY_PAGES_ARE_INDEXES = False
 # and displayed underneath the category list or index page’s title.
 CATEGORY_DESCRIPTIONS = {
     DEFAULT_LANG: {
-        "machinelearning": '''
-        <p><h5>Talking about automated trading process!<h5></p>
-        <p>Here I share all my growing knowledge about the fantastic world of machine learning. I will be sharing some of my jupyter notebooks as well as tutorial and posts about any specific areas that I want to share to the world.</p>
-        ''' + '''
-        <hr>
-        <center>
-        <p>If you have any question that requires more than writing a comment at the end of a post, you can always <a href="/contact/">contact me</a>.</p>
-        </center>
-        <hr>
-        ''',
-        "finance": '''
-        <p><h5>Talking about finance & economies!<h5></p>
-        <p>Finances and economies is something that always got my interested. I started trading cryptocurrencies in 2015, and know my goal is to think financial sustainability towards the future. I will share my will, knowledge and discoveries here.</p>
-        ''' + '''
-        <hr>
-        <center>
-        <p>If you have any question that requires more than writing a comment at the end of a post, you can always <a href="/contact/">contact me</a>.</p>
-        </center>
-        <hr>
-        ''',
-        "book": '''
-        <p><h5>Talking about the books I've read!<h5></p>
-        <p>I want to remember stuff I read, so writing summary or notes about some of the books I've read has always been a habit. I'm going to be able to share those things here now !</p>
-        ''' + '''
-        <hr>
-        <center>
-        <p>If you have any question that requires more than writing a comment at the end of a post, you can always <a href="/contact/">contact me</a>.</p>
-        </center>
-        <hr>
-        ''',
+
     },
 
     "fr": {
-        "machinelearning": '''
-        <p><h5>Talking about automated trading process!<h5></p>
-        <p>Here I share all my growing knowledge about the fantastic world of machine learning. I will be sharing some of my jupyter notebooks as well as tutorial and posts about any specific areas that I want to share to the world.</p>
-        ''' + '''
-        <hr>
-        <center>
-        <p>If you have any question that requires more than writing a comment at the end of a post, you can always <a href="/contact/">contact me</a>.</p>
-        </center>
-        <hr>
-        ''',
-        "finance": '''
-        <p><h5>Talking about finance & economies!<h5></p>
-        <p>Finances and economies is something that always got my interested. I started trading cryptocurrencies in 2015, and know my goal is to think financial sustainability towards the future. I will share my will, knowledge and discoveries here.</p>
-        ''' + '''
-        <hr>
-        <center>
-        <p>If you have any question that requires more than writing a comment at the end of a post, you can always <a href="/contact/">contact me</a>.</p>
-        </center>
-        <hr>
-        ''',
-        "book": '''
-        <p><h5>Talking about the books I've read!<h5></p>
-        <p>I want to remember stuff I read, so writing summary or notes about some of the books I've read has always been a habit. I'm going to be able to share those things here now !</p>
-        ''' + '''
-        <hr>
-        <center>
-        <p>If you have any question that requires more than writing a comment at the end of a post, you can always <a href="/contact/">contact me</a>.</p>
-        </center>
-        <hr>
-        ''',
+
     }
 }
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
 CATEGORY_TITLES = {
     DEFAULT_LANG: {
-        "machinelearning": "Machine Learning",
-        "tutorial": "Tutorials",
-        "book": "Books",
-        "finance": "Finance & Economy",
+
     },
 
     "fr": {
-        "machinelearning": "Machine Learning",
-        "tutorial": "Tutoriels",
-        "book": "Livres",
-        "finance": "Finances & Economies",
+
     }
 }
 
