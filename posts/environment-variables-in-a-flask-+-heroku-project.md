@@ -80,7 +80,7 @@ Now if we want to deploy our app on Heroku we need to do a few things.
 
 1. Create a `Procfile` at the root of your folder. Paste this code inside :
 
-    ```text
+    ```bash
     web: gunicorn app:app
     ```
 
