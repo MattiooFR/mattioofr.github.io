@@ -30,7 +30,7 @@ Flask is the web server running with python, and Gunicorn is what will basically
 
 Lets first set up a basic app and create a file `[app.py](http://app.py)` in your folder :
 
-```bash
+```python
 import os
 from flask import Flask, render_template
 
@@ -51,7 +51,7 @@ def index():
 
 As you see we will render an `index.html` so create that file too inside a `templates` folder and paste this code inside :
 
-```bash
+```html
 <!doctype html>
 <html>
     <head>
@@ -140,7 +140,7 @@ Alright, thank you Mathieu, but how is that suppose to teach us how to manage en
 
 Well, now that you are set up properly, let me introduce the `.env`  and `.flaskenv` files. By convention, the `.flaskenv` is where you store your variables related to your flask configuration, such as the type of environment, or the files that contains your flask app. For this example we will write those lines inside this file :
 
-```bash
+```text
 #.flaskenv file
 
 FLASK_APP=app.py
@@ -149,7 +149,7 @@ FLASK_ENV=development
 
 Now the `.env` file contains the sensible variable information that your app needs to run. This file stay locally and you must include it in your `.gitignore` to avoid sharing sensible informations. For the purpose of this tutorial we will just include one variable :
 
-```bash
+```text
 #.env file
 
 EXCITED=True
@@ -157,7 +157,7 @@ EXCITED=True
 
 Your folder structure should look something like this :
 
-```bash
+```text
 .
 ├── templates
     └── index.html
