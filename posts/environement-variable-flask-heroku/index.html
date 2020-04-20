@@ -109,6 +109,7 @@ navbar-dark bg-dark
 .. link:
 .. description: Quick tutorial to understand good practices on using environment variables.
 .. type: text
+.. medium: yes
 -->
 
 <p>Using environment variables is fundamental in a project. This is how you tell your app if you are running in <code>production</code> or <code>locally</code> for example. This is where you also store more sensible information like <code>SECRET_KEY</code> or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good idea.</p>
@@ -122,7 +123,7 @@ navbar-dark bg-dark
 <span id="cb1-3"><a href="#cb1-3"></a></span>
 <span id="cb1-4"><a href="#cb1-4"></a><span class="ex">pip</span> install flask gunicorn</span></code></pre></div>
 <p>Flask is the web server running with python, and Gunicorn is what will basically run our web server on Heroku when we will deploy our app.</p>
-<p>Lets first set up a basic app and create a file <code>[app.py](http://app.py)</code> in your folder :</p>
+<p>Lets first set up a basic app and create a file <code>app.py</code> in your folder :</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">import</span> os</span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="im">from</span> flask <span class="im">import</span> Flask, render_template</span>
 <span id="cb2-3"><a href="#cb2-3"></a></span>
