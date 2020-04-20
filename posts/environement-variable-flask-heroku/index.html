@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html prefix="
+og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Quick tutorial to understand good practices on using environment variables.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Using environement variables in a Flask + Heroku project | Brain Sorting</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://brainsorting.dev/posts/environement-variable-flask-heroku/">
+<link rel="icon" href="../../brain.png" sizes="128x128">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	# mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><meta name="author" content="Mathieu Dugue">
+<meta property="og:site_name" content="Brain Sorting">
+<meta property="og:title" content="Using environement variables in a Flask + Heroku project">
+<meta property="og:url" content="https://brainsorting.dev/posts/environement-variable-flask-heroku/">
+<meta property="og:description" content="Quick tutorial to understand good practices on using environment variables.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-04-19T15:43:36+02:00">
+<meta property="article:tag" content="flask">
+<meta property="article:tag" content="heroku">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-expand-md sticky-top mb-4
+navbar-dark bg-dark
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href="https://brainsorting.dev/">
+
+            <span id="blog-title">Brain Sorting</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a href="../../resume/" class="nav-link">My Resume</a>
+                </li>
+<li class="nav-item">
+<a href="../../cheatsheet/" class="nav-link">Cheat Sheet</a>
+                </li>
+<li class="nav-item">
+<a href="../../archive/" class="nav-link">Archive</a>
+
+                
+            </li>
+</ul>
+<form method="get" action="https://www.google.com/search" class="form-inline my-2 my-lg-0" role="search">
+ <div class="form-group">
+ <input type="text" name="q" class="form-control mr-sm-2" placeholder="Search">
+</div>
+ <button type="submit" class="btn btn-secondary my-2 my-sm-0">
+    <i class="fas fa-search"></i></button>
+ 
+ <input type="hidden" name="sitesearch" value="https://brainsorting.dev/">
+</form>
+
+
+            <ul class="navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title small-middle-container" itemprop="headline name"><a href="." class="u-url">Using environement variables in a Flask + Heroku project</a></h1>
+
+        <div class="metadata small-middle-container">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Mathieu Dugue
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2020-04-19T15:43:36+02:00" itemprop="datePublished" title="2020-04-19">2020-04-19</time></a>
+            </p>
+                <p class="commentline">            <a href="#disqus_thread" data-disqus-identifier="cache/posts/environement-variable-flask-heroku.html">Comments</a>
+
+
+            
+        </p>
+</div>
+        
+    </header><div class="e-content entry-content small-middle-container mr-top" itemprop="articleBody text">
+    <!--
+.. title: Using environement variables in a Flask + Heroku project
+.. slug: environement-variable-flask-heroku
+.. date: 2020-04-19 15:43:36 UTC+02:00
+.. tags: flask, heroku
+.. category:
+.. link:
+.. description: Quick tutorial to understand good practices on using environment variables.
+.. type: text
+-->
+
+<p>Using environment variables is fundamental in a project. This is how you tell your app if you are running in <code>production</code> or <code>locally</code> for example. This is where you also store more sensible information like <code>SECRET_KEY</code> or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good idea.</p>
+<p>Before jumping in the topic of configuring environment variables, I will first make you set up and deploy a basic app.</p>
+<!-- TEASER_END -->
+
+<h2 id="flask">Flask</h2>
+<p>In this project I use Flask. Create a folder for your app and a new virtual environment (check out <a href="https://github.com/python-poetry/poetry">poetry</a> if you don't know what it is). Once your virtual environment is running, we need to install a few dependencies first :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># if you use poetry as virtual environment manager</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="co"># use the command 'poetry add' instead of 'pip install'</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="ex">pip</span> install flask gunicorn</span></code></pre></div>
+<p>Flask is the web server running with python, and Gunicorn is what will basically run our web server on Heroku when we will deploy our app.</p>
+<p>Lets first set up a basic app and create a file <code>[app.py](http://app.py)</code> in your folder :</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">import</span> os</span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="im">from</span> flask <span class="im">import</span> Flask, render_template</span>
+<span id="cb2-3"><a href="#cb2-3"></a></span>
+<span id="cb2-4"><a href="#cb2-4"></a>app <span class="op">=</span> Flask(<span class="va">__name__</span>)</span>
+<span id="cb2-5"><a href="#cb2-5"></a></span>
+<span id="cb2-6"><a href="#cb2-6"></a></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="at">@app.route</span>(<span class="st">'/'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8"></a><span class="kw">def</span> index():</span>
+<span id="cb2-9"><a href="#cb2-9"></a>    greeting <span class="op">=</span> <span class="st">"Hello"</span></span>
+<span id="cb2-10"><a href="#cb2-10"></a>    <span class="cf">try</span>:</span>
+<span id="cb2-11"><a href="#cb2-11"></a>        excited <span class="op">=</span> os.environ[<span class="st">'EXCITED'</span>]</span>
+<span id="cb2-12"><a href="#cb2-12"></a>        greeting <span class="op">=</span> greeting <span class="op">+</span> <span class="st">"!!!!!"</span></span>
+<span id="cb2-13"><a href="#cb2-13"></a>    <span class="cf">except</span>:</span>
+<span id="cb2-14"><a href="#cb2-14"></a>        <span class="cf">pass</span></span>
+<span id="cb2-15"><a href="#cb2-15"></a></span>
+<span id="cb2-16"><a href="#cb2-16"></a>    <span class="cf">return</span> render_template(<span class="st">"index.html"</span>, greeting<span class="op">=</span>greeting)</span></code></pre></div>
+<p>As you see we will render an <code>index.html</code> so create that file too inside a <code>templates</code> folder and paste this code inside :</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1"></a><span class="dt">&lt;!doctype </span>html<span class="dt">&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="kw">&lt;html&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a>    <span class="kw">&lt;head&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a>        <span class="kw">&lt;title&gt;</span>My App<span class="kw">&lt;/title&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a>    <span class="kw">&lt;/head&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a></span>
+<span id="cb3-7"><a href="#cb3-7"></a>    <span class="kw">&lt;body&gt;</span></span>
+<span id="cb3-8"><a href="#cb3-8"></a>        {{ greeting }}</span>
+<span id="cb3-9"><a href="#cb3-9"></a>    <span class="kw">&lt;/body&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10"></a><span class="kw">&lt;/html&gt;</span></span></code></pre></div>
+<p>Before running the web app locally we need to set two variable in your terminal so Flask knows what to do exactly :</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="bu">export</span> <span class="va">FLASK_ENV=</span>development</span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="bu">export</span> <span class="va">FLASK_APP=</span>app.py</span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="bu">export</span> <span class="va">EXCITED=</span>True</span></code></pre></div>
+<p>Lets run our app locally with <code>flask run</code> . As you can see we are greeted like expected, with all the '!!!!', but I had to export the variable in my terminal. Every time you close your terminal you need to do that again. Not very efficient.</p>
+<h2 id="heroku">Heroku</h2>
+<p>Now if we want to deploy our app on Heroku we need to do a few things.</p>
+<ol>
+<li>
+<p>Create a <code>Procfile</code> at the root of your folder. Paste this code inside :</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="ex">web</span>: gunicorn app:app</span></code></pre></div>
+</li>
+<li>
+<p>We need to export all the python dependencies in a <code>requirements.txt</code> file :</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a><span class="ex">pip</span> freeze <span class="op">&gt;</span> requirements.txt</span>
+<span id="cb6-2"><a href="#cb6-2"></a></span>
+<span id="cb6-3"><a href="#cb6-3"></a><span class="co"># if you use poetry you can do as following</span></span>
+<span id="cb6-4"><a href="#cb6-4"></a><span class="ex">poetry</span> export -f requirements.txt <span class="op">&gt;</span> requirements.txt</span></code></pre></div>
+</li>
+<li>
+<p>Install Heroku CLI on your machine and then login on your Heroku account (<a href="https://signup.heroku.com/">here to register</a>):</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1"></a><span class="co"># if you are on mac and use homebrew</span></span>
+<span id="cb7-2"><a href="#cb7-2"></a><span class="ex">brew</span> tap heroku/brew <span class="kw">&amp;&amp;</span> <span class="ex">brew</span> install heroku</span>
+<span id="cb7-3"><a href="#cb7-3"></a></span>
+<span id="cb7-4"><a href="#cb7-4"></a><span class="co"># you can also use npm</span></span>
+<span id="cb7-5"><a href="#cb7-5"></a><span class="ex">npm</span> install -g heroku</span></code></pre></div>
+</li>
+<li>
+<p>Once Heroku is available on your terminal, we can create your Heroku App :</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1"></a><span class="ex">heroku</span> create <span class="op">&lt;</span>name_of_your_app<span class="op">&gt;</span></span></code></pre></div>
+<p>Now if you check your Heroku Dashboard in the browser, you'll see an application with that name. But it doesn't have our code or anything yet - it's completely empty. Let's get our code up there.</p>
+</li>
+<li>
+<p>The next step is initializing git in your repository, and add the Heroku remote in your git repository :</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">git</span> init</span>
+<span id="cb9-2"><a href="#cb9-2"></a><span class="ex">heroku</span> git:remote -a <span class="op">&lt;</span>name_of_your_app<span class="op">&gt;</span></span></code></pre></div>
+</li>
+<li>
+<p>Now before pushing our app on Heroku, we need to set that <code>EXCITED</code> variable to true. You can do that on the web interface of Heroku, or using the CLI with :</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1"></a><span class="ex">heroku</span> config:set EXCITED=True</span></code></pre></div>
+</li>
+<li>
+<p>To push our web app to Heroku we can simply do :</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1"></a><span class="fu">git</span> add .</span>
+<span id="cb11-2"><a href="#cb11-2"></a><span class="fu">git</span> commit -m<span class="st">"deploying app on heroku"</span></span>
+<span id="cb11-3"><a href="#cb11-3"></a><span class="fu">git</span> push heroku master</span></code></pre></div>
+</li>
+</ol>
+<p>Now if you look at <a href="https://name_of_your_app.heroku.com">https://name_of_your_app.heroku.com</a> you should have a nice excited greeting message : <code>Hello !!!!</code></p>
+<h2 id="environment-variable">Environment Variable</h2>
+<p>Alright, thank you Mathieu, but how is that suppose to teach us how to manage environment variable ?</p>
+<p>Well, now that you are set up properly, let me introduce the <code>.env</code> and <code>.flaskenv</code> files. By convention, the <code>.flaskenv</code> is where you store your variables related to your flask configuration, such as the type of environment, or the files that contains your flask app. For this example we will write those lines inside this file :</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb12-1"><a href="#cb12-1"></a>#.flaskenv file</span>
+<span id="cb12-2"><a href="#cb12-2"></a></span>
+<span id="cb12-3"><a href="#cb12-3"></a>FLASK_APP=app.py</span>
+<span id="cb12-4"><a href="#cb12-4"></a>FLASK_ENV=development</span></code></pre></div>
+<p>Now the <code>.env</code> file contains the sensible variable information that your app needs to run. This file stay locally and you must include it in your <code>.gitignore</code> to avoid sharing sensible informations. For the purpose of this tutorial we will just include one variable :</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb13-1"><a href="#cb13-1"></a>#.env file</span>
+<span id="cb13-2"><a href="#cb13-2"></a></span>
+<span id="cb13-3"><a href="#cb13-3"></a>EXCITED=True</span></code></pre></div>
+<p>Your folder structure should look something like this :</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb14-1"><a href="#cb14-1"></a>.</span>
+<span id="cb14-2"><a href="#cb14-2"></a>├── templates</span>
+<span id="cb14-3"><a href="#cb14-3"></a>    └── index.html</span>
+<span id="cb14-4"><a href="#cb14-4"></a>├── .env</span>
+<span id="cb14-5"><a href="#cb14-5"></a>├── .flaskenv</span>
+<span id="cb14-6"><a href="#cb14-6"></a>├── .gitignore</span>
+<span id="cb14-7"><a href="#cb14-7"></a>├── Procfile</span>
+<span id="cb14-8"><a href="#cb14-8"></a>├── app.py</span>
+<span id="cb14-9"><a href="#cb14-9"></a>└── requirements.txt</span></code></pre></div>
+<p>Now we have two different use case possible. If you want to use flask to run your app locally you need to install one more dependencies</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1"></a><span class="ex">pip</span> install python-dotenv</span>
+<span id="cb15-2"><a href="#cb15-2"></a></span>
+<span id="cb15-3"><a href="#cb15-3"></a><span class="co"># with poetry use</span></span>
+<span id="cb15-4"><a href="#cb15-4"></a><span class="ex">poetry</span> add python-dotenv</span></code></pre></div>
+<p>You don't need to do anything else, thanks to this new package, flask will automatically detect your two new files and will load their variables in the app context.</p>
+<p>If instead of using flask to run your app locally you prefer to use <code>heroku local web</code> then you don't need to install <code>python-dotenv</code>, Heroku will detect the <code>.env</code> file by itself.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>We saw how to implement a behavior that allows us to protect our sensible information by putting them in external files that wont be pushed to a public git repository. In the same time our app will work seamlessly when deployed on Heroku, if you set up the same variables in your <code>.env</code> files on the config of your Heroku app (with the web interface or the CLI).</p>
+<p>You can find all the code of this tutorial <a href="https://github.com/MattiooFR/Tutorials/tree/master/FlaskHerokuEnv">here</a>.</p>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/flask/" rel="tag">flask</a></li>
+            <li><a class="tag p-category" href="../../categories/heroku/" rel="tag">heroku</a></li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+                        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="brainsorting",
+            disqus_url="https://brainsorting.dev/posts/environement-variable-flask-heroku/",
+        disqus_title="Using environement variables in a Flask + Heroku project",
+        disqus_identifier="cache/posts/environement-variable-flask-heroku.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="brainsorting";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>
+
+<!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://dev.us19.list-manage.com/subscribe/post?u=3ffb6593478debd1efe5bf3e7&amp;id=e432d28210" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--><div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3ffb6593478debd1efe5bf3e7_e432d28210" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+
+<br>
+Contents © 2020 <a href="mailto:dugue.mathieu@gmail.com">Mathieu Dugue</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> - favicon made by <a href="https://www.flaticon.com/">FlatIcon</a>
+</center>
+<br></footer>
+</div>
+</div>
+
+        <script src="../../assets/js/all-nocdn.js"></script><script src="../../assets/js/moment-with-locales.min.js"></script><!-- fancy dates --><script>
+        moment.locale("en");
+        fancydates(2, "YYYY-MM-DD HH:mm");
+        </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-162183468-1"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-162183468-1');
+</script><!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e8200df33e04a9a"></script>
+</body>
+</html>
