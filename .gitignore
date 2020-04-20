@@ -168,3 +168,4 @@ dmypy.json
 cache
 .doit.db*
 output
+medium.json
