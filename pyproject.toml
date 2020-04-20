@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "blog nikola"
+name = "brainsorting"
 version = "0.1.0"
 description = ""
 authors = ["MattiooFR <13595614+MattiooFR@users.noreply.github.com>"]

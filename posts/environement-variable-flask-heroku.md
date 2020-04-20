@@ -1,6 +1,6 @@
 <!--
-.. title: Environment variables in a Flask + Heroku project
-.. slug: variables-flask-heroku
+.. title: Using environement variables in a Flask + Heroku project
+.. slug: environement-variable-flask-heroku
 .. date: 2020-04-19 15:43:36 UTC+02:00
 .. tags: flask, heroku
 .. category:
@@ -9,11 +9,11 @@
 .. type: text
 -->
 
-# Environment variables in a Flask + Heroku project
-
 Using environment variables is fundamental in a project. This is how you tell your app if you are running in `production` or `locally` for example. This is where you also store more sensible information like `SECRET_KEY` or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good idea.
 
 Before jumping in the topic of configuring environment variables, I will first make you set up and deploy a basic app.
+
+<!-- TEASER_END -->
 
 ## Flask
 
@@ -140,7 +140,7 @@ Alright, thank you Mathieu, but how is that suppose to teach us how to manage en
 
 Well, now that you are set up properly, let me introduce the `.env`  and `.flaskenv` files. By convention, the `.flaskenv` is where you store your variables related to your flask configuration, such as the type of environment, or the files that contains your flask app. For this example we will write those lines inside this file :
 
-```text
+```txt
 #.flaskenv file
 
 FLASK_APP=app.py
@@ -149,7 +149,7 @@ FLASK_ENV=development
 
 Now the `.env` file contains the sensible variable information that your app needs to run. This file stay locally and you must include it in your `.gitignore` to avoid sharing sensible informations. For the purpose of this tutorial we will just include one variable :
 
-```text
+```txt
 #.env file
 
 EXCITED=True
@@ -157,7 +157,7 @@ EXCITED=True
 
 Your folder structure should look something like this :
 
-```text
+```txt
 .
 ├── templates
     └── index.html
