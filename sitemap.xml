@@ -7,38 +7,94 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-04-20T15:05:00Z</lastmod>
+  <lastmod>2020-04-20T16:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
-  <lastmod>2020-04-20T15:05:00Z</lastmod>
+  <lastmod>2020-04-20T15:52:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
-  <lastmod>2020-04-20T15:05:00Z</lastmod>
+  <lastmod>2020-04-20T15:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/</loc>
+  <lastmod>2020-04-20T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/integration/</loc>
+  <lastmod>2020-04-20T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/alert.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/button.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/carousel.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/collapse.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/dropdown.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/modal.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/popover.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/scrollspy.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/tab.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/toast.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/visual/tooltip.html</loc>
+  <lastmod>2020-04-20T15:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2020-04-20T15:05:00Z</lastmod>
+  <lastmod>2020-04-20T15:52:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/flask/</loc>
-  <lastmod>2020-04-20T15:05:00Z</lastmod>
+  <lastmod>2020-04-20T15:52:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/heroku/</loc>
-  <lastmod>2020-04-20T15:05:00Z</lastmod>
+  <lastmod>2020-04-20T15:52:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/galleries/</loc>
-  <lastmod>2020-04-20T15:05:00Z</lastmod>
+  <lastmod>2020-04-20T15:52:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/listings/</loc>
-  <lastmod>2020-04-20T15:05:00Z</lastmod>
+  <lastmod>2020-04-20T15:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/pages/resume/</loc>
+  <lastmod>2020-04-20T16:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/environement-variable-flask-heroku/</loc>
-  <lastmod>2020-04-20T15:05:00Z</lastmod>
+  <lastmod>2020-04-20T15:52:00Z</lastmod>
  </url>
 </urlset>
