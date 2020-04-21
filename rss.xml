@@ -3,7 +3,53 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 20 Apr 2020 20:48:15 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using environement variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environement-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 21 Apr 2020 14:54:23 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>test</title><link>https://brainsorting.dev/posts/test/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;p&gt;Write your post here.&lt;/p&gt;
+&lt;div class="section" id="jupyter-notebook-metadata"&gt;
+&lt;h2&gt;Jupyter Notebook metadata&lt;/h2&gt;
+&lt;p&gt;Jupyter posts can store meta information inside &lt;code class="docutils literal"&gt;.ipynb&lt;/code&gt; files by using the &lt;code class="docutils literal"&gt;nikola&lt;/code&gt; key inside notebook metadata. It can be edited by using &lt;em&gt;Edit → Edit Notebook Metadata&lt;/em&gt; in Jupyter. Note that values are currently only strings. Sample metadata (Jupyter-specific information omitted):&lt;/p&gt;
+&lt;pre class="code json"&gt;&lt;a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-1"&gt;&lt;/a&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-2"&gt;&lt;/a&gt;    &lt;span class="nt"&gt;"nikola"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-3"&gt;&lt;/a&gt;        &lt;span class="nt"&gt;"title"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"How to make money"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-4"&gt;&lt;/a&gt;        &lt;span class="nt"&gt;"slug"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"how-to-make-money"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-5"&gt;&lt;/a&gt;        &lt;span class="nt"&gt;"date"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"2012-09-15 19:52:05 UTC"&lt;/span&gt;
+&lt;a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-6"&gt;&lt;/a&gt;    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-7"&gt;&lt;/a&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="section" id="yaml-metadata"&gt;
+&lt;h2&gt;YAML metadata&lt;/h2&gt;
+&lt;p&gt;YAML metadata should be wrapped by a &lt;code class="docutils literal"&gt;&lt;span class="pre"&gt;---&lt;/span&gt;&lt;/code&gt; separator (three dashes) and in that case, the usual YAML syntax is used:&lt;/p&gt;
+&lt;pre class="code yaml"&gt;&lt;a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-1"&gt;&lt;/a&gt;&lt;span class="nn"&gt;---&lt;/span&gt;
+&lt;a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-2"&gt;&lt;/a&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;How to make money&lt;/span&gt;
+&lt;a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-3"&gt;&lt;/a&gt;&lt;span class="nt"&gt;slug&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;how-to-make-money&lt;/span&gt;
+&lt;a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-4"&gt;&lt;/a&gt;&lt;span class="nt"&gt;date&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="l l-Scalar l-Scalar-Plain"&gt;2012-09-15 19:52:05 UTC&lt;/span&gt;
+&lt;a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-5"&gt;&lt;/a&gt;&lt;span class="nn"&gt;---&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="section" id="toml-metadata"&gt;
+&lt;h2&gt;TOML metadata&lt;/h2&gt;
+&lt;p&gt;TOML metadata should be wrapped by a "+++" separator (three plus signs) and in that case, the usual TOML syntax is used:&lt;/p&gt;
+&lt;pre class="code yaml"&gt;&lt;a name="rest_code_ecd5bce4f89c47a18c76841218430e64-1"&gt;&lt;/a&gt;&lt;span class="l l-Scalar l-Scalar-Plain"&gt;+++&lt;/span&gt;
+&lt;a name="rest_code_ecd5bce4f89c47a18c76841218430e64-2"&gt;&lt;/a&gt;&lt;span class="l l-Scalar l-Scalar-Plain"&gt;title = "How to make money"&lt;/span&gt;
+&lt;a name="rest_code_ecd5bce4f89c47a18c76841218430e64-3"&gt;&lt;/a&gt;&lt;span class="l l-Scalar l-Scalar-Plain"&gt;slug =  "how-to-make-money"&lt;/span&gt;
+&lt;a name="rest_code_ecd5bce4f89c47a18c76841218430e64-4"&gt;&lt;/a&gt;&lt;span class="l l-Scalar l-Scalar-Plain"&gt;date = "2012-09-15 19:52:05 UTC"&lt;/span&gt;
+&lt;a name="rest_code_ecd5bce4f89c47a18c76841218430e64-5"&gt;&lt;/a&gt;&lt;span class="l l-Scalar l-Scalar-Plain"&gt;+++&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="section" id="rest-docinfo"&gt;
+&lt;h2&gt;reST docinfo&lt;/h2&gt;
+&lt;p&gt;Nikola can extract metadata from reStructuredText docinfo fields and the document itself, too:&lt;/p&gt;
+&lt;pre class="code restructuredtext"&gt;&lt;a name="rest_code_70ee6dfc420141268a054ff134f0657e-1"&gt;&lt;/a&gt;&lt;span class="gh"&gt;How to make money&lt;/span&gt;
+&lt;a name="rest_code_70ee6dfc420141268a054ff134f0657e-2"&gt;&lt;/a&gt;&lt;span class="gh"&gt;=================&lt;/span&gt;
+&lt;a name="rest_code_70ee6dfc420141268a054ff134f0657e-3"&gt;&lt;/a&gt;
+&lt;a name="rest_code_70ee6dfc420141268a054ff134f0657e-4"&gt;&lt;/a&gt;&lt;span class="nc"&gt;:slug:&lt;/span&gt; how-to-make-money
+&lt;a name="rest_code_70ee6dfc420141268a054ff134f0657e-5"&gt;&lt;/a&gt;&lt;span class="nc"&gt;:date:&lt;/span&gt; 2012-09-15 19:52:05 UTC
+&lt;/pre&gt;&lt;p&gt;To do this, you need  &lt;code class="docutils literal"&gt;USE_REST_DOCINFO_METADATA = True&lt;/code&gt; in your &lt;code class="docutils literal"&gt;conf.py&lt;/code&gt;,
+and Nikola will hide the docinfo fields in the output if you set
+&lt;code class="docutils literal"&gt;HIDE_REST_DOCINFO = True&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 63)&lt;/p&gt;
+&lt;p&gt;Content block expected for the "note" directive; none found.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;.. note::&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>https://brainsorting.dev/posts/test/</guid><pubDate>Tue, 21 Apr 2020 09:37:11 GMT</pubDate></item><item><title>Using environement variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environement-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
 .. title: Using environement variables in a Flask + Heroku project
 .. slug: environement-variable-flask-heroku
 .. date: 2020-04-19 15:43:36 UTC+02:00
@@ -12,6 +58,7 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. link:
 .. description: Quick tutorial to understand good practices on using environment variables.
 .. type: text
+.. devto: yes
 .. medium: yes
 --&gt;
 

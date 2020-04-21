@@ -7,22 +7,22 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://brainsorting.dev/categories/flask.xml</loc>
-  <lastmod>2020-04-20T15:25:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/heroku.xml</loc>
-  <lastmod>2020-04-20T15:25:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/galleries/rss.xml</loc>
-  <lastmod>2020-04-20T20:22:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/rss.xml</loc>
-  <lastmod>2020-04-20T15:25:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/sitemap.xml</loc>
-  <lastmod>2020-04-20T20:22:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </sitemap>
 </sitemapindex>

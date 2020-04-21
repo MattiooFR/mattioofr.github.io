@@ -863,6 +863,13 @@ ul.pager li a {
   width: 80%;
 }
 
+@media (max-width: 600px) {
+  .small-middle-container {
+    width: 95%;
+    margin: auto;
+  }
+}
+
 .mr-top {
   margin-top: 20px;
 }
