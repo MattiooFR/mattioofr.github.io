@@ -1,3 +1,4 @@
 {
-    "restructuredtext.confPath": "${workspaceFolder}"
+    "restructuredtext.confPath": "${workspaceFolder}",
+    "python.pythonPath": "/Users/mattioo/.pyenv/versions/3.8.1/bin/python3.8"
 }

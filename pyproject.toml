@@ -6,6 +6,9 @@ authors = ["MattiooFR <13595614+MattiooFR@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pydevto = "^0.1.5"
+pypandoc = "^1.5"
+python-medium = "^1.1"
 
 [tool.poetry.dev-dependencies]
 

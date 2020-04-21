@@ -139,8 +139,8 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/resume/", "My Resume"),
-        ("/cheatsheet/", "Cheat Sheet"),
+        ("/pages/resume/", "My Resume"),
+        ("/pages/cheatsheet/", "Cheat Sheet"),
         ("/archive/", "Archive"),
     ),
 }
@@ -307,7 +307,7 @@ COMPILERS = {
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
-    "pandoc": ('.rst', '.md', '.txt'),
+    "pandoc": ('.md', '.txt'),
 }
 
 # Enable reST directives that insert the contents of external files such
@@ -954,7 +954,7 @@ CONTENT_FOOTER = '''
 <center>
 ''' + MAILCHIMP_SIGNUP + '''
 <br>
-Contents &copy; {date} <a href="mailto:{email}">{author}</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> {license} - favicon made by <a href="https://www.flaticon.com/">FlatIcon</a>
+Contents &copy; {date} <a href="mailto:{email}">{author}</a> <a href="https://dev.to/mattioo"><i class="fab fa-dev" title="mattioo's DEV Profile"></i> </a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> {license} - favicon <a href="https://www.flaticon.com/">FlatIcon</a>
 </center>
 <br>
 '''

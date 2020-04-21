@@ -169,3 +169,4 @@ cache
 .doit.db*
 output
 medium.json
+devto.json
