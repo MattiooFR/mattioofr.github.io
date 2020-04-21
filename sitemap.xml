@@ -7,15 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-04-21T10:06:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
-  <lastmod>2020-04-21T10:06:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
-  <lastmod>2020-04-21T10:06:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/</loc>
@@ -71,34 +71,34 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2020-04-21T10:06:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/flask/</loc>
-  <lastmod>2020-04-21T10:06:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/heroku/</loc>
-  <lastmod>2020-04-21T10:06:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/galleries/</loc>
-  <lastmod>2020-04-21T10:05:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/listings/</loc>
-  <lastmod>2020-04-21T10:05:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/pages/resume/</loc>
-  <lastmod>2020-04-21T10:05:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/environement-variable-flask-heroku/</loc>
-  <lastmod>2020-04-21T10:06:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/test/</loc>
-  <lastmod>2020-04-21T10:05:00Z</lastmod>
+  <lastmod>2020-04-21T14:54:00Z</lastmod>
  </url>
 </urlset>

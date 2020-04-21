@@ -21,7 +21,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
-<script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><link rel="prefetch" href="posts/test/" type="text/html">
+<script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><link rel="prefetch" href="posts/environement-variable-flask-heroku/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -77,76 +77,7 @@ navbar-dark bg-dark
     
     
 <div class="postindex small-middle-container">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/test/" class="u-url">test</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Mathieu Dugue
-            </span></p>
-            <p class="dateline">
-            <a href="posts/test/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-04-21T11:37:11+02:00" itemprop="datePublished" title="2020-04-21">2020-04-21</time></a>
-            </p>
-                <p class="commentline">            <a href="posts/test/#disqus_thread" data-disqus-identifier="cache/posts/test.html">Comments</a>
-
-
-        </p>
-</div>
-    </header><div class="p-summary entry-summary">
-    <div>
-<p>Write your post here.</p>
-<div class="section" id="jupyter-notebook-metadata">
-<h2>Jupyter Notebook metadata</h2>
-<p>Jupyter posts can store meta information inside <code class="docutils literal">.ipynb</code> files by using the <code class="docutils literal">nikola</code> key inside notebook metadata. It can be edited by using <em>Edit → Edit Notebook Metadata</em> in Jupyter. Note that values are currently only strings. Sample metadata (Jupyter-specific information omitted):</p>
-<pre class="code json"><a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-1"></a><span class="p">{</span>
-<a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-2"></a>    <span class="nt">"nikola"</span><span class="p">:</span> <span class="p">{</span>
-<a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-3"></a>        <span class="nt">"title"</span><span class="p">:</span> <span class="s2">"How to make money"</span><span class="p">,</span>
-<a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-4"></a>        <span class="nt">"slug"</span><span class="p">:</span> <span class="s2">"how-to-make-money"</span><span class="p">,</span>
-<a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-5"></a>        <span class="nt">"date"</span><span class="p">:</span> <span class="s2">"2012-09-15 19:52:05 UTC"</span>
-<a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-6"></a>    <span class="p">}</span>
-<a name="rest_code_402c6d75d4bb470e894629b3a3c1f93f-7"></a><span class="p">}</span>
-</pre>
-</div>
-<div class="section" id="yaml-metadata">
-<h2>YAML metadata</h2>
-<p>YAML metadata should be wrapped by a <code class="docutils literal"><span class="pre">---</span></code> separator (three dashes) and in that case, the usual YAML syntax is used:</p>
-<pre class="code yaml"><a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-1"></a><span class="nn">---</span>
-<a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-2"></a><span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">How to make money</span>
-<a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-3"></a><span class="nt">slug</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">how-to-make-money</span>
-<a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-4"></a><span class="nt">date</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2012-09-15 19:52:05 UTC</span>
-<a name="rest_code_33e08c4a1bce487aafb19bfcbc4c2257-5"></a><span class="nn">---</span>
-</pre>
-</div>
-<div class="section" id="toml-metadata">
-<h2>TOML metadata</h2>
-<p>TOML metadata should be wrapped by a "+++" separator (three plus signs) and in that case, the usual TOML syntax is used:</p>
-<pre class="code yaml"><a name="rest_code_ecd5bce4f89c47a18c76841218430e64-1"></a><span class="l l-Scalar l-Scalar-Plain">+++</span>
-<a name="rest_code_ecd5bce4f89c47a18c76841218430e64-2"></a><span class="l l-Scalar l-Scalar-Plain">title = "How to make money"</span>
-<a name="rest_code_ecd5bce4f89c47a18c76841218430e64-3"></a><span class="l l-Scalar l-Scalar-Plain">slug =  "how-to-make-money"</span>
-<a name="rest_code_ecd5bce4f89c47a18c76841218430e64-4"></a><span class="l l-Scalar l-Scalar-Plain">date = "2012-09-15 19:52:05 UTC"</span>
-<a name="rest_code_ecd5bce4f89c47a18c76841218430e64-5"></a><span class="l l-Scalar l-Scalar-Plain">+++</span>
-</pre>
-</div>
-<div class="section" id="rest-docinfo">
-<h2>reST docinfo</h2>
-<p>Nikola can extract metadata from reStructuredText docinfo fields and the document itself, too:</p>
-<pre class="code restructuredtext"><a name="rest_code_70ee6dfc420141268a054ff134f0657e-1"></a><span class="gh">How to make money</span>
-<a name="rest_code_70ee6dfc420141268a054ff134f0657e-2"></a><span class="gh">=================</span>
-<a name="rest_code_70ee6dfc420141268a054ff134f0657e-3"></a>
-<a name="rest_code_70ee6dfc420141268a054ff134f0657e-4"></a><span class="nc">:slug:</span> how-to-make-money
-<a name="rest_code_70ee6dfc420141268a054ff134f0657e-5"></a><span class="nc">:date:</span> 2012-09-15 19:52:05 UTC
-</pre>
-<p>To do this, you need  <code class="docutils literal">USE_REST_DOCINFO_METADATA = True</code> in your <code class="docutils literal">conf.py</code>,
-and Nikola will hide the docinfo fields in the output if you set
-<code class="docutils literal">HIDE_REST_DOCINFO = True</code>.</p>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">&lt;string&gt;</span>, line 63)</p>
-<p>Content block expected for the "note" directive; none found.</p>
-<pre class="literal-block">.. note::</pre>
-</div>
-</div>
-</div>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/environement-variable-flask-heroku/" class="u-url">Using environement variables in a Flask + Heroku project</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/environement-variable-flask-heroku/" class="u-url">Using environement variables in a Flask + Heroku project</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Mathieu Dugue
