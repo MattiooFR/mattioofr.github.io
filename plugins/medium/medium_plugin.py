@@ -71,10 +71,6 @@ class CommandMedium(Command):
         to_post = [post for post in posts if post.title(
         ) not in medium_titles and post.meta('medium')]
 
-        # print(medium_titles)
-
-        # print([post.title() for post in posts])
-
         if len(to_post) == 0:
             LOGGER.info("Nothing new to post...")
 
