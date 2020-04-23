@@ -21,7 +21,7 @@ I advice you to follow along with the [documentation](https://python-poetry.org/
 ## Install Poetry
 
 ```bash
-curl -sSL [https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py](https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py) | python
+curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 ```
 
 Feel free to look [here](https://python-poetry.org/docs/) for more instructions. Updating Poetry is very easy by the way `poetry update`.
