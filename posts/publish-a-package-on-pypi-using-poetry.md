@@ -16,10 +16,11 @@ First thing first, you need Poetry if you don't have it already.
 Poetry is the new standard for creating and managing virtual environment for your Python project. It is also a Python dependency management tool that is working differently as pip. It uses the new standard `pyproject.toml` decided by the Python Packaging Authority with PEP-518. This file merges all the previous config files that were necessary before, [`setup.py`](http://setup.py/), `requirements.txt`, `setup.cfg`, [`MANIFEST.in`](http://manifest.in/) et `Pipfile`, in one unique file to rule them all ! Ok, enough of Lord of the Ring.
 
 I advice you to follow along with the [documentation](https://python-poetry.org/docs/cli/) of poetry open.
+<!-- TEASER_END -->
 
 ## Install Poetry
-<!-- TEASER_END -->
-```python
+
+```bash
 curl -sSL [https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py](https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py) | python
 ```
 
@@ -29,7 +30,7 @@ Feel free to look [here](https://python-poetry.org/docs/) for more instructions.
 
 Poetry has a nice command that can create your project tree at once `poetry new <package_name>`.
 
-```python
+```bash
 /<package_name>
 ├── README.rst # I personnaly change it to .md as I prefer writing in Markdown
 ├── <package_name>
@@ -42,7 +43,7 @@ Poetry has a nice command that can create your project tree at once `poetry new 
 
 You will need to add things to the generated `pyproject.toml` file, feel free to check the [poetry documentation](https://poetry.eustace.io/docs/pyproject/) to see all the options.
 
-```python
+```json
 [tool.poetry]
 name = "vspoetry"
 version = "0.1.0"
@@ -77,13 +78,13 @@ You can do it by hand and then call the command `poetry install` to install them
 - **[tool.poetry.dev-dependencies]**: If you need development dependencies, that's where they go. Again, you can also install them with `poetry add <dependency_name> --dev (or -D)` and poetry will also put that in the right place in your `pyproject.toml` file.
 - **[tool.poetry.scripts]**: This last block is very important if you want your package to have script callable from the terminal.
 
-    ```python
+    ```text
     script_name = '{package_name}:{function_name}'
     ```
 
 By the way, if you still need to have a `requirements.txt` with all the dependencies (if you use Heroku for example), you can easily have it with this command :
 
-```python
+```bash
 poetry export -f requirements.txt > requirements.txt
 ```
 
@@ -91,7 +92,7 @@ poetry export -f requirements.txt > requirements.txt
 
 When your package is ready, simply do `poetry build` to create the package files
 
-```python
+```bash
 ❯ poetry build
 Building package_name (0.1.0)
  - Building sdist
@@ -103,7 +104,7 @@ Building package_name (0.1.0)
 
 You can test your package by doing
 
-```python
+```bash
 pip install <path_to_package_name-0.1.0-py3-none-any.whl>
 ```
 
@@ -117,7 +118,7 @@ Your package need to be built, so first run `poetry build` if you haven't done i
 
 Then simply run `poetry publish` and your package will be publish on PyPi :
 
-```python
+```bash
 ❯ poetry publish
 
 Publishing vspoetry (0.1.0) to PyPI
@@ -131,7 +132,7 @@ If you need to update your package, simply increment the version in the `pyproje
 
 Once you have done that you can then install your package :
 
-```python
+```bash
 pip install <your_package>
 
 poetry add <your_package> # but lets be honest now you use Poetry so you would do this !
@@ -141,6 +142,6 @@ Congrats on publishing your package on PyPi and experiencing the simplicity of u
 
 Happy coding !
 
-### End notes:
+### End notes
 
 I actually just published my first package, [vspoetry](https://pypi.org/project/vspoetry/), while writing this tutorial. It is a package that add the `vspoetry` script command to my terminal and this simply add the path of the current poetry virtual environment of the project to VScode `settings.json`. This tells to VScode where to grab the project python venv because VScode does not do that automatically yet.
