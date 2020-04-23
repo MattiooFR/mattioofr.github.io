@@ -43,7 +43,7 @@ Poetry has a nice command that can create your project tree at once `poetry new 
 
 You will need to add things to the generated `pyproject.toml` file, feel free to check the [poetry documentation](https://poetry.eustace.io/docs/pyproject/) to see all the options.
 
-```bash
+```yaml
 [tool.poetry]
 name = "vspoetry"
 version = "0.1.0"
@@ -78,7 +78,7 @@ You can do it by hand and then call the command `poetry install` to install them
 - **[tool.poetry.dev-dependencies]**: If you need development dependencies, that's where they go. Again, you can also install them with `poetry add <dependency_name> --dev (or -D)` and poetry will also put that in the right place in your `pyproject.toml` file.
 - **[tool.poetry.scripts]**: This last block is very important if you want your package to have script callable from the terminal.
 
-    ```text
+    ```yaml
     script_name = '{package_name}:{function_name}'
     ```
 
