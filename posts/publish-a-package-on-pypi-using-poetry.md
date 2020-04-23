@@ -43,7 +43,7 @@ Poetry has a nice command that can create your project tree at once `poetry new 
 
 You will need to add things to the generated `pyproject.toml` file, feel free to check the [poetry documentation](https://poetry.eustace.io/docs/pyproject/) to see all the options.
 
-```json
+```bash
 [tool.poetry]
 name = "vspoetry"
 version = "0.1.0"
