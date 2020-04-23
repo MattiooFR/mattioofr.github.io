@@ -7,15 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-04-23T19:16:00Z</lastmod>
+  <lastmod>2020-04-23T19:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
-  <lastmod>2020-04-23T19:16:00Z</lastmod>
+  <lastmod>2020-04-23T19:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
-  <lastmod>2020-04-23T19:16:00Z</lastmod>
+  <lastmod>2020-04-23T19:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/assets/scss/bootstrap/js/tests/</loc>
@@ -103,7 +103,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/</loc>
-  <lastmod>2020-04-23T19:16:00Z</lastmod>
+  <lastmod>2020-04-23T19:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
