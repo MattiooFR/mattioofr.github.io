@@ -1262,9 +1262,6 @@ BODY_END = """
   gtag('js', new Date());
   gtag('config', 'UA-162183468-1');
 </script>
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e8200df33e04a9a"></script>
 """
 
 # The possibility to extract metadata from the filename by using a

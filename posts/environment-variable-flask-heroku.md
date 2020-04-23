@@ -1,6 +1,6 @@
 <!--
-.. title: Using environement variables in a Flask + Heroku project
-.. slug: environement-variable-flask-heroku
+.. title: Using environment variables in a Flask + Heroku project
+.. slug: environment-variable-flask-heroku
 .. date: 2020-04-19 15:43:36 UTC+02:00
 .. tags: flask, heroku
 .. category:
@@ -8,7 +8,7 @@
 .. description: Quick tutorial to understand good practices on using environment variables.
 .. type: text
 .. devto: yes
-.. medium: yes
+
 -->
 
 Using environment variables is fundamental in a project. This is how you tell your app if you are running in `production` or `locally` for example. This is where you also store more sensible information like `SECRET_KEY` or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good idea.

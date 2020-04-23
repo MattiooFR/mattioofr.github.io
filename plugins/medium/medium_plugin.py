@@ -54,18 +54,31 @@ class CommandMedium(Command):
             creds = json.load(inf)
         client = Client()
         client.access_token = creds['TOKEN']
+
         user = client.get_current_user()
 
         self.site.scan_posts()
         feed = client.list_articles(user['username'])
+
+        # https://stackoverflow.com/questions/36097527/how-to-retrieve-medium-stories-for-a-user-from-the-api
+        # https://medium.com/@mattioo/latest?format=json
+        # https://medium.com/feed/@mattioo
+        # https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mattioo/
+
         posts = self.site.timeline
 
-        toPost = [post for post in posts if not next((item for item in feed if item["title"] == post.title()), False) and post.meta('medium')]
+        medium_titles = {item["title"] for item in feed}
+        to_post = [post for post in posts if post.title(
+        ) not in medium_titles and post.meta('medium')]
 
-        if len(toPost) == 0:
-            print("Nothing new to post...")
+        # print(medium_titles)
 
-        for post in toPost:
+        # print([post.title() for post in posts])
+
+        if len(to_post) == 0:
+            LOGGER.info("Nothing new to post...")
+
+        for post in to_post:
             m_post = client.create_post(
                 user_id=user["id"],
                 title=post.title(),
@@ -75,5 +88,5 @@ class CommandMedium(Command):
                 canonical_url=post.permalink(absolute=True),
                 tags=post.tags
             )
-            print('Published %s to %s' %
-                (post.meta('slug'), m_post['url']))
+            LOGGER.info('Published %s to %s' %
+                        (post.meta('slug'), m_post['url']))
