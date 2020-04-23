@@ -18,7 +18,7 @@ Poetry is the new standard for creating and managing virtual environment for you
 I advice you to follow along with the [documentation](https://python-poetry.org/docs/cli/) of poetry open.
 
 ## Install Poetry
-
+<!-- TEASER_END -->
 ```python
 curl -sSL [https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py](https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py) | python
 ```
