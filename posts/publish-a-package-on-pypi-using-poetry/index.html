@@ -133,39 +133,38 @@ navbar-dark bg-dark
 <span id="cb2-7"><a href="#cb2-7"></a>    ├── <span class="ex">__init__.py</span></span>
 <span id="cb2-8"><a href="#cb2-8"></a>    └── <span class="ex">test_package_name.py</span></span></code></pre></div>
 <p>You will need to add things to the generated <code>pyproject.toml</code> file, feel free to check the <a href="https://poetry.eustace.io/docs/pyproject/">poetry documentation</a> to see all the options.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a>[<span class="ex">tool.poetry</span>]</span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="ex">name</span> = <span class="st">"vspoetry"</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="ex">version</span> = <span class="st">"0.1.0"</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="ex">description</span> = <span class="st">"Description of your package"</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a><span class="ex">authors</span> = [<span class="st">"MattiooFR &lt;dugue.mathieu@gmail.com&gt;"</span>]</span>
-<span id="cb3-6"><a href="#cb3-6"></a><span class="ex">keywords</span> = [<span class="st">"keyword"</span>, <span class="st">"another_keyword"</span>]</span>
-<span id="cb3-7"><a href="#cb3-7"></a><span class="ex">readme</span> = <span class="st">"README.md"</span></span>
-<span id="cb3-8"><a href="#cb3-8"></a><span class="ex">license</span> = <span class="st">"MIT"</span></span>
-<span id="cb3-9"><a href="#cb3-9"></a><span class="ex">homepage</span> = <span class="st">"https://github.com/MattiooFR/package_name"</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a><span class="ex">repository</span> = <span class="st">"https://github.com/MattiooFR/package_name"</span></span>
-<span id="cb3-11"><a href="#cb3-11"></a><span class="ex">include</span> = [</span>
-<span id="cb3-12"><a href="#cb3-12"></a>    <span class="st">"LICENSE"</span>,</span>
-<span id="cb3-13"><a href="#cb3-13"></a>]</span>
+<div class="sourceCode" id="cb3"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1"></a><span class="kw">[</span><span class="at">tool.poetry</span><span class="kw">]</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="at">name = "vspoetry"</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="at">version = "0.1.0"</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="at">description = "Description of your package"</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="at">authors = ["MattiooFR &lt;dugue.mathieu@gmail.com&gt;"]</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="at">keywords = ["keyword", "another_keyword"]</span></span>
+<span id="cb3-7"><a href="#cb3-7"></a><span class="at">readme = "README.md"</span></span>
+<span id="cb3-8"><a href="#cb3-8"></a><span class="at">license = "MIT"</span></span>
+<span id="cb3-9"><a href="#cb3-9"></a><span class="at">homepage = "https://github.com/MattiooFR/package_name"</span></span>
+<span id="cb3-10"><a href="#cb3-10"></a><span class="at">repository = "https://github.com/MattiooFR/package_name"</span></span>
+<span id="cb3-11"><a href="#cb3-11"></a><span class="at">include = [</span></span>
+<span id="cb3-12"><a href="#cb3-12"></a><span class="at">    </span><span class="st">"LICENSE"</span><span class="at">,</span></span>
+<span id="cb3-13"><a href="#cb3-13"></a><span class="at">]</span></span>
 <span id="cb3-14"><a href="#cb3-14"></a></span>
-<span id="cb3-15"><a href="#cb3-15"></a>[<span class="ex">tool.poetry.dependencies</span>]</span>
-<span id="cb3-16"><a href="#cb3-16"></a><span class="ex">python</span> = <span class="st">"^3.5"</span></span>
+<span id="cb3-15"><a href="#cb3-15"></a><span class="kw">[</span><span class="at">tool.poetry.dependencies</span><span class="kw">]</span></span>
+<span id="cb3-16"><a href="#cb3-16"></a><span class="at">python = "^3.5"</span></span>
 <span id="cb3-17"><a href="#cb3-17"></a></span>
-<span id="cb3-18"><a href="#cb3-18"></a>[<span class="ex">tool.poetry.dev-dependencies</span>]</span>
+<span id="cb3-18"><a href="#cb3-18"></a><span class="kw">[</span><span class="at">tool.poetry.dev-dependencies</span><span class="kw">]</span></span>
 <span id="cb3-19"><a href="#cb3-19"></a></span>
-<span id="cb3-20"><a href="#cb3-20"></a>[<span class="ex">tool.poetry.scripts</span>]</span>
-<span id="cb3-21"><a href="#cb3-21"></a><span class="ex">cli_command_name</span> = <span class="st">'package_name:function'</span></span>
+<span id="cb3-20"><a href="#cb3-20"></a><span class="kw">[</span><span class="at">tool.poetry.scripts</span><span class="kw">]</span></span>
+<span id="cb3-21"><a href="#cb3-21"></a><span class="at">cli_command_name = 'package_name:function'</span></span>
 <span id="cb3-22"><a href="#cb3-22"></a></span>
-<span id="cb3-23"><a href="#cb3-23"></a>[<span class="ex">build-system</span>]</span>
-<span id="cb3-24"><a href="#cb3-24"></a><span class="ex">requires</span> = [<span class="st">"poetry&gt;=0.12"</span>]</span>
-<span id="cb3-25"><a href="#cb3-25"></a><span class="ex">build-backend</span> = <span class="st">"poetry.masonry.api"</span></span></code></pre></div>
+<span id="cb3-23"><a href="#cb3-23"></a><span class="kw">[</span><span class="at">build-system</span><span class="kw">]</span></span>
+<span id="cb3-24"><a href="#cb3-24"></a><span class="at">requires = ["poetry&gt;=0.12"]</span></span>
+<span id="cb3-25"><a href="#cb3-25"></a><span class="at">build-backend = "poetry.masonry.api"</span></span></code></pre></div>
 <p>The beginning of the file is pretty straightforward. Lets focus on those three part :</p>
 <ul>
 <li><p><strong>[tool.poetry.dependencies]</strong>: This is where you can list all the dependencies that your package needs to work. It's like the old <code>requirements.txt</code> file. You can do it by hand and then call the command <code>poetry install</code> to install them all for your package development and working purposes. If you use <code>poetry add &lt;dependency_name&gt;</code> (equivalent to the <code>pip install &lt;dependency_name&gt;</code>), poetry will add it there for you.</p></li>
 <li><p><strong>[tool.poetry.dev-dependencies]</strong>: If you need development dependencies, that's where they go. Again, you can also install them with <code>poetry add &lt;dependency_name&gt; --dev (or -D)</code> and poetry will also put that in the right place in your <code>pyproject.toml</code> file.</p></li>
 <li>
 <p><strong>[tool.poetry.scripts]</strong>: This last block is very important if you want your package to have script callable from the terminal.</p>
-<pre class="text"><code>script_name = '{package_name}:{function_name}'
-</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1"></a><span class="at">script_name = '{package_name}:{function_name}'</span></span></code></pre></div>
 </li>
 </ul>
 <p>By the way, if you still need to have a <code>requirements.txt</code> with all the dependencies (if you use Heroku for example), you can easily have it with this command :</p>
