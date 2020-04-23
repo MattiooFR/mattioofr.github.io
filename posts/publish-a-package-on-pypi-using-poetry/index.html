@@ -133,31 +133,31 @@ navbar-dark bg-dark
 <span id="cb2-7"><a href="#cb2-7"></a>    ├── <span class="ex">__init__.py</span></span>
 <span id="cb2-8"><a href="#cb2-8"></a>    └── <span class="ex">test_package_name.py</span></span></code></pre></div>
 <p>You will need to add things to the generated <code>pyproject.toml</code> file, feel free to check the <a href="https://poetry.eustace.io/docs/pyproject/">poetry documentation</a> to see all the options.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1"></a><span class="ot">[</span><span class="er">tool.poetry</span><span class="ot">]</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="er">name</span> <span class="er">=</span> <span class="er">"vspoetry"</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="er">version</span> <span class="er">=</span> <span class="er">"0.1.0"</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="er">description</span> <span class="er">=</span> <span class="er">"Description</span> <span class="er">of</span> <span class="er">your</span> <span class="er">package"</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a><span class="er">authors</span> <span class="er">=</span> <span class="ot">[</span><span class="st">"MattiooFR &lt;dugue.mathieu@gmail.com&gt;"</span><span class="ot">]</span></span>
-<span id="cb3-6"><a href="#cb3-6"></a><span class="er">keywords</span> <span class="er">=</span> <span class="ot">[</span><span class="st">"keyword"</span><span class="ot">,</span> <span class="st">"another_keyword"</span><span class="ot">]</span></span>
-<span id="cb3-7"><a href="#cb3-7"></a><span class="er">readme</span> <span class="er">=</span> <span class="er">"README.md"</span></span>
-<span id="cb3-8"><a href="#cb3-8"></a><span class="er">license</span> <span class="er">=</span> <span class="er">"MIT"</span></span>
-<span id="cb3-9"><a href="#cb3-9"></a><span class="er">homepage</span> <span class="er">=</span> <span class="er">"https://github.com/MattiooFR/package_name"</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a><span class="er">repository</span> <span class="er">=</span> <span class="er">"https://github.com/MattiooFR/package_name"</span></span>
-<span id="cb3-11"><a href="#cb3-11"></a><span class="er">include</span> <span class="er">=</span> <span class="ot">[</span></span>
-<span id="cb3-12"><a href="#cb3-12"></a>    <span class="st">"LICENSE"</span><span class="ot">,</span></span>
-<span id="cb3-13"><a href="#cb3-13"></a><span class="ot">]</span></span>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a>[<span class="ex">tool.poetry</span>]</span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="ex">name</span> = <span class="st">"vspoetry"</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="ex">version</span> = <span class="st">"0.1.0"</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="ex">description</span> = <span class="st">"Description of your package"</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="ex">authors</span> = [<span class="st">"MattiooFR &lt;dugue.mathieu@gmail.com&gt;"</span>]</span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="ex">keywords</span> = [<span class="st">"keyword"</span>, <span class="st">"another_keyword"</span>]</span>
+<span id="cb3-7"><a href="#cb3-7"></a><span class="ex">readme</span> = <span class="st">"README.md"</span></span>
+<span id="cb3-8"><a href="#cb3-8"></a><span class="ex">license</span> = <span class="st">"MIT"</span></span>
+<span id="cb3-9"><a href="#cb3-9"></a><span class="ex">homepage</span> = <span class="st">"https://github.com/MattiooFR/package_name"</span></span>
+<span id="cb3-10"><a href="#cb3-10"></a><span class="ex">repository</span> = <span class="st">"https://github.com/MattiooFR/package_name"</span></span>
+<span id="cb3-11"><a href="#cb3-11"></a><span class="ex">include</span> = [</span>
+<span id="cb3-12"><a href="#cb3-12"></a>    <span class="st">"LICENSE"</span>,</span>
+<span id="cb3-13"><a href="#cb3-13"></a>]</span>
 <span id="cb3-14"><a href="#cb3-14"></a></span>
-<span id="cb3-15"><a href="#cb3-15"></a><span class="ot">[</span><span class="er">tool.poetry.dependencies</span><span class="ot">]</span></span>
-<span id="cb3-16"><a href="#cb3-16"></a><span class="er">python</span> <span class="er">=</span> <span class="er">"^3.5"</span></span>
+<span id="cb3-15"><a href="#cb3-15"></a>[<span class="ex">tool.poetry.dependencies</span>]</span>
+<span id="cb3-16"><a href="#cb3-16"></a><span class="ex">python</span> = <span class="st">"^3.5"</span></span>
 <span id="cb3-17"><a href="#cb3-17"></a></span>
-<span id="cb3-18"><a href="#cb3-18"></a><span class="ot">[</span><span class="er">tool.poetry.dev-dependencies</span><span class="ot">]</span></span>
+<span id="cb3-18"><a href="#cb3-18"></a>[<span class="ex">tool.poetry.dev-dependencies</span>]</span>
 <span id="cb3-19"><a href="#cb3-19"></a></span>
-<span id="cb3-20"><a href="#cb3-20"></a><span class="ot">[</span><span class="er">tool.poetry.scripts</span><span class="ot">]</span></span>
-<span id="cb3-21"><a href="#cb3-21"></a><span class="er">cli_command_name</span> <span class="er">=</span> <span class="er">'package_name:function'</span></span>
+<span id="cb3-20"><a href="#cb3-20"></a>[<span class="ex">tool.poetry.scripts</span>]</span>
+<span id="cb3-21"><a href="#cb3-21"></a><span class="ex">cli_command_name</span> = <span class="st">'package_name:function'</span></span>
 <span id="cb3-22"><a href="#cb3-22"></a></span>
-<span id="cb3-23"><a href="#cb3-23"></a><span class="ot">[</span><span class="er">build-system</span><span class="ot">]</span></span>
-<span id="cb3-24"><a href="#cb3-24"></a><span class="er">requires</span> <span class="er">=</span> <span class="ot">[</span><span class="st">"poetry&gt;=0.12"</span><span class="ot">]</span></span>
-<span id="cb3-25"><a href="#cb3-25"></a><span class="er">build-backend</span> <span class="er">=</span> <span class="er">"poetry.masonry.api"</span></span></code></pre></div>
+<span id="cb3-23"><a href="#cb3-23"></a>[<span class="ex">build-system</span>]</span>
+<span id="cb3-24"><a href="#cb3-24"></a><span class="ex">requires</span> = [<span class="st">"poetry&gt;=0.12"</span>]</span>
+<span id="cb3-25"><a href="#cb3-25"></a><span class="ex">build-backend</span> = <span class="st">"poetry.masonry.api"</span></span></code></pre></div>
 <p>The beginning of the file is pretty straightforward. Lets focus on those three part :</p>
 <ul>
 <li><p><strong>[tool.poetry.dependencies]</strong>: This is where you can list all the dependencies that your package needs to work. It's like the old <code>requirements.txt</code> file. You can do it by hand and then call the command <code>poetry install</code> to install them all for your package development and working purposes. If you use <code>poetry add &lt;dependency_name&gt;</code> (equivalent to the <code>pip install &lt;dependency_name&gt;</code>), poetry will add it there for you.</p></li>
