@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-04-23T19:44:00Z</lastmod>
+  <lastmod>2020-04-23T19:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
@@ -71,7 +71,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2020-04-23T19:44:00Z</lastmod>
+  <lastmod>2020-04-23T19:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/flask/</loc>
@@ -107,6 +107,6 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
-  <lastmod>2020-04-23T19:44:00Z</lastmod>
+  <lastmod>2020-04-23T19:45:00Z</lastmod>
  </url>
 </urlset>
