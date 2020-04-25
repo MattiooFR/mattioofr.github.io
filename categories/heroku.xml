@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 16:52:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 17:09:21 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
 .. title: Using environment variables in a Flask + Heroku project
 .. slug: environment-variable-flask-heroku
 .. date: 2020-04-19 15:43:36 UTC+02:00

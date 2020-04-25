@@ -3,20 +3,18 @@
   width: 80%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .small-middle-container {
     width: 95%;
     margin: auto;
   }
   div#notebook-container {
-    margin-left: 0px;
-    width: auto;
   }
 }
 
 div#notebook-container {
-  margin-left: -112px;
-  width: auto;
+  margin-left: -112px !important;
+  width: auto !important;
 }
 
 .mr-top {
