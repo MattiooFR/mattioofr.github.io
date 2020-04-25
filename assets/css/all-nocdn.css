@@ -863,6 +863,12 @@ ul.pager li a {
   width: 80%;
 }
 
+div#notebook-container {
+  margin-left: -112px;
+  max-width: 100em;
+  width: auto;
+}
+
 @media (max-width: 900px) {
   .small-middle-container {
     width: 95%;
@@ -876,15 +882,10 @@ ul.pager li a {
     margin: auto;
   }
   div#notebook-container {
-    margin-left: 0px;
+    margin-left: -20px;
+    padding: 0;
     width: auto;
   }
-}
-
-div#notebook-container {
-  margin-left: -112px;
-  max-width: 100em;
-  width: auto;
 }
 
 .mr-top {
