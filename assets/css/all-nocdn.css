@@ -869,7 +869,8 @@ ul.pager li a {
     margin: auto;
   }
   div#notebook-container {
-    margin-left: -50px;
+    margin-left: 0px;
+    width: auto;
   }
 }
 
