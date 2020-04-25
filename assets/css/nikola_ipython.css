@@ -1,7 +1,7 @@
 div.prompt {
   padding: 0.6em;
   font-size: 13px;
-  background-color: #E9E9E9;
+  background-color: #ffffff;
   margin-right: 1em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -38,8 +38,9 @@ div.text_cell_render {
   text-decoration: none;
 }
 
-.rendered_html pre, .rendered_html code {
-  background-color: #DDDDDD;
+.rendered_html pre,
+.rendered_html code {
+  background-color: #dddddd;
   margin: 1em 0em;
   font-size: 14px;
 }
