@@ -856,7 +856,7 @@ ul.pager li a {
   width: 80%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .small-middle-container {
     width: 95%;
     margin: auto;
