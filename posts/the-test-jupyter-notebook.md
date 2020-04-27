@@ -7,6 +7,7 @@
 .. link:
 .. description:
 .. type: text
+.. medium: yes
 -->
 
 # Test of shortcode jupter notebook
@@ -18,5 +19,5 @@ Writing some stuffs after
 ## Ok
 
 ```bash
-git install prout
+git install dqds
 ```

@@ -13,6 +13,7 @@ Nikola = {extras = ["extra"], version = "^8.0.4"}
 nbconvert = "^5.6.1"
 traitlets = "^4.3.3"
 ipython = "^7.13.0"
+typogrify = "^2.0.7"
 
 [tool.poetry.dev-dependencies]
 
