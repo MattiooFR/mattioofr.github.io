@@ -36,9 +36,9 @@ div#notebook-container {
 
 code {
   white-space: pre-wrap;
-  background-color: #f7f6f3;
+  background-color: #f7f6f3 !important;
   color: #eb5757 !important;
-  border-radius: 3px;
+  border-radius: 3px !important;
   font-size: 85%;
   padding: 0.2em 0.4em !important;
 }
