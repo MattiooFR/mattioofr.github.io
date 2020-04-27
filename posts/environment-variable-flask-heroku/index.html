@@ -52,10 +52,10 @@ navbar-dark bg-dark
         <div class="collapse navbar-collapse" id="bs-navbar">
             <ul class="navbar-nav mr-auto">
 <li class="nav-item">
-<a href="../../pages/resume/" class="nav-link">My Resume</a>
+<a href="../../pages/resume/" class="nav-link">My&nbsp;Resume</a>
                 </li>
 <li class="nav-item">
-<a href="../../pages/cheatsheet/" class="nav-link">Cheat Sheet</a>
+<a href="../../pages/cheatsheet/" class="nav-link">Cheat&nbsp;Sheet</a>
                 </li>
 <li class="nav-item">
 <a href="../../archive/" class="nav-link">Archive</a>
@@ -83,11 +83,11 @@ navbar-dark bg-dark
     <div class="body-content">
         <!--Body content-->
         
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title small-middle-container" itemprop="headline name"><a href="." class="u-url">Using environment variables in a Flask + Heroku project</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title small-middle-container" itemprop="headline name"><a href="." class="u-url">Using environment variables in a Flask + Heroku&nbsp;project</a></h1>
 
         <div class="metadata small-middle-container">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
-                    Mathieu Dugue
+                    Mathieu&nbsp;Dugue
             </span></p>
             <p class="dateline">
             <a href="." rel="bookmark">
@@ -114,18 +114,18 @@ navbar-dark bg-dark
 
 -->
 
-<p>Using environment variables is fundamental in a project. This is how you tell your app if you are running in <code>production</code> or <code>locally</code> for example. This is where you also store more sensible information like <code>SECRET_KEY</code> or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good idea.</p>
-<p>Before jumping in the topic of configuring environment variables, I will first make you set up and deploy a basic app.</p>
+<p>Using environment variables is fundamental in a project. This is how you tell your app if you are running in <code>production</code> or <code>locally</code> for example. This is where you also store more sensible information like <code>SECRET_KEY</code> or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good&nbsp;idea.</p>
+<p>Before jumping in the topic of configuring environment variables, I will first make you set up and deploy a basic&nbsp;app.</p>
 <!-- TEASER_END -->
 
 <h2 id="flask">Flask</h2>
-<p>In this project I use Flask. Create a folder for your app and a new virtual environment (check out <a href="https://github.com/python-poetry/poetry">poetry</a> if you don't know what it is). Once your virtual environment is running, we need to install a few dependencies first :</p>
+<p>In this project I use Flask. Create a folder for your app and a new virtual environment (check out <a href="https://github.com/python-poetry/poetry">poetry</a> if you don&#8217;t know what it is). Once your virtual environment is running, we need to install a few dependencies first&nbsp;:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># if you use poetry as virtual environment manager</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="co"># use the command 'poetry add' instead of 'pip install'</span></span>
 <span id="cb1-3"><a href="#cb1-3"></a></span>
 <span id="cb1-4"><a href="#cb1-4"></a><span class="ex">pip</span> install flask gunicorn</span></code></pre></div>
-<p>Flask is the web server running with python, and Gunicorn is what will basically run our web server on Heroku when we will deploy our app.</p>
-<p>Lets first set up a basic app and create a file <code>app.py</code> in your folder :</p>
+<p>Flask is the web server running with python, and Gunicorn is what will basically run our web server on Heroku when we will deploy our&nbsp;app.</p>
+<p>Lets first set up a basic app and create a file <code>app.py</code> in your folder&nbsp;:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">import</span> os</span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="im">from</span> flask <span class="im">import</span> Flask, render_template</span>
 <span id="cb2-3"><a href="#cb2-3"></a></span>
@@ -142,7 +142,7 @@ navbar-dark bg-dark
 <span id="cb2-14"><a href="#cb2-14"></a>        <span class="cf">pass</span></span>
 <span id="cb2-15"><a href="#cb2-15"></a></span>
 <span id="cb2-16"><a href="#cb2-16"></a>    <span class="cf">return</span> render_template(<span class="st">"index.html"</span>, greeting<span class="op">=</span>greeting)</span></code></pre></div>
-<p>As you see we will render an <code>index.html</code> so create that file too inside a <code>templates</code> folder and paste this code inside :</p>
+<p>As you see we will render an <code>index.html</code> so create that file too inside a <code>templates</code> folder and paste this code inside&nbsp;:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1"></a><span class="dt">&lt;!doctype </span>html<span class="dt">&gt;</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a><span class="kw">&lt;html&gt;</span></span>
 <span id="cb3-3"><a href="#cb3-3"></a>    <span class="kw">&lt;head&gt;</span></span>
@@ -153,20 +153,20 @@ navbar-dark bg-dark
 <span id="cb3-8"><a href="#cb3-8"></a>        {{ greeting }}</span>
 <span id="cb3-9"><a href="#cb3-9"></a>    <span class="kw">&lt;/body&gt;</span></span>
 <span id="cb3-10"><a href="#cb3-10"></a><span class="kw">&lt;/html&gt;</span></span></code></pre></div>
-<p>Before running the web app locally we need to set two variable in your terminal so Flask knows what to do exactly :</p>
+<p>Before running the web app locally we need to set two variable in your terminal so Flask knows what to do exactly&nbsp;:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="bu">export</span> <span class="va">FLASK_ENV=</span>development</span>
 <span id="cb4-2"><a href="#cb4-2"></a><span class="bu">export</span> <span class="va">FLASK_APP=</span>app.py</span>
 <span id="cb4-3"><a href="#cb4-3"></a><span class="bu">export</span> <span class="va">EXCITED=</span>True</span></code></pre></div>
-<p>Lets run our app locally with <code>flask run</code> . As you can see we are greeted like expected, with all the '!!!!', but I had to export the variable in my terminal. Every time you close your terminal you need to do that again. Not very efficient.</p>
+<p>Lets run our app locally with <code>flask run</code> . As you can see we are greeted like expected, with all the &#8216;!!!!&#8217;, but I had to export the variable in my terminal. Every time you close your terminal you need to do that again. Not very&nbsp;efficient.</p>
 <h2 id="heroku">Heroku</h2>
-<p>Now if we want to deploy our app on Heroku we need to do a few things.</p>
+<p>Now if we want to deploy our app on Heroku we need to do a few&nbsp;things.</p>
 <ol>
 <li>
-<p>Create a <code>Procfile</code> at the root of your folder. Paste this code inside :</p>
+<p>Create a <code>Procfile</code> at the root of your folder. Paste this code inside&nbsp;:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="ex">web</span>: gunicorn app:app</span></code></pre></div>
 </li>
 <li>
-<p>We need to export all the python dependencies in a <code>requirements.txt</code> file :</p>
+<p>We need to export all the python dependencies in a <code>requirements.txt</code> file&nbsp;:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a><span class="ex">pip</span> freeze <span class="op">&gt;</span> requirements.txt</span>
 <span id="cb6-2"><a href="#cb6-2"></a></span>
 <span id="cb6-3"><a href="#cb6-3"></a><span class="co"># if you use poetry you can do as following</span></span>
@@ -181,39 +181,39 @@ navbar-dark bg-dark
 <span id="cb7-5"><a href="#cb7-5"></a><span class="ex">npm</span> install -g heroku</span></code></pre></div>
 </li>
 <li>
-<p>Once Heroku is available on your terminal, we can create your Heroku App :</p>
+<p>Once Heroku is available on your terminal, we can create your Heroku App&nbsp;:</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1"></a><span class="ex">heroku</span> create <span class="op">&lt;</span>name_of_your_app<span class="op">&gt;</span></span></code></pre></div>
-<p>Now if you check your Heroku Dashboard in the browser, you'll see an application with that name. But it doesn't have our code or anything yet - it's completely empty. Let's get our code up there.</p>
+<p>Now if you check your Heroku Dashboard in the browser, you&#8217;ll see an application with that name. But it doesn&#8217;t have our code or anything yet - it&#8217;s completely empty. Let&#8217;s get our code up&nbsp;there.</p>
 </li>
 <li>
-<p>The next step is initializing git in your repository, and add the Heroku remote in your git repository :</p>
+<p>The next step is initializing git in your repository, and add the Heroku remote in your git repository&nbsp;:</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">git</span> init</span>
 <span id="cb9-2"><a href="#cb9-2"></a><span class="ex">heroku</span> git:remote -a <span class="op">&lt;</span>name_of_your_app<span class="op">&gt;</span></span></code></pre></div>
 </li>
 <li>
-<p>Now before pushing our app on Heroku, we need to set that <code>EXCITED</code> variable to true. You can do that on the web interface of Heroku, or using the CLI with :</p>
+<p>Now before pushing our app on Heroku, we need to set that <code>EXCITED</code> variable to true. You can do that on the web interface of Heroku, or using the CLI with&nbsp;:</p>
 <div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1"></a><span class="ex">heroku</span> config:set EXCITED=True</span></code></pre></div>
 </li>
 <li>
-<p>To push our web app to Heroku we can simply do :</p>
+<p>To push our web app to Heroku we can simply do&nbsp;:</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1"></a><span class="fu">git</span> add .</span>
 <span id="cb11-2"><a href="#cb11-2"></a><span class="fu">git</span> commit -m<span class="st">"deploying app on heroku"</span></span>
 <span id="cb11-3"><a href="#cb11-3"></a><span class="fu">git</span> push heroku master</span></code></pre></div>
 </li>
 </ol>
 <p>Now if you look at <a href="https://name_of_your_app.heroku.com">https://name_of_your_app.heroku.com</a> you should have a nice excited greeting message : <code>Hello !!!!</code></p>
-<h2 id="environment-variable">Environment Variable</h2>
-<p>Alright, thank you Mathieu, but how is that suppose to teach us how to manage environment variable ?</p>
-<p>Well, now that you are set up properly, let me introduce the <code>.env</code> and <code>.flaskenv</code> files. By convention, the <code>.flaskenv</code> is where you store your variables related to your flask configuration, such as the type of environment, or the files that contains your flask app. For this example we will write those lines inside this file :</p>
+<h2 id="environment-variable">Environment&nbsp;Variable</h2>
+<p>Alright, thank you Mathieu, but how is that suppose to teach us how to manage environment variable&nbsp;?</p>
+<p>Well, now that you are set up properly, let me introduce the <code>.env</code> and <code>.flaskenv</code> files. By convention, the <code>.flaskenv</code> is where you store your variables related to your flask configuration, such as the type of environment, or the files that contains your flask app. For this example we will write those lines inside this file&nbsp;:</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb12-1"><a href="#cb12-1"></a>#.flaskenv file</span>
 <span id="cb12-2"><a href="#cb12-2"></a></span>
 <span id="cb12-3"><a href="#cb12-3"></a>FLASK_APP=app.py</span>
 <span id="cb12-4"><a href="#cb12-4"></a>FLASK_ENV=development</span></code></pre></div>
-<p>Now the <code>.env</code> file contains the sensible variable information that your app needs to run. This file stay locally and you must include it in your <code>.gitignore</code> to avoid sharing sensible informations. For the purpose of this tutorial we will just include one variable :</p>
+<p>Now the <code>.env</code> file contains the sensible variable information that your app needs to run. This file stay locally and you must include it in your <code>.gitignore</code> to avoid sharing sensible informations. For the purpose of this tutorial we will just include one variable&nbsp;:</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb13-1"><a href="#cb13-1"></a>#.env file</span>
 <span id="cb13-2"><a href="#cb13-2"></a></span>
 <span id="cb13-3"><a href="#cb13-3"></a>EXCITED=True</span></code></pre></div>
-<p>Your folder structure should look something like this :</p>
+<p>Your folder structure should look something like this&nbsp;:</p>
 <div class="sourceCode" id="cb14"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb14-1"><a href="#cb14-1"></a>.</span>
 <span id="cb14-2"><a href="#cb14-2"></a>├── templates</span>
 <span id="cb14-3"><a href="#cb14-3"></a>    └── index.html</span>
@@ -223,15 +223,15 @@ navbar-dark bg-dark
 <span id="cb14-7"><a href="#cb14-7"></a>├── Procfile</span>
 <span id="cb14-8"><a href="#cb14-8"></a>├── app.py</span>
 <span id="cb14-9"><a href="#cb14-9"></a>└── requirements.txt</span></code></pre></div>
-<p>Now we have two different use case possible. If you want to use flask to run your app locally you need to install one more dependencies</p>
+<p>Now we have two different use case possible. If you want to use flask to run your app locally you need to install one more&nbsp;dependencies</p>
 <div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1"></a><span class="ex">pip</span> install python-dotenv</span>
 <span id="cb15-2"><a href="#cb15-2"></a></span>
 <span id="cb15-3"><a href="#cb15-3"></a><span class="co"># with poetry use</span></span>
 <span id="cb15-4"><a href="#cb15-4"></a><span class="ex">poetry</span> add python-dotenv</span></code></pre></div>
-<p>You don't need to do anything else, thanks to this new package, flask will automatically detect your two new files and will load their variables in the app context.</p>
-<p>If instead of using flask to run your app locally you prefer to use <code>heroku local web</code> then you don't need to install <code>python-dotenv</code>, Heroku will detect the <code>.env</code> file by itself.</p>
+<p>You don&#8217;t need to do anything else, thanks to this new package, flask will automatically detect your two new files and will load their variables in the app&nbsp;context.</p>
+<p>If instead of using flask to run your app locally you prefer to use <code>heroku local web</code> then you don&#8217;t need to install <code>python-dotenv</code>, Heroku will detect the <code>.env</code> file by&nbsp;itself.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>We saw how to implement a behavior that allows us to protect our sensible information by putting them in external files that wont be pushed to a public git repository. In the same time our app will work seamlessly when deployed on Heroku, if you set up the same variables in your <code>.env</code> files on the config of your Heroku app (with the web interface or the CLI).</p>
+<p>We saw how to implement a behavior that allows us to protect our sensible information by putting them in external files that wont be pushed to a public git repository. In the same time our app will work seamlessly when deployed on Heroku, if you set up the same variables in your <code>.env</code> files on the config of your Heroku app (with the web interface or the&nbsp;CLI).</p>
 <p>You can find all the code of this tutorial <a href="https://github.com/MattiooFR/Tutorials/tree/master/FlaskHerokuEnv">here</a>.</p>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
@@ -240,7 +240,7 @@ navbar-dark bg-dark
         </ul>
 <ul class="pager hidden-print">
 <li class="next">
-                <a href="../publish-a-package-on-pypi-using-poetry/" rel="next" title="Publish a package on PyPi using Poetry">Next post</a>
+                <a href="../publish-a-package-on-pypi-using-poetry/" rel="next" title="Publish a package on PyPi using Poetry">Next&nbsp;post</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
                         <div id="disqus_thread"></div>

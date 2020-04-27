@@ -6,31 +6,51 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://brainsorting.dev/categories/blackjack.xml</loc>
+  <lastmod>2020-04-27T22:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/books.xml</loc>
+  <lastmod>2020-04-27T22:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://brainsorting.dev/categories/flask.xml</loc>
-  <lastmod>2020-04-25T17:09:00Z</lastmod>
+  <lastmod>2020-04-27T22:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/heroku.xml</loc>
-  <lastmod>2020-04-25T17:09:00Z</lastmod>
+  <lastmod>2020-04-27T22:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/jupyter.xml</loc>
+  <lastmod>2020-04-27T22:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/mathematic.xml</loc>
+  <lastmod>2020-04-27T22:15:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/package.xml</loc>
-  <lastmod>2020-04-25T17:09:00Z</lastmod>
+  <lastmod>2020-04-27T22:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/poetry.xml</loc>
-  <lastmod>2020-04-25T17:09:00Z</lastmod>
+  <lastmod>2020-04-27T22:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/test.xml</loc>
+  <lastmod>2020-04-27T22:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/galleries/rss.xml</loc>
-  <lastmod>2020-04-25T17:09:00Z</lastmod>
+  <lastmod>2020-04-27T22:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/rss.xml</loc>
-  <lastmod>2020-04-25T17:09:00Z</lastmod>
+  <lastmod>2020-04-27T22:15:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/sitemap.xml</loc>
-  <lastmod>2020-04-25T17:09:00Z</lastmod>
+  <lastmod>2020-04-27T22:15:00Z</lastmod>
  </sitemap>
 </sitemapindex>

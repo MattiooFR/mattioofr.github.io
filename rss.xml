@@ -3,7 +3,23 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 17:09:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The test jupyter notebook</title><link>https://brainsorting.dev/posts/the-test-jupyter-notebook/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 27 Apr 2020 22:15:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blackjack, The 21 Game</title><link>https://brainsorting.dev/posts/blackjack-the-21-game/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
+.. title: Blackjack, The 21 Game
+.. slug: blackjack-the-21-game
+.. date: 2020-04-27 22:20:03 UTC+02:00
+.. tags: mathematic, blackjack, books
+.. category:
+.. link:
+.. description:
+.. type: text
+.. medium: yes
+--&gt;
+
+&lt;p&gt;« Never be the biggest bettor at your table. »&lt;/p&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Blackjack can be beaten !&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You will see how to be at least break even with the house, and maybe have a small advantage over the long run with easy methods to learn, and how and why they work. I tried to summarize many books that I read and kept only what I thought was useful and easily shareable. I’ll put the list of the book I read at the end if you want to dig deeper in the world of beating the blackjack game.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/"&gt;Read more…&lt;/a&gt; (22 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blackjack</category><category>books</category><category>mathematic</category><guid>https://brainsorting.dev/posts/blackjack-the-21-game/</guid><pubDate>Mon, 27 Apr 2020 20:20:03 GMT</pubDate></item><item><title>The test jupyter notebook</title><link>https://brainsorting.dev/posts/the-test-jupyter-notebook/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
 .. title: The test jupyter notebook
 .. slug: the-test-jupyter-notebook
 .. date: 2020-04-25 16:49:37 UTC+02:00
@@ -12,6 +28,7 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. link:
 .. description:
 .. type: text
+.. medium: yes
 --&gt;
 
 &lt;h1 id="test-of-shortcode-jupter-notebook"&gt;Test of shortcode jupter notebook&lt;/h1&gt;
@@ -80,7 +97,7 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;/div&gt;&lt;/div&gt;</description><guid>https://brainsorting.dev/blog/test/</guid><pubDate>Sat, 25 Apr 2020 13:43:06 GMT</pubDate></item><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
+&lt;/div&gt;&lt;/div&gt;</description><category>Jupyter</category><category>test</category><guid>https://brainsorting.dev/blog/test/</guid><pubDate>Sat, 25 Apr 2020 13:43:06 GMT</pubDate></item><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
 .. title: Publish a package on PyPi using Poetry
 .. slug: publish-a-package-on-pypi-using-poetry
 .. date: 2020-04-23 21:31:25 UTC+02:00
