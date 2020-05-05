@@ -1,3 +1,11 @@
 {
-    "python.pythonPath": "/Users/mattioo/Library/Caches/pypoetry/virtualenvs/brainsorting-mHZQEmeZ-py3.8/bin/python3"
+    "python.pythonPath": "/Users/mattioo/Library/Caches/pypoetry/virtualenvs/brainsorting-mHZQEmeZ-py3.8/bin/python3",
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
 }
