@@ -257,7 +257,7 @@ navbar-dark bg-dark
 <p>See how I commented the markdown compiler and uncommented <code>pandoc</code> for <code>.md</code> files. The last two <code>PANDOC_OPTIONS</code> (&#8212;toc and -s) are used for automatically generating a Table of Content on the HTML generated&nbsp;output.</p>
 <p>Once you use pandoc for compiling your markdown file, for creating a new blog post in markdown you need yo use this command <code>nikola new _post -f pandoc</code> and not markdown&nbsp;anymore.</p>
 <p>Adding solely the pandoc as markdown compiler is unfortunately not enough because we lose the ability to use the <code>CODE_COLOR_SCHEME = monokai</code> option in conf.py. One solution is to use <code>pandoc</code> generated css for one of its code highlight theme (kate in my&nbsp;case).</p>
-<p>Create a <code>custom.css</code> file in <code>files/assets/css/</code> as [explained here](#Tweaking the CSS) and add this css code&nbsp;:</p>
+<p>Create a <code>custom.css</code> file in <code>files/assets/css/</code> as <a href="#tweaking-the-css">explained here</a> and add this css code&nbsp;:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb7-1"><a href="#cb7-1"></a>code {<span class="kw">white-space</span>: <span class="dv">pre-wrap</span><span class="op">;</span>}</span>
 <span id="cb7-2"><a href="#cb7-2"></a>span<span class="fu">.smallcaps</span> {<span class="kw">font-variant</span>: <span class="dv">small-caps</span><span class="op">;</span>}</span>
 <span id="cb7-3"><a href="#cb7-3"></a>span<span class="fu">.underline</span> {<span class="kw">text-decoration</span>: <span class="dv">underline</span><span class="op">;</span>}</span>
@@ -364,7 +364,7 @@ navbar-dark bg-dark
 <p>This is an example of how I&#8217;ve done&nbsp;mine.</p>
 <h2 id="8-indexes-as-a-list-of-links-or-list-of-posts">8) Indexes as a list of links or list of&nbsp;posts</h2>
 <p>Nikola allows you to categorize posts in a number of ways such as category, tags, archives, and authors. For each means of categorizing, an associated index page is generated so that viewers can see all available posts (<em>_PAGES_ARE_INDEXES = True</em>) or links associated to that category (<em>_PAGES_ARE_INDEXES = False</em>).</p>
-<p>You can choose for these indexes to produce a list of the full posts (or [showing teasers instead of the full post](#Short blog post teaser in index page)) or a list of links to each post. Depending on your needs, you can change any of the following index settings in <code>conf.py</code> to&nbsp;True.</p>
+<p>You can choose for these indexes to produce a list of the full posts (or <a href="#short-blog-post-teaser-in-index-page">showing teasers instead of the full post</a>) or a list of links to each post. Depending on your needs, you can change any of the following index settings in <code>conf.py</code> to&nbsp;True.</p>
 <div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1"></a>CATEGORY_PAGES_ARE_INDEXES <span class="op">=</span> <span class="va">False</span></span>
 <span id="cb10-2"><a href="#cb10-2"></a>TAG_PAGES_ARE_INDEXES <span class="op">=</span> <span class="va">False</span></span>
 <span id="cb10-3"><a href="#cb10-3"></a>ARCHIVES_ARE_INDEXES <span class="op">=</span> <span class="va">False</span></span>
@@ -399,7 +399,7 @@ navbar-dark bg-dark
 <span id="cb13-2"><a href="#cb13-2"></a>GITHUB_DEPLOY_BRANCH <span class="op">=</span> <span class="st">'master'</span></span>
 <span id="cb13-3"><a href="#cb13-3"></a>GITHUB_REMOTE_NAME <span class="op">=</span> <span class="st">'origin'</span></span>
 <span id="cb13-4"><a href="#cb13-4"></a>GITHUB_COMMIT_SOURCE <span class="op">=</span> <span class="va">True</span></span></code></pre></div>
-<p>Create a <code>.gitignore</code> file with the following entries as a minimum. You may use <a href="https://www.gitignore.io/">gitignore.io</a> to generate a suitable set of <code>.gitignore</code> entries for your platform by typing in the relevant tags (e.g., mac,<code>nikola</code>,jupyternotebooks`).</p>
+<p>Create a <code>.gitignore</code> file with the following entries as a minimum. You may use <a href="https://www.gitignore.io/">gitignore.io</a> to generate a suitable set of <code>.gitignore</code> entries for your platform by typing in the relevant tags (e.g., mac, nikola,&nbsp;jupyternotebooks).</p>
 <div class="sourceCode" id="cb14"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb14-1"><a href="#cb14-1"></a>cache</span>
 <span id="cb14-2"><a href="#cb14-2"></a>.doit.db</span>
 <span id="cb14-3"><a href="#cb14-3"></a>__pycache__</span>
