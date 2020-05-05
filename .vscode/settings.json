@@ -7,5 +7,6 @@
         "markdown",
         "latex",
         "plaintext"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }
