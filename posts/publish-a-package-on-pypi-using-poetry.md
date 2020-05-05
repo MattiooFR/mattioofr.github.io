@@ -15,7 +15,7 @@ First thing first, you need Poetry if you don't have it already.
 
 Poetry is the new standard for creating and managing virtual environment for your Python project. It is also a Python dependency management tool that is working differently as pip. It uses the new standard `pyproject.toml` decided by the Python Packaging Authority with PEP-518. This file merges all the previous config files that were necessary before, [`setup.py`](http://setup.py/), `requirements.txt`, `setup.cfg`, [`MANIFEST.in`](http://manifest.in/) et `Pipfile`, in one unique file to rule them all ! Ok, enough of Lord of the Ring.
 
-I advice you to follow along with the [documentation](https://python-poetry.org/docs/cli/) of poetry open.
+I advise you to follow along with the [documentation](https://python-poetry.org/docs/cli/) of poetry open.
 <!-- TEASER_END -->
 
 ## Install Poetry
