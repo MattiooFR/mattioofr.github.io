@@ -129,7 +129,7 @@ Once you use pandoc for compiling your markdown file, for creating a new blog po
 
 Adding solely the pandoc as markdown compiler is unfortunately not enough because we lose the ability to use the `CODE_COLOR_SCHEME = monokai` option in conf.py. One solution is to use `pandoc` generated css for one of its code highlight theme (kate in my case).
 
-Create a `custom.css` file in `files/assets/css/` as [explained here](#Tweaking the CSS) and add this css code :
+Create a `custom.css` file in `files/assets/css/` as [explained here](#tweaking-the-css) and add this css code :
 
 ```css
 code {white-space: pre-wrap;}
@@ -259,7 +259,7 @@ This is an example of how I've done mine.
 
 Nikola allows you to categorize posts in a number of ways such as category, tags, archives, and authors. For each means of categorizing, an associated index page is generated so that viewers can see all available posts (*_PAGES_ARE_INDEXES = True*) or links associated to that category (*_PAGES_ARE_INDEXES = False*).
 
-You can choose for these indexes to produce a list of the full posts (or [showing teasers instead of the full post](#Short blog post teaser in index page)) or a list of links to each post. Depending on your needs, you can change any of the following index settings in `conf.py` to True.
+You can choose for these indexes to produce a list of the full posts (or [showing teasers instead of the full post](#short-blog-post-teaser-in-index-page)) or a list of links to each post. Depending on your needs, you can change any of the following index settings in `conf.py` to True.
 
 ```python
 CATEGORY_PAGES_ARE_INDEXES = False
@@ -316,7 +316,7 @@ GITHUB_REMOTE_NAME = 'origin'
 GITHUB_COMMIT_SOURCE = True
 ```
 
-Create a `.gitignore` file with the following entries as a minimum. You may use [gitignore.io](https://www.gitignore.io/) to generate a suitable set of `.gitignore` entries for your platform by typing in the relevant tags (e.g., mac,`nikola`,jupyternotebooks`).
+Create a `.gitignore` file with the following entries as a minimum. You may use [gitignore.io](https://www.gitignore.io/) to generate a suitable set of `.gitignore` entries for your platform by typing in the relevant tags (e.g., mac, nikola, jupyternotebooks).
 
 ``` txt
 cache
