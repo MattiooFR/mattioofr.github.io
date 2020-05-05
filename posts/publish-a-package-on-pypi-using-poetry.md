@@ -2,7 +2,7 @@
 .. title: Publish a package on PyPi using Poetry
 .. slug: publish-a-package-on-pypi-using-poetry
 .. date: 2020-04-23 21:31:25 UTC+02:00
-.. tags: poetry, package
+.. tags: tutorial, poetry, package
 .. category:
 .. link:
 .. description: Tutorial to publish a package on PyPi using Poetry

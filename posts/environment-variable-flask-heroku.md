@@ -2,7 +2,7 @@
 .. title: Using environment variables in a Flask + Heroku project
 .. slug: environment-variable-flask-heroku
 .. date: 2020-04-19 15:43:36 UTC+02:00
-.. tags: flask, heroku
+.. tags: tutorial, flask, heroku
 .. category:
 .. link:
 .. description: Quick tutorial to understand good practices on using environment variables.
