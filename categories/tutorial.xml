@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting</title><link>https://brainsorting.dev/</link><description>Trying to sort my brain's thoughts</description><atom:link href="https://brainsorting.dev/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about tutorial)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/tutorial.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 05 May 2020 14:19:02 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Create a blog with Nikola</title><link>https://brainsorting.dev/posts/create-a-blog-with-nikola/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 05 May 2020 14:19:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Create a blog with Nikola</title><link>https://brainsorting.dev/posts/create-a-blog-with-nikola/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#create-a-blog-with-nikola"&gt;Create a blog with Nikola&lt;/a&gt;
 &lt;ul&gt;
@@ -514,79 +514,7 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 &lt;p&gt;&lt;a href="https://themes.getnikola.com/v7/mdl/"&gt;https://themes.getnikola.com/v7/mdl/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hackerthemes.com/bootstrap-themes/"&gt;https://hackerthemes.com/bootstrap-themes/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://bootswatch.com/"&gt;https://bootswatch.com/&lt;/a&gt;&lt;/p&gt;
-</description><category>nikola</category><category>tutorial</category><guid>https://brainsorting.dev/posts/create-a-blog-with-nikola/</guid><pubDate>Tue, 05 May 2020 14:02:50 GMT</pubDate></item><item><title>Blackjack, The 21 Game</title><link>https://brainsorting.dev/posts/blackjack-the-21-game/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#a-bit-of-history"&gt;A bit of History&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#how-to-play-black-jack"&gt;How to play Black Jack&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#insurance"&gt;Insurance&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#hitting"&gt;Hitting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#standing"&gt;Standing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#doubling-down"&gt;Doubling Down&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#splitting-pairs"&gt;Splitting Pairs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#surrender"&gt;Surrender&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#the-dealers-hand"&gt;The dealer’s hand&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#basic-strategy-how-to-be-almost-break-even-with-the-house"&gt;Basic Strategy (how to be almost break even with the house)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#card-counting---the-red-seven-count"&gt;Card counting - The Red Seven count&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#introduction-to-card-counting"&gt;Introduction to card counting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#betting-system"&gt;Betting system&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#the-basic-red-seven-playing-strategy"&gt;The Basic Red Seven Playing Strategy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#the-advanced-red-seven-count"&gt;The Advanced Red Seven Count&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#bankroll-management"&gt;Bankroll management&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#the-profit-formula"&gt;The Profit Formula&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#normal-fluctuation"&gt;Normal Fluctuation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#so-how-big-should-your-playing-bankroll-be"&gt;So how big should your playing bankroll be&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#game-strategy"&gt;Game strategy&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#estimating-the-remaining-deck"&gt;Estimating the remaining deck&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#betting-strategy"&gt;Betting strategy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#how-not-to-be-busted-in-the-casino"&gt;How not to be busted in the casino&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#idiot-camouflage"&gt;Idiot camouflage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#hitstand-camouflage"&gt;Hit/Stand camouflage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#double-down-camouflage"&gt;Double-Down camouflage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#pair-split-camouflage"&gt;Pair-split camouflage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#insurance-1"&gt;Insurance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#high-rollers-survival-guide"&gt;High Rollers survival guide&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#tipping"&gt;Tipping&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#dealers-who-cheat"&gt;Dealers who cheat&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#team-play"&gt;Team play&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#two-persons-teams"&gt;Two Persons Teams&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#bpspotter-team"&gt;BP/spotter Team&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#gorilla-bp"&gt;Gorilla BP&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#books--references"&gt;Books / References&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;!--
-.. title: Blackjack, The 21 Game
-.. slug: blackjack-the-21-game
-.. date: 2020-04-27 22:20:03 UTC+02:00
-.. tags: mathematic, blackjack, books
-.. category:
-.. link:
-.. description:
-.. updated: 2020-05-5 10:20:03 UTC+02:00
-.. type: text
-.. medium: yes
---&gt;
-
-&lt;p&gt;« Never be the biggest bettor at your table. »&lt;/p&gt;
-&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Blackjack can be beaten !&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;You will see how to be at least break even with the house, and maybe have a small advantage over the long run with easy methods to learn, and how and why they work. I tried to summarise many books that I read and kept only what I thought was useful and easily shareable. I’ll put the list of the book I read at the end if you want to dig deeper in the world of beating the blackjack game.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/"&gt;Read more…&lt;/a&gt; (22 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blackjack</category><category>books</category><category>mathematic</category><guid>https://brainsorting.dev/posts/blackjack-the-21-game/</guid><pubDate>Mon, 27 Apr 2020 20:20:03 GMT</pubDate></item><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+</description><category>nikola</category><category>tutorial</category><guid>https://brainsorting.dev/posts/create-a-blog-with-nikola/</guid><pubDate>Tue, 05 May 2020 14:02:50 GMT</pubDate></item><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#install-poetry"&gt;Install Poetry&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#create-the-package-you-want-to-publish-on-pypi"&gt;Create the package you want to publish on PyPi&lt;/a&gt;&lt;/li&gt;
