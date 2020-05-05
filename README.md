@@ -28,6 +28,7 @@ Installation and documentation at https://getnikola.com/
     .. hidetitle: true
     .. devto: yes
     .. medium: yes
+    .. previewimage: /images/image.png <!-- uri to image to display in link preview-->
     .. link: url <!-- url to original source for content-->
     ```
 
