@@ -6,6 +6,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Blackjack, The 21 Game | Brain Sorting</title>
+<script src="../../assets/js/pace.min.js"></script><link href="../../assets/css/pace.css" rel="stylesheet">
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
@@ -25,10 +26,20 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <meta property="og:site_name" content="Brain Sorting">
 <meta property="og:title" content="Blackjack, The 21 Game">
 <meta property="og:url" content="https://brainsorting.dev/posts/blackjack-the-21-game/">
-<meta property="og:description" content="« Never be the biggest bettor at your table. »
-Introduction
-Blackjack can be beaten !
-You will see how to be at least break even with the house, and maybe have a small advantage over the long run with">
+<meta property="og:description" content="Introduction
+A bit of History
+How to play Black Jack
+
+Insurance
+Hitting
+Standing
+Doubling Down
+Splitting Pairs
+Surrender
+The dealer’s hand
+
+Basic Strategy (how to be almost break even with the house)
+">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-04-27T22:20:03+02:00">
 <meta property="article:tag" content="blackjack">
@@ -94,7 +105,9 @@ navbar-dark bg-dark
             </span></p>
             <p class="dateline">
             <a href="." rel="bookmark">
-            <time class="published dt-published" datetime="2020-04-27T22:20:03+02:00" itemprop="datePublished" title="2020-04-27">2020-04-27</time></a>
+            <time class="published dt-published" datetime="2020-04-27T22:20:03+02:00" itemprop="datePublished" title="2020-04-27">2020-04-27</time><span class="updated"> (updated
+                    <time class="updated dt-updated" datetime="2020-05-05T10:20:03+02:00" itemprop="dateUpdated" title="2020-05-05">2020-05-05</time>)</span>
+            </a>
             </p>
                 <p class="commentline">            <a href="#disqus_thread" data-disqus-identifier="cache/posts/blackjack-the-21-game.html">Comments</a>
 
@@ -104,7 +117,73 @@ navbar-dark bg-dark
 </div>
         
     </header><div class="e-content entry-content small-middle-container mr-top" itemprop="articleBody text">
-    <!--
+    <nav id="TOC" role="doc-toc"><ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#a-bit-of-history">A bit of&nbsp;History</a></li>
+<li>
+<a href="#how-to-play-black-jack">How to play Black Jack</a>
+<ul>
+<li><a href="#insurance">Insurance</a></li>
+<li><a href="#hitting">Hitting</a></li>
+<li><a href="#standing">Standing</a></li>
+<li><a href="#doubling-down">Doubling&nbsp;Down</a></li>
+<li><a href="#splitting-pairs">Splitting&nbsp;Pairs</a></li>
+<li><a href="#surrender">Surrender</a></li>
+<li><a href="#the-dealers-hand">The dealer’s&nbsp;hand</a></li>
+</ul>
+</li>
+<li><a href="#basic-strategy-how-to-be-almost-break-even-with-the-house">Basic Strategy (how to be almost break even with the&nbsp;house)</a></li>
+<li>
+<a href="#card-counting---the-red-seven-count">Card counting - The Red Seven count</a>
+<ul>
+<li><a href="#introduction-to-card-counting">Introduction to card&nbsp;counting</a></li>
+<li><a href="#betting-system">Betting&nbsp;system</a></li>
+<li><a href="#the-basic-red-seven-playing-strategy">The Basic Red Seven Playing&nbsp;Strategy</a></li>
+<li><a href="#the-advanced-red-seven-count">The Advanced Red Seven&nbsp;Count</a></li>
+</ul>
+</li>
+<li>
+<a href="#bankroll-management">Bankroll management</a>
+<ul>
+<li><a href="#the-profit-formula">The Profit&nbsp;Formula</a></li>
+<li><a href="#normal-fluctuation">Normal&nbsp;Fluctuation</a></li>
+<li><a href="#so-how-big-should-your-playing-bankroll-be">So how big should your playing bankroll&nbsp;be</a></li>
+</ul>
+</li>
+<li>
+<a href="#game-strategy">Game strategy</a>
+<ul>
+<li><a href="#estimating-the-remaining-deck">Estimating the remaining&nbsp;deck</a></li>
+<li><a href="#betting-strategy">Betting&nbsp;strategy</a></li>
+</ul>
+</li>
+<li>
+<a href="#how-not-to-be-busted-in-the-casino">How not to be busted in the casino</a>
+<ul>
+<li><a href="#idiot-camouflage">Idiot&nbsp;camouflage</a></li>
+<li><a href="#hitstand-camouflage">Hit/Stand&nbsp;camouflage</a></li>
+<li><a href="#double-down-camouflage">Double-Down&nbsp;camouflage</a></li>
+<li><a href="#pair-split-camouflage">Pair-split&nbsp;camouflage</a></li>
+<li><a href="#insurance-1">Insurance</a></li>
+</ul>
+</li>
+<li>
+<a href="#high-rollers-survival-guide">High Rollers survival guide</a>
+<ul>
+<li><a href="#tipping">Tipping</a></li>
+<li><a href="#dealers-who-cheat">Dealers who&nbsp;cheat</a></li>
+</ul>
+</li>
+<li>
+<a href="#team-play">Team play</a>
+<ul>
+<li><a href="#two-persons-teams">Two Persons&nbsp;Teams</a></li>
+<li><a href="#bpspotter-team">BP/spotter&nbsp;Team</a></li>
+<li><a href="#gorilla-bp">Gorilla&nbsp;BP</a></li>
+</ul>
+</li>
+<li><a href="#books--references">Books /&nbsp;References</a></li>
+</ul></nav><!--
 .. title: Blackjack, The 21 Game
 .. slug: blackjack-the-21-game
 .. date: 2020-04-27 22:20:03 UTC+02:00
@@ -112,11 +191,10 @@ navbar-dark bg-dark
 .. category:
 .. link:
 .. description:
+.. updated: 2020-05-5 10:20:03 UTC+02:00
 .. type: text
 .. medium: yes
--->
-
-<p>« Never be the biggest bettor at your table.&nbsp;»</p>
+--><p>« Never be the biggest bettor at your table.&nbsp;»</p>
 <h2 id="introduction">Introduction</h2>
 <p><em>Blackjack can be beaten&nbsp;!</em></p>
 <p>You will see how to be at least break even with the house, and maybe have a small advantage over the long run with easy methods to learn, and how and why they work. I tried to summarise many books that I read and kept only what I thought was useful and easily shareable. I’ll put the list of the book I read at the end if you want to dig deeper in the world of beating the blackjack&nbsp;game.</p>
@@ -140,19 +218,19 @@ navbar-dark bg-dark
 <p>Any hand in which the ace can be counted as 11, without busting (getting over 21), is a <strong>soft hand</strong>. If you hold an ace and a 5 for example it is a soft 16. But if after you draw a card you get an 8, your total is now a hard 14. In this case with an ace valued 11 you would be busted with 24 so it can only be counted as&nbsp;1.</p>
 <p>It is <strong>important</strong> that you be able to read your <strong>hand’s total value</strong>, hard or soft, quickly and&nbsp;effortlessly.</p>
 <p>Before any cards are dealt, all bets mush be&nbsp;placed.</p>
-<h3 id="insurance"><strong>Insurance</strong></h3>
+<h3 id="insurance">Insurance</h3>
 <p>When a dealer dealt his card, one is face up and the other is face down. Now if the face up card is an ace or a ten-valued card, you can use what’s called “insurance”. You insure yourself in case the dealer face down card would make him have a blackjack, making everyone instantly loose his bet in this case, except if a player also have a blackjack and get pushed. Because insurance bets are paid at the rate of 2 to 1, a player would be break even. <strong>Never take insurance if you have a blackjack</strong>, that gives the house an 8% advantage, worse than any other bet you can make at any other casino&nbsp;game.</p>
-<h3 id="hitting"><strong>Hitting</strong></h3>
+<h3 id="hitting">Hitting</h3>
 <p>Except if you have a blackjack/natural, the most common decision you will have is <strong>whether to Hit or Stand</strong>. Hitting is taking another card. For example if your total is 13, you might want to get closer to 21 by taking one more card. You tap with your finger on the table to signal the dealer you want another card. You can hit as many times as you want, <strong>as long as your total does not exceed 21</strong>.</p>
-<h3 id="standing"><strong>Standing</strong></h3>
+<h3 id="standing">Standing</h3>
 <p>To signal you want to stand to a dealer, <strong>you wave your hand sideways, palm down</strong>.</p>
-<h3 id="doubling-down"><strong>Doubling&nbsp;Down</strong></h3>
+<h3 id="doubling-down">Doubling&nbsp;Down</h3>
 <p>Some casino allow doubling down on any originals card, some only on cards totalling 9, 10 and 11. If you decide, and are allowed to double down according to the casino’s rules, <strong>you may put the same amount of your bet next to your original bet and must draw only one additional card</strong>.</p>
-<h3 id="splitting-pairs"><strong>Splitting&nbsp;Pairs</strong></h3>
+<h3 id="splitting-pairs">Splitting&nbsp;Pairs</h3>
 <p>If a player hold two cards of the same value, he may split the pair into two separate hands. If you have a double 8 for example, totalling 16 (a really bad hand) you can split them and play each 8 as a separate hand. If you get another 8, you can split again and have 3 hands. Splitting ace will most of the time allow you to have only one more card above it and you cannot re-split aces. If you receive a ten on one of your aces, <strong>it is not going to be counted as a blackjack</strong> and be paid 3 to 2. Most casino will allow you to split ten-valued card, like a jack and a king. If you split ten and get a ace, as before it wont be counted as a blackjack. In a short way : Any pair may be split. Any pair, except aces, may be re-split. Split aces receive only one card each. Some casinos will also allow you to double down after&nbsp;splitting.</p>
-<h3 id="surrender"><strong>Surrender</strong></h3>
+<h3 id="surrender">Surrender</h3>
 <p>In some casino, a player may surrender his first two cards and lose only half his bet and his hand will not be played out. It is not allowed if dealer has a blackjack, except if the casino accept early surrender that allow you to surrender before the dealer check the second card to see if there is a&nbsp;blackjack.</p>
-<h3 id="the-dealers-hand"><strong>The dealer’s&nbsp;hand</strong></h3>
+<h3 id="the-dealers-hand">The dealer’s&nbsp;hand</h3>
 <p>One of the more important part in blackjack, the dealer’s actions. <strong>He completes his own hand only after all players have competed their hands</strong>. The dealer has no options, he is not allowed to double down, or split any pair. <strong>He is not allowed to surrender</strong>. <strong>He must hit any hand which totals less than 17</strong> and stand on any hands which totals 17 or more. The only exception to this is that some casinos require the dealer to hit a soft 17 (such as A,6). He must follow house rules. So for example, if you stand on a 15, and he got a 16, he must hit a new card and can only win if his total is between 17 and 21 without&nbsp;bursting.</p>
 <hr>
 <h2 id="basic-strategy-how-to-be-almost-break-even-with-the-house">Basic Strategy (how to be almost break even with the&nbsp;house)</h2>
@@ -174,7 +252,7 @@ navbar-dark bg-dark
 <p>Playing basic strategy accurately will greatly cut your losses, and is require to go to the next step of counting card, so practice those charts and rules until you know them perfectly. Even when you are counting card, <strong>you will play basic strategy on 80% or more of your&nbsp;hands.</strong></p>
 <hr>
 <h2 id="card-counting---the-red-seven-count">Card counting - The Red Seven&nbsp;count</h2>
-<h3 id="introduction-to-card-counting"><strong>Introduction to card&nbsp;counting</strong></h3>
+<h3 id="introduction-to-card-counting">Introduction to card&nbsp;counting</h3>
 <p>Computer studies have found that the proportionate removal of certain cards gives the player an advantage over the house, while the removal of others gives the house an advantage over the player. <strong>As card are removed from play, the player’s chances of winning constantly change</strong>. By learning to analyse a depleted deck of cards for favourability, and capitalising on particular situations by <strong>betting more when the remaining cards are in your favour</strong> and less when they’re not, you can actually have an edge over the casino. Systems varies from complexity, but <strong>the idea is to bet more when there is more ten-valued card in the deck than lower card</strong>, and bet less when it is the&nbsp;contrary.</p>
 <p>The trick is to keep a running count in your head of +1 for low card such as 2 to 6, and -1 for ten/ace valued card. The particularity in the red seven count is to also add +1 for the seven, but only the red ones, to create an imbalance system that will free us to do more calculus such as true count (read books to know more about&nbsp;it).</p>
 <ul>
@@ -202,24 +280,24 @@ navbar-dark bg-dark
 <p>Important precision, <strong>follow the advance strategy only after the half of the decks have been dealt</strong>. If there is 8 decks, start using the advanced red seven strategy accordingly to your running count after 4 decks are on the discard&nbsp;tray.</p>
 <hr>
 <h2 id="bankroll-management">Bankroll&nbsp;management</h2>
-<h3 id="the-profit-formula-"><strong>The Profit Formula&nbsp;:</strong></h3>
+<h3 id="the-profit-formula">The Profit&nbsp;Formula</h3>
 <p><em>Average Bet x Advantage x Hands Per Hour = Hourly&nbsp;Profit</em></p>
 <p>A player get around <strong>75 to 100 hands per hour</strong>, depends on the number of player at the table. Full tables may cut this down to 60 per hands, where head on play (1 player) may raise it to 200 per hour. Let say you bet 10$ chip, and you succeed to keep an average of 1% over the house, and you play 100 hands per hour&nbsp;:</p>
 <p><em>$10 x 0.1 x 100 = $10 per&nbsp;hour</em></p>
 <p><strong>It is what you can expect from playing in the long&nbsp;run.</strong></p>
-<h3 id="normal-fluctuation-"><strong>Normal Fluctuation&nbsp;:</strong></h3>
+<h3 id="normal-fluctuation">Normal&nbsp;Fluctuation</h3>
 <p>The next thing really important to be aware is what the mathematicians call <strong>normal fluctuation</strong>. In the short run of a play, <strong>anything can happen</strong>, sometimes you will win, and sometimes you will lose, even with the best card counting strategy. For example, if you try flipping a coin a thousand times, you’d be highly unlikely to come up with exactly 500 wins, and 500 losses. Even if the formula say that there is 1/2 chance to get one or the other. Statisticians use the term standard deviation to explain variations from the expected result. <strong>If you flip the coin 10 times, and you come up with 7 tails and 3 heads, it would not say the coin was dishonest, it would be considered as a normal fluctuation.</strong> However if you flip the coin 10 000 times and you get 7000 tails and 3000 heads, that would be very&nbsp;unlikely.</p>
 <p>To calculate the standard deviation, the formula is simple the <strong>square root of the number of tries</strong>. Let say you do 10 times, square root of 10 = 3.16, in the example above we were 2 tails away from our expectation of 5, so well within our standard deviation (3.16). Now with a 10 000 trials, a standard deviation is 100. With our 2000 tails a head of the 5000 expected, we are 20 standard deviation times away from our expectation. <strong>Statistically this is nearly&nbsp;impossible.</strong></p>
 <p>The statisticians say that we expect to be within <strong>one standard deviation 68% of the time</strong>. We will be within two standard deviations of our expectation 95% of the time. After 3 deviation we are almost at&nbsp;100%</p>
-<h3 id="so-how-big-should-your-playing-bankroll-be-"><strong>So how big should your playing bankroll be&nbsp;?</strong></h3>
+<h3 id="so-how-big-should-your-playing-bankroll-be">So how big should your playing bankroll&nbsp;be</h3>
 <p><em>Bankroll - the amount of money you can afford to lose, over a specified period of&nbsp;time.</em></p>
 <p>If you can afford to lose $1000 this week, <strong>that is your bankroll</strong>. <strong>To know your betting unit, divide your bankroll by 100</strong>. If you lose 20 units, stop playing and reassess your bankroll, bet,&nbsp;etc</p>
 <hr>
 <h2 id="game-strategy">Game&nbsp;strategy</h2>
 <p>The <strong>deck penetration</strong> is fundamental, it represents how deep the card are dealt in the game before being shuffled again. Just for you to know, <strong>less than 67% is bad</strong> and your strategy wont be efficient enough, 67 to 75% is okay, <strong>more than 76% is good</strong> ! Try to choose your table accordingly before&nbsp;playing.</p>
-<h3 id="estimating-the-remaining-deck"><strong>Estimating the remaining&nbsp;deck</strong></h3>
+<h3 id="estimating-the-remaining-deck">Estimating the remaining&nbsp;deck</h3>
 <p>Buy yourself a few dozen decks of standard playing cards and build different stacks of card (8 decks, 7 decks, 6 deck, etc etc) and get your eyes used to guess how many cards of decks are left. This is only to calculate the true count, it&#8217;s for more advanced&nbsp;strategy.</p>
-<h3 id="betting-strategy"><strong>Betting&nbsp;strategy</strong></h3>
+<h3 id="betting-strategy">Betting&nbsp;strategy</h3>
 <p>One concept behind all betting strategies for card counters is <strong>bet more when you have the edge, and less (or nothing) when the house has the edge.</strong> The second thing to know, is <strong>how to raise your bet without attracting the attention to yourself</strong>.</p>
 <p>Now, your high bet will be your bankroll divided by 100, imagine you have $2000, then your higher bet will be $20. Most casino allows $5 for a minimum bet so you will be stuck with a 1-to-4 spread, or $5 to $20 in this example. In this case bet your maximum bet only when your count justifies the 8-unit bet, not at 4-unit. Constantly reassess the size of your bankroll and alter the size of your bets accordingly. <strong>Always buy chips in small amount</strong>, if you play with nickels ($5 chips), don’t buy in for more than $100. Remember that if you lose 10 units, reassess your bankroll (divide it by 100 to know your knew high bet). <strong>You will experience big swings of positive and negative fluctuations, you got to be prepare for this, and cut your loss fast. The goal is to stay in the game for long&nbsp;!</strong></p>
 <p>If your bet are below $50 (low bets), most of the casino wont care that you change your betting from 1-to-4 even 1-to-8, but some casino don&#8217;t want any card counter at their table so if you feel heat don’t push&nbsp;it.</p>
@@ -230,13 +308,13 @@ navbar-dark bg-dark
 <hr>
 <h2 id="how-not-to-be-busted-in-the-casino">How not to be busted in the&nbsp;casino</h2>
 <p>Primary fear for card counters is to be busted he his counting cards. Even if there is nothing illegal in this, all casino will try to kick away any card counter they will be sure they spotted. That is where the camouflage techniques are the most important thing to master after your card counting skills if you want to use it in&nbsp;casinos.</p>
-<h3 id="idiot-camouflage"><strong>Idiot&nbsp;camouflage</strong></h3>
+<h3 id="idiot-camouflage">Idiot&nbsp;camouflage</h3>
 <p>It is making idiot play strategy, like standing on 14, or splitting pairs that you should not, in case you don’t have skill for acting. It’s easy to do, but costly in terms of R/R in your&nbsp;strategy.</p>
 <ol>
 <li>Reserve your stupid plays for your smallest&nbsp;bet</li>
 <li>Use a stupid play only when it is necessary, most dealer don’t even look what you&nbsp;do</li>
 </ol>
-<h3 id="hitstand-camouflage"><strong>Hit/Stand&nbsp;camouflage</strong></h3>
+<h3 id="hitstand-camouflage">Hit/Stand&nbsp;camouflage</h3>
 <ul>
 <li>One of the hand casino look the most to see if your decision vary and if you are counting the card is 16vs10. You can decide to always stand on this hand. Even when you know you should&nbsp;hit.</li>
 <li>Hitting 7/7 vs&nbsp;10</li>
@@ -244,11 +322,11 @@ navbar-dark bg-dark
 <li>Hitting 13 vs 2 or&nbsp;3</li>
 </ul>
 <p>Those changes in the strategy look dumb and wont cost you much of&nbsp;money.</p>
-<h3 id="double-down-camouflage"><strong>Double-Down&nbsp;camouflage</strong></h3>
+<h3 id="double-down-camouflage">Double-Down&nbsp;camouflage</h3>
 <p>Double down on 10vs10 or 11vsA, or&nbsp;8vs6</p>
-<h3 id="pair-split-camouflage"><strong>Pair-split&nbsp;camouflage</strong></h3>
+<h3 id="pair-split-camouflage">Pair-split&nbsp;camouflage</h3>
 <p>Splitting 9s vs 2 or 9s vs&nbsp;A</p>
-<h3 id="insurance-1"><strong>Insurance</strong></h3>
+<h3 id="insurance-1">Insurance</h3>
 <p>People that never insurance their blackjack look suspicious because casino like to tell players to do it. So if you actually do it to look like an amateur, it won’t cost you that&nbsp;much.</p>
 <p><img src="../../images/Blackjack%20The%2021%20game/TWO-BIT_DECEPTIONS.jpeg" alt="Blackjack%20The%2021%20game/TWO-BIT_DECEPTIONS.jpeg"></p>
 <p>To conclude those idiot camouflages, small stakes card counter should not bother using those technique that will eat their already low gain. If you don’t get rated, don’t get a VIP card, and don’t give your name, you don’t need camouflage. <strong>It’s primarily for high stakes&nbsp;player.</strong></p>
@@ -273,18 +351,18 @@ navbar-dark bg-dark
 <li>Do player tip dealers ? How much ? How often and under what conditions&nbsp;?</li>
 <li>Will violations of rules be penalised financially ? How&nbsp;?</li>
 </ol>
-<h3 id="two-persons-teams"><strong>Two Persons&nbsp;Teams</strong></h3>
+<h3 id="two-persons-teams">Two Persons&nbsp;Teams</h3>
 <p>It is usually close friends of couple that will play at the same table. You don’t have to hide that you know each other, it can effectively double the betting spread with less&nbsp;suspicious.</p>
-<h3 id="bpspotter-team"><strong>BP/spotter&nbsp;Team</strong></h3>
+<h3 id="bpspotter-team">BP/spotter&nbsp;Team</h3>
 <p>One spotter play with low stack at one table, and with a discret signal he tells the other big stack player of the team to come because the count is high. Signal is the most important aspect of this&nbsp;play.</p>
 <p>If result doesn’t come out, the most important is to keep quiet in any situation, and wait to be out of the casino to discuss or show any sign of frustration for a “bad&nbsp;spotter”.</p>
 <p><strong>NO ONE KNOW EACH OTHER IN THE CASINO&nbsp;!</strong></p>
-<h3 id="gorilla-bp"><strong>Gorilla&nbsp;BP</strong></h3>
+<h3 id="gorilla-bp">Gorilla&nbsp;BP</h3>
 <p>Same same, but this time the big stack player is not a card counter, he only knows the signal, and he drinks to be even more in the role of a random player. The only risk is that he become effectively too drunk and start to do&nbsp;mistake.</p>
 <p>Team can be a great fun when you are winning, but can be hell when you’re losing, risk is always there in Blackjack&nbsp;!</p>
 <p>That&#8217;s it for the 21 game tutorial ! Have fun and play safe&nbsp;🙃</p>
 <hr>
-<h2 id="books--references"><strong>Books /&nbsp;References:</strong></h2>
+<h2 id="books--references">Books /&nbsp;References</h2>
 <ul>
 <li>Winning Casino Blackjack for the Non-Counter (really well explained for beginners, and focus really well to explain everything for the basic&nbsp;strategy)</li>
 <li>Blackbelt of blackjack (book written by one of the best&nbsp;player)</li>

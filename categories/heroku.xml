@@ -3,7 +3,15 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 27 Apr 2020 22:10:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 05 May 2020 08:56:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#heroku"&gt;Heroku&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#environment-variable"&gt;Environment Variable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;!--
 .. title: Using environment variables in a Flask + Heroku project
 .. slug: environment-variable-flask-heroku
 .. date: 2020-04-19 15:43:36 UTC+02:00
@@ -13,7 +21,6 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. description: Quick tutorial to understand good practices on using environment variables.
 .. type: text
 .. devto: yes
-
 --&gt;
 
 &lt;p&gt;Using environment variables is fundamental in a project. This is how you tell your app if you are running in &lt;code&gt;production&lt;/code&gt; or &lt;code&gt;locally&lt;/code&gt; for example. This is where you also store more sensible information like &lt;code&gt;SECRET_KEY&lt;/code&gt; or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good idea.&lt;/p&gt;

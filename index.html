@@ -7,6 +7,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <meta name="description" content="Trying to sort my brain's thoughts">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Brain Sorting</title>
+<script src="assets/js/pace.min.js"></script><link href="assets/css/pace.css" rel="stylesheet">
 <link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
@@ -22,7 +23,6 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><link rel="prefetch" href="posts/blackjack-the-21-game/" type="text/html">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -85,7 +85,9 @@ navbar-dark bg-dark
             </span></p>
             <p class="dateline">
             <a href="posts/blackjack-the-21-game/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-04-27T22:20:03+02:00" itemprop="datePublished" title="2020-04-27">2020-04-27</time></a>
+            <time class="published dt-published" datetime="2020-04-27T22:20:03+02:00" itemprop="datePublished" title="2020-04-27">2020-04-27</time><span class="updated"> (updated
+                    <time class="dt-updated" datetime="2020-05-05T10:20:03+02:00" itemprop="dateUpdated" title="2020-05-05">2020-05-05</time>)</span>
+            </a>
             </p>
                 <p class="commentline">            <a href="posts/blackjack-the-21-game/#disqus_thread" data-disqus-identifier="cache/posts/blackjack-the-21-game.html">Comments</a>
 
@@ -94,7 +96,73 @@ navbar-dark bg-dark
 </div>
     </header><div class="p-summary entry-summary">
     <div>
-<!--
+<nav id="TOC" role="doc-toc"><ul>
+<li><a href="posts/blackjack-the-21-game/#introduction">Introduction</a></li>
+<li><a href="posts/blackjack-the-21-game/#a-bit-of-history">A bit of&nbsp;History</a></li>
+<li>
+<a href="posts/blackjack-the-21-game/#how-to-play-black-jack">How to play Black Jack</a>
+<ul>
+<li><a href="posts/blackjack-the-21-game/#insurance">Insurance</a></li>
+<li><a href="posts/blackjack-the-21-game/#hitting">Hitting</a></li>
+<li><a href="posts/blackjack-the-21-game/#standing">Standing</a></li>
+<li><a href="posts/blackjack-the-21-game/#doubling-down">Doubling&nbsp;Down</a></li>
+<li><a href="posts/blackjack-the-21-game/#splitting-pairs">Splitting&nbsp;Pairs</a></li>
+<li><a href="posts/blackjack-the-21-game/#surrender">Surrender</a></li>
+<li><a href="posts/blackjack-the-21-game/#the-dealers-hand">The dealer’s&nbsp;hand</a></li>
+</ul>
+</li>
+<li><a href="posts/blackjack-the-21-game/#basic-strategy-how-to-be-almost-break-even-with-the-house">Basic Strategy (how to be almost break even with the&nbsp;house)</a></li>
+<li>
+<a href="posts/blackjack-the-21-game/#card-counting---the-red-seven-count">Card counting - The Red Seven count</a>
+<ul>
+<li><a href="posts/blackjack-the-21-game/#introduction-to-card-counting">Introduction to card&nbsp;counting</a></li>
+<li><a href="posts/blackjack-the-21-game/#betting-system">Betting&nbsp;system</a></li>
+<li><a href="posts/blackjack-the-21-game/#the-basic-red-seven-playing-strategy">The Basic Red Seven Playing&nbsp;Strategy</a></li>
+<li><a href="posts/blackjack-the-21-game/#the-advanced-red-seven-count">The Advanced Red Seven&nbsp;Count</a></li>
+</ul>
+</li>
+<li>
+<a href="posts/blackjack-the-21-game/#bankroll-management">Bankroll management</a>
+<ul>
+<li><a href="posts/blackjack-the-21-game/#the-profit-formula">The Profit&nbsp;Formula</a></li>
+<li><a href="posts/blackjack-the-21-game/#normal-fluctuation">Normal&nbsp;Fluctuation</a></li>
+<li><a href="posts/blackjack-the-21-game/#so-how-big-should-your-playing-bankroll-be">So how big should your playing bankroll&nbsp;be</a></li>
+</ul>
+</li>
+<li>
+<a href="posts/blackjack-the-21-game/#game-strategy">Game strategy</a>
+<ul>
+<li><a href="posts/blackjack-the-21-game/#estimating-the-remaining-deck">Estimating the remaining&nbsp;deck</a></li>
+<li><a href="posts/blackjack-the-21-game/#betting-strategy">Betting&nbsp;strategy</a></li>
+</ul>
+</li>
+<li>
+<a href="posts/blackjack-the-21-game/#how-not-to-be-busted-in-the-casino">How not to be busted in the casino</a>
+<ul>
+<li><a href="posts/blackjack-the-21-game/#idiot-camouflage">Idiot&nbsp;camouflage</a></li>
+<li><a href="posts/blackjack-the-21-game/#hitstand-camouflage">Hit/Stand&nbsp;camouflage</a></li>
+<li><a href="posts/blackjack-the-21-game/#double-down-camouflage">Double-Down&nbsp;camouflage</a></li>
+<li><a href="posts/blackjack-the-21-game/#pair-split-camouflage">Pair-split&nbsp;camouflage</a></li>
+<li><a href="posts/blackjack-the-21-game/#insurance-1">Insurance</a></li>
+</ul>
+</li>
+<li>
+<a href="posts/blackjack-the-21-game/#high-rollers-survival-guide">High Rollers survival guide</a>
+<ul>
+<li><a href="posts/blackjack-the-21-game/#tipping">Tipping</a></li>
+<li><a href="posts/blackjack-the-21-game/#dealers-who-cheat">Dealers who&nbsp;cheat</a></li>
+</ul>
+</li>
+<li>
+<a href="posts/blackjack-the-21-game/#team-play">Team play</a>
+<ul>
+<li><a href="posts/blackjack-the-21-game/#two-persons-teams">Two Persons&nbsp;Teams</a></li>
+<li><a href="posts/blackjack-the-21-game/#bpspotter-team">BP/spotter&nbsp;Team</a></li>
+<li><a href="posts/blackjack-the-21-game/#gorilla-bp">Gorilla&nbsp;BP</a></li>
+</ul>
+</li>
+<li><a href="posts/blackjack-the-21-game/#books--references">Books /&nbsp;References</a></li>
+</ul></nav><!--
 .. title: Blackjack, The 21 Game
 .. slug: blackjack-the-21-game
 .. date: 2020-04-27 22:20:03 UTC+02:00
@@ -102,11 +170,10 @@ navbar-dark bg-dark
 .. category:
 .. link:
 .. description:
+.. updated: 2020-05-5 10:20:03 UTC+02:00
 .. type: text
 .. medium: yes
--->
-
-<p>« Never be the biggest bettor at your table.&nbsp;»</p>
+--><p>« Never be the biggest bettor at your table.&nbsp;»</p>
 <h2 id="introduction">Introduction</h2>
 <p><em>Blackjack can be beaten&nbsp;!</em></p>
 <p>You will see how to be at least break even with the house, and maybe have a small advantage over the long run with easy methods to learn, and how and why they work. I tried to summarise many books that I read and kept only what I thought was useful and easily shareable. I’ll put the list of the book I read at the end if you want to dig deeper in the world of beating the blackjack&nbsp;game.</p>
@@ -129,7 +196,14 @@ navbar-dark bg-dark
 </div>
     </header><div class="p-summary entry-summary">
     <div>
-<!--
+<nav id="TOC" role="doc-toc"><ul>
+<li>
+<a href="posts/the-test-jupyter-notebook/#test-of-shortcode-jupter-notebook">Test of shortcode jupter notebook</a>
+<ul>
+<li><a href="posts/the-test-jupyter-notebook/#ok">Ok</a></li>
+</ul>
+</li>
+</ul></nav><!--
 .. title: The test jupyter notebook
 .. slug: the-test-jupyter-notebook
 .. date: 2020-04-25 16:49:37 UTC+02:00
@@ -139,98 +213,8 @@ navbar-dark bg-dark
 .. description:
 .. type: text
 .. medium: yes
--->
-
-<h1 id="test-of-shortcode-jupter-notebook">Test of shortcode jupter&nbsp;notebook</h1>
+--><h1 id="test-of-shortcode-jupter-notebook">Test of shortcode jupter&nbsp;notebook</h1>
 <p class="more"><a href="posts/the-test-jupyter-notebook/">6 minute&nbsp;read…</a></p>
-</div>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="blog/test/" class="u-url">test</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Mathieu&nbsp;Dugue
-            </span></p>
-            <p class="dateline">
-            <a href="blog/test/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-04-25T15:43:06+02:00" itemprop="datePublished" title="2020-04-25">2020-04-25</time></a>
-            </p>
-                <p class="commentline">            <a href="blog/test/#disqus_thread" data-disqus-identifier="cache/posts/test.html">Comments</a>
-
-
-        </p>
-</div>
-    </header><div class="p-summary entry-summary">
-    <div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Write-your-post-here.">Write your post here.<a class="anchor-link" href="blog/test/#Write-your-post-here.">¶</a>
-</h2>
-<p>test of a&nbsp;post</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [1]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">string</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [2]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span><span class="p">(</span><span class="s2">"toto"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>toto
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [ ]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
 </div>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/publish-a-package-on-pypi-using-poetry/" class="u-url">Publish a package on PyPi using&nbsp;Poetry</a></h1>
@@ -249,7 +233,13 @@ navbar-dark bg-dark
 </div>
     </header><div class="p-summary entry-summary">
     <div>
-<!--
+<nav id="TOC" role="doc-toc"><ul>
+<li><a href="posts/publish-a-package-on-pypi-using-poetry/#install-poetry">Install&nbsp;Poetry</a></li>
+<li><a href="posts/publish-a-package-on-pypi-using-poetry/#create-the-package-you-want-to-publish-on-pypi">Create the package you want to publish on&nbsp;PyPi</a></li>
+<li><a href="posts/publish-a-package-on-pypi-using-poetry/#build-your-package">Build your&nbsp;package</a></li>
+<li><a href="posts/publish-a-package-on-pypi-using-poetry/#publish-your-package">Publish your&nbsp;package</a></li>
+<li><a href="posts/publish-a-package-on-pypi-using-poetry/#end-notes">End&nbsp;notes</a></li>
+</ul></nav><!--
 .. title: Publish a package on PyPi using Poetry
 .. slug: publish-a-package-on-pypi-using-poetry
 .. date: 2020-04-23 21:31:25 UTC+02:00
@@ -260,9 +250,7 @@ navbar-dark bg-dark
 .. type: text
 .. medium: yes
 .. devto: yes
--->
-
-<p>First thing first, you need Poetry if you don&#8217;t have it&nbsp;already.</p>
+--><p>First thing first, you need Poetry if you don&#8217;t have it&nbsp;already.</p>
 <p>Poetry is the new standard for creating and managing virtual environment for your Python project. It is also a Python dependency management tool that is working differently as pip. It uses the new standard <code>pyproject.toml</code> decided by the Python Packaging Authority with PEP-518. This file merges all the previous config files that were necessary before, <a href="http://setup.py/"><code>setup.py</code></a>, <code>requirements.txt</code>, <code>setup.cfg</code>, <a href="http://manifest.in/"><code>MANIFEST.in</code></a> et <code>Pipfile</code>, in one unique file to rule them all ! Ok, enough of Lord of the&nbsp;Ring.</p>
 <p>I advice you to follow along with the <a href="https://python-poetry.org/docs/cli/">documentation</a> of poetry&nbsp;open.</p>
 <p class="more"><a href="posts/publish-a-package-on-pypi-using-poetry/">4 minute&nbsp;read…</a></p>
@@ -284,7 +272,12 @@ navbar-dark bg-dark
 </div>
     </header><div class="p-summary entry-summary">
     <div>
-<!--
+<nav id="TOC" role="doc-toc"><ul>
+<li><a href="posts/environment-variable-flask-heroku/#flask">Flask</a></li>
+<li><a href="posts/environment-variable-flask-heroku/#heroku">Heroku</a></li>
+<li><a href="posts/environment-variable-flask-heroku/#environment-variable">Environment&nbsp;Variable</a></li>
+<li><a href="posts/environment-variable-flask-heroku/#conclusion">Conclusion</a></li>
+</ul></nav><!--
 .. title: Using environment variables in a Flask + Heroku project
 .. slug: environment-variable-flask-heroku
 .. date: 2020-04-19 15:43:36 UTC+02:00
@@ -294,10 +287,7 @@ navbar-dark bg-dark
 .. description: Quick tutorial to understand good practices on using environment variables.
 .. type: text
 .. devto: yes
-
--->
-
-<p>Using environment variables is fundamental in a project. This is how you tell your app if you are running in <code>production</code> or <code>locally</code> for example. This is where you also store more sensible information like <code>SECRET_KEY</code> or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good&nbsp;idea.</p>
+--><p>Using environment variables is fundamental in a project. This is how you tell your app if you are running in <code>production</code> or <code>locally</code> for example. This is where you also store more sensible information like <code>SECRET_KEY</code> or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good&nbsp;idea.</p>
 <p>Before jumping in the topic of configuring environment variables, I will first make you set up and deploy a basic&nbsp;app.</p>
 <p class="more"><a href="posts/environment-variable-flask-heroku/">5 minute&nbsp;read…</a></p>
 </div>
@@ -305,21 +295,7 @@ navbar-dark bg-dark
     </article>
 </div>
 
-               <script>var disqus_shortname="brainsorting";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script><script>
-                renderMathInElement(document.body,
-                    {
-                        
-delimiters: [
-    {left: "$$", right: "$$", display: true},
-    {left: "\\[", right: "\\]", display: true},
-    {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
-    {left: "$", right: "$", display: false},
-    {left: "\\(", right: "\\)", display: false}
-]
-
-                    }
-                );
-            </script><!--End of body content--><footer id="footer"><center>
+               <script>var disqus_shortname="brainsorting";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>
 
 <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">

@@ -7,90 +7,90 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-04-27T22:15:00Z</lastmod>
+  <lastmod>2020-05-05T10:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/blog/test/</loc>
-  <lastmod>2020-04-27T22:11:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2020-04-27T22:11:00Z</lastmod>
+  <lastmod>2020-05-05T10:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/books/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/flask/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/heroku/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/jupyter/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/mathematic/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/package/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/poetry/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/test/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/galleries/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/listings/</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/listings/toto.ipynb.html</loc>
-  <lastmod>2020-04-27T22:10:00Z</lastmod>
+  <lastmod>2020-05-05T08:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/pages/resume/</loc>
-  <lastmod>2020-04-27T22:11:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/blackjack-the-21-game/</loc>
-  <lastmod>2020-04-27T22:15:00Z</lastmod>
+  <lastmod>2020-05-05T10:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/</loc>
-  <lastmod>2020-04-27T22:11:00Z</lastmod>
+  <lastmod>2020-05-05T09:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
-  <lastmod>2020-04-27T22:11:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/the-test-jupyter-notebook/</loc>
-  <lastmod>2020-04-27T22:11:00Z</lastmod>
+  <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
 </urlset>

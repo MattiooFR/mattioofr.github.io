@@ -7,6 +7,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <meta name="description" content="Tutorial to publish a package on PyPi using Poetry">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Publish a package on PyPi using Poetry | Brain Sorting</title>
+<script src="../../assets/js/pace.min.js"></script><link href="../../assets/css/pace.css" rel="stylesheet">
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
@@ -23,7 +24,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 </style>
 <script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><meta name="author" content="Mathieu Dugue">
 <link rel="prev" href="../environment-variable-flask-heroku/" title="Using environment variables in a Flask + Heroku project" type="text/html">
-<link rel="next" href="../../blog/test/" title="test" type="text/html">
+<link rel="next" href="../the-test-jupyter-notebook/" title="The test jupyter notebook" type="text/html">
 <meta property="og:site_name" content="Brain Sorting">
 <meta property="og:title" content="Publish a package on PyPi using Poetry">
 <meta property="og:url" content="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/">
@@ -102,7 +103,13 @@ navbar-dark bg-dark
 </div>
         
     </header><div class="e-content entry-content small-middle-container mr-top" itemprop="articleBody text">
-    <!--
+    <nav id="TOC" role="doc-toc"><ul>
+<li><a href="#install-poetry">Install&nbsp;Poetry</a></li>
+<li><a href="#create-the-package-you-want-to-publish-on-pypi">Create the package you want to publish on&nbsp;PyPi</a></li>
+<li><a href="#build-your-package">Build your&nbsp;package</a></li>
+<li><a href="#publish-your-package">Publish your&nbsp;package</a></li>
+<li><a href="#end-notes">End&nbsp;notes</a></li>
+</ul></nav><!--
 .. title: Publish a package on PyPi using Poetry
 .. slug: publish-a-package-on-pypi-using-poetry
 .. date: 2020-04-23 21:31:25 UTC+02:00
@@ -113,9 +120,7 @@ navbar-dark bg-dark
 .. type: text
 .. medium: yes
 .. devto: yes
--->
-
-<p>First thing first, you need Poetry if you don&#8217;t have it&nbsp;already.</p>
+--><p>First thing first, you need Poetry if you don&#8217;t have it&nbsp;already.</p>
 <p>Poetry is the new standard for creating and managing virtual environment for your Python project. It is also a Python dependency management tool that is working differently as pip. It uses the new standard <code>pyproject.toml</code> decided by the Python Packaging Authority with PEP-518. This file merges all the previous config files that were necessary before, <a href="http://setup.py/"><code>setup.py</code></a>, <code>requirements.txt</code>, <code>setup.cfg</code>, <a href="http://manifest.in/"><code>MANIFEST.in</code></a> et <code>Pipfile</code>, in one unique file to rule them all ! Ok, enough of Lord of the&nbsp;Ring.</p>
 <p>I advice you to follow along with the <a href="https://python-poetry.org/docs/cli/">documentation</a> of poetry&nbsp;open.</p>
 <!-- TEASER_END -->
@@ -200,8 +205,9 @@ navbar-dark bg-dark
 <span id="cb9-3"><a href="#cb9-3"></a><span class="ex">poetry</span> add <span class="op">&lt;</span>your_package<span class="op">&gt;</span> <span class="co"># but lets be honest now you use Poetry so you would do this !</span></span></code></pre></div>
 <p>Congrats on publishing your package on PyPi and experiencing the simplicity of using a tool like&nbsp;Poetry.</p>
 <p>Happy coding&nbsp;!</p>
-<h3 id="end-notes">End&nbsp;notes</h3>
+<h2 id="end-notes">End&nbsp;notes</h2>
 <p>I actually just published my first package, <a href="https://pypi.org/project/vspoetry/">vspoetry</a>, while writing this tutorial. It is a package that add the <code>vspoetry</code> script command to my terminal and this simply add the path of the current poetry virtual environment of the project to VScode <code>settings.json</code>. This tells to VScode where to grab the project python venv because VScode does not do that automatically&nbsp;yet.</p>
+
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
 <li><a class="tag p-category" href="../../categories/package/" rel="tag">package</a></li>
@@ -212,7 +218,7 @@ navbar-dark bg-dark
                 <a href="../environment-variable-flask-heroku/" rel="prev" title="Using environment variables in a Flask + Heroku project">Previous&nbsp;post</a>
             </li>
             <li class="next">
-                <a href="../../blog/test/" rel="next" title="test">Next&nbsp;post</a>
+                <a href="../the-test-jupyter-notebook/" rel="next" title="The test jupyter notebook">Next&nbsp;post</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
                         <div id="disqus_thread"></div>
