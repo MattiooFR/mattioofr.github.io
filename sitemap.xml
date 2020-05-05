@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
@@ -23,39 +23,39 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/books/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/flask/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/heroku/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/mathematic/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/nikola/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/package/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/poetry/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/tutorial/</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/galleries/</loc>
@@ -66,12 +66,8 @@
   <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/listings/toto.ipynb.html</loc>
-  <lastmod>2020-05-05T14:18:00Z</lastmod>
- </url>
- <url>
   <loc>https://brainsorting.dev/pages/resume/</loc>
-  <lastmod>2020-05-05T14:19:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/blackjack-the-21-game/</loc>
@@ -79,7 +75,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/create-a-blog-with-nikola/</loc>
-  <lastmod>2020-05-05T14:19:00Z</lastmod>
+  <lastmod>2020-05-05T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/</loc>
@@ -87,10 +83,6 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
-  <lastmod>2020-05-05T09:29:00Z</lastmod>
- </url>
- <url>
-  <loc>https://brainsorting.dev/posts/the-test-jupyter-notebook/</loc>
   <lastmod>2020-05-05T09:29:00Z</lastmod>
  </url>
 </urlset>
