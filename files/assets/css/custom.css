@@ -28,11 +28,35 @@ div#notebook-container {
   }
 }
 
+.p-summary.entry-summary #TOC {
+  display: None;
+}
+
+#TOC {
+  background-color: #e9f8f8;
+  border-radius: 3px;
+  padding: 18px 0px 1px 6px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  #TOC {
+    float: right !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 18px 35px 1px 6px;
+    width: 50%;
+  }
+}
+
 .mr-top {
   margin-top: 20px;
 }
 
 /* For Kate, now, forever, always! */
+.sourceCode code {
+  padding: 0;
+}
 
 code {
   white-space: pre-wrap;
@@ -40,7 +64,7 @@ code {
   color: #eb5757 !important;
   border-radius: 3px !important;
   font-size: 85%;
-  padding: 0.2em 0.4em !important;
+  padding: 0.2em 0.4em;
 }
 span.smallcaps {
   font-variant: small-caps;

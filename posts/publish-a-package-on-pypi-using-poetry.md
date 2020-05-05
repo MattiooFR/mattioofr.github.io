@@ -142,6 +142,6 @@ Congrats on publishing your package on PyPi and experiencing the simplicity of u
 
 Happy coding !
 
-### End notes
+## End notes
 
 I actually just published my first package, [vspoetry](https://pypi.org/project/vspoetry/), while writing this tutorial. It is a package that add the `vspoetry` script command to my terminal and this simply add the path of the current poetry virtual environment of the project to VScode `settings.json`. This tells to VScode where to grab the project python venv because VScode does not do that automatically yet.

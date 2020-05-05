@@ -293,7 +293,7 @@ DATE_FANCINESS = 2
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
     "rest": ('.rst', '.txt'),
-    # "markdown": ('.md', '.mdown', '.markdown'),
+    #"markdown": ('.md', '.mdown', '.markdown'),
     "textile": ('.textile',),
     "txt2tags": ('.t2t',),
     "bbcode": ('.bb',),
@@ -307,7 +307,7 @@ COMPILERS = {
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
-    "pandoc": ('.md', '.txt'),
+    "pandoc": ('.md', 'txt'),
 }
 
 # Enable reST directives that insert the contents of external files such
@@ -1104,8 +1104,13 @@ delimiters: [
 #       with the MarkdownExtension class and should not be added here.
 # Defaults are markdown.extensions.(fenced_code|codehilite|extra)
 # markdown.extensions.meta is required for Markdown metadata.
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
-                       'markdown.extensions.codehilite', 'markdown.extensions.extra']
+MARKDOWN_EXTENSIONS = ['markdown.extensions.extra','markdown.extensions.abbr', 'markdown.extensions.attr_list', 'markdown.extensions.def_list',
+'markdown.extensions.fenced_code',
+'markdown.extensions.footnotes', 'markdown.extensions.tables',
+'markdown.extensions.admonition', 'markdown.extensions.codehilite',
+'markdown.extensions.meta', 'markdown.extensions.nl2br',
+'markdown.extensions.sane_lists', 'markdown.extensions.smarty',
+'markdown.extensions.toc', 'markdown.extensions.wikilinks']
 
 # Options to be passed to markdown extensions (See https://python-markdown.github.io/reference/)
 # Default is {} (no config at all)
@@ -1117,7 +1122,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
 # ['-F', 'pandoc-citeproc', '--bibliography=/Users/foo/references.bib']
 # Pandoc does not demote headers by default.  To enable this, you can use, for example
 # ['--base-header-level=2']
-PANDOC_OPTIONS = ['-f', 'gfm']
+PANDOC_OPTIONS = ['-f', 'gfm', '--toc', '-s']
 
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty (which is
@@ -1397,7 +1402,9 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = {
+    "use_pace": True,
+}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be

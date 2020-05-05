@@ -6,6 +6,7 @@
 .. category:
 .. link:
 .. description:
+.. updated: 2020-05-5 10:20:03 UTC+02:00
 .. type: text
 .. medium: yes
 -->
@@ -53,24 +54,24 @@ It is **important** that you be able to read your **hand’s total value**, hard
 
 Before any cards are dealt, all bets mush be placed.
 
-### **Insurance**
+### Insurance
 
 When a dealer dealt his card, one is face up and the other is face down. Now if the face up card is an ace or a ten-valued card, you can use what’s called “insurance”. You insure yourself in case the dealer face down card would make him have a blackjack, making everyone instantly loose his bet in this case, except if a player also have a blackjack and get pushed. Because insurance bets are paid at the rate of 2 to 1, a player would be break even.
 **Never take insurance if you have a blackjack**, that gives the house an 8% advantage, worse than any other bet you can make at any other casino game.
 
-### **Hitting**
+### Hitting
 
 Except if you have a blackjack/natural, the most common decision you will have is **whether to Hit or Stand**. Hitting is taking another card. For example if your total is 13, you might want to get closer to 21 by taking one more card. You tap with your finger on the table to signal the dealer you want another card. You can hit as many times as you want, **as long as your total does not exceed 21**.
 
-### **Standing**
+### Standing
 
 To signal you want to stand to a dealer, **you wave your hand sideways, palm down**.
 
-### **Doubling Down**
+### Doubling Down
 
 Some casino allow doubling down on any originals card, some only on cards totalling 9, 10 and 11. If you decide, and are allowed to double down according to the casino’s rules, **you may put the same amount of your bet next to your original bet and must draw only one additional card**.
 
-### **Splitting Pairs**
+### Splitting Pairs
 
 If a player hold two cards of the same value, he may split the pair into two separate hands. If you have a double 8 for example, totalling 16 (a really bad hand) you can split them and play each 8 as a separate hand. If you get another 8, you can split again and have 3 hands. Splitting ace will most of the time allow you to have only one more card above it and you cannot re-split aces. If you receive a ten on one of your aces, **it is not going to be counted as a blackjack** and be paid 3 to 2.
 Most casino will allow you to split ten-valued card, like a jack and a king.
@@ -78,11 +79,11 @@ If you split ten and get a ace, as before it wont be counted as a blackjack.
 In a short way : Any pair may be split. Any pair, except aces, may be re-split. Split aces receive only one card each.
 Some casinos will also allow you to double down after splitting.
 
-### **Surrender**
+### Surrender
 
 In some casino, a player may surrender his first two cards and lose only half his bet and his hand will not be played out. It is not allowed if dealer has a blackjack, except if the casino accept early surrender that allow you to surrender before the dealer check the second card to see if there is a blackjack.
 
-### **The dealer’s hand**
+### The dealer’s hand
 
 One of the more important part in blackjack, the dealer’s actions. **He completes his own hand only after all players have competed their hands**. The dealer has no options, he is not allowed to double down, or split any pair. **He is not allowed to surrender**. **He must hit any hand which totals less than 17** and stand on any hands which totals 17 or more. The only exception to this is that some casinos require the dealer to hit a soft 17 (such as A,6). He must follow house rules. So for example, if you stand on a 15, and he got a 16, he must hit a new card and can only win if his total is between 17 and 21 without bursting.
 
@@ -121,7 +122,7 @@ Even when you are counting card, **you will play basic strategy on 80% or more o
 
 ## Card counting - The Red Seven count
 
-### **Introduction to card counting**
+### Introduction to card counting
 
 Computer studies have found that the proportionate removal of certain cards gives the player an advantage over the house, while the removal of others gives the house an advantage over the player.
 **As card are removed from play, the player’s chances of winning constantly change**.
@@ -184,7 +185,7 @@ Important precision, **follow the advance strategy only after the half of the de
 
 ## Bankroll management
 
-### **The Profit Formula :**
+### The Profit Formula
 
 *Average Bet x Advantage x Hands Per Hour = Hourly Profit*
 
@@ -195,7 +196,7 @@ Let say you bet 10$ chip, and you succeed to keep an average of 1% over the hous
 
 **It is what you can expect from playing in the long run.**
 
-### **Normal Fluctuation :**
+### Normal Fluctuation
 
 The next thing really important to be aware is what the mathematicians call **normal fluctuation**.
 In the short run of a play, **anything can happen**, sometimes you will win, and sometimes you will lose, even with the best card counting strategy.
@@ -207,7 +208,7 @@ To calculate the standard deviation, the formula is simple the **square root of 
 
 The statisticians say that we expect to be within **one standard deviation 68% of the time**. We will be within two standard deviations of our expectation 95% of the time. After 3 deviation we are almost at 100%
 
-### **So how big should your playing bankroll be ?**
+### So how big should your playing bankroll be
 
 *Bankroll - the amount of money you can afford to lose, over a specified period of time.*
 
@@ -221,11 +222,11 @@ If you can afford to lose $1000 this week, **that is your bankroll**.
 The **deck penetration** is fundamental, it represents how deep the card are dealt in the game before being shuffled again.
 Just for you to know, **less than 67% is bad** and your strategy wont be efficient enough, 67 to 75% is okay, **more than 76% is good** ! Try to choose your table accordingly before playing.
 
-### **Estimating the remaining deck**
+### Estimating the remaining deck
 
 Buy yourself a few dozen decks of standard playing cards and build different stacks of card (8 decks, 7 decks, 6 deck, etc etc) and get your eyes used to guess how many cards of decks are left. This is only to calculate the true count, it's for more advanced strategy.
 
-### **Betting strategy**
+### Betting strategy
 
 One concept behind all betting strategies for card counters is **bet more when you have the edge, and less (or nothing) when the house has the edge.**
 The second thing to know, is **how to raise your bet without attracting the attention to yourself**.
@@ -252,7 +253,7 @@ Card counters are generally suspected and identified by their betting styles, no
 
 Primary fear for card counters is to be busted he his counting cards. Even if there is nothing illegal in this, all casino will try to kick away any card counter they will be sure they spotted. That is where the camouflage techniques are the most important thing to master after your card counting skills if you want to use it in casinos.
 
-### **Idiot camouflage**
+### Idiot camouflage
 
 It is making idiot play strategy, like standing on 14, or splitting pairs that you should not, in case you don’t have skill for acting.
 It’s easy to do, but costly in terms of R/R in your strategy.
@@ -260,7 +261,7 @@ It’s easy to do, but costly in terms of R/R in your strategy.
 1. Reserve your stupid plays for your smallest bet
 2. Use a stupid play only when it is necessary, most dealer don’t even look what you do
 
-### **Hit/Stand camouflage**
+### Hit/Stand camouflage
 
 - One of the hand casino look the most to see if your decision vary and if you are counting the card is 16vs10. You can decide to always stand on this hand. Even when you know you should hit.
 - Hitting 7/7 vs 10
@@ -269,15 +270,15 @@ It’s easy to do, but costly in terms of R/R in your strategy.
 
 Those changes in the strategy look dumb and wont cost you much of money.
 
-### **Double-Down camouflage**
+### Double-Down camouflage
 
 Double down on 10vs10 or 11vsA, or 8vs6
 
-### **Pair-split camouflage**
+### Pair-split camouflage
 
 Splitting 9s vs 2 or 9s vs A
 
-### **Insurance**
+### Insurance
 
 People that never insurance their blackjack look suspicious because casino like to tell players to do it.
 So if you actually do it to look like an amateur, it won’t cost you that much.
@@ -319,11 +320,11 @@ All team must write a handbook, no matter what size of bankroll or team you have
 6. Do player tip dealers ? How much ? How often and under what conditions ?
 7. Will violations of rules be penalised financially ? How ?
 
-### **Two Persons Teams**
+### Two Persons Teams
 
 It is usually close friends of couple that will play at the same table. You don’t have to hide that you know each other, it can effectively double the betting spread with less suspicious.
 
-### **BP/spotter Team**
+### BP/spotter Team
 
 One spotter play with low stack at one table, and with a discret signal he tells the other big stack player of the team to come because the count is high. Signal is the most important aspect of this play.
 
@@ -331,7 +332,7 @@ If result doesn’t come out, the most important is to keep quiet in any situati
 
 **NO ONE KNOW EACH OTHER IN THE CASINO !**
 
-### **Gorilla BP**
+### Gorilla BP
 
 Same same, but this time the big stack player is not a card counter, he only knows the signal, and he drinks to be even more in the role of a random player. The only risk is that he become effectively too drunk and start to do mistake.
 
@@ -341,7 +342,7 @@ That's it for the 21 game tutorial ! Have fun and play safe 🙃
 
 -----------
 
-## **Books / References:**
+## Books / References
 
 - Winning Casino Blackjack for the Non-Counter (really well explained for beginners, and focus really well to explain everything for the basic strategy)
 - Blackbelt of blackjack (book written by one of the best player)
