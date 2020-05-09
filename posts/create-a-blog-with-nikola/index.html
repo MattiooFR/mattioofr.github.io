@@ -105,59 +105,59 @@ navbar-dark bg-dark
         
     </header><div class="e-content entry-content small-middle-container mr-top" itemprop="articleBody text">
     <nav id="TOC" role="doc-toc"><ul>
-<li><a href="#1-installation">1)&nbsp;Installation</a></li>
-<li><a href="#2-create-the-blog">2) Create the&nbsp;blog</a></li>
-<li><a href="#3-add-a-post">3) Add a&nbsp;Post</a></li>
-<li><a href="#4-enable-jupyter-notebook-file-format">4) Enable Jupyter Notebook file&nbsp;format</a></li>
-<li><a href="#5-using-markdown-for-your-post">5) Using Markdown for your&nbsp;post</a></li>
+<li><a href="#installation">1)&nbsp;Installation</a></li>
+<li><a href="#create-the-blog">2) Create the&nbsp;blog</a></li>
+<li><a href="#add-a-post">3) Add a&nbsp;Post</a></li>
+<li><a href="#enable-jupyter-notebook-file-format">4) Enable Jupyter Notebook file&nbsp;format</a></li>
+<li><a href="#using-markdown-for-your-post">5) Using Markdown for your&nbsp;post</a></li>
 <li>
-<a href="#6-pages-vs-posts">6) Pages vs Posts</a>
+<a href="#pages-vs-posts">6) Pages vs Posts</a>
 <ul>
 <li><a href="#posts">POSTS</a></li>
 <li><a href="#pages">PAGES</a></li>
 </ul>
 </li>
-<li><a href="#7-customizing-the-navigation-bar">7) Customizing the navigation&nbsp;bar</a></li>
-<li><a href="#8-indexes-as-a-list-of-links-or-list-of-posts">8) Indexes as a list of links or list of&nbsp;posts</a></li>
-<li><a href="#9-enable-a-comment-system">9) Enable a comment&nbsp;system</a></li>
+<li><a href="#customizing-the-navigation-bar">7) Customizing the navigation&nbsp;bar</a></li>
+<li><a href="#indexes-as-a-list-of-links-or-list-of-posts">8) Indexes as a list of links or list of&nbsp;posts</a></li>
+<li><a href="#enable-a-comment-system">9) Enable a comment&nbsp;system</a></li>
 <li>
-<a href="#10-deploying-your-website">10) Deploying your website</a>
+<a href="#deploying-your-website">10) Deploying your website</a>
 <ul>
 <li><a href="#github-pages">Github&nbsp;Pages</a></li>
 <li><a href="#netlify-extra-steps">Netlify extra&nbsp;steps</a></li>
 </ul>
 </li>
-<li><a href="#11-archives">11)&nbsp;Archives</a></li>
-<li><a href="#12-content-footer">12) Content&nbsp;Footer</a></li>
-<li><a href="#13-rendering-math-equations">13) Rendering math&nbsp;equations</a></li>
+<li><a href="#archives">11)&nbsp;Archives</a></li>
+<li><a href="#content-footer">12) Content&nbsp;Footer</a></li>
+<li><a href="#rendering-math-equations">13) Rendering math&nbsp;equations</a></li>
 <li>
-<a href="#14-implementing-google-tools">14) Implementing Google tools</a>
+<a href="#implementing-google-tools">14) Implementing Google tools</a>
 <ul>
 <li><a href="#google-search">Google&nbsp;search</a></li>
 <li><a href="#google-analytics">Google&nbsp;Analytics</a></li>
 </ul>
 </li>
 <li>
-<a href="#15-customizing-your-blog">15) Customizing your blog</a>
+<a href="#customizing-your-blog">15) Customizing your blog</a>
 <ul>
-<li><a href="#theme--template-customization">Theme <span class="amp">&amp;</span> Template&nbsp;customization</a></li>
+<li><a href="#theme-template-customization">Theme <span class="amp">&amp;</span> Template&nbsp;customization</a></li>
 <li><a href="#setting-your-favicon">Setting your&nbsp;favicon</a></li>
 <li><a href="#tweaking-the-css">Tweaking the&nbsp;CSS</a></li>
 <li><a href="#files-and-listings">Files and&nbsp;Listings</a></li>
 <li><a href="#date-formatting">Date&nbsp;formatting</a></li>
 <li><a href="#using-mailchimp-for-user-to-subscribe">Using mailchimp for user to&nbsp;subscribe</a></li>
 <li><a href="#loading-bar">Loading&nbsp;bar</a></li>
-<li><a href="#remove-html-suffix-from-archivehtml">Remove .html suffix from&nbsp;archive.html</a></li>
+<li><a href="#remove-.html-suffix-from-archive.html">Remove .html suffix from&nbsp;archive.html</a></li>
 <li><a href="#short-blog-post-teaser-in-index-page">Short blog post teaser in index&nbsp;page</a></li>
 </ul>
 </li>
 <li>
-<a href="#16-optimizing-your-blog">16) Optimizing your blog</a>
+<a href="#optimizing-your-blog">16) Optimizing your blog</a>
 <ul>
 <li><a href="#filters">Filters</a></li>
 <li><a href="#posting-automatically-on-medium">Posting automatically on&nbsp;Medium</a></li>
-<li><a href="#posting-automatically-on-devto">Posting automatically on&nbsp;Dev.to</a></li>
-<li><a href="#other-plugin-i-didnt-try">Other plugin I didn&#8217;t&nbsp;try</a></li>
+<li><a href="#posting-automatically-on-dev.to">Posting automatically on&nbsp;Dev.to</a></li>
+<li><a href="#other-plugin-i-didnt-try">Other plugin I didn’t&nbsp;try</a></li>
 </ul>
 </li>
 <li><a href="#conclusion">Conclusion</a></li>
@@ -179,22 +179,21 @@ navbar-dark bg-dark
 .. previewimage: /images/nikola-logo.png
 .. medium: yes
 .. devto: yes
---><p>If you don&#8217;t know what is Nikola, it is a static website/blog generator (like gatsby and other tools). It&#8217;s written in Python and it is working out of the box for rendering markdown, rst, latex math formula and jupyter notebook&nbsp;files.</p>
-<p>I like to understand what I am using, and pushing it to some limits to really get what I want from it, and making a blog with Nikola was no exception. Here I tried to summarize all the informations I found, and all the experimentation I did. I hope you&#8217;ll enjoy !&nbsp;🙏🏼</p>
-<h2 id="1-installation">1)&nbsp;Installation</h2>
+--><p>If you don’t know what is Nikola, it is a static website/blog generator (like gatsby and other tools). It’s written in Python and it is working out of the box for rendering markdown, rst, latex math formula and jupyter notebook&nbsp;files.</p>
+<p>I like to understand what I am using, and pushing it to some limits to really get what I want from it, and making a blog with Nikola was no exception. Here I tried to summarize all the informations I found, and all the experimentation I did. I hope you’ll enjoy !&nbsp;🙏🏼</p>
+<h2 id="installation">1)&nbsp;Installation</h2>
 <p>The first step is to have Python 3 installed on your computer, I recommend using virtual environment&nbsp;management.</p>
 <p>Once you have create your virtual environment&nbsp;:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="ex">pip</span> install --upgrade pip setuptools wheel</span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="ex">pip</span> install --upgrade <span class="st">"Nikola[extras]"</span></span></code></pre></div>
 <!-- TEASER_END -->
-
-<h2 id="2-create-the-blog">2) Create the&nbsp;blog</h2>
+<h2 id="create-the-blog">2) Create the&nbsp;blog</h2>
 <p>After installing Nikola, creating your site will be very easy, just use the command <code>nikola init &lt;directory_name&gt;</code>. You can add the <code>--demo</code> argument if you want a website built with demo&nbsp;content.</p>
 <p>All the configurations are done in a single <code>conf.py</code> file, at the root of your blog&nbsp;folder.</p>
 <p>You can now build your site and see how it looks like. Use the command <code>nikola auto</code> to use a server with automatic rebuilds when changes is detected in your files. Visit <a href="http://128.0.0.1:8000">http://128.0.0.1:8000</a> to see your&nbsp;site.</p>
-<h2 id="3-add-a-post">3) Add a&nbsp;Post</h2>
+<h2 id="add-a-post">3) Add a&nbsp;Post</h2>
 <p>Now if you want to add a post in your blog you should use the command <code>nikola new_post</code>(the default use reStructuredText format, add <code>-f markdown</code> if like me you prefer to write in markdown). The CLI will ask for the title of your blog post and then create the file in the folder <code>posts/*.md</code>.</p>
-<h2 id="4-enable-jupyter-notebook-file-format">4) Enable Jupyter Notebook file&nbsp;format</h2>
+<h2 id="enable-jupyter-notebook-file-format">4) Enable Jupyter Notebook file&nbsp;format</h2>
 <p>Just add <code>*.ipynb</code> as recognizable&nbsp;formats:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>POSTS <span class="op">=</span> (</span>
 <span id="cb2-2"><a href="#cb2-2"></a>    (<span class="st">"posts/*.rst"</span>, <span class="st">"blog"</span>, <span class="st">"post.tmpl"</span>),</span>
@@ -210,7 +209,7 @@ navbar-dark bg-dark
 <span id="cb2-12"><a href="#cb2-12"></a>    (<span class="st">"pages/*.html"</span>, <span class="st">""</span>, <span class="st">"page.tmpl"</span>),</span>
 <span id="cb2-13"><a href="#cb2-13"></a>    (<span class="st">"pages/*.ipynb"</span>, <span class="st">""</span>, <span class="st">"page.tmpl"</span>), <span class="co"># new line</span></span>
 <span id="cb2-14"><a href="#cb2-14"></a>)</span></code></pre></div>
-<p>You can create a blog post with <code>nikola new_post -f ipynb</code> or add your jupyter notebook in your <code>posts</code> folder. Don&#8217;t forget to add and configure these line in the metadata of your jupyter notebook file if you don&#8217;t let nikola create the file for yourself&nbsp;:</p>
+<p>You can create a blog post with <code>nikola new_post -f ipynb</code> or add your jupyter notebook in your <code>posts</code> folder. Don’t forget to add and configure these line in the metadata of your jupyter notebook file if you don’t let nikola create the file for yourself&nbsp;:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">"nikola"</span>: {</span>
 <span id="cb3-2"><a href="#cb3-2"></a>   <span class="st">"category"</span>: <span class="st">""</span>,</span>
 <span id="cb3-3"><a href="#cb3-3"></a>   <span class="st">"date"</span>: <span class="st">"2020-03-28 16:27:51 UTC+01:00"</span>,</span>
@@ -221,7 +220,7 @@ navbar-dark bg-dark
 <span id="cb3-8"><a href="#cb3-8"></a>   <span class="st">"title"</span>: <span class="st">"Jupyter Notebook Test"</span>,</span>
 <span id="cb3-9"><a href="#cb3-9"></a>   <span class="st">"type"</span>: <span class="st">"text"</span></span>
 <span id="cb3-10"><a href="#cb3-10"></a>  }</span></code></pre></div>
-<h2 id="5-using-markdown-for-your-post">5) Using Markdown for your&nbsp;post</h2>
+<h2 id="using-markdown-for-your-post">5) Using Markdown for your&nbsp;post</h2>
 <p>Nikola handle markdown files by default. The meta are auto generated when you use <code>nikola new_post</code> but I prefer to do it differently. Add the <code>markdown.extensions.meta</code> to your <code>conf.py</code> file.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a>MARKDOWN_EXTENSIONS <span class="op">=</span></span>
 <span id="cb4-2"><a href="#cb4-2"></a> [<span class="st">'markdown.extensions.fenced_code'</span>,</span>
@@ -256,7 +255,7 @@ navbar-dark bg-dark
 <span id="cb6-18"><a href="#cb6-18"></a>}</span>
 <span id="cb6-19"><a href="#cb6-19"></a><span class="ex">...</span></span>
 <span id="cb6-20"><a href="#cb6-20"></a><span class="ex">PANDOC_OPTIONS</span> = [<span class="st">'-f'</span>, <span class="st">'gfm'</span>, <span class="st">'--toc'</span>, <span class="st">'-s'</span>]</span></code></pre></div>
-<p>See how I commented the markdown compiler and uncommented <code>pandoc</code> for <code>.md</code> files. The last two <code>PANDOC_OPTIONS</code> (&#8212;toc and -s) are used for automatically generating a Table of Content on the HTML generated&nbsp;output.</p>
+<p>See how I commented the markdown compiler and uncommented <code>pandoc</code> for <code>.md</code> files. The last two <code>PANDOC_OPTIONS</code> (–toc and -s) are used for automatically generating a Table of Content on the HTML generated&nbsp;output.</p>
 <p>Once you use pandoc for compiling your markdown file, for creating a new blog post in markdown you need yo use this command <code>nikola new _post -f pandoc</code> and not markdown&nbsp;anymore.</p>
 <p>Adding solely the pandoc as markdown compiler is unfortunately not enough because we lose the ability to use the <code>CODE_COLOR_SCHEME = monokai</code> option in conf.py. One solution is to use <code>pandoc</code> generated css for one of its code highlight theme (kate in my&nbsp;case).</p>
 <p>Create a <code>custom.css</code> file in <code>files/assets/css/</code> as <a href="#tweaking-the-css">explained here</a> and add this css code&nbsp;:</p>
@@ -331,7 +330,7 @@ navbar-dark bg-dark
 <span id="cb7-69"><a href="#cb7-69"></a>code span<span class="fu">.va</span> { <span class="kw">color</span>: <span class="cn">#0057ae</span><span class="op">;</span> } <span class="co">/* Variable */</span></span>
 <span id="cb7-70"><a href="#cb7-70"></a>code span<span class="fu">.vs</span> { <span class="kw">color</span>: <span class="cn">#bf0303</span><span class="op">;</span> } <span class="co">/* VerbatimString */</span></span>
 <span id="cb7-71"><a href="#cb7-71"></a>code span<span class="fu">.wa</span> { <span class="kw">color</span>: <span class="cn">#bf0303</span><span class="op">;</span> } <span class="co">/* Warning */</span></span></code></pre></div>
-<p>Now your code blocks should be highlighted. It&#8217;s up to you to custom it further to change the color background or stuff like&nbsp;this.</p>
+<p>Now your code blocks should be highlighted. It’s up to you to custom it further to change the color background or stuff like&nbsp;this.</p>
 <p>I also wanted to style the table of content&nbsp;:</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb8-1"><a href="#cb8-1"></a><span class="fu">.p-summary.entry-summary</span> <span class="pp">#TOC</span> {</span>
 <span id="cb8-2"><a href="#cb8-2"></a>  <span class="kw">display</span>: <span class="dv">None</span><span class="op">;</span> <span class="co">/* disable showing the TOC in my blog home page teasers */</span></span>
@@ -343,7 +342,7 @@ navbar-dark bg-dark
 <span id="cb8-8"><a href="#cb8-8"></a>  <span class="kw">padding</span>: <span class="dv">18</span><span class="dt">px</span> <span class="dv">0</span><span class="dt">px</span> <span class="dv">1</span><span class="dt">px</span> <span class="dv">6</span><span class="dt">px</span><span class="op">;</span></span>
 <span id="cb8-9"><a href="#cb8-9"></a>  <span class="kw">margin-bottom</span>: <span class="dv">20</span><span class="dt">px</span><span class="op">;</span></span>
 <span id="cb8-10"><a href="#cb8-10"></a>}</span></code></pre></div>
-<h2 id="6-pages-vs-posts">6) Pages vs&nbsp;Posts</h2>
+<h2 id="pages-vs-posts">6) Pages vs&nbsp;Posts</h2>
 <p>Nikola has two type for entries on your website, POSTS and&nbsp;PAGES.</p>
 <h3 id="posts">POSTS</h3>
 <p>These are your blog posts. POSTS are added to feeds, indexes, tag lists and&nbsp;archives.</p>
@@ -354,7 +353,7 @@ navbar-dark bg-dark
 <li>Resume&nbsp;(html)</li>
 <li>Cheatsheet&nbsp;(html)</li>
 </ul>
-<h2 id="7-customizing-the-navigation-bar">7) Customizing the navigation&nbsp;bar</h2>
+<h2 id="customizing-the-navigation-bar">7) Customizing the navigation&nbsp;bar</h2>
 <p>Customization of the navigation top bar is done, again, in the <code>conf.py</code> file.</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1"></a>NAVIGATION_LINKS <span class="op">=</span> {</span>
 <span id="cb9-2"><a href="#cb9-2"></a>    DEFAULT_LANG: (</span>
@@ -363,31 +362,31 @@ navbar-dark bg-dark
 <span id="cb9-5"><a href="#cb9-5"></a>        (<span class="st">"/archive/"</span>, <span class="st">"Archive"</span>),</span>
 <span id="cb9-6"><a href="#cb9-6"></a>    )</span>
 <span id="cb9-7"><a href="#cb9-7"></a>}</span></code></pre></div>
-<p>This is an example of how I&#8217;ve done&nbsp;mine.</p>
-<h2 id="8-indexes-as-a-list-of-links-or-list-of-posts">8) Indexes as a list of links or list of&nbsp;posts</h2>
-<p>Nikola allows you to categorize posts in a number of ways such as category, tags, archives, and authors. For each means of categorizing, an associated index page is generated so that viewers can see all available posts (<em>_PAGES_ARE_INDEXES = True</em>) or links associated to that category (<em>_PAGES_ARE_INDEXES = False</em>).</p>
+<p>This is an example of how I’ve done&nbsp;mine.</p>
+<h2 id="indexes-as-a-list-of-links-or-list-of-posts">8) Indexes as a list of links or list of&nbsp;posts</h2>
+<p>Nikola allows you to categorize posts in a number of ways such as category, tags, archives, and authors. For each means of categorizing, an associated index page is generated so that viewers can see all available posts (*_PAGES_ARE_INDEXES = True<em>) or links associated to that category (</em>_PAGES_ARE_INDEXES =&nbsp;False*).</p>
 <p>You can choose for these indexes to produce a list of the full posts (or <a href="#short-blog-post-teaser-in-index-page">showing teasers instead of the full post</a>) or a list of links to each post. Depending on your needs, you can change any of the following index settings in <code>conf.py</code> to&nbsp;True.</p>
 <div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1"></a>CATEGORY_PAGES_ARE_INDEXES <span class="op">=</span> <span class="va">False</span></span>
 <span id="cb10-2"><a href="#cb10-2"></a>TAG_PAGES_ARE_INDEXES <span class="op">=</span> <span class="va">False</span></span>
 <span id="cb10-3"><a href="#cb10-3"></a>ARCHIVES_ARE_INDEXES <span class="op">=</span> <span class="va">False</span></span>
 <span id="cb10-4"><a href="#cb10-4"></a>AUTHOR_PAGES_ARE_INDEXES <span class="op">=</span> <span class="va">False</span></span></code></pre></div>
 <p>This is what makes Nikola so customizable. For example, since there are less Categories, and you may have more posts under each category, you might want them as a list of links. Alternatively, with Tags there are usually more of them, so less posts under each Tag so you want a list of&nbsp;posts.</p>
-<h2 id="9-enable-a-comment-system">9) Enable a comment&nbsp;system</h2>
+<h2 id="enable-a-comment-system">9) Enable a comment&nbsp;system</h2>
 <p>Because static sites do not have databases, you need to use a third-party comment system as documented on the official&nbsp;doc.</p>
-<ol>
+<ol type="1">
 <li>Sign up for an account on <a href="https://disqus.com/">https://disqus.com/</a>.</li>
-<li>On Disqus, select &#8220;Create a new site&#8221; (or visit <a href="https://disqus.com/admin/create/">https://disqus.com/admin/create/</a>).</li>
-<li>During configuration, take note on the &#8220;Shortname&#8221; you use. Other configs are not very&nbsp;important.</li>
-<li>At &#8220;Select a plan&#8221;, choosing the basic free plan is&nbsp;enough.</li>
-<li>At &#8220;Select Platform&#8221;, just skip the instructions. No need to insert the &#8220;Universal Code&#8221; manually, as it is built into Nikola. Keep all default and finish the&nbsp;configuration.</li>
+<li>On Disqus, select “Create a new site” (or visit <a href="https://disqus.com/admin/create/">https://disqus.com/admin/create/</a>).</li>
+<li>During configuration, take note on the “Shortname” you use. Other configs are not very&nbsp;important.</li>
+<li>At “Select a plan”, choosing the basic free plan is&nbsp;enough.</li>
+<li>At “Select Platform”, just skip the instructions. No need to insert the “Universal Code” manually, as it is built into Nikola. Keep all default and finish the&nbsp;configuration.</li>
 </ol>
 <p>In <code>conf.py</code>, add your Disqus&nbsp;shortname:</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1"></a>COMMENT_SYSTEM <span class="op">=</span> <span class="st">"disqus"</span></span>
 <span id="cb11-2"><a href="#cb11-2"></a>COMMENT_SYSTEM_ID <span class="op">=</span> <span class="st">"[disqus-shortname]"</span></span></code></pre></div>
 <p>Deploy to GitHub and now the comment system should be&nbsp;enabled.</p>
-<h2 id="10-deploying-your-website">10) Deploying your&nbsp;website</h2>
+<h2 id="deploying-your-website">10) Deploying your&nbsp;website</h2>
 <p>My workflow is separated in two parts&nbsp;:</p>
-<ol>
+<ol type="1">
 <li>Github&nbsp;Pages</li>
 <li>Netlify</li>
 </ol>
@@ -411,9 +410,9 @@ navbar-dark bg-dark
 <p>By using the <code>nikola github_deploy</code> command, it will create a <code>src</code> branch that will contain your contents (i.e., <code>*.ipynb</code>, <code>*.md</code>, and a <code>master</code> branch that will only contain your html output pages that are viewed by the&nbsp;browser.</p>
 <div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1"></a><span class="ex">nikola</span> github_deploy</span></code></pre></div>
 <h3 id="netlify-extra-steps">Netlify extra&nbsp;steps</h3>
-<p>Because of <a href="https://dev.to/eroberts/why-you-should-use-netlify-instead-of-github-pages-3on1">all these reasons</a> I wanted to use Netlify for deploying my blog with a custom domains, <a href="http://www.brainsorting.dev">www.brainsorting.dev</a>. I simply configured a trigger on Netlify to start building my blog when it detects any new push on my GitHub blog repository. It is as simple as said, everything kind of works out of the box and the service provided by Netlify has been very stable and giving me very good SEO&nbsp;statistics.</p>
-<h2 id="11-archives">11)&nbsp;Archives</h2>
-<p>Nikola has many options for how you would display your archive of posts. I&#8217;ve kept it pretty simple on my&nbsp;end.</p>
+<p>Because of <a href="https://dev.to/eroberts/why-you-should-use-netlify-instead-of-github-pages-3on1">all these reasons</a> I wanted to use Netlify for deploying my blog with a custom domains, www.brainsorting.dev. I simply configured a trigger on Netlify to start building my blog when it detects any new push on my GitHub blog repository. It is as simple as said, everything kind of works out of the box and the service provided by Netlify has been very stable and giving me very good SEO&nbsp;statistics.</p>
+<h2 id="archives">11)&nbsp;Archives</h2>
+<p>Nikola has many options for how you would display your archive of posts. I’ve kept it pretty simple on my&nbsp;end.</p>
 <div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1"></a><span class="co"># Create per-month archives instead of per-year</span></span>
 <span id="cb16-2"><a href="#cb16-2"></a>CREATE_MONTHLY_ARCHIVE <span class="op">=</span> <span class="va">False</span></span>
 <span id="cb16-3"><a href="#cb16-3"></a><span class="co"># Create one large archive instead of per-year</span></span>
@@ -427,14 +426,14 @@ navbar-dark bg-dark
 <span id="cb16-11"><a href="#cb16-11"></a>CREATE_ARCHIVE_NAVIGATION <span class="op">=</span> <span class="va">False</span></span>
 <span id="cb16-12"><a href="#cb16-12"></a>ARCHIVE_PATH <span class="op">=</span> <span class="st">"archive"</span></span>
 <span id="cb16-13"><a href="#cb16-13"></a>ARCHIVE_FILENAME <span class="op">=</span> <span class="st">"archive.html"</span></span></code></pre></div>
-<h2 id="12-content-footer">12) Content&nbsp;Footer</h2>
+<h2 id="content-footer">12) Content&nbsp;Footer</h2>
 <p>I use the recommended license&nbsp;:</p>
 <div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1"></a>LICENSE <span class="op">=</span> <span class="st">"""</span></span>
 <span id="cb17-2"><a href="#cb17-2"></a><span class="st">&lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;</span></span>
 <span id="cb17-3"><a href="#cb17-3"></a><span class="st">&lt;img alt="Creative Commons License BY-NC-SA"</span></span>
 <span id="cb17-4"><a href="#cb17-4"></a><span class="st">style="border-width:0; margin-bottom:12px;"</span></span>
 <span id="cb17-5"><a href="#cb17-5"></a><span class="st">src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;"""</span></span></code></pre></div>
-<p>You might want to have a specific message (i.e., license, copyright, contact e-mail address) at the footer of every page and this is where to do it. In this case I&#8217;ve added a <a href="https://mailchimp.com/">Mailchimp</a> link so that readers can subscribe to my&nbsp;page.</p>
+<p>You might want to have a specific message (i.e., license, copyright, contact e-mail address) at the footer of every page and this is where to do it. In this case I’ve added a <a href="https://mailchimp.com/">Mailchimp</a> link so that readers can subscribe to my&nbsp;page.</p>
 <div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1"></a>CONTENT_FOOTER <span class="op">=</span> <span class="st">'''</span></span>
 <span id="cb18-2"><a href="#cb18-2"></a><span class="st">&lt;center&gt;</span></span>
 <span id="cb18-3"><a href="#cb18-3"></a><span class="st">'''</span> <span class="op">+</span> MAILCHIMP_SIGNUP <span class="op">+</span> <span class="st">'''</span></span>
@@ -443,7 +442,7 @@ navbar-dark bg-dark
 <span id="cb18-6"><a href="#cb18-6"></a><span class="st">&lt;/center&gt;</span></span>
 <span id="cb18-7"><a href="#cb18-7"></a><span class="st">&lt;br&gt;</span></span>
 <span id="cb18-8"><a href="#cb18-8"></a><span class="st">'''</span></span></code></pre></div>
-<h2 id="13-rendering-math-equations">13) Rendering math&nbsp;equations</h2>
+<h2 id="rendering-math-equations">13) Rendering math&nbsp;equations</h2>
 <p>I have enabled KaTeX because its prettier with the <code>$...$</code> syntax as thats more similar to&nbsp;LaTeX.</p>
 <div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1"></a>USE_KATEX <span class="op">=</span> <span class="va">True</span></span>
 <span id="cb19-2"><a href="#cb19-2"></a>KATEX_AUTO_RENDER <span class="op">=</span> <span class="st">"""</span></span>
@@ -455,9 +454,9 @@ navbar-dark bg-dark
 <span id="cb19-8"><a href="#cb19-8"></a><span class="st">    {left: "</span><span class="ch">\\\\</span><span class="st">(", right: "</span><span class="ch">\\\\</span><span class="st">)", display: false}</span></span>
 <span id="cb19-9"><a href="#cb19-9"></a><span class="st">]</span></span>
 <span id="cb19-10"><a href="#cb19-10"></a><span class="st">"""</span></span></code></pre></div>
-<h2 id="14-implementing-google-tools">14) Implementing Google&nbsp;tools</h2>
+<h2 id="implementing-google-tools">14) Implementing Google&nbsp;tools</h2>
 <h3 id="google-search">Google&nbsp;search</h3>
-<p>I&#8217;ve enabled Google search form to search in my&nbsp;site.</p>
+<p>I’ve enabled Google search form to search in my&nbsp;site.</p>
 <div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1"></a>SEARCH_FORM <span class="op">=</span> <span class="st">"""</span></span>
 <span id="cb20-2"><a href="#cb20-2"></a><span class="st"> &lt;form method="get" action="https://www.google.com/search" class="form-inline my-2 my-lg-0" role="search"&gt;</span></span>
 <span id="cb20-3"><a href="#cb20-3"></a><span class="st"> &lt;div class="form-group"&gt;</span></span>
@@ -481,9 +480,9 @@ navbar-dark bg-dark
 <span id="cb21-8"><a href="#cb21-8"></a><span class="st">  gtag('config', '&lt;YOUR GOOGLE ANALYTICS IDENTIFIER&gt;');</span></span>
 <span id="cb21-9"><a href="#cb21-9"></a><span class="st">&lt;/script&gt;</span></span>
 <span id="cb21-10"><a href="#cb21-10"></a><span class="st">"""</span></span></code></pre></div>
-<h2 id="15-customizing-your-blog">15) Customizing your&nbsp;blog</h2>
-<h3 id="theme--template-customization">Theme <span class="amp">&amp;</span> Template&nbsp;customization</h3>
-<p>To create a new theme, we can use the following command which will create a new folder in themes called <code>brainsorting</code>. It is using the mako templating engine and the parent theme is <code>bootstrap4</code>. We don&#8217;t necessarily want to create a theme from scratch, so we base it off the bootstrap4 theme (or whatever theme you want) and make the adjustments that we&nbsp;want.</p>
+<h2 id="customizing-your-blog">15) Customizing your&nbsp;blog</h2>
+<h3 id="theme-template-customization">Theme <span class="amp">&amp;</span> Template&nbsp;customization</h3>
+<p>To create a new theme, we can use the following command which will create a new folder in themes called <code>brainsorting</code>. It is using the mako templating engine and the parent theme is <code>bootstrap4</code>. We don’t necessarily want to create a theme from scratch, so we base it off the bootstrap4 theme (or whatever theme you want) and make the adjustments that we&nbsp;want.</p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1"></a><span class="ex">nikola</span> theme --new=brainsorting --engine=mako --parent=bootstrap4</span></code></pre></div>
 <p>We can also copy over any templates from the parent theme where we want to make modifications by using the following command&nbsp;:</p>
 <div class="sourceCode" id="cb23"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1"></a><span class="ex">nikola</span> theme --copy-template=base.tmpl</span></code></pre></div>
@@ -504,7 +503,7 @@ navbar-dark bg-dark
 <p>For example if you want to make the nav bar sticky at the top, so that when readers scroll downwards, they can still access the menu bar, you need to update the <code>base.tmpl</code> file as shown below with the command sticky-top. To get the <code>base.tmpl</code> file in your template folder use <code>nikola theme --copy-template=base.tmpl</code>.</p>
 <div class="sourceCode" id="cb26"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb26-1"><a href="#cb26-1"></a><span class="kw">&lt;nav</span><span class="ot"> class=</span><span class="st">"navbar navbar-expand-md sticky-top mb-4</span></span></code></pre></div>
 <h3 id="setting-your-favicon">Setting your&nbsp;favicon</h3>
-<p>Pick an icon and store it in the folder &#8216;/file/&#8217;, then edit the conf.py as follows&nbsp;:</p>
+<p>Pick an icon and store it in the folder ‘/file/’, then edit the conf.py as follows&nbsp;:</p>
 <div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1"></a>FAVICONS <span class="op">=</span> (</span>
 <span id="cb27-2"><a href="#cb27-2"></a>    (<span class="st">"icon"</span>, <span class="st">"/brain.png"</span>, <span class="st">"128x128"</span>),</span>
 <span id="cb27-3"><a href="#cb27-3"></a>)</span></code></pre></div>
@@ -517,7 +516,7 @@ navbar-dark bg-dark
 <p>You can customize how the timestamp are displayed on your blog&nbsp;posts.</p>
 <div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1"></a>DATE_FORMAT <span class="op">=</span> <span class="st">'yyyy-MMM-dd'</span></span>
 <span id="cb28-2"><a href="#cb28-2"></a>DATE_FANCINESS <span class="op">=</span> <span class="dv">2</span></span></code></pre></div>
-<p>I like to set it like this to have a more human friendly reading with dates displayed like &#8220;3 months ago&#8221;. Hovering the date with the mouse display the exact&nbsp;date.</p>
+<p>I like to set it like this to have a more human friendly reading with dates displayed like “3 months ago”. Hovering the date with the mouse display the exact&nbsp;date.</p>
 <h3 id="using-mailchimp-for-user-to-subscribe">Using mailchimp for user to&nbsp;subscribe</h3>
 <p>Mailchimp allows you to run e-mail campaigns and contact subscribers when you have new content on your site. See <a href="https://mailchimp.com/help/getting-started-with-mailchimp/">Getting Started with Mailchimp</a> for more detailed&nbsp;instructions.</p>
 <p>After you created your account you can create your signup form and get a code that looks like this one. Create a <code>MAILCHIMP_SIGNUP</code> variable in <code>conf.py</code> and paste this code&nbsp;:</p>
@@ -549,7 +548,7 @@ navbar-dark bg-dark
 <div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1"></a>GLOBAL_CONTEXT <span class="op">=</span> {</span>
 <span id="cb31-2"><a href="#cb31-2"></a>    <span class="st">"use_pace"</span>: <span class="va">True</span>,</span>
 <span id="cb31-3"><a href="#cb31-3"></a>}</span></code></pre></div>
-<h3 id="remove-html-suffix-from-archivehtml">Remove .html suffix from&nbsp;archive.html</h3>
+<h3 id="remove-.html-suffix-from-archive.html">Remove .html suffix from&nbsp;archive.html</h3>
 <p>This is just a small annoyance, but by default, the archive is located in <code>/archive.html</code>. If you want it to be in <code>/archive/</code>, add the following lines to your <code>conf.py</code>:</p>
 <div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1"></a>ARCHIVE_PATH <span class="op">=</span> <span class="st">"archive"</span></span>
 <span id="cb32-2"><a href="#cb32-2"></a>ARCHIVE_FILENAME <span class="op">=</span> <span class="st">"index.html"</span></span></code></pre></div>
@@ -564,14 +563,14 @@ navbar-dark bg-dark
 <h3 id="short-blog-post-teaser-in-index-page">Short blog post teaser in index&nbsp;page</h3>
 <p>The <code>index.tmpl</code> will generate a list of posts associated to the tag/category/year/author. This index can either be the entire post or post with just a teaser. To just show a teaser of the post, set <code>conf.py</code> as&nbsp;follows:</p>
 <div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1"></a>INDEX_TEASERS <span class="op">=</span> <span class="va">True</span></span></code></pre></div>
-<p>Don&#8217;t forget to write in your post file where is the end of the teaser, in Markdown or html or ipynb do like this&nbsp;:</p>
+<p>Don’t forget to write in your post file where is the end of the teaser, in Markdown or html or ipynb do like this&nbsp;:</p>
 <div class="sourceCode" id="cb35"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb35-1"><a href="#cb35-1"></a><span class="co">&lt;!-- TEASER_</span><span class="re">END</span><span class="co"> --&gt;</span></span></code></pre></div>
 <p>In reStructuredText, select the end of your teasers&nbsp;with:</p>
 <div class="sourceCode" id="cb36"><pre class="sourceCode rst"><code class="sourceCode rest"><span id="cb36-1"><a href="#cb36-1"></a><span class="co">.. TEASER_</span><span class="re">END</span></span></code></pre></div>
-<p>If you are using teasers, the default is a Read more&#8230; link to access the full post. To make it more informative, you can have statements such as XX minute read&#8230; in <code>conf.py</code> as shown&nbsp;below.</p>
+<p>If you are using teasers, the default is a Read more… link to access the full post. To make it more informative, you can have statements such as XX minute read… in <code>conf.py</code> as shown&nbsp;below.</p>
 <div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1"></a>INDEX_READ_MORE_LINK <span class="op">=</span> <span class="st">'&lt;p class="more"&gt;&lt;a href="</span><span class="sc">{link}</span><span class="st">"&gt;</span><span class="sc">{reading_time}</span><span class="st"> minute read…&lt;/a&gt;&lt;/p&gt;'</span></span>
 <span id="cb37-2"><a href="#cb37-2"></a>FEED_READ_MORE_LINK <span class="op">=</span> <span class="st">'&lt;p&gt;&lt;a href="</span><span class="sc">{link}</span><span class="st">"&gt;</span><span class="sc">{read_more}</span><span class="st">…&lt;/a&gt; (</span><span class="sc">{min_remaining_read}</span><span class="st">)&lt;/p&gt;'</span></span></code></pre></div>
-<h2 id="16-optimizing-your-blog">16) Optimizing your&nbsp;blog</h2>
+<h2 id="optimizing-your-blog">16) Optimizing your&nbsp;blog</h2>
 <h3 id="filters">Filters</h3>
 <p>I want to be sure that all the files on my blog are optimized (such as .html, .js, .jpeg, .png, .css) so I am making use of the filters&nbsp;functionality.</p>
 <p>In my <code>conf.py</code> I have the following settings for FILTERS&nbsp;:</p>
@@ -596,7 +595,7 @@ navbar-dark bg-dark
 <span id="cb41-3"><a href="#cb41-3"></a><span class="kw">}</span></span></code></pre></div>
 <p>Then simply add the metadata <code>markdown : yes</code> in the blog post you want to publish on medium and run the command&nbsp;:</p>
 <div class="sourceCode" id="cb42"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb42-1"><a href="#cb42-1"></a><span class="ex">nikola</span> medium</span></code></pre></div>
-<h3 id="posting-automatically-on-devto">Posting automatically on&nbsp;Dev.to</h3>
+<h3 id="posting-automatically-on-dev.to">Posting automatically on&nbsp;Dev.to</h3>
 <p>To publish your Nikola posts on Dev there is this <a href="https://plugins.getnikola.com/v8/devto/">plugin</a>.</p>
 <p>You just need to install it with this command&nbsp;:</p>
 <div class="sourceCode" id="cb43"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb43-1"><a href="#cb43-1"></a><span class="ex">nikola</span> plugin -i devto</span></code></pre></div>
@@ -606,13 +605,13 @@ navbar-dark bg-dark
 <span id="cb44-3"><a href="#cb44-3"></a><span class="kw">}</span></span></code></pre></div>
 <p>Then simply add the metadata <code>devto : yes</code> in the blog post you want to publish on medium and run the command&nbsp;:</p>
 <div class="sourceCode" id="cb45"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb45-1"><a href="#cb45-1"></a><span class="ex">nikola</span> devto</span></code></pre></div>
-<h3 id="other-plugin-i-didnt-try">Other plugin I didn&#8217;t&nbsp;try</h3>
+<h3 id="other-plugin-i-didnt-try">Other plugin I didn’t&nbsp;try</h3>
 <ul>
 <li>
 <strong><a href="https://github.com/getnikola/plugins/tree/master/v7/similarity">similarity</a> :</strong> Find posts that are similar to the one being read. Requires install of Natural Language Processing packages such as <code>gensim</code>.</li>
 </ul>
 <h2 id="conclusion">Conclusion</h2>
-<p>That&#8217;s it for the big tutorial. I hope I was precise enough for giving you all the tools to make a blog very much like you want it. Some part of that article were very inspire (if not copy/pasted for some stuff) from resources down below that helped me a LOT to understand everything I need to understand to reach a result that I like with my blog. My next step will be to automate as much things as possible, you&#8217;ll know it in a new article when I will have achieve it&nbsp;😄</p>
+<p>That’s it for the big tutorial. I hope I was precise enough for giving you all the tools to make a blog very much like you want it. Some part of that article were very inspire (if not copy/pasted for some stuff) from resources down below that helped me a LOT to understand everything I need to understand to reach a result that I like with my blog. My next step will be to automate as much things as possible, you’ll know it in a new article when I will have achieve it&nbsp;😄</p>
 <p><em>Google group to discuss about Nikola : <a href="https://groups.google.com/forum/#!forum/nikola-discuss">https://groups.google.com/forum/#!forum/nikola-discuss</a></em></p>
 <h2 id="resources">Resources</h2>
 <p><a href="https://getnikola.com/handbook.html">https://getnikola.com/handbook.html</a></p>

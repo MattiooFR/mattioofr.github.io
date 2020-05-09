@@ -3,52 +3,52 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 05 May 2020 17:08:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Create a blog using Nikola static website generator</title><link>https://brainsorting.dev/posts/create-a-blog-with-nikola/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 09 May 2020 10:37:21 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Create a blog using Nikola static website generator</title><link>https://brainsorting.dev/posts/create-a-blog-with-nikola/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#1-installation"&gt;1) Installation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#2-create-the-blog"&gt;2) Create the blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#3-add-a-post"&gt;3) Add a Post&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#4-enable-jupyter-notebook-file-format"&gt;4) Enable Jupyter Notebook file format&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#5-using-markdown-for-your-post"&gt;5) Using Markdown for your post&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#6-pages-vs-posts"&gt;6) Pages vs Posts&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#installation"&gt;1) Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#create-the-blog"&gt;2) Create the blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#add-a-post"&gt;3) Add a Post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#enable-jupyter-notebook-file-format"&gt;4) Enable Jupyter Notebook file format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#using-markdown-for-your-post"&gt;5) Using Markdown for your post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#pages-vs-posts"&gt;6) Pages vs Posts&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#posts"&gt;POSTS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#pages"&gt;PAGES&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#7-customizing-the-navigation-bar"&gt;7) Customizing the navigation bar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#8-indexes-as-a-list-of-links-or-list-of-posts"&gt;8) Indexes as a list of links or list of posts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#9-enable-a-comment-system"&gt;9) Enable a comment system&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#10-deploying-your-website"&gt;10) Deploying your website&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#customizing-the-navigation-bar"&gt;7) Customizing the navigation bar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#indexes-as-a-list-of-links-or-list-of-posts"&gt;8) Indexes as a list of links or list of posts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#enable-a-comment-system"&gt;9) Enable a comment system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#deploying-your-website"&gt;10) Deploying your website&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#github-pages"&gt;Github Pages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#netlify-extra-steps"&gt;Netlify extra steps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#11-archives"&gt;11) Archives&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#12-content-footer"&gt;12) Content Footer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#13-rendering-math-equations"&gt;13) Rendering math equations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#14-implementing-google-tools"&gt;14) Implementing Google tools&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#archives"&gt;11) Archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#content-footer"&gt;12) Content Footer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#rendering-math-equations"&gt;13) Rendering math equations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#implementing-google-tools"&gt;14) Implementing Google tools&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#google-search"&gt;Google search&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#google-analytics"&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#15-customizing-your-blog"&gt;15) Customizing your blog&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#customizing-your-blog"&gt;15) Customizing your blog&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#theme--template-customization"&gt;Theme &amp;amp; Template customization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#theme-template-customization"&gt;Theme &amp;amp; Template customization&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#setting-your-favicon"&gt;Setting your favicon&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#tweaking-the-css"&gt;Tweaking the CSS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#files-and-listings"&gt;Files and Listings&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#date-formatting"&gt;Date formatting&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#using-mailchimp-for-user-to-subscribe"&gt;Using mailchimp for user to subscribe&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#loading-bar"&gt;Loading bar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#remove-html-suffix-from-archivehtml"&gt;Remove .html suffix from archive.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#remove-.html-suffix-from-archive.html"&gt;Remove .html suffix from archive.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#short-blog-post-teaser-in-index-page"&gt;Short blog post teaser in index page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#16-optimizing-your-blog"&gt;16) Optimizing your blog&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#optimizing-your-blog"&gt;16) Optimizing your blog&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#filters"&gt;Filters&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#posting-automatically-on-medium"&gt;Posting automatically on Medium&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#posting-automatically-on-devto"&gt;Posting automatically on Dev.to&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#other-plugin-i-didnt-try"&gt;Other plugin I didn't try&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#posting-automatically-on-dev.to"&gt;Posting automatically on Dev.to&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#other-plugin-i-didnt-try"&gt;Other plugin I didn’t try&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#resources"&gt;Resources&lt;/a&gt;
@@ -70,10 +70,9 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. medium: yes
 .. devto: yes
 --&gt;
-
-&lt;p&gt;If you don't know what is Nikola, it is a static website/blog generator (like gatsby and other tools). It's written in Python and it is working out of the box for rendering markdown, rst, latex math formula and jupyter notebook files.&lt;/p&gt;
-&lt;p&gt;I like to understand what I am using, and pushing it to some limits to really get what I want from it, and making a blog with Nikola was no exception. Here I tried to summarize all the informations I found, and all the experimentation I did. I hope you'll enjoy ! 🙏🏼&lt;/p&gt;
-&lt;h2 id="1-installation"&gt;1) Installation&lt;/h2&gt;
+&lt;p&gt;If you don’t know what is Nikola, it is a static website/blog generator (like gatsby and other tools). It’s written in Python and it is working out of the box for rendering markdown, rst, latex math formula and jupyter notebook files.&lt;/p&gt;
+&lt;p&gt;I like to understand what I am using, and pushing it to some limits to really get what I want from it, and making a blog with Nikola was no exception. Here I tried to summarize all the informations I found, and all the experimentation I did. I hope you’ll enjoy ! 🙏🏼&lt;/p&gt;
+&lt;h2 id="installation"&gt;1) Installation&lt;/h2&gt;
 &lt;p&gt;The first step is to have Python 3 installed on your computer, I recommend using virtual environment management.&lt;/p&gt;
 &lt;p&gt;Once you have create your virtual environment :&lt;/p&gt;
 &lt;div class="sourceCode" id="cb1"&gt;&lt;pre class="sourceCode bash"&gt;&lt;code class="sourceCode bash"&gt;&lt;span id="cb1-1"&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#cb1-1"&gt;&lt;/a&gt;&lt;span class="ex"&gt;pip&lt;/span&gt; install --upgrade pip setuptools wheel&lt;/span&gt;
@@ -81,7 +80,6 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 &lt;p&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/"&gt;Read more…&lt;/a&gt; (15 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blogging</category><category>nikola</category><category>tutorial</category><guid>https://brainsorting.dev/posts/create-a-blog-with-nikola/</guid><pubDate>Tue, 05 May 2020 14:02:50 GMT</pubDate></item><item><title>Blackjack, The 21 Game</title><link>https://brainsorting.dev/posts/blackjack-the-21-game/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#a-bit-of-history"&gt;A bit of History&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#how-to-play-black-jack"&gt;How to play Black Jack&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#insurance"&gt;Insurance&lt;/a&gt;&lt;/li&gt;
@@ -130,7 +128,7 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#bpspotter-team"&gt;BP/spotter Team&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#gorilla-bp"&gt;Gorilla BP&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#books--references"&gt;Books / References&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#books-references"&gt;Books / References&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -145,12 +143,10 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. type: text
 .. medium: yes
 --&gt;
-
 &lt;p&gt;« Never be the biggest bettor at your table. »&lt;/p&gt;
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Blackjack can be beaten !&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;You will see how to be at least break even with the house, and maybe have a small advantage over the long run with easy methods to learn, and how and why they work. I tried to summarise many books that I read and kept only what I thought was useful and easily shareable. I’ll put the list of the book I read at the end if you want to dig deeper in the world of beating the blackjack game.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/"&gt;Read more…&lt;/a&gt; (22 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blackjack</category><category>books</category><category>mathematic</category><guid>https://brainsorting.dev/posts/blackjack-the-21-game/</guid><pubDate>Mon, 27 Apr 2020 20:20:03 GMT</pubDate></item><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;p&gt;You will see how to be at least break even with the house, and maybe have a small advantage over the long run with easy methods to learn, and how and why they work. I tried to summarise many books that I read and kept only what I thought was useful and easily shareable. I’ll put the list of the book I read at the end if you want to dig deeper in the world of beating the blackjack game. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/"&gt;Read more…&lt;/a&gt; (22 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blackjack</category><category>books</category><category>mathematic</category><guid>https://brainsorting.dev/posts/blackjack-the-21-game/</guid><pubDate>Mon, 27 Apr 2020 20:20:03 GMT</pubDate></item><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#install-poetry"&gt;Install Poetry&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#create-the-package-you-want-to-publish-on-pypi"&gt;Create the package you want to publish on PyPi&lt;/a&gt;&lt;/li&gt;
@@ -171,11 +167,9 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. medium: yes
 .. devto: yes
 --&gt;
-
-&lt;p&gt;First thing first, you need Poetry if you don't have it already.&lt;/p&gt;
+&lt;p&gt;First thing first, you need Poetry if you don’t have it already.&lt;/p&gt;
 &lt;p&gt;Poetry is the new standard for creating and managing virtual environment for your Python project. It is also a Python dependency management tool that is working differently as pip. It uses the new standard &lt;code&gt;pyproject.toml&lt;/code&gt; decided by the Python Packaging Authority with PEP-518. This file merges all the previous config files that were necessary before, &lt;a href="http://setup.py/"&gt;&lt;code&gt;setup.py&lt;/code&gt;&lt;/a&gt;, &lt;code&gt;requirements.txt&lt;/code&gt;, &lt;code&gt;setup.cfg&lt;/code&gt;, &lt;a href="http://manifest.in/"&gt;&lt;code&gt;MANIFEST.in&lt;/code&gt;&lt;/a&gt; et &lt;code&gt;Pipfile&lt;/code&gt;, in one unique file to rule them all ! Ok, enough of Lord of the Ring.&lt;/p&gt;
-&lt;p&gt;I advise you to follow along with the &lt;a href="https://python-poetry.org/docs/cli/"&gt;documentation&lt;/a&gt; of poetry open.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>package</category><category>poetry</category><category>tutorial</category><guid>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</guid><pubDate>Thu, 23 Apr 2020 19:31:25 GMT</pubDate></item><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;p&gt;I advise you to follow along with the &lt;a href="https://python-poetry.org/docs/cli/"&gt;documentation&lt;/a&gt; of poetry open. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>package</category><category>poetry</category><category>tutorial</category><guid>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</guid><pubDate>Thu, 23 Apr 2020 19:31:25 GMT</pubDate></item><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#heroku"&gt;Heroku&lt;/a&gt;&lt;/li&gt;
@@ -194,7 +188,6 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. type: text
 .. devto: yes
 --&gt;
-
 &lt;p&gt;Using environment variables is fundamental in a project. This is how you tell your app if you are running in &lt;code&gt;production&lt;/code&gt; or &lt;code&gt;locally&lt;/code&gt; for example. This is where you also store more sensible information like &lt;code&gt;SECRET_KEY&lt;/code&gt; or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good idea.&lt;/p&gt;
 &lt;p&gt;Before jumping in the topic of configuring environment variables, I will first make you set up and deploy a basic app.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>flask</category><category>heroku</category><category>tutorial</category><guid>https://brainsorting.dev/posts/environment-variable-flask-heroku/</guid><pubDate>Sun, 19 Apr 2020 13:43:36 GMT</pubDate></item></channel></rss>

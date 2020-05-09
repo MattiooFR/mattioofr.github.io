@@ -121,11 +121,9 @@ navbar-dark bg-dark
 .. type: text
 .. medium: yes
 .. devto: yes
---><p>First thing first, you need Poetry if you don&#8217;t have it&nbsp;already.</p>
+--><p>First thing first, you need Poetry if you don’t have it&nbsp;already.</p>
 <p>Poetry is the new standard for creating and managing virtual environment for your Python project. It is also a Python dependency management tool that is working differently as pip. It uses the new standard <code>pyproject.toml</code> decided by the Python Packaging Authority with PEP-518. This file merges all the previous config files that were necessary before, <a href="http://setup.py/"><code>setup.py</code></a>, <code>requirements.txt</code>, <code>setup.cfg</code>, <a href="http://manifest.in/"><code>MANIFEST.in</code></a> et <code>Pipfile</code>, in one unique file to rule them all ! Ok, enough of Lord of the&nbsp;Ring.</p>
-<p>I advise you to follow along with the <a href="https://python-poetry.org/docs/cli/">documentation</a> of poetry&nbsp;open.</p>
-<!-- TEASER_END -->
-
+<p>I advise you to follow along with the <a href="https://python-poetry.org/docs/cli/">documentation</a> of poetry open. <!-- TEASER_END --></p>
 <h2 id="install-poetry">Install&nbsp;Poetry</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="ex">curl</span> -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py <span class="kw">|</span> <span class="ex">python</span></span></code></pre></div>
 <p>Feel free to look <a href="https://python-poetry.org/docs/">here</a> for more instructions. Updating Poetry is very easy by the way <code>poetry update</code>.</p>
@@ -167,8 +165,8 @@ navbar-dark bg-dark
 <span id="cb3-25"><a href="#cb3-25"></a><span class="at">build-backend = "poetry.masonry.api"</span></span></code></pre></div>
 <p>The beginning of the file is pretty straightforward. Lets focus on those three part&nbsp;:</p>
 <ul>
-<li><p><strong>[tool.poetry.dependencies]</strong>: This is where you can list all the dependencies that your package needs to work. It&#8217;s like the old <code>requirements.txt</code> file. You can do it by hand and then call the command <code>poetry install</code> to install them all for your package development and working purposes. If you use <code>poetry add &lt;dependency_name&gt;</code> (equivalent to the <code>pip install &lt;dependency_name&gt;</code>), poetry will add it there for&nbsp;you.</p></li>
-<li><p><strong>[tool.poetry.dev-dependencies]</strong>: If you need development dependencies, that&#8217;s where they go. Again, you can also install them with <code>poetry add &lt;dependency_name&gt; --dev (or -D)</code> and poetry will also put that in the right place in your <code>pyproject.toml</code> file.</p></li>
+<li><p><strong>[tool.poetry.dependencies]</strong>: This is where you can list all the dependencies that your package needs to work. It’s like the old <code>requirements.txt</code> file. You can do it by hand and then call the command <code>poetry install</code> to install them all for your package development and working purposes. If you use <code>poetry add &lt;dependency_name&gt;</code> (equivalent to the <code>pip install &lt;dependency_name&gt;</code>), poetry will add it there for&nbsp;you.</p></li>
+<li><p><strong>[tool.poetry.dev-dependencies]</strong>: If you need development dependencies, that’s where they go. Again, you can also install them with <code>poetry add &lt;dependency_name&gt; --dev (or -D)</code> and poetry will also put that in the right place in your <code>pyproject.toml</code> file.</p></li>
 <li>
 <p><strong>[tool.poetry.scripts]</strong>: This last block is very important if you want your package to have script callable from the&nbsp;terminal.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1"></a><span class="at">script_name = '{package_name}:{function_name}'</span></span></code></pre></div>
@@ -190,7 +188,7 @@ navbar-dark bg-dark
 <p>If everything works, congrats ! Now lets publish it to PyPi so others can use your great package&nbsp;too.</p>
 <h2 id="publish-your-package">Publish your&nbsp;package</h2>
 <p>Before publishing you should first create an account on <a href="https://pypi.org/account/register/">PyPi</a>. You can also register an account on <a href="https://test.pypi.org/account/register/">TestPyPi</a> if you want publishing on a test repository before trying on the official&nbsp;one.</p>
-<p>Your package need to be built, so first run <code>poetry build</code> if you haven&#8217;t done it&nbsp;already.</p>
+<p>Your package need to be built, so first run <code>poetry build</code> if you haven’t done it&nbsp;already.</p>
 <p>Then simply run <code>poetry publish</code> and your package will be publish on PyPi&nbsp;:</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1"></a>❯ <span class="ex">poetry</span> publish</span>
 <span id="cb8-2"><a href="#cb8-2"></a></span>
