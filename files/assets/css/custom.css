@@ -52,6 +52,12 @@ div#notebook-container {
   margin-top: 20px;
 }
 
+blockquote {
+  padding-left: 1em !important;
+  margin-left: 0 !important;
+  border-left-style: solid !important;
+}
+
 /* For Kate, now, forever, always! */
 .sourceCode code {
   padding: 0;

@@ -30,6 +30,7 @@ Installation and documentation at https://getnikola.com/
     .. medium: yes
     .. previewimage: /images/image.png <!-- uri to image to display in link preview-->
     .. link: url <!-- url to original source for content-->
+    .. has_math: true <!-- for rendering katex -->
     ```
 
 * Using the jupyter_shortcode plugin:
@@ -44,4 +45,25 @@ Installation and documentation at https://getnikola.com/
 
     ```txt
     <!-- TEASER_END -->
+    ```
+
+* Create footnote :
+
+    ```txt
+    Text[^lorem] (note) blablabla
+
+    [^lorem] (footnote)
+    ```
+
+* This ~~is deleted text.~~
+    ``` md
+    This ~~is deleted text.~~
+    ```
+
+* Shortcut link
+
+    ``` md
+    See [my website].
+
+    [my website]: http://foo.bar.baz
     ```
