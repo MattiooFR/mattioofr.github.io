@@ -32,7 +32,7 @@ The rule changes did not last for long because players abandoned the blackjack t
 
 This is how a casino blackjack tables look like from the top
 
-![Blackjack%20The%2021%20game/instructeioes.jpeg](/images/Blackjack%20The%2021%20game/instructeioes.jpeg)
+![](/images/Blackjack%20The%2021%20game/instructeioes.jpeg)
 
 The large circle represent the seats, the rectangles area are the place where the players place their bets, and there is usually inscription to tells the slight difference of rules that we can find in blackjack tables. A sign indicate the limit of minimum and maximum bets.
 Card are dealt from the dealer’s left to right, and use 1 to 8 decks of cards.
@@ -107,11 +107,11 @@ Use the basic strategy chart in this order :
 3. Check if you have a possible hand to **double down**, according to double down casino rules (as you may only be allowed to double down on 10 and 11, or any regular cards).
 4. If nothing above applied, then check the **hit or stand chart**. **Always hit a hard total of 11 or below, and always stand on a hard total of 17 or higher**. Always hit soft 17 (A,6) or below. For hard 12 through 16 and soft 18 (A,7) consult the basic strategy chart.
 
-![Blackjack%20The%2021%20game/BASIC_STRATEGY.jpeg](/images/Blackjack%20The%2021%20game/BASIC_STRATEGY.jpeg)
+![](/images/Blackjack%20The%2021%20game/BASIC_STRATEGY.jpeg)
 
 In the next chart, following if you are allowed to double down after splits or not use one or the other.
 
-![Blackjack%20The%2021%20game/PAIR_SPLItS.jpeg](/images/Blackjack%20The%2021%20game/PAIR_SPLItS.jpeg)
+![](/images/Blackjack%20The%2021%20game/PAIR_SPLItS.jpeg)
 
 **Never take insurance if you play only basic strategy.**
 
@@ -153,7 +153,7 @@ Best practice is to calculate 0 - final countdown (related to the number of deck
 
 At your pivot (0 with your running count), you start to have an **advantage of approximately 1/2 over the house**. Simply say, the Red Seven strategy is to bet more when your running count is 0 or higher, and less (or nothing) when your running count is negative.
 
-![Blackjack%20The%2021%20game/Capture_decran_2020-04-27_a_22.15.28.png](/images/Blackjack%20The%2021%20game/Capture_decran_2020-04-27_a_22.15.28.png)
+![](/images/Blackjack%20The%2021%20game/Capture_decran_2020-04-27_a_22.15.28.png)
 
 *You will learn later how to size your bets according to your bankroll.*
 
@@ -170,7 +170,7 @@ Running count of +2 or higher (any number of decks), stand on 12vs2, and on 15vs
 
 ### The Advanced Red Seven Count
 
-![Blackjack%20The%2021%20game/THe_ADVANCED_Red_SEVEN.jpeg](/images/Blackjack%20The%2021%20game/THe_ADVANCED_Red_SEVEN.jpeg)
+![](/images/Blackjack%20The%2021%20game/THe_ADVANCED_Red_SEVEN.jpeg)
 
 *This chart follow the basic strategy.*
 
@@ -283,7 +283,7 @@ Splitting 9s vs 2 or 9s vs A
 People that never insurance their blackjack look suspicious because casino like to tell players to do it.
 So if you actually do it to look like an amateur, it won’t cost you that much.
 
-![Blackjack%20The%2021%20game/TWO-BIT_DECEPTIONS.jpeg](/images/Blackjack%20The%2021%20game/TWO-BIT_DECEPTIONS.jpeg)
+![](/images/Blackjack%20The%2021%20game/TWO-BIT_DECEPTIONS.jpeg)
 
 To conclude those idiot camouflages, small stakes card counter should not bother using those technique that will eat their already low gain. If you don’t get rated, don’t get a VIP card, and don’t give your name, you don’t need camouflage. **It’s primarily for high stakes player.**
 
