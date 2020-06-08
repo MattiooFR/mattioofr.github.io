@@ -6,107 +6,83 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://brainsorting.dev/categories/blackjack%203.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://brainsorting.dev/categories/blackjack.xml</loc>
-  <lastmod>2020-06-08T16:13:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://brainsorting.dev/categories/blogging%202.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/blogging.xml</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://brainsorting.dev/categories/books%203.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/books.xml</loc>
-  <lastmod>2020-06-08T16:13:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://brainsorting.dev/categories/flask%203.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/cat_random.xml</loc>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/cat_self-development.xml</loc>
+  <lastmod>2020-06-08T16:39:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/cat_tutorial.xml</loc>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/flask.xml</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://brainsorting.dev/categories/heroku%203.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/heroku.xml</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://brainsorting.dev/categories/mathematic%203.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/mathematic.xml</loc>
-  <lastmod>2020-06-08T16:13:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://brainsorting.dev/categories/nikola%202.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/nikola.xml</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://brainsorting.dev/categories/package%203.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/package.xml</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://brainsorting.dev/categories/poetry%203.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/poetry.xml</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://brainsorting.dev/categories/tutorial%202.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/porn.xml</loc>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/python.xml</loc>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/self-development.xml</loc>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/tutorial.xml</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-08T16:33:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://brainsorting.dev/galleries/rss%203.xml</loc>
-  <lastmod>2020-05-05T17:08:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/ython.xml</loc>
+  <lastmod>2020-06-08T16:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/galleries/rss.xml</loc>
-  <lastmod>2020-06-08T16:06:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://brainsorting.dev/rss%203.xml</loc>
-  <lastmod>2020-05-06T09:44:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/rss.xml</loc>
-  <lastmod>2020-06-08T16:16:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://brainsorting.dev/sitemap%203.xml</loc>
-  <lastmod>2020-05-06T09:44:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/sitemap.xml</loc>
-  <lastmod>2020-06-08T16:16:00Z</lastmod>
+  <lastmod>2020-06-08T17:32:00Z</lastmod>
  </sitemap>
 </sitemapindex>

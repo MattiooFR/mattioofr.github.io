@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 09 May 2020 10:31:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 08 Jun 2020 17:32:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#install-poetry"&gt;Install Poetry&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#create-the-package-you-want-to-publish-on-pypi"&gt;Create the package you want to publish on PyPi&lt;/a&gt;&lt;/li&gt;
@@ -16,8 +16,8 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. title: Publish a package on PyPi using Poetry
 .. slug: publish-a-package-on-pypi-using-poetry
 .. date: 2020-04-23 21:31:25 UTC+02:00
-.. tags: tutorial, poetry, package
-.. category:
+.. tags: poetry, package, python
+.. category: tutorial
 .. link:
 .. description: Tutorial to publish a package on PyPi using Poetry
 .. type: text
@@ -26,4 +26,4 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 --&gt;
 &lt;p&gt;First thing first, you need Poetry if you don’t have it already.&lt;/p&gt;
 &lt;p&gt;Poetry is the new standard for creating and managing virtual environment for your Python project. It is also a Python dependency management tool that is working differently as pip. It uses the new standard &lt;code&gt;pyproject.toml&lt;/code&gt; decided by the Python Packaging Authority with PEP-518. This file merges all the previous config files that were necessary before, &lt;a href="http://setup.py/"&gt;&lt;code&gt;setup.py&lt;/code&gt;&lt;/a&gt;, &lt;code&gt;requirements.txt&lt;/code&gt;, &lt;code&gt;setup.cfg&lt;/code&gt;, &lt;a href="http://manifest.in/"&gt;&lt;code&gt;MANIFEST.in&lt;/code&gt;&lt;/a&gt; et &lt;code&gt;Pipfile&lt;/code&gt;, in one unique file to rule them all ! Ok, enough of Lord of the Ring.&lt;/p&gt;
-&lt;p&gt;I advise you to follow along with the &lt;a href="https://python-poetry.org/docs/cli/"&gt;documentation&lt;/a&gt; of poetry open. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>package</category><category>poetry</category><category>tutorial</category><guid>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</guid><pubDate>Thu, 23 Apr 2020 19:31:25 GMT</pubDate></item></channel></rss>
+&lt;p&gt;I advise you to follow along with the &lt;a href="https://python-poetry.org/docs/cli/"&gt;documentation&lt;/a&gt; of poetry open. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>package</category><category>poetry</category><category>python</category><guid>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</guid><pubDate>Thu, 23 Apr 2020 19:31:25 GMT</pubDate></item></channel></rss>
