@@ -2,8 +2,8 @@
 .. title: Why does porn grills men's brain ?
 .. slug: why-does-porn-grills-mens-brain
 .. date: 2020-06-08 17:36:21 UTC+02:00
-.. tags:
-.. category:
+.. tags: porn, self-development
+.. category: random
 .. link:
 .. description:
 .. type: text

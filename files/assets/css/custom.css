@@ -1,3 +1,10 @@
+img.title-icon {
+  width: 48px;
+  margin-left: -60px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
 .small-middle-container {
   margin: auto;
   width: 80%;
@@ -25,6 +32,9 @@ div#notebook-container {
     margin-left: -20px;
     padding: 0;
     width: auto;
+  }
+  img.title-icon {
+    display: none;
   }
 }
 

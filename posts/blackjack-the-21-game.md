@@ -3,7 +3,7 @@
 .. slug: blackjack-the-21-game
 .. date: 2020-04-27 22:20:03 UTC+02:00
 .. tags: mathematic, blackjack, books
-.. category:
+.. category: random
 .. link:
 .. description:
 .. updated: 2020-05-5 10:20:03 UTC+02:00
@@ -17,11 +17,11 @@
 
 *Blackjack can be beaten !*
 
-You will see how to be at least break even with the house, and maybe have a small advantage over the long run with easy methods to learn, and how and why they work. I tried to summarise many books that I read and kept only what I thought was useful and easily shareable. I’ll put the list of the book I read at the end if you want to dig deeper in the world of beating the blackjack game.
+You will see how to be at least break even with the house, and maybe have a small advantage over the long run with easy methods to learn, and how and why they work. I tried to summarize many books that I read and kept only what I thought was useful and easily shareable. I’ll put the list of the book I read at the end if you want to dig deeper in the world of beating the blackjack game.
 <!-- TEASER_END -->
 ## A bit of History
 
-Ed Thorp discussed a number of the first systems in his book Beat the Dealer in 1962. Prior him the only card counting system was recognised by the casinos as valid was « casing the aces » in which a player would markedly increase his bet (like from $5 to $500) in the second half of the deck if no aces had been dealt in the first half.
+Ed Thorp discussed a number of the first systems in his book Beat the Dealer in 1962. Prior him the only card counting system was recognized by the casinos as valid was « casing the aces » in which a player would markedly increase his bet (like from $5 to $500) in the second half of the deck if no aces had been dealt in the first half.
 In 1956, a group of mathematician - Roger Baldwin, Wilbert Cantey, Herbert Maisel, and James McDermott - applied the statistical analysis to the game of blackjack, and published the Basic Strategy on a technical journal for mathematicians. This strategy, followed rigorously, would narrow the house edge, making blackjack close to a break even for the player over the long run.
 Using computers, Thorp discovered that the removal of any low card such as 2, 3, 4, 5, 6 or 7 was advantageous to the player in varying degrees, and the contrary (removal of high cards valued 10 or 11 point) was hurting the player’s chances dramatically. One of the systems he developed after those analysis is called the « **ten-count** ». In this system tens and non-tens are counted separately. Larger bets were placed as the proportion of tens to non-tens in the deck became larger. He used this strategy for a while and the casino detected that something was wrong as the number of player using it increased, and they decided to change the rules of the game in 1964.
 The rule changes did not last for long because players abandoned the blackjack tables rather than play against the new rules. They decided to change the rules back to previous because of the large profit they were now missing, even with the counter. After that, blackjack became one of the most popular table game in the U.S. casinos.
@@ -69,11 +69,11 @@ To signal you want to stand to a dealer, **you wave your hand sideways, palm dow
 
 ### Doubling Down
 
-Some casino allow doubling down on any originals card, some only on cards totalling 9, 10 and 11. If you decide, and are allowed to double down according to the casino’s rules, **you may put the same amount of your bet next to your original bet and must draw only one additional card**.
+Some casino allow doubling down on any originals card, some only on cards totaling 9, 10 and 11. If you decide, and are allowed to double down according to the casino’s rules, **you may put the same amount of your bet next to your original bet and must draw only one additional card**.
 
 ### Splitting Pairs
 
-If a player hold two cards of the same value, he may split the pair into two separate hands. If you have a double 8 for example, totalling 16 (a really bad hand) you can split them and play each 8 as a separate hand. If you get another 8, you can split again and have 3 hands. Splitting ace will most of the time allow you to have only one more card above it and you cannot re-split aces. If you receive a ten on one of your aces, **it is not going to be counted as a blackjack** and be paid 3 to 2.
+If a player hold two cards of the same value, he may split the pair into two separate hands. If you have a double 8 for example, totaling 16 (a really bad hand) you can split them and play each 8 as a separate hand. If you get another 8, you can split again and have 3 hands. Splitting ace will most of the time allow you to have only one more card above it and you cannot re-split aces. If you receive a ten on one of your aces, **it is not going to be counted as a blackjack** and be paid 3 to 2.
 Most casino will allow you to split ten-valued card, like a jack and a king.
 If you split ten and get a ace, as before it wont be counted as a blackjack.
 In a short way : Any pair may be split. Any pair, except aces, may be re-split. Split aces receive only one card each.
@@ -91,7 +91,7 @@ One of the more important part in blackjack, the dealer’s actions. **He comple
 
 ## Basic Strategy (how to be almost break even with the house)
 
-Now that you know how to play blackjack, you can begin to learn how to play without losing money. **If you make decision based on your gut you will lose money** in the long run. There is **only one correct decision for any given play**, and that decision is **based strictly on mathematics**. Using high speed computers, all the possibilities of any hand you might hold vs every possible dealer up card have been analysed, and the basic strategy is what came out of those analysis.
+Now that you know how to play blackjack, you can begin to learn how to play without losing money. **If you make decision based on your gut you will lose money** in the long run. There is **only one correct decision for any given play**, and that decision is **based strictly on mathematics**. Using high speed computers, all the possibilities of any hand you might hold vs every possible dealer up card have been analyzed, and the basic strategy is what came out of those analysis.
 
 *Basic strategy is the mathematically optimum way to play your hands if you are not counting card.*
 
@@ -126,7 +126,7 @@ Even when you are counting card, **you will play basic strategy on 80% or more o
 
 Computer studies have found that the proportionate removal of certain cards gives the player an advantage over the house, while the removal of others gives the house an advantage over the player.
 **As card are removed from play, the player’s chances of winning constantly change**.
-By learning to analyse a depleted deck of cards for favourability, and capitalising on particular situations by **betting more when the remaining cards are in your favour** and less when they’re not, you can actually have an edge over the casino.
+By learning to analyze a depleted deck of cards for favorability, and capitalizing on particular situations by **betting more when the remaining cards are in your favor** and less when they’re not, you can actually have an edge over the casino.
 Systems varies from complexity, but **the idea is to bet more when there is more ten-valued card in the deck than lower card**, and bet less when it is the contrary.
 
 The trick is to keep a running count in your head of +1 for low card such as 2 to 6, and -1 for ten/ace valued card. The particularity in the red seven count is to also add +1 for the seven, but only the red ones, to create an imbalance system that will free us to do more calculus such as true count (read books to know more about it).
@@ -143,7 +143,7 @@ Point values : +1, -1, +1, 0, 0, -1, -1, +1, 0, +1, 0
 Running Count : +1, 0, +1, +1, +1, 0, -1, 0, +1, +2
 
 At the end of the deck your running count should be +2. If it is not +2 then you have not counted correctly assuming your deck contains 52 cards. Count again without shuffling the deck until you finish with +2 to figure out your mistake. Then shuffle and start again.
-Then start showing two cards at a time, you’ll see many time cards cancel them with a +1 -1. Train as much as you can, you should be able to count down a deck in 40 secondes or less before attempting any try in a real casino.
+Then start showing two cards at a time, you’ll see many time cards cancel them with a +1 -1. Train as much as you can, you should be able to count down a deck in 40 seconds or less before attempting any try in a real casino.
 
 In shoe game, train yourself to count multiple deck at a time, note that your final count is always 2 times the number of decks you are using. With 4 decks, your running count at the end should always be +8.
 
@@ -318,7 +318,7 @@ All team must write a handbook, no matter what size of bankroll or team you have
 4. Who handle the trip bankroll ?
 5. What are the betting limits ? What amount of win or losses necessitates an immediate report to the team manager ?
 6. Do player tip dealers ? How much ? How often and under what conditions ?
-7. Will violations of rules be penalised financially ? How ?
+7. Will violations of rules be penalized financially ? How ?
 
 ### Two Persons Teams
 
@@ -326,7 +326,7 @@ It is usually close friends of couple that will play at the same table. You don�
 
 ### BP/spotter Team
 
-One spotter play with low stack at one table, and with a discret signal he tells the other big stack player of the team to come because the count is high. Signal is the most important aspect of this play.
+One spotter play with low stack at one table, and with a discreet signal he tells the other big stack player of the team to come because the count is high. Signal is the most important aspect of this play.
 
 If result doesn’t come out, the most important is to keep quiet in any situation, and wait to be out of the casino to discuss or show any sign of frustration for a “bad spotter”.
 
