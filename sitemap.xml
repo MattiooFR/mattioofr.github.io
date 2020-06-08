@@ -7,162 +7,174 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-05-06T10:56:00Z</lastmod>
+  <lastmod>2020-06-08T16:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
-  <lastmod>2020-05-06T10:56:00Z</lastmod>
+  <lastmod>2020-06-08T16:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-08T16:07:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/archive/2020/index%202.html</loc>
-  <lastmod>2020-05-05T10:09:00Z</lastmod>
+  <loc>https://brainsorting.dev/archive/2020/index%203.html</loc>
+  <lastmod>2020-05-06T09:44:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/archive/index%202.html</loc>
-  <lastmod>2020-05-05T08:44:00Z</lastmod>
+  <loc>https://brainsorting.dev/archive/index%203.html</loc>
+  <lastmod>2020-05-06T09:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2020-05-05T19:07:00Z</lastmod>
+  <lastmod>2020-06-03T22:52:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/blackjack/index%202.html</loc>
-  <lastmod>2020-05-05T10:09:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/blackjack/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blogging/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/categories/blogging/index%202.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/books/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/books/index%202.html</loc>
-  <lastmod>2020-05-05T10:09:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/books/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/flask/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/flask/index%202.html</loc>
-  <lastmod>2020-05-05T08:55:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/flask/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/heroku/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/heroku/index%202.html</loc>
-  <lastmod>2020-05-05T08:55:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/heroku/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/index%202.html</loc>
-  <lastmod>2020-05-05T08:44:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/mathematic/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/mathematic/index%202.html</loc>
-  <lastmod>2020-05-05T10:09:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/mathematic/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/nikola/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/categories/nikola/index%202.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/package/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/package/index%202.html</loc>
-  <lastmod>2020-05-05T09:19:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/package/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/poetry/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/poetry/index%202.html</loc>
-  <lastmod>2020-05-05T09:19:00Z</lastmod>
+  <loc>https://brainsorting.dev/categories/poetry/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/tutorial/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/categories/tutorial/index%202.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/galleries/</loc>
-  <lastmod>2020-05-05T18:44:00Z</lastmod>
+  <lastmod>2020-06-03T22:52:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/galleries/index%202.html</loc>
-  <lastmod>2020-05-05T08:44:00Z</lastmod>
+  <loc>https://brainsorting.dev/galleries/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/index%202.html</loc>
-  <lastmod>2020-05-05T10:09:00Z</lastmod>
+  <loc>https://brainsorting.dev/index%203.html</loc>
+  <lastmod>2020-05-06T09:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/listings/</loc>
-  <lastmod>2020-05-05T19:08:00Z</lastmod>
+  <lastmod>2020-06-03T22:52:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/listings/index%202.html</loc>
-  <lastmod>2020-05-05T08:44:00Z</lastmod>
+  <loc>https://brainsorting.dev/listings/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/pages/resume/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/pages/resume/index%202.html</loc>
-  <lastmod>2020-05-05T08:44:00Z</lastmod>
+  <loc>https://brainsorting.dev/pages/resume/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/blackjack-the-21-game/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-08T16:13:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/blackjack-the-21-game/index%202.html</loc>
-  <lastmod>2020-05-05T10:09:00Z</lastmod>
+  <loc>https://brainsorting.dev/posts/blackjack-the-21-game/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/create-a-blog-with-nikola/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-08T16:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/posts/create-a-blog-with-nikola/index%202.html</loc>
+  <lastmod>2020-05-06T09:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/index%202.html</loc>
-  <lastmod>2020-05-05T08:56:00Z</lastmod>
+  <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <lastmod>2020-06-04T00:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/index%202.html</loc>
-  <lastmod>2020-05-05T09:19:00Z</lastmod>
+  <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/index%203.html</loc>
+  <lastmod>2020-05-05T17:08:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/test-du-medium-title-sisiii/</loc>
-  <lastmod>2020-05-06T10:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://brainsorting.dev/posts/test/</loc>
-  <lastmod>2020-05-09T10:31:00Z</lastmod>
+  <loc>https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/</loc>
+  <lastmod>2020-06-08T16:16:00Z</lastmod>
  </url>
 </urlset>
