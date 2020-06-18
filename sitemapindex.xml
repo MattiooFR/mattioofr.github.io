@@ -27,11 +27,11 @@
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/flask.xml</loc>
-  <lastmod>2020-06-08T17:32:00Z</lastmod>
+  <lastmod>2020-06-18T17:58:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/heroku.xml</loc>
-  <lastmod>2020-06-08T17:32:00Z</lastmod>
+  <lastmod>2020-06-18T17:58:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/mathematic.xml</loc>
@@ -55,7 +55,7 @@
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/python.xml</loc>
-  <lastmod>2020-06-08T17:32:00Z</lastmod>
+  <lastmod>2020-06-18T17:58:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/self-development.xml</loc>
@@ -67,10 +67,10 @@
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/rss.xml</loc>
-  <lastmod>2020-06-18T17:50:00Z</lastmod>
+  <lastmod>2020-06-18T17:58:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/sitemap.xml</loc>
-  <lastmod>2020-06-18T17:50:00Z</lastmod>
+  <lastmod>2020-06-18T17:58:00Z</lastmod>
  </sitemap>
 </sitemapindex>

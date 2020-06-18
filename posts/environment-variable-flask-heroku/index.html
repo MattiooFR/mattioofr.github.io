@@ -28,6 +28,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <meta property="og:title" content="Using environment variables in a Flask + Heroku project">
 <meta property="og:url" content="https://brainsorting.dev/posts/environment-variable-flask-heroku/">
 <meta property="og:description" content="Quick tutorial to understand good practices on using environment variables.">
+<meta property="og:image" content="https://brainsorting.dev/images/coding.png">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-04-19T15:43:36+02:00">
 <meta property="article:tag" content="flask">
@@ -118,6 +119,7 @@ navbar-dark bg-dark
 .. description: Quick tutorial to understand good practices on using environment variables.
 .. type: text
 .. devto: yes
+.. previewimage: /images/coding.png
 --><p>Using environment variables is fundamental in a project. This is how you tell your app if you are running in <code>production</code> or <code>locally</code> for example. This is where you also store more sensible information like <code>SECRET_KEY</code> or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good&nbsp;idea.</p>
 <p>Before jumping in the topic of configuring environment variables, I will first make you set up and deploy a basic&nbsp;app.</p>
 <!-- TEASER_END -->

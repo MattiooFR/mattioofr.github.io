@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-06-12T17:36:00Z</lastmod>
+  <lastmod>2020-06-18T17:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2020-06-12T17:41:00Z</lastmod>
+  <lastmod>2020-06-18T17:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
@@ -91,7 +91,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/blackjack-the-21-game/</loc>
-  <lastmod>2020-06-12T17:54:00Z</lastmod>
+  <lastmod>2020-06-18T17:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/create-a-blog-with-nikola/</loc>
