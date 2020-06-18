@@ -9,6 +9,7 @@
 .. updated: 2020-05-5 10:20:03 UTC+02:00
 .. type: text
 .. medium: yes
+.. previewimage: /images/Blackjack%20The%2021%20game/previewblackjack.jpg
 -->
 
 « Never be the biggest bettor at your table. »
