@@ -7,19 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-06-18T17:50:00Z</lastmod>
+  <lastmod>2020-07-18T16:11:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
-  <lastmod>2020-06-12T17:41:00Z</lastmod>
+  <lastmod>2020-07-18T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
-  <lastmod>2020-06-12T17:54:00Z</lastmod>
+  <lastmod>2020-07-18T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2020-06-18T17:50:00Z</lastmod>
+  <lastmod>2020-07-18T16:11:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
@@ -27,7 +27,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blogging/</loc>
-  <lastmod>2020-06-12T17:56:00Z</lastmod>
+  <lastmod>2020-07-18T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/books/</loc>
@@ -39,7 +39,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/cat_tutorial/</loc>
-  <lastmod>2020-06-12T17:56:00Z</lastmod>
+  <lastmod>2020-07-18T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/flask/</loc>
@@ -62,6 +62,10 @@
   <lastmod>2020-06-12T17:56:00Z</lastmod>
  </url>
  <url>
+  <loc>https://brainsorting.dev/categories/pelican/</loc>
+  <lastmod>2020-07-18T15:28:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://brainsorting.dev/categories/poetry/</loc>
   <lastmod>2020-06-12T17:56:00Z</lastmod>
  </url>
@@ -71,7 +75,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/python/</loc>
-  <lastmod>2020-06-12T17:56:00Z</lastmod>
+  <lastmod>2020-07-18T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/self-development/</loc>
@@ -91,22 +95,26 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/blackjack-the-21-game/</loc>
-  <lastmod>2020-06-18T17:50:00Z</lastmod>
+  <lastmod>2020-07-18T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/create-a-blog-with-nikola/</loc>
   <lastmod>2020-06-12T17:54:00Z</lastmod>
  </url>
  <url>
+  <loc>https://brainsorting.dev/posts/create-a-blog-with-pelican/</loc>
+  <lastmod>2020-07-18T16:11:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/</loc>
-  <lastmod>2020-06-12T17:54:00Z</lastmod>
+  <lastmod>2020-06-18T17:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
-  <lastmod>2020-06-12T17:54:00Z</lastmod>
+  <lastmod>2020-07-18T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/</loc>
-  <lastmod>2020-06-12T17:54:00Z</lastmod>
+  <lastmod>2020-07-18T15:29:00Z</lastmod>
  </url>
 </urlset>
