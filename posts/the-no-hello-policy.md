@@ -1,5 +1,5 @@
 <!--
-.. title: The no hello policy
+.. title: Please Don't Say Just Hello In Chat
 .. slug: the-no-hello-policy
 .. date: 2020-07-30 09:07:23 UTC+02:00
 .. tags:
@@ -11,8 +11,6 @@
 .. devto: yes
 .. previewimage: /images/nohello.png
 -->
-
-# Please Don't Say Just Hello In Chat
 
 ``` txt
 2010-07-19 12:32:12 you: Hi

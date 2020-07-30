@@ -87,14 +87,15 @@ class CommandMedium(Command):
                 body = tree.xpath("//div")[0]
                 body.insert(0, etree.XML(original_link))
                 body.insert(0, etree.XML(content))
+            print(etree.tostring(tree, encoding=str))
 
-            m_post = client.create_post(
-                user_id=user["id"],
-                title=post.title(),
-                content=etree.tostring(tree, encoding=str),
-                content_format="html",
-                publish_status="public",
-                canonical_url=post.permalink(absolute=True),
-                tags=post.tags,
-            )
-            print("Published %s to %s" % (post.meta("slug"), m_post["url"]))
+            # m_post = client.create_post(
+            #     user_id=user["id"],
+            #     title=post.title(),
+            #     content=etree.tostring(tree, encoding=str),
+            #     content_format="html",
+            #     publish_status="public",
+            #     canonical_url=post.permalink(absolute=True),
+            #     tags=post.tags,
+            # )
+            # print("Published %s to %s" % (post.meta("slug"), m_post["url"]))
