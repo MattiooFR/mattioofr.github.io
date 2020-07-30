@@ -3,13 +3,8 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 30 Jul 2020 07:24:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The no hello policy</title><link>https://brainsorting.dev/posts/the-no-hello-policy/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#please-dont-say-just-hello-in-chat"&gt;Please Don’t Say Just Hello In Chat&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;!--
-.. title: The no hello policy
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 30 Jul 2020 07:33:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Please Don't Say Just Hello In Chat</title><link>https://brainsorting.dev/posts/the-no-hello-policy/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;!--
+.. title: Please Don't Say Just Hello In Chat
 .. slug: the-no-hello-policy
 .. date: 2020-07-30 09:07:23 UTC+02:00
 .. tags:
@@ -21,7 +16,6 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. devto: yes
 .. previewimage: /images/nohello.png
 --&gt;
-&lt;h1 id="please-dont-say-just-hello-in-chat"&gt;Please Don’t Say Just Hello In Chat&lt;/h1&gt;
 &lt;div class="sourceCode" id="cb1"&gt;&lt;pre class="sourceCode txt"&gt;&lt;code class="sourceCode default"&gt;&lt;span id="cb1-1"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb1-1"&gt;&lt;/a&gt;2010-07-19 12:32:12 you: Hi&lt;/span&gt;
 &lt;span id="cb1-2"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb1-2"&gt;&lt;/a&gt;2010-07-19 12:32:15 co-worker: Hello.&lt;/span&gt;
 &lt;span id="cb1-3"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb1-3"&gt;&lt;/a&gt;# CO-WORKER WAITS WHILE YOU PHRASE YOUR QUESTION&lt;/span&gt;
@@ -31,7 +25,7 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 &lt;p&gt;Please do this instead:&lt;/p&gt;
 &lt;div class="sourceCode" id="cb2"&gt;&lt;pre class="sourceCode txt"&gt;&lt;code class="sourceCode default"&gt;&lt;span id="cb2-1"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb2-1"&gt;&lt;/a&gt;2010-07-19 12:32:12 you: Hi -- I'm working on [something] and I'm trying to do [etc...]&lt;/span&gt;
 &lt;span id="cb2-2"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb2-2"&gt;&lt;/a&gt;2010-07-19 12:33:32 co-worker: [answers question]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://brainsorting.dev/posts/the-no-hello-policy/</guid><pubDate>Thu, 30 Jul 2020 07:07:23 GMT</pubDate></item><item><title>Create a blog with Pelican, hosted on Github/Netlify</title><link>https://brainsorting.dev/posts/create-a-blog-with-pelican/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://brainsorting.dev/posts/the-no-hello-policy/</guid><pubDate>Thu, 30 Jul 2020 07:07:23 GMT</pubDate></item><item><title>Create a blog with Pelican, hosted on Github/Netlify</title><link>https://brainsorting.dev/posts/create-a-blog-with-pelican/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#install-pelican"&gt;Install Pelican&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#lets-see-how-your-blog-looks-like-no"&gt;Let’s see how your blog looks like no ?&lt;/a&gt;&lt;/li&gt;
