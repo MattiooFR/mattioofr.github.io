@@ -7,7 +7,6 @@
 .. link:
 .. description: Quick tutorial to understand good practices on using environment variables.
 .. type: text
-.. devto: yes
 .. previewimage: /images/coding.png
 -->
 

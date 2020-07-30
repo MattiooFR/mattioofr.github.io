@@ -5,7 +5,7 @@
 .. tags: porn, self-development
 .. category: random
 .. link:
-.. description:
+.. description: Did you ever asked yourself if watching as much pornography as we do nowadays wasn't harmful ?
 .. type: text
 -->
 

@@ -79,7 +79,13 @@ class CommandMedium(Command):
                 toc[0].getparent().remove(toc[0])
             if len(tree.xpath("//h1")) == 0:
                 content = "<h1>" + post.title() + "</h1>\n"
+                original_link = (
+                    "<p><i>Original article : "
+                    + post.permalink(absolute=True)
+                    + "</i></p>\n"
+                )
                 body = tree.xpath("//div")[0]
+                body.insert(0, etree.XML(original_link))
                 body.insert(0, etree.XML(content))
 
             m_post = client.create_post(

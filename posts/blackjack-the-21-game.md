@@ -5,10 +5,9 @@
 .. tags: mathematic, blackjack, books
 .. category: random
 .. link:
-.. description:
+.. description: Not so long article about everything you need to know about blackjack.
 .. updated: 2020-05-5 10:20:03 UTC+02:00
 .. type: text
-.. medium: yes
 .. previewimage: /images/Blackjack%20The%2021%20game/previewblackjack.jpg
 -->
 

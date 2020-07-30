@@ -7,8 +7,6 @@
 .. link:
 .. description: Tutorial to publish a package on PyPi using Poetry
 .. type: text
-.. medium: yes
-.. devto: yes
 -->
 
 First thing first, you need Poetry if you don't have it already.
