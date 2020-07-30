@@ -14,7 +14,7 @@
 
 # Please Don't Say Just Hello In Chat
 
-```text
+```
 2010-07-19 12:32:12 you: Hi
 2010-07-19 12:32:15 co-worker: Hello.
 # CO-WORKER WAITS WHILE YOU PHRASE YOUR QUESTION
@@ -27,11 +27,11 @@ hold!
 
 Please do this instead:
 
-```text
+```
 2010-07-19 12:32:12 you: Hi -- I'm working on [something] and I'm trying to do [etc...]
 2010-07-19 12:33:32 co-worker: [answers question]
 ```
-
+<!-- TEASER_END -->
 Note that you get help minutes sooner, and you don't make them wait. Instead,
 the co-worker can start thinking about your question right away!
 
@@ -46,7 +46,7 @@ you have a sec ?", "yt?" and "ping". Just ask the question!
 If you feel it's brusque to simply say "Hi" and ask the question, you can do
 something like this:
 
-```text
+```
 2010-07-19 12:32:12 you: Hi -- if you're not busy I was wondering if I could ask a question. I'm working on [something] and I'm trying to do [etc...]
 ```
 
@@ -64,7 +64,7 @@ a voice or video call.
 Instead of sending a call probe, or asking "hey, do you have time for a call?"
 (which is better but not great), you can try something like this:
 
-```text
+```
 2020-07-08 12:32:12 you: Hi - do you have X min for a quick call to talk about XYZ? [etc...]
 ```
 
