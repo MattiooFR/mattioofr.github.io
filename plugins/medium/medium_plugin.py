@@ -73,21 +73,25 @@ class CommandMedium(Command):
             print("Nothing new to post...")
 
         for post in to_post:
+            print(post.text())
             tree = html.fromstring(post.text())
             toc = tree.xpath('//nav[@id="TOC"]')
+
             if len(toc) != 0:
                 toc[0].getparent().remove(toc[0])
+
+            body = tree.xpath("//div")[0]
+            print(etree.tostring(body, encoding=str))
+            original_link = (
+                "<p><i>Original article : "
+                + post.permalink(absolute=True)
+                + "</i></p>\n"
+            )
+            body.insert(0, etree.XML(original_link))
+
             if len(tree.xpath("//h1")) == 0:
                 content = "<h1>" + post.title() + "</h1>\n"
-                original_link = (
-                    "<p><i>Original article : "
-                    + post.permalink(absolute=True)
-                    + "</i></p>\n"
-                )
-                body = tree.xpath("//div")[0]
-                body.insert(0, etree.XML(original_link))
                 body.insert(0, etree.XML(content))
-            print(etree.tostring(tree, encoding=str))
 
             # m_post = client.create_post(
             #     user_id=user["id"],
