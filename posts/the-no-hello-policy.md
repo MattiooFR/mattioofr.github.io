@@ -3,12 +3,10 @@
 .. slug: the-no-hello-policy
 .. date: 2020-07-30 09:07:23 UTC+02:00
 .. tags:
-.. category:
+.. category: random
 .. link:
 .. description: The no hello policy is a way to stop wasting time with good manners when having a specific question.
 .. type: text
-.. medium: yes
-.. devto: yes
 .. previewimage: /images/nohello.png
 -->
 
