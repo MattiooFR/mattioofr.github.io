@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about metamask)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/metamask.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
+&lt;img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 15 Aug 2020 10:30:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to cancel a pending ethereum transaction with MetaMask</title><link>https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#gather-all-the-informations-we-need"&gt;Gather all the informations we need&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#prerequisite"&gt;Prerequisite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#etherscan"&gt;Etherscan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#how-can-i-send-my-own-custom-transaction"&gt;How can I send my own custom transaction&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#enabling-the-custom-gas-settings-and-custom-nonce"&gt;Enabling the custom gas settings and custom nonce&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#sending-a-custom-transaction-to-fix-the-pending-tx"&gt;Sending a custom transaction to fix the pending tx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#how-can-i-prevent-that-from-happening-again"&gt;How can I prevent that from happening again&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;!--
+.. title: How to cancel a pending ethereum transaction with MetaMask
+.. slug: how-to-cancel-a-pending-ethereum-transaction-with-metamask
+.. date: 2020-08-15 12:05:27 UTC+02:00
+.. tags: ethereum, metamask, blockchain
+.. category: tutorial
+.. link:
+.. description: Cancel pending ethereum transaction using MetaMask chrome plugin.
+.. type: text
+.. previewimage: /images/ethereum.jpg
+.. medium: yes
+.. devto: yes
+--&gt;
+&lt;p&gt;Having a &lt;strong&gt;pending transaction&lt;/strong&gt; can be quite annoying and usually happens when the network is heavy loaded and the fees are sky rocketing. Your transaction may have a &lt;strong&gt;too low gas fee&lt;/strong&gt; and miner are just ignoring it to prefer others transaction with higher fees.&lt;/p&gt;
+&lt;p&gt;This result in you being stuck because until that transaction is resolved you cannot send any other transaction. Annoying right ?&lt;/p&gt;
+&lt;p&gt;Let’s dive right in on how to fix this !&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blockchain</category><category>ethereum</category><category>metamask</category><guid>https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</guid><pubDate>Sat, 15 Aug 2020 10:05:27 GMT</pubDate></item></channel></rss>
