@@ -73,7 +73,6 @@ class CommandMedium(Command):
             print("Nothing new to post...")
 
         for post in to_post:
-            print(post.text())
             tree = html.fromstring(post.text())
             toc = tree.xpath('//nav[@id="TOC"]')
 
@@ -81,25 +80,21 @@ class CommandMedium(Command):
                 toc[0].getparent().remove(toc[0])
 
             body = tree.xpath("//div")[0]
-            print(etree.tostring(body, encoding=str))
-            original_link = (
-                "<p><i>Original article : "
-                + post.permalink(absolute=True)
-                + "</i></p>\n"
-            )
+            original_link = f'<p><i>Original article : <a href="{post.permalink(absolute=True)}">{post.permalink(absolute=True)}</a></i></p>\n'
             body.insert(0, etree.XML(original_link))
 
             if len(tree.xpath("//h1")) == 0:
                 content = "<h1>" + post.title() + "</h1>\n"
                 body.insert(0, etree.XML(content))
 
-            # m_post = client.create_post(
-            #     user_id=user["id"],
-            #     title=post.title(),
-            #     content=etree.tostring(tree, encoding=str),
-            #     content_format="html",
-            #     publish_status="public",
-            #     canonical_url=post.permalink(absolute=True),
-            #     tags=post.tags,
-            # )
-            # print("Published %s to %s" % (post.meta("slug"), m_post["url"]))
+            print(etree.tostring(body, encoding=str))
+            m_post = client.create_post(
+                user_id=user["id"],
+                title=post.title(),
+                content=etree.tostring(body, encoding=str),
+                content_format="html",
+                publish_status="public",
+                canonical_url=post.permalink(absolute=True),
+                tags=post.tags,
+            )
+            print("Published %s to %s" % (post.meta("slug"), m_post["url"]))
