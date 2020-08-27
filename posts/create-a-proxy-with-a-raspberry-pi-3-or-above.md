@@ -198,71 +198,71 @@ Now to access your home internet network from outside, you need a way to now its
 2. Create a hostname like « myraspberrypiproxy.ddns.net »
 3. Install the DUC on your raspberry pi which will automatically update the public IP no-ip will redirect the hostname to :
 
-    ```bash
-    cd /usr/local/src/
-    sudo wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
-    sudo tar xf noip-duc-linux.tar.gz
-    cd noip-2.1.9-1
-    sudo make install
-    ```
+```bash
+cd /usr/local/src/
+sudo wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+sudo tar xf noip-duc-linux.tar.gz
+cd noip-2.1.9-1
+sudo make install
+```
 
 4. Then a little bit of configuration
 
-    ```bash
-    sudo cp /usr/local/src/noip-2.1.9-1/debian.noip2.sh /etc/init.d/noip2.sh
-    sudo joe /etc/init.d/noip2.sh
-    ```
+```bash
+sudo cp /usr/local/src/noip-2.1.9-1/debian.noip2.sh /etc/init.d/noip2.sh
+sudo joe /etc/init.d/noip2.sh
+```
 
 5. And add the following code abose this line `DAEMON=/usr/local/bin/noip2`:
 
-    ```bash
-    #!/bin/sh
-    #
-    ### BEGIN INIT INFO
-    # Provides:          noip2.sh
-    # Required-Start:    $remote_fs $local_fs
-    # Required-Stop:     $remote_fs $local_fs
-    # Should-Start:
-    # Should-Stop:
-    # Default-Start:     2 3 4 5
-    # Default-Stop:      0 1 6
-    # Short-Description: Dynamic IP client updater
-    # Description:
-    ### END INIT INFO
-    ```
+```bash
+#!/bin/sh
+#
+### BEGIN INIT INFO
+# Provides:          noip2.sh
+# Required-Start:    $remote_fs $local_fs
+# Required-Stop:     $remote_fs $local_fs
+# Should-Start:
+# Should-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Dynamic IP client updater
+# Description:
+### END INIT INFO
+```
 
-    Now the client can be started, stopped or restarted manually
+Now the client can be started, stopped or restarted manually
 
-    ```bash
-    sudo /etc/init.d/noip2.sh <start|stop|restart>
+```bash
+sudo /etc/init.d/noip2.sh <start|stop|restart>
     ```
 
 6. Change files read write properties :
 
-    ```bash
-    sudo chown root.root /etc/init.d/noip2.sh
-    sudo chmod +x /etc/init.d/noip2.sh
-    ```
+```bash
+sudo chown root.root /etc/init.d/noip2.sh
+sudo chmod +x /etc/init.d/noip2.sh
+```
 
 7. Start the server
 
-    ```bash
-    sudo /etc/init.d/noip2.sh start
-    ```
+```bash
+sudo /etc/init.d/noip2.sh start
+```
 
 8. To allow starting the service automatically at startup, run the following command:
 
-    ```bash
-    sudo update-rc.d noip2.sh defaults
-    ```
+```bash
+sudo update-rc.d noip2.sh defaults
+```
 
 9. Then try sudo reboot to see if service start by itself
 
-    To check if there is a running instance use this command :
+To check if there is a running instance use this command :
 
-    ```bash
-    sudo noip2 -S
-    ```
+```bash
+sudo noip2 -S
+```
 
 Finish ! Now you should be able to connect to your proxy with the hostname address you used in no-ip and the port 3129 like this 'myraspberrypiproxy.ddns.net:3129'. The authorized username and password to connect to the proxy are the one you decided previously in the step 8 of configuring the proxy.
 
