@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html prefix="
+og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Tutorial on how to make your own personal home proxy with a Raspberry Pi 3.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Create a proxy with a Raspberry Pi 3 (or above) | Brain Sorting</title>
+<script src="../../assets/js/pace.min.js"></script><link href="../../assets/css/pace.css" rel="stylesheet">
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/">
+<link rel="icon" href="../../brain.png" sizes="128x128">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	# mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><meta name="author" content="Mathieu Dugue">
+<link rel="prev" href="../how-to-cancel-a-pending-ethereum-transaction-with-metamask/" title="How to cancel a pending ethereum transaction with MetaMask" type="text/html">
+<meta property="og:site_name" content="Brain Sorting">
+<meta property="og:title" content="Create a proxy with a Raspberry Pi 3 (or above)">
+<meta property="og:url" content="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/">
+<meta property="og:description" content="Tutorial on how to make your own personal home proxy with a Raspberry Pi 3.">
+<meta property="og:image" content="https://brainsorting.dev/images/raspberry-pi.jpg">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-08-27T11:12:16+02:00">
+<meta property="article:tag" content="raspberry-pi">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-expand-md static-top mb-4
+navbar-dark bg-dark
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href="https://brainsorting.dev/">
+
+            <span id="blog-title">Brain Sorting</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a href="../../pages/resume/" class="nav-link">My&nbsp;Resume</a>
+                </li>
+<li class="nav-item">
+<a href="../../pages/cheatsheet/" class="nav-link">Cheat&nbsp;Sheet</a>
+                </li>
+<li class="nav-item">
+<a href="../../archive/" class="nav-link">Archive</a>
+
+                
+            </li>
+</ul>
+<form method="get" action="https://www.google.com/search" class="form-inline my-2 my-lg-0" role="search">
+ <div class="form-group">
+ <input type="text" name="q" class="form-control mr-sm-2" placeholder="Search">
+</div>
+ <button type="submit" class="btn btn-secondary my-2 my-sm-0">
+    <i class="fas fa-search"></i></button>
+ 
+ <input type="hidden" name="sitesearch" value="https://brainsorting.dev/">
+</form>
+
+
+            <ul class="navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title small-middle-container" itemprop="headline name"><a href="." class="u-url">Create a proxy with a Raspberry Pi 3 (or&nbsp;above)</a></h1>
+
+        <div class="metadata small-middle-container">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Mathieu&nbsp;Dugue
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2020-08-27T11:12:16+02:00" itemprop="datePublished" title="2020-08-27">2020-08-27</time></a>
+            </p>
+                <p class="commentline">            <a href="#disqus_thread" data-disqus-identifier="cache/posts/create-a-proxy-with-a-raspberry-pi-3-or-above.html">Comments</a>
+
+
+            
+        </p>
+</div>
+        
+    </header><div class="e-content entry-content small-middle-container mr-top" itemprop="articleBody text">
+    <nav id="TOC" role="doc-toc"><ul>
+<li><a href="#install-and-configure-your-raspberry-pi-os">Install and configure your Raspberry Pi&nbsp;OS</a></li>
+<li><a href="#setting-up-the-raspberry-pi">Setting up the raspberry&nbsp;pi</a></li>
+<li><a href="#access-your-raspberry-pi-with-ssh-outside-your-home-local-network">Access your Raspberry Pi with SSH outside your home local&nbsp;network</a></li>
+<li><a href="#useful-commands">Useful&nbsp;Commands</a></li>
+</ul></nav><!--
+.. title: Create a proxy with a Raspberry Pi 3 (or above)
+.. slug: create-a-proxy-with-a-raspberry-pi-3-or-above
+.. date: 2020-08-27 11:12:16 UTC+02:00
+.. tags: raspberry-pi
+.. category: tutorial
+.. link:
+.. description: Tutorial on how to make your own personal home proxy with a Raspberry Pi 3.
+.. type: text
+.. previewimage: /images/raspberry-pi.jpg
+--><p>If you need to use a proxy that has the same IP address as your home, here is a tutorial on how to do&nbsp;it.</p>
+<h3 id="install-and-configure-your-raspberry-pi-os">Install and configure your Raspberry Pi&nbsp;OS</h3>
+<p>Install and configure a raspberry pi without a mouse nor a keyboard&nbsp;:</p>
+<ol type="1">
+<li>Download the last version of raspbian lite <a href="https://www.raspberrypi.org/downloads/raspberry-pi-os/">here</a> and download <a href="https://www.balena.io/etcher/">Etcher</a> which we will use to flash the disk image on the SD&nbsp;card.</li>
+<li>Start Elena, select the Raspbian Lite imake disk, select the target which is the SD card you use for your raspberry pi and click on&nbsp;Flash!.</li>
+</ol>
+<p>While the image disk is getting installed, we will create the file that contains the wifi information so the raspberry can connect to it automatically. Open a text note and paste this inside : <!-- TEASER_END --></p>
+<pre><code>ctrl_interface=/run/wpa_supplicant
+update_config=1
+country=FR
+
+network={
+    ssid="internet_box_name"
+    scan_ssid=1
+    psk="password"
+}</code></pre>
+<p>Replace <code>internet_box_name</code> and <code>password</code> by your home internet box settings and save that file under<code>wpa_supplicant.conf</code></p>
+<p>Then we will create an empty file which name is simply <code>ssh</code>. This file will tell the raspberry that you want to enable the SSH connection which is usually set off by default. With that settings on we will be able to connect to the raspberry pi through the network using another&nbsp;computer.</p>
+<p>Place both files that you just created in the BOOT folder of the SD card you just&nbsp;flashed.</p>
+<p>Congratulation ! Now you can eject the SD card and insert it in your raspberry&nbsp;pi.</p>
+<p>If everything worked out, when you switch on your Raspberry Pi you should see it in the list of the device connected to your home internet network by checking your&nbsp;router.</p>
+<p>Now the next step is to connect to your Raspberry Pi with SSH. Launch a terminal and if you are on mac type this command&nbsp;:</p>
+<p><code>ssh pi@local_ip_of_your_raspberry</code></p>
+<p>It will ask for a password, type <code>raspberry</code></p>
+<p>To avoid that IP to change, we will set a static IP to your raspberry. You need to modify the file <code>dhcpd.conf</code> located in the folder <code>/etc/</code>.</p>
+<p>Once you have opened the file, go to the last line and add this&nbsp;content</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">interface</span> eth0</span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="ex">static</span> ip_address=192.168.1.100/24</span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="ex">static</span> routers=192.168.1.1</span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="ex">static</span> domain_name_servers=192.168.1.1</span>
+<span id="cb2-5"><a href="#cb2-5"></a></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="ex">interface</span> wlan0</span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="ex">static</span> ip_address=192.168.1.100/24</span>
+<span id="cb2-8"><a href="#cb2-8"></a><span class="ex">static</span> routers=192.168.1.1</span>
+<span id="cb2-9"><a href="#cb2-9"></a><span class="ex">static</span> domain_name_servers=192.168.1.1</span></code></pre></div>
+<p>Here, the <code>eth0</code> correspond to a internet cable connection, and <code>wlan0</code> to a internet wifi connection. Up to you to choose which one you will&nbsp;use.</p>
+<p>Static ip_address indicate the IP that your Raspberry Pi will have when it switch on. usually the IP is of the type <code>192.168.1.x</code>, replace the x by an available slot on your network. If your box is on a different IP address then modify static router et static domain_name_servers&nbsp;accordingly.</p>
+<p>Save the file and&nbsp;exit.</p>
+<h3 id="setting-up-the-raspberry-pi">Setting up the raspberry&nbsp;pi</h3>
+<ol type="1">
+<li>Update the raspberry&nbsp;pi</li>
+</ol>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">sudo</span> apt-get update</span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="fu">sudo</span> apt-get upgrade</span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="fu">sudo</span> apt-get dist-upgrade</span></code></pre></div>
+<ol start="2" type="1">
+<li>Install terminal editor&nbsp;Joe</li>
+</ol>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">sudo</span> apt-get install joe</span></code></pre></div>
+<ol start="3" type="1">
+<li>Install the&nbsp;following</li>
+</ol>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">sudo</span> apt-get -y install fail2ban software-properties-common</span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">sudo</span> apt-get install build-essential libevent-dev libssl-dev</span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="bu">cd</span> /etc</span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="fu">sudo</span> wget https://github.com/z3APA3A/3proxy/archive/0.8.12.tar.gz</span>
+<span id="cb5-5"><a href="#cb5-5"></a><span class="fu">sudo</span> tar zxvf 0.8.12.tar.gz</span>
+<span id="cb5-6"><a href="#cb5-6"></a><span class="fu">sudo</span> mv 3proxy-0.8.12 3proxy</span>
+<span id="cb5-7"><a href="#cb5-7"></a><span class="bu">cd</span> 3proxy</span></code></pre></div>
+<ol start="4" type="1">
+<li>Edit the file&nbsp;proxy.h</li>
+</ol>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a><span class="fu">sudo</span> joe src/proxy.h</span></code></pre></div>
+<p>And add the line following line above the other lines starting with&nbsp;#DEFINE</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1"></a><span class="co">#define ANONYMOUS 1</span></span></code></pre></div>
+<ol start="5" type="1">
+<li>Compile and install the&nbsp;software</li>
+</ol>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1"></a><span class="fu">sudo</span> make -f Makefile.Linux</span>
+<span id="cb8-2"><a href="#cb8-2"></a><span class="fu">sudo</span> make -f Makefile.Linux install</span></code></pre></div>
+<ol start="6" type="1">
+<li>Download&nbsp;3proxy.cfg</li>
+</ol>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">sudo</span> wget https://gettraffic.pro/docs/3proxy.cfg</span></code></pre></div>
+<ol start="7" type="1">
+<li>Edit the 3proxy.cfg with&nbsp;Joe</li>
+</ol>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1"></a><span class="fu">sudo</span> joe 3proxy.cfg</span></code></pre></div>
+<ol start="8" type="1">
+<li>Change those&nbsp;lines</li>
+</ol>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1"></a><span class="fu">users</span> root:CL:passwd</span>
+<span id="cb11-2"><a href="#cb11-2"></a><span class="ex">...</span></span>
+<span id="cb11-3"><a href="#cb11-3"></a><span class="ex">allow</span> root</span></code></pre></div>
+<p>To any username you prefer instead of <code>root</code> and change the <code>passwd</code> to a strong password. If you changed root to a different username don’t forget to change <code>allow root</code> to <code>allow</code> and whatever username you decided. Save that file when you are&nbsp;finished</p>
+<ol start="9" type="1">
+<li>Change file&nbsp;permission</li>
+</ol>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1"></a><span class="fu">sudo</span> chmod 700 3proxy.cfg</span></code></pre></div>
+<ol start="10" type="1">
+<li>Download the script&nbsp;file</li>
+</ol>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1"></a><span class="bu">cd</span> /etc/3proxy/scripts/rc.d/</span>
+<span id="cb13-2"><a href="#cb13-2"></a><span class="fu">sudo</span> mv proxy.sh saved-proxy.sh</span>
+<span id="cb13-3"><a href="#cb13-3"></a><span class="fu">sudo</span> wget https://gettraffic.pro/docs/proxy.sh</span></code></pre></div>
+<ol start="11" type="1">
+<li>Start the proxy&nbsp;server</li>
+</ol>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1"></a><span class="fu">sudo</span> sh /etc/3proxy/scripts/rc.d/proxy.sh start</span></code></pre></div>
+<p>It should give the output “Starting 3Proxy”. If it doesn’t then there is a problem somewhere in your config&nbsp;files.</p>
+<ol start="12" type="1">
+<li>Add it to the autorun so after reboot it will start&nbsp;again</li>
+</ol>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1"></a><span class="fu">sudo</span> joe /etc/rc.local</span></code></pre></div>
+<p>And add line&nbsp;:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1"></a><span class="fu">sh</span> /etc/3proxy/scripts/rc.d/proxy.sh start</span></code></pre></div>
+<p>This line has to be added above the line <code>exit 0</code>.</p>
+<p>The best way to check if everything is alright is by doing a full reboot of your Raspberry and checking if everything still works after the reboot&nbsp;:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1"></a><span class="fu">sudo</span> shutdown -r now</span></code></pre></div>
+<h3 id="access-your-raspberry-pi-with-ssh-outside-your-home-local-network">Access your Raspberry Pi with SSH outside your home local&nbsp;network</h3>
+<p>You will need to add the fixed IP you choose for your Raspberry Pi in your internet box router settings. Add this IP address in the DHCP settings (the aim of this tutorial is not to each how to do that so look ressources on&nbsp;google).</p>
+<p>Now edit your NAT/PAT settings to redirect the port 22 (SSH) and 3129 (your proxy) to the fixed IP address you just set up in the&nbsp;DHCP.</p>
+<p>Now to access your home internet network from outside, you need a way to now its public IP address which might change over time. We will use a very good services to achieve that is called&nbsp;no-ip.</p>
+<ol type="1">
+<li><p>Register on <a href="https://www.noip.com/">https://www.noip.com/</a></p></li>
+<li><p>Create a hostname like « myraspberrypiproxy.ddns.net&nbsp;»</p></li>
+<li>
+<p>Install the DUC on your raspberry pi which will automatically update the public IP no-ip will redirect the hostname to&nbsp;:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1"></a><span class="bu">cd</span> /usr/local/src/</span>
+<span id="cb18-2"><a href="#cb18-2"></a><span class="fu">sudo</span> wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz</span>
+<span id="cb18-3"><a href="#cb18-3"></a><span class="fu">sudo</span> tar xf noip-duc-linux.tar.gz</span>
+<span id="cb18-4"><a href="#cb18-4"></a><span class="bu">cd</span> noip-2.1.9-1</span>
+<span id="cb18-5"><a href="#cb18-5"></a><span class="fu">sudo</span> make install</span></code></pre></div>
+</li>
+<li>
+<p>Then a little bit of&nbsp;configuration</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1"></a><span class="fu">sudo</span> cp /usr/local/src/noip-2.1.9-1/debian.noip2.sh /etc/init.d/noip2.sh</span>
+<span id="cb19-2"><a href="#cb19-2"></a><span class="fu">sudo</span> joe /etc/init.d/noip2.sh</span></code></pre></div>
+</li>
+<li>
+<p>And add the following code abose this line <code>DAEMON=/usr/local/bin/noip2</code>:</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1"></a><span class="co">#!/bin/sh</span></span>
+<span id="cb20-2"><a href="#cb20-2"></a><span class="co">#</span></span>
+<span id="cb20-3"><a href="#cb20-3"></a><span class="co">### </span><span class="re">BEGIN</span><span class="co"> INIT INFO</span></span>
+<span id="cb20-4"><a href="#cb20-4"></a><span class="co"># Provides:          noip2.sh</span></span>
+<span id="cb20-5"><a href="#cb20-5"></a><span class="co"># Required-Start:    $remote_fs $local_fs</span></span>
+<span id="cb20-6"><a href="#cb20-6"></a><span class="co"># Required-Stop:     $remote_fs $local_fs</span></span>
+<span id="cb20-7"><a href="#cb20-7"></a><span class="co"># Should-Start:</span></span>
+<span id="cb20-8"><a href="#cb20-8"></a><span class="co"># Should-Stop:</span></span>
+<span id="cb20-9"><a href="#cb20-9"></a><span class="co"># Default-Start:     2 3 4 5</span></span>
+<span id="cb20-10"><a href="#cb20-10"></a><span class="co"># Default-Stop:      0 1 6</span></span>
+<span id="cb20-11"><a href="#cb20-11"></a><span class="co"># Short-Description: Dynamic IP client updater</span></span>
+<span id="cb20-12"><a href="#cb20-12"></a><span class="co"># Description:</span></span>
+<span id="cb20-13"><a href="#cb20-13"></a><span class="co">### </span><span class="re">END</span><span class="co"> INIT INFO</span></span></code></pre></div>
+<p>Now the client can be started, stopped or restarted&nbsp;manually</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1"></a><span class="fu">sudo</span> /etc/init.d/noip2.sh <span class="op">&lt;</span>start<span class="kw">|</span><span class="ex">stop</span><span class="kw">|</span><span class="ex">restart</span><span class="op">&gt;</span></span></code></pre></div>
+</li>
+<li>
+<p>Change files read write properties&nbsp;:</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1"></a><span class="fu">sudo</span> chown root.root /etc/init.d/noip2.sh</span>
+<span id="cb22-2"><a href="#cb22-2"></a><span class="fu">sudo</span> chmod +x /etc/init.d/noip2.sh</span></code></pre></div>
+</li>
+<li>
+<p>Start the&nbsp;server</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1"></a><span class="fu">sudo</span> /etc/init.d/noip2.sh start</span></code></pre></div>
+</li>
+<li>
+<p>To allow starting the service automatically at startup, run the following&nbsp;command:</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1"></a><span class="fu">sudo</span> update-rc.d noip2.sh defaults</span></code></pre></div>
+</li>
+<li>
+<p>Then try sudo reboot to see if service start by&nbsp;itself</p>
+<p>To check if there is a running instance use this command&nbsp;:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1"></a><span class="fu">sudo</span> noip2 -S</span></code></pre></div>
+</li>
+</ol>
+<p>Finish ! Now you should be able to connect to your proxy with the hostname address you used in no-ip and the port 3129 like this ‘myraspberrypiproxy.ddns.net:3129’. The authorized username and password to connect to the proxy are the one you decided previously in the step 8 of configuring the&nbsp;proxy.</p>
+<h3 id="useful-commands">Useful&nbsp;Commands</h3>
+<ul>
+<li>If you need to reconfigure the DUC file from no-ip use that command : <code>sudo /usr/local/bin/noip2 -C</code>
+</li>
+<li>Connect to the raspberry pi by SSH with Terminal (Mac) : <code>ssh pi@ip</code> Then yes, and type&nbsp;password</li>
+<li>Check if there is a no-ip instance running <code>sudo noip2 -S</code>
+</li>
+<li>Check if proxy is running <code>ps -A</code>
+</li>
+</ul>
+</div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/raspberry-pi/" rel="tag">raspberry-pi</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../how-to-cancel-a-pending-ethereum-transaction-with-metamask/" rel="prev" title="How to cancel a pending ethereum transaction with MetaMask">Previous&nbsp;post</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+                        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="brainsorting",
+            disqus_url="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/",
+        disqus_title="Create a proxy with a Raspberry Pi 3 (or above)",
+        disqus_identifier="cache/posts/create-a-proxy-with-a-raspberry-pi-3-or-above.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="brainsorting";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>
+<div style="display: flex; justify-content:center;">
+    <div style="width:25%; text-align: left;">
+        <h4 style="margin-left:-10px">&#8230;Lets&nbsp;socialize</h4>
+        <p>• Say hi on <a href="https://twitter.com/mattioo81">Twitter</a></p>
+        <p>• Connect on <a href="https://www.linkedin.com/in/mathieudugue/">LinkedIn</a></p>
+        <p>• Send me an <a href="mailto:dugue.mathieu@gmail.com">email</a></p>
+    </div>
+    <div style="width:18%; text-align: left;">
+        <h4 style="margin-left:-10px">&#8230;Read me&nbsp;here</h4>
+        <p>• On <a href="https://dev.to/mattioo">dev.to <i class="fab fa-dev" title="mattioo's DEV Profile"></i></a>
+        </p>
+<p>• On <a href="https://medium.com/@mattioo">Medium</a></p>
+        <p>• Or stay <a href="https://brainsorting.dev">here</a></p>
+    </div>
+</div>
+<br>
+Contents © 2020 <a href="mailto:dugue.mathieu@gmail.com">Mathieu Dugue</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> - Icons from <a href="https://www.flaticon.com/">FlatIcon</a>
+</center>
+<br></footer>
+</div>
+</div>
+
+        <script src="../../assets/js/all-nocdn.js"></script><script src="../../assets/js/moment-with-locales.min.js"></script><!-- fancy dates --><script>
+        moment.locale("en");
+        fancydates(2, "YYYY-MM-DD HH:mm");
+        </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-162183468-1"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-162183468-1');
+</script>
+</body>
+</html>

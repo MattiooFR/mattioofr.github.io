@@ -7,19 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-08-15T10:30:00Z</lastmod>
+  <lastmod>2020-08-27T09:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
-  <lastmod>2020-08-15T10:14:00Z</lastmod>
+  <lastmod>2020-08-27T09:19:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
-  <lastmod>2020-08-15T10:14:00Z</lastmod>
+  <lastmod>2020-08-27T09:19:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2020-08-15T10:30:00Z</lastmod>
+  <lastmod>2020-08-27T09:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
@@ -39,11 +39,11 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/cat_random/</loc>
-  <lastmod>2020-06-12T17:56:00Z</lastmod>
+  <lastmod>2020-08-15T10:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/cat_tutorial/</loc>
-  <lastmod>2020-08-15T10:14:00Z</lastmod>
+  <lastmod>2020-08-27T09:19:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/ethereum/</loc>
@@ -90,6 +90,10 @@
   <lastmod>2020-07-18T15:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://brainsorting.dev/categories/raspberry-pi/</loc>
+  <lastmod>2020-08-27T09:19:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://brainsorting.dev/categories/self-development/</loc>
   <lastmod>2020-06-12T17:56:00Z</lastmod>
  </url>
@@ -118,12 +122,16 @@
   <lastmod>2020-07-30T07:17:00Z</lastmod>
  </url>
  <url>
+  <loc>https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</loc>
+  <lastmod>2020-08-27T09:21:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/</loc>
   <lastmod>2020-07-30T07:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</loc>
-  <lastmod>2020-08-15T10:30:00Z</lastmod>
+  <lastmod>2020-08-27T09:19:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
@@ -131,7 +139,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/the-no-hello-policy/</loc>
-  <lastmod>2020-08-15T10:14:00Z</lastmod>
+  <lastmod>2020-08-15T10:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/</loc>
