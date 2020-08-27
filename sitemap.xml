@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2020-08-27T09:21:00Z</lastmod>
+  <lastmod>2020-08-27T09:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2020-08-27T09:21:00Z</lastmod>
+  <lastmod>2020-08-27T09:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
@@ -123,7 +123,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</loc>
-  <lastmod>2020-08-27T09:21:00Z</lastmod>
+  <lastmod>2020-08-27T09:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/</loc>

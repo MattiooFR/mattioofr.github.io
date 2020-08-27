@@ -117,6 +117,8 @@ navbar-dark bg-dark
 .. description: Tutorial on how to make your own personal home proxy with a Raspberry Pi 3.
 .. type: text
 .. previewimage: /images/raspberry-pi.jpg
+.. medium: yes
+.. devto: yes
 --><p>If you need to use a proxy that has the same IP address as your home, here is a tutorial on how to do&nbsp;it.</p>
 <h3 id="install-and-configure-your-raspberry-pi-os">Install and configure your Raspberry Pi&nbsp;OS</h3>
 <p>Install and configure a raspberry pi without a mouse nor a keyboard&nbsp;:</p>
@@ -124,16 +126,17 @@ navbar-dark bg-dark
 <li>Download the last version of raspbian lite <a href="https://www.raspberrypi.org/downloads/raspberry-pi-os/">here</a> and download <a href="https://www.balena.io/etcher/">Etcher</a> which we will use to flash the disk image on the SD&nbsp;card.</li>
 <li>Start Elena, select the Raspbian Lite imake disk, select the target which is the SD card you use for your raspberry pi and click on&nbsp;Flash!.</li>
 </ol>
-<p>While the image disk is getting installed, we will create the file that contains the wifi information so the raspberry can connect to it automatically. Open a text note and paste this inside : <!-- TEASER_END --></p>
-<pre><code>ctrl_interface=/run/wpa_supplicant
-update_config=1
-country=FR
-
-network={
-    ssid="internet_box_name"
-    scan_ssid=1
-    psk="password"
-}</code></pre>
+<p>While the image disk is getting installed, we will create the file that contains the wifi information so the raspberry can connect to it automatically. Open a text note and paste this inside&nbsp;:</p>
+<!-- TEASER_END -->
+<div class="sourceCode" id="cb1"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1"></a>ctrl_interface=/run/wpa_supplicant</span>
+<span id="cb1-2"><a href="#cb1-2"></a>update_config=1</span>
+<span id="cb1-3"><a href="#cb1-3"></a>country=FR</span>
+<span id="cb1-4"><a href="#cb1-4"></a></span>
+<span id="cb1-5"><a href="#cb1-5"></a>network={</span>
+<span id="cb1-6"><a href="#cb1-6"></a>    ssid="internet_box_name"</span>
+<span id="cb1-7"><a href="#cb1-7"></a>    scan_ssid=1</span>
+<span id="cb1-8"><a href="#cb1-8"></a>    psk="password"</span>
+<span id="cb1-9"><a href="#cb1-9"></a>}</span></code></pre></div>
 <p>Replace <code>internet_box_name</code> and <code>password</code> by your home internet box settings and save that file under<code>wpa_supplicant.conf</code></p>
 <p>Then we will create an empty file which name is simply <code>ssh</code>. This file will tell the raspberry that you want to enable the SSH connection which is usually set off by default. With that settings on we will be able to connect to the raspberry pi through the network using another&nbsp;computer.</p>
 <p>Place both files that you just created in the BOOT folder of the SD card you just&nbsp;flashed.</p>
