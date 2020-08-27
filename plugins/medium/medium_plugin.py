@@ -87,7 +87,6 @@ class CommandMedium(Command):
                 content = "<h1>" + post.title() + "</h1>\n"
                 body.insert(0, etree.XML(content))
 
-            print(etree.tostring(body, encoding=str))
             m_post = client.create_post(
                 user_id=user["id"],
                 title=post.title(),

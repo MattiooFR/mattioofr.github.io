@@ -8,6 +8,8 @@
 .. description: Tutorial on how to make your own personal home proxy with a Raspberry Pi 3.
 .. type: text
 .. previewimage: /images/raspberry-pi.jpg
+.. medium: yes
+.. devto: yes
 -->
 
 If you need to use a proxy that has the same IP address as your home, here is a tutorial on how to do it.
@@ -20,8 +22,10 @@ Install and configure a raspberry pi without a mouse nor a keyboard :
 2. Start Elena, select the Raspbian Lite imake disk, select the target which is the SD card you use for your raspberry pi and click on Flash!.
 
 While the image disk is getting installed, we will create the file that contains the wifi information so the raspberry can connect to it automatically. Open a text note and paste this inside :
+
 <!-- TEASER_END -->
-```
+
+```txt
 ctrl_interface=/run/wpa_supplicant
 update_config=1
 country=FR
