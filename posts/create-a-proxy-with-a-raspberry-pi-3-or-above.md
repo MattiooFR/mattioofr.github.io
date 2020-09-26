@@ -8,8 +8,6 @@
 .. description: Tutorial on how to make your own personal home proxy with a Raspberry Pi 3.
 .. type: text
 .. previewimage: /images/raspberry-pi.jpg
-.. medium: yes
-.. devto: yes
 -->
 
 If you need to use a proxy that has the same IP address as your home, here is a tutorial on how to do it.

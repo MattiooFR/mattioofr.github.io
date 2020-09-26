@@ -33,7 +33,6 @@ import re
 from medium import Client
 from nikola import utils
 from nikola.plugin_categories import Command
-from lxml import html, etree
 
 LOGGER = utils.get_logger("Medium")
 
