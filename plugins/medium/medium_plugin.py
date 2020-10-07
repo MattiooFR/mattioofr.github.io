@@ -75,9 +75,13 @@ class CommandMedium(Command):
         for post in to_post:
             with open(post.source_path, "r") as file:
                 data = file.read()
-                pattern = "(?m)^# .*\n$"
+                pattern = r"^# (.+)"
                 title = ""
-                match = re.search(pattern, data)
+                idx = data.index("```")
+                if idx:
+                    match = re.search(pattern, data[:idx], flags=re.M)
+                else:
+                    match = re.search(pattern, data, flags=re.M)
                 if not match:
                     title = f"# {post.title()}\n"
                     content = (

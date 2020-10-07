@@ -1,0 +1,131 @@
+<!--
+.. title: hello
+.. slug: hello
+.. date: 2020-10-07 11:44:36 UTC+02:00
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mathieu Dugue">
+  <meta name="description" content="Mathieu Dugue">
+  <meta name="keywords" content="Mathieu Dugue">
+  <meta name="copyright" content="Mathieu Dugue">
+
+  <title>BrainSorting | Hello</title>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="assets/css/hello.css" />
+
+<!-- Javascript -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/001370ccde.js" crossorigin="anonymous"></script>
+
+
+<body id="hello">
+    <div id="main">
+
+      <div id="header">
+
+        <a href="https://bit.ly/brainsorting" target="_blank"><img id="profile-pic" class="no-lazy-load" src="https://www.brainsorting.dev/images/moi.jpeg" alt="Mathieu Dugue Profile"></a>
+
+        <h1>Mathieu Dugue</h1>
+
+        <div id="social">
+          <span><a href="https://bit.ly/mathieu_instagram" target="_blank" alt="Mathieu Dugue Instagram"><i class="fab fa-instagram-square"></i></a></span>
+          <span><a href="https://bit.ly/mathieu_twitter" target="_blank" alt="Mathieu Dugue Twitter"><i class="fab fa-twitter-square"></i></a></span>
+          <span><a href="https://bit.ly/mathieu_linkedin" target="_blank" alt="Mathieu Dugue LinkedIn"><i class="fab fa-linkedin"></i></a></span>
+        </div>
+
+        <h3>Greetings! 👋</h3>
+
+        <p class="subtext">Thanks so for coming here ! ☀️<br>On this page, you'll find links to my active projects as well as recent blog posts.</p>
+
+        <hr>
+      </div>
+
+      <div id="buttons">
+        <h2>What I'm Working On</h2>
+
+        <h3><span>Kindle Clippings Summarizer </span> - Generate summarized text from your kindle clippings</h3>
+        <h4 class="subtext">Using AI to automatically short and clear summarization from your kindle clippings book.</h4>
+
+        <h3><span>1pic1day</span> - Create online album where you can see only 1 picture per day</h3>
+        <h4 class="subtext">Reducing instant gratification with online album where people can see only one new picture every day.</h4>
+        {% comment %} <a href="" target="_blank" class="button">Check out 1pic1day/a> {% endcomment %}
+      </div>
+
+      <div id="recent-posts">
+        <h2>Recent Blog Posts</h2>
+
+        <div id="blog-posts"></div>
+
+        <a href="https://brainsorting.dev" target="_blank" class="button">Visit Blog</a>
+      </div>
+
+    </div>
+
+
+    <script>
+      $(document).ready(function(){
+
+        /* Retrieve blog posts */
+        var feedURL = "https://www.brainsorting.dev/rss.xml";
+        var num_posts = 4;
+        $.ajax({
+          type: 'GET',
+          url: "https://api.rss2json.com/v1/api.json?rss_url=" + feedURL,
+          dataType: 'json',
+          success: function(result) {
+        display_posts(result.items.slice(0, num_posts));
+      }
+    });
+
+        function display_posts(posts) {
+
+          var blog_posts = document.querySelector('#blog-posts');
+
+          var container = new DocumentFragment()
+
+          posts.forEach(function(post) {
+
+            var child_container = new DocumentFragment()
+
+            var child_div = document.createElement('div');
+            child_div.className = "post";
+
+            var child_content_div = document.createElement('div');
+            child_content_div.className = "post-content";
+
+            var child_div_link = document.createElement('a');
+            child_div_link.href = post.link;
+            child_div_link.target = "_blank";
+
+            var title = document.createElement('h3');
+            title.innerHTML = post.title;
+            title.className = "title"
+
+            child_div_link.appendChild(title)
+            child_content_div.appendChild(child_div_link)
+            child_div.appendChild(child_content_div)
+            child_container.appendChild(child_div)
+            container.appendChild(child_container)
+          });
+          blog_posts.appendChild(container)
+        }
+      });
+    </script>
+
+  </body>
+  </html>
