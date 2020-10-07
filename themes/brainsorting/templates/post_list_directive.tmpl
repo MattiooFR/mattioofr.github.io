@@ -1,0 +1,14 @@
+{#  -*- coding: utf-8 -*- #}
+{% block content %}
+<!-- Begin post-list {{ post_list_id }} -->
+    {% if posts %}
+    {% for post in posts %}
+        <div class="post">
+            <div class="post-content">
+                <a href="{{ post.permalink(lang) }}" target="_blank">{{ post.title(lang)|e }}</a>
+            </div>
+        </div>
+    {% endfor %}
+    {% endif %}
+<!-- End post-list {{ post_list_id }} -->
+{% endblock %}
