@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Wed, 07 Oct 2020 10:53:26 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Create a proxy with a Raspberry Pi 3 (or above)</title><link>https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Wed, 07 Oct 2020 12:05:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Create a proxy with a Raspberry Pi 3 (or above)</title><link>https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#install-and-configure-your-raspberry-pi-os"&gt;Install and configure your Raspberry Pi OS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#setting-up-the-raspberry-pi"&gt;Setting up the raspberry pi&lt;/a&gt;&lt;/li&gt;
