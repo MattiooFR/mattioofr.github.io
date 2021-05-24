@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about book)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/book.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2021 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
+&lt;img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 24 May 2021 20:38:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Traders : Entrez dans la zone</title><link>https://brainsorting.dev/posts/traders-entrez-dans-la-zone/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#analyse-technique"&gt;Analyse Technique&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#mises-en-gardes"&gt;Mises en gardes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#quest-ce-que-le-risque"&gt;Qu’est-ce que le risque ?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#nos-r%C3%A9actions-face-aux-erreurs"&gt;Nos réactions face aux erreurs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#quest-ce-que-la-bourse"&gt;Qu’est-ce que la bourse ?&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#le-but-dun-trader"&gt;Le but d’un trader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#le-plan-de-trade"&gt;Le plan de trade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#la-r%C3%A9alit%C3%A9-des-march%C3%A9s"&gt;La réalité des marchés&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#nos-attentes-du-march%C3%A9"&gt;Nos attentes du marché&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#comment-devenir-un-bon-trader"&gt;Comment devenir un bon trader&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#pr%C3%A9d%C3%A9finir-le-risque"&gt;Prédéfinir le risque&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#r%C3%A9fl%C3%A9chir-en-terme-de-probabilit%C3%A9"&gt;Réfléchir en terme de probabilité&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#supprimer-ses-attentes"&gt;Supprimer ses attentes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#les-%C3%A9tapes-de-la-r%C3%A9ussites"&gt;Les étapes de la réussites&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;!--
+.. title: Traders : Entrez dans la zone
+.. slug: traders-entrez-dans-la-zone
+.. date: 2021-05-24 22:29:57 UTC+02:00
+.. tags: book, trading
+.. category: random
+.. link:
+.. description: Résumé du livre Trading in the zone de Mark Douglas
+.. previewimage: /images/traderzone.jpeg
+.. type: text
+--&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Dans les années 80, &lt;strong&gt;l’analyse technique&lt;/strong&gt; n’était que très peu utilisée, les traders utilisaient plutôt ce que l’on appelle &lt;strong&gt;l’analyse fondamentale&lt;/strong&gt;. ****Elle consiste à prendre en considération toutes les variables qui peuvent affecter &lt;strong&gt;l’équilibre&lt;/strong&gt; ou le &lt;strong&gt;déséquilibre&lt;/strong&gt; relatif entre &lt;strong&gt;l’offre&lt;/strong&gt; et la &lt;strong&gt;demande&lt;/strong&gt; de toute action, matière première ou instrument financier.&lt;/p&gt;
+&lt;p&gt;Malheureusement ces modèles tiennent rarement compte des &lt;strong&gt;autres traders en tant que variables&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Les analystes fondamentaux pourraient avoir raison sur une prédiction future, mais entre temps les oscillations de prix dûs aux autres traders seront telles qu’il serait &lt;strong&gt;très difficile de conserver une position pour atteindre l’objectif&lt;/strong&gt;. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/"&gt;Read more…&lt;/a&gt; (10 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>book</category><category>trading</category><guid>https://brainsorting.dev/posts/traders-entrez-dans-la-zone/</guid><pubDate>Mon, 24 May 2021 20:29:57 GMT</pubDate></item></channel></rss>

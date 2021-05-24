@@ -16,13 +16,14 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://brainsorting.dev/">
 <link rel="icon" href="brain.png" sizes="128x128">
+<link rel="next" href="index-1.html" type="text/html">
 <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	# mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
-<script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><link rel="prefetch" href="posts/structuring-a-python-application/" type="text/html">
+<script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><link rel="prefetch" href="posts/traders-entrez-dans-la-zone/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -78,7 +79,68 @@ navbar-dark bg-dark
     
     
 <div class="postindex small-middle-container">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/structuring-a-python-application/" class="u-url"><img src="study.png" class="title-icon">Structuring a Python&nbsp;application</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/traders-entrez-dans-la-zone/" class="u-url"><img src="random.png" class="title-icon">Traders : Entrez dans la&nbsp;zone</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Mathieu&nbsp;Dugue
+            </span></p>
+            <p class="dateline">
+            <a href="posts/traders-entrez-dans-la-zone/" rel="bookmark">
+            <time class="published dt-published" datetime="2021-05-24T22:29:57+02:00" itemprop="datePublished" title="2021-05-24">2021-05-24</time></a>
+            </p>
+                <p class="commentline">            <a href="posts/traders-entrez-dans-la-zone/#disqus_thread" data-disqus-identifier="cache/posts/traders-entrez-dans-la-zone.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<nav id="TOC" role="doc-toc"><ul>
+<li><a href="posts/traders-entrez-dans-la-zone/#introduction">Introduction</a></li>
+<li><a href="posts/traders-entrez-dans-la-zone/#analyse-technique">Analyse&nbsp;Technique</a></li>
+<li>
+<a href="posts/traders-entrez-dans-la-zone/#mises-en-gardes">Mises en gardes</a>
+<ul>
+<li><a href="posts/traders-entrez-dans-la-zone/#quest-ce-que-le-risque">Qu’est-ce que le risque&nbsp;?</a></li>
+<li><a href="posts/traders-entrez-dans-la-zone/#nos-r%C3%A9actions-face-aux-erreurs">Nos réactions face aux&nbsp;erreurs</a></li>
+</ul>
+</li>
+<li>
+<a href="posts/traders-entrez-dans-la-zone/#quest-ce-que-la-bourse">Qu’est-ce que la bourse ?</a>
+<ul>
+<li><a href="posts/traders-entrez-dans-la-zone/#le-but-dun-trader">Le but d’un&nbsp;trader</a></li>
+<li><a href="posts/traders-entrez-dans-la-zone/#le-plan-de-trade">Le plan de&nbsp;trade</a></li>
+<li><a href="posts/traders-entrez-dans-la-zone/#la-r%C3%A9alit%C3%A9-des-march%C3%A9s">La réalité des&nbsp;marchés</a></li>
+<li><a href="posts/traders-entrez-dans-la-zone/#nos-attentes-du-march%C3%A9">Nos attentes du&nbsp;marché</a></li>
+</ul>
+</li>
+<li>
+<a href="posts/traders-entrez-dans-la-zone/#comment-devenir-un-bon-trader">Comment devenir un bon trader</a>
+<ul>
+<li><a href="posts/traders-entrez-dans-la-zone/#pr%C3%A9d%C3%A9finir-le-risque">Prédéfinir le&nbsp;risque</a></li>
+<li><a href="posts/traders-entrez-dans-la-zone/#r%C3%A9fl%C3%A9chir-en-terme-de-probabilit%C3%A9">Réfléchir en terme de&nbsp;probabilité</a></li>
+<li><a href="posts/traders-entrez-dans-la-zone/#supprimer-ses-attentes">Supprimer ses&nbsp;attentes</a></li>
+<li><a href="posts/traders-entrez-dans-la-zone/#les-%C3%A9tapes-de-la-r%C3%A9ussites">Les étapes de la&nbsp;réussites</a></li>
+</ul>
+</li>
+</ul></nav><!--
+.. title: Traders : Entrez dans la zone
+.. slug: traders-entrez-dans-la-zone
+.. date: 2021-05-24 22:29:57 UTC+02:00
+.. tags: book, trading
+.. category: random
+.. link:
+.. description: Résumé du livre Trading in the zone de Mark Douglas
+.. previewimage: /images/traderzone.jpeg
+.. type: text
+--><h2 id="introduction">Introduction</h2>
+<p>Dans les années 80, <strong>l’analyse technique</strong> n’était que très peu utilisée, les traders utilisaient plutôt ce que l’on appelle <strong>l’analyse fondamentale</strong>. ****Elle consiste à prendre en considération toutes les variables qui peuvent affecter <strong>l’équilibre</strong> ou le <strong>déséquilibre</strong> relatif entre <strong>l’offre</strong> et la <strong>demande</strong> de toute action, matière première ou instrument&nbsp;financier.</p>
+<p>Malheureusement ces modèles tiennent rarement compte des <strong>autres traders en tant que variables</strong>.</p>
+<p>Les analystes fondamentaux pourraient avoir raison sur une prédiction future, mais entre temps les oscillations de prix dûs aux autres traders seront telles qu’il serait <strong>très difficile de conserver une position pour atteindre l’objectif</strong>. </p>
+<p class="more"><a href="posts/traders-entrez-dans-la-zone/">11 minute&nbsp;read…</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/structuring-a-python-application/" class="u-url"><img src="study.png" class="title-icon">Structuring a Python&nbsp;application</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Mathieu&nbsp;Dugue
@@ -585,46 +647,12 @@ navbar-dark bg-dark
 <p class="more"><a href="posts/publish-a-package-on-pypi-using-poetry/">4 minute&nbsp;read…</a></p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/environment-variable-flask-heroku/" class="u-url"><img src="random.png" class="title-icon">Using environment variables in a Flask + Heroku&nbsp;project</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Mathieu&nbsp;Dugue
-            </span></p>
-            <p class="dateline">
-            <a href="posts/environment-variable-flask-heroku/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-04-19T15:43:36+02:00" itemprop="datePublished" title="2020-04-19">2020-04-19</time></a>
-            </p>
-                <p class="commentline">            <a href="posts/environment-variable-flask-heroku/#disqus_thread" data-disqus-identifier="cache/posts/environment-variable-flask-heroku.html">Comments</a>
-
-
-        </p>
-</div>
-    </header><div class="p-summary entry-summary">
-    <div>
-<nav id="TOC" role="doc-toc"><ul>
-<li><a href="posts/environment-variable-flask-heroku/#flask">Flask</a></li>
-<li><a href="posts/environment-variable-flask-heroku/#heroku">Heroku</a></li>
-<li><a href="posts/environment-variable-flask-heroku/#environment-variable">Environment&nbsp;Variable</a></li>
-<li><a href="posts/environment-variable-flask-heroku/#conclusion">Conclusion</a></li>
-</ul></nav><!--
-.. title: Using environment variables in a Flask + Heroku project
-.. slug: environment-variable-flask-heroku
-.. date: 2020-04-19 15:43:36 UTC+02:00
-.. tags: flask, heroku, python
-.. category:tutorial
-.. link:
-.. description: Quick tutorial to understand good practices on using environment variables.
-.. type: text
-.. previewimage: /images/coding.png
---><p>Using environment variables is fundamental in a project. This is how you tell your app if you are running in <code>production</code> or <code>locally</code> for example. This is where you also store more sensible information like <code>SECRET_KEY</code> or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good&nbsp;idea.</p>
-<p>Before jumping in the topic of configuring environment variables, I will first make you set up and deploy a basic&nbsp;app.</p>
-<p class="more"><a href="posts/environment-variable-flask-heroku/">5 minute&nbsp;read…</a></p>
-</div>
-    </div>
     </article>
 </div>
-
-               <script>var disqus_shortname="brainsorting";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>
+        <ul class="pager postindexpager clearfix">
+<li class="next"><a href="index-1.html" rel="next">Older&nbsp;posts</a></li>
+        </ul>
+<script>var disqus_shortname="brainsorting";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>
 <div style="display: flex; justify-content:center;">
     <div style="width:25%; text-align: left;">
         <h4 style="margin-left:-10px">&#8230;Lets&nbsp;socialize</h4>
@@ -641,7 +669,7 @@ navbar-dark bg-dark
     </div>
 </div>
 <br>
-Contents © 2020 <a href="mailto:dugue.mathieu@gmail.com">Mathieu Dugue</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
+Contents © 2021 <a href="mailto:dugue.mathieu@gmail.com">Mathieu Dugue</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> - Icons from <a href="https://www.flaticon.com/">FlatIcon</a>
 </center>
