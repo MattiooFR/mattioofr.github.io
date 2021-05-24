@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Dans les années 80, **l'analyse technique** n'était que très peu utilisée, les traders utilisaient plutôt ce que l'on appelle **l'analyse fondamentale**. ****Elle consiste à prendre en considération toutes les variables qui peuvent affecter **l'équilibre** ou le **déséquilibre** relatif entre **l'offre** et la **demande** de toute action, matière première ou instrument financier.
+Dans les années 80, **l'analyse technique** n'était que très peu utilisée, les traders utilisaient plutôt ce que l'on appelle **l'analyse fondamentale**. **Elle consiste à prendre en considération toutes les variables qui peuvent affecter **l'équilibre** ou le **déséquilibre** relatif entre **l'offre** et la **demande** de toute action, matière première ou instrument financier.
 
 Malheureusement ces modèles tiennent rarement compte des **autres traders en tant que variables**.
 
