@@ -19,7 +19,7 @@
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/book.xml</loc>
-  <lastmod>2021-05-24T20:41:00Z</lastmod>
+  <lastmod>2021-07-26T10:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/books.xml</loc>
@@ -27,7 +27,7 @@
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/cat_random.xml</loc>
-  <lastmod>2021-05-24T20:41:00Z</lastmod>
+  <lastmod>2021-07-26T10:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/cat_tutorial.xml</loc>
@@ -40,6 +40,14 @@
  <sitemap>
   <loc>https://brainsorting.dev/categories/flask.xml</loc>
   <lastmod>2020-10-07T12:05:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/food.xml</loc>
+  <lastmod>2021-07-26T10:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://brainsorting.dev/categories/health.xml</loc>
+  <lastmod>2021-07-26T10:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/heroku.xml</loc>
@@ -87,7 +95,7 @@
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/trading.xml</loc>
-  <lastmod>2021-05-24T20:41:00Z</lastmod>
+  <lastmod>2021-07-26T10:22:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/galleries/rss.xml</loc>
@@ -95,10 +103,10 @@
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/rss.xml</loc>
-  <lastmod>2021-05-24T20:41:00Z</lastmod>
+  <lastmod>2021-07-26T10:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/sitemap.xml</loc>
-  <lastmod>2021-05-24T20:41:00Z</lastmod>
+  <lastmod>2021-07-26T10:29:00Z</lastmod>
  </sitemap>
 </sitemapindex>

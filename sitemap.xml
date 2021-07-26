@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2021-05-24T20:41:00Z</lastmod>
+  <lastmod>2021-07-26T10:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
-  <lastmod>2021-05-24T20:38:00Z</lastmod>
+  <lastmod>2021-07-26T10:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
@@ -19,11 +19,11 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2021/</loc>
-  <lastmod>2021-05-24T20:38:00Z</lastmod>
+  <lastmod>2021-07-26T10:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2021-05-24T20:41:00Z</lastmod>
+  <lastmod>2021-07-26T10:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
@@ -39,7 +39,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/book/</loc>
-  <lastmod>2021-05-24T20:38:00Z</lastmod>
+  <lastmod>2021-07-26T10:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/books/</loc>
@@ -47,7 +47,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/cat_random/</loc>
-  <lastmod>2021-05-24T20:38:00Z</lastmod>
+  <lastmod>2021-07-26T10:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/cat_tutorial/</loc>
@@ -60,6 +60,14 @@
  <url>
   <loc>https://brainsorting.dev/categories/flask/</loc>
   <lastmod>2021-02-01T09:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/categories/food/</loc>
+  <lastmod>2021-07-26T10:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/categories/health/</loc>
+  <lastmod>2021-07-26T10:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/heroku/</loc>
@@ -115,7 +123,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/index-1.html</loc>
-  <lastmod>2021-05-24T20:38:00Z</lastmod>
+  <lastmod>2021-07-26T10:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/listings/</loc>
@@ -123,7 +131,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/pages/hello/</loc>
-  <lastmod>2021-05-24T20:38:00Z</lastmod>
+  <lastmod>2021-07-26T10:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/pages/resume/</loc>
@@ -162,12 +170,16 @@
   <lastmod>2021-05-24T20:38:00Z</lastmod>
  </url>
  <url>
+  <loc>https://brainsorting.dev/posts/the-longevity-diet/</loc>
+  <lastmod>2021-07-26T10:29:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://brainsorting.dev/posts/the-no-hello-policy/</loc>
   <lastmod>2021-02-01T09:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/traders-entrez-dans-la-zone/</loc>
-  <lastmod>2021-05-24T20:41:00Z</lastmod>
+  <lastmod>2021-07-26T10:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/</loc>
