@@ -10,11 +10,11 @@
 .. type: text
 -->
 
-A few years ago I got interested in the diet science. I am in my 20s and I've never been fat or not healthy, but still I thought that maybe there was ways of anticipating my aging with a better diet. I read a few books and one made lots of sense to me, which I tried to summarize in the following article. It is a book written by Valter Longo about a mimicking fasting diet. The idea is to have the full benefits of a water fasting diet, while still eating specific vegetables that would not prevent the body from getting into starvation mode.
+A few years ago I got interested in the **diet science**. I am in my 20s and I've never been fat or not healthy, but still I thought that maybe there was ways of **anticipating my aging** with a better diet. I read a few books and one made lots of sense to me, which I tried to summarize in the following article. It is a book written by Valter Longo about a mimicking fasting diet. The idea is to have the **full benefits** of a water fasting diet, while still eating specific vegetables that would not prevent the body from getting into starvation mode.
 
 ### Full disclaimer
 
-I must say that this book, even if it seems to be baked by science, is still a book. All the evidence that Valter Longo shows needs to be replicated and explored more deeply before this can be called a truth. I decided to try it because fasting is not a very dangerous experimentation, but I would recommend anybody reading that article to be cautious and not to take everything said here for absolute truth. Don't do anything stupid if you are not feeling healthy and talk with your doctor before.
+I must say that this book, even if it seems to be baked by science, is **still a book**. All the evidence that Valter Longo shows **needs to be replicated** and explored more deeply before this can be called a truth. I decided to try it because fasting is not a very dangerous experimentation, but I would recommend anybody reading that article to be cautious and not to take everything said here for absolute truth. Don't do anything stupid if you are not feeling healthy and **talk with your doctor before**.
 <!-- TEASER_END -->
 
 ## What do my body gets from food
