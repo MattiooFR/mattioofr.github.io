@@ -15,7 +15,7 @@ Learning is a process that is very important to what makes us who we are now. As
 
 Here I will list everything I found useful while I was learning how to learn.
 
-![Steps for the feynman methods](/images/learning/feynman.png)
+![](/images/learning/feynman.png)
 
 <!-- TEASER_END -->
 
