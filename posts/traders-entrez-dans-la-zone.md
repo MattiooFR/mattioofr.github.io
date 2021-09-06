@@ -150,7 +150,7 @@ Pour cela, il faut **savoir s'observer**. Devenez un observateur objectif de vos
 
 Ce changement, il faut le vouloir avec beaucoup de force ou il n'opérera pas. Il faut vraiment être prêt à abandonner toutes vos anciennes mauvaises habitudes.
 
-**Résumé du livre : [lien pour acheter le livre](https://www.amazon.fr/Trading-Zone-Confidence-Discipline-Attitude/dp/0735201447)**
+**Résumé du livre : [lien affilié pour acheter le livre](https://amzn.to/2WYgC28)**
 
 **Titre Original** : Trading in the Zone
 
