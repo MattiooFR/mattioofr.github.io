@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2021-09-06T09:46:00Z</lastmod>
+  <lastmod>2021-09-06T09:48:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2021-09-06T09:46:00Z</lastmod>
+  <lastmod>2021-09-06T09:48:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
@@ -167,7 +167,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/how-to-learn-efficiently/</loc>
-  <lastmod>2021-09-06T09:46:00Z</lastmod>
+  <lastmod>2021-09-06T09:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
