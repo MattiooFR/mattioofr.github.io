@@ -11,8 +11,6 @@
 .. medium: yes
 -->
 
-# **How to Learn efficiently**
-
 Learning is a process that is very important to what makes us who we are now. As everything in life, it has been studied, and some method were proven more useful to retain more information, and quicker.
 
 Here I will list everything I found useful while I was learning how to learn.
