@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2021-09-06T09:37:00Z</lastmod>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
-  <lastmod>2021-07-26T10:22:00Z</lastmod>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2020/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/2021/</loc>
-  <lastmod>2021-07-26T10:22:00Z</lastmod>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
@@ -51,7 +51,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/cat_tutorial/</loc>
-  <lastmod>2021-02-01T09:43:00Z</lastmod>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/ethereum/</loc>
@@ -115,7 +115,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/self-development/</loc>
-  <lastmod>2021-02-01T09:43:00Z</lastmod>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/trading/</loc>
@@ -135,7 +135,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/pages/hello/</loc>
-  <lastmod>2021-07-26T10:26:00Z</lastmod>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/pages/resume/</loc>
@@ -179,7 +179,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/the-longevity-diet/</loc>
-  <lastmod>2021-07-26T10:34:00Z</lastmod>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/the-no-hello-policy/</loc>
