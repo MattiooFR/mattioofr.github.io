@@ -58,7 +58,7 @@ When I read a non fiction book I can highlight text with some color code:
 
 It’s okay not to finish a book / Highlight things / Skip stuff is okay
 
-### **Study Less Study Smart**
+### Study Less Study Smart
 
 After **30 minutes** of learning **we lose the envy**, motivation and focus. To make things enter the brain **we need to like them**, so being positive and happy is super important !
 
@@ -126,7 +126,7 @@ A top-down approach to learn linear algebra for machine learning would be to:
 6. Study methods for approximating the eigendecomposition of a matrix.
 7. And so on…
 
-### **Socratic Questioning**
+### Socratic Questioning
 
 I will end with something a bit more philosophical about the beliefs we can have and stuff we take for truth.
 
