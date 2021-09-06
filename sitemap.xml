@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2021-07-26T10:34:00Z</lastmod>
+  <lastmod>2021-09-06T09:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/</loc>
-  <lastmod>2021-07-26T10:34:00Z</lastmod>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/blackjack/</loc>
@@ -72,6 +72,10 @@
  <url>
   <loc>https://brainsorting.dev/categories/heroku/</loc>
   <lastmod>2021-02-01T09:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.dev/categories/learning/</loc>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/categories/mathematic/</loc>
@@ -123,7 +127,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/index-1.html</loc>
-  <lastmod>2021-07-26T10:22:00Z</lastmod>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/listings/</loc>
@@ -162,6 +166,10 @@
   <lastmod>2021-02-01T09:43:00Z</lastmod>
  </url>
  <url>
+  <loc>https://brainsorting.dev/posts/how-to-learn-efficiently/</loc>
+  <lastmod>2021-09-06T09:46:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
   <lastmod>2021-02-01T09:43:00Z</lastmod>
  </url>
@@ -179,7 +187,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/traders-entrez-dans-la-zone/</loc>
-  <lastmod>2021-07-26T10:22:00Z</lastmod>
+  <lastmod>2021-09-06T09:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/</loc>
