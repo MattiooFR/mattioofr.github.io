@@ -932,11 +932,6 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 MAILCHIMP_SIGNUP = """
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
 <div id="mc_embed_signup">
     <form action="https://brainsorting.us11.list-manage.com/subscribe/post?u=b2649447e3c772d0824ca2f7e&amp;id=4f334f9a34&amp;f_id=0060aae0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
@@ -962,32 +957,17 @@ MAILCHIMP_SIGNUP = """
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 """
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 
-# <div style="display: flex; justify-content:center;">
-#     <div style="width:25%; text-align: left;">
-#         <h4 style="margin-left:-10px">...Lets socialize</h4>
-#         <p>• Say hi on <a href="https://twitter.com/mattioo81">Twitter</a></p>
-#         <p>• Connect on <a href="https://www.linkedin.com/in/mathieudugue/">LinkedIn</a></p>
-#         <p>• Send me an <a href="mailto:{email}">email</a></p>
-#     </div>
-#     <div style="width:18%; text-align: left;">
-#         <h4 style="margin-left:-10px">...Read me here</h4>
-#         <p>• On <a href="https://dev.to/mattioo">dev.to <i class="fab fa-dev" title="mattioo's DEV Profile"></i></a>
-#         <p>• On <a href="https://medium.com/@mattioo">Medium</a></p>
-#         <p>• Or stay <a href="https://brainsorting.dev">here</a></p>
-#     </div>
-# </div>
-
 
 # <a href="mailto:{email}">{author}
 CONTENT_FOOTER = """
 <center>
+""" + MAILCHIMP_SIGNUP + """
 <br>
 Contents &copy; {date} </a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> {license} - Icons from <a href="https://www.flaticon.com/">FlatIcon</a>
 </center>
