@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://brainsorting.dev/</loc>
-  <lastmod>2023-02-08T11:31:00Z</lastmod>
+  <lastmod>2023-02-08T11:32:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/archive/</loc>
@@ -163,7 +163,7 @@
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/</loc>
-  <lastmod>2023-02-08T11:31:00Z</lastmod>
+  <lastmod>2023-02-08T11:32:00Z</lastmod>
  </url>
  <url>
   <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/</loc>

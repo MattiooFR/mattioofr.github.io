@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://brainsorting.dev/categories/ai.xml</loc>
-  <lastmod>2023-02-08T11:32:00Z</lastmod>
+  <lastmod>2023-02-08T11:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/blackjack.xml</loc>
@@ -35,7 +35,7 @@
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/cat_tutorial.xml</loc>
-  <lastmod>2023-02-08T11:32:00Z</lastmod>
+  <lastmod>2023-02-08T11:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/categories/ethereum.xml</loc>
@@ -111,10 +111,10 @@
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/rss.xml</loc>
-  <lastmod>2023-02-08T11:32:00Z</lastmod>
+  <lastmod>2023-02-08T11:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://brainsorting.dev/sitemap.xml</loc>
-  <lastmod>2023-02-08T11:32:00Z</lastmod>
+  <lastmod>2023-02-08T11:35:00Z</lastmod>
  </sitemap>
 </sitemapindex>
