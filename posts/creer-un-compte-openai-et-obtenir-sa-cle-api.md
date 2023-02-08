@@ -10,8 +10,6 @@
 .. previewimage: /images/coding.png
 -->
 
-# Créer un compte OpenAI et obtenir sa clé API
-
 Une clé API est un outil essentiel pour accéder à un serveur, une application ou un service web. Il s'agit d'un code spécifique à votre compte qui est utilisé pour authentifier votre accès et vous fournir des informations et des fonctionnalités spécifiques. Une clé API OpenAI est un code d'accès utilisé pour accéder au moteur GPT-3, un puissant générateur de texte et d'intelligence artificielle. GPT-3 est un système d'intelligence artificielle qui peut être utilisé pour générer et compléter automatiquement des phrases et des paragraphes, et est considéré comme l'un des systèmes les plus avancés à ce jour. La clé API OpenAI est nécessaire pour accéder au moteur GPT-3 et à ses fonctionnalités, et donc pour pouvoir en tirer parti.
 
 <!-- TEASER_END -->
