@@ -20,7 +20,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <style type="text/css">
 	# mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	   We recommend moving this block and the preceding <span class="caps">CSS</span> link to the <span class="caps">HEAD</span> of your <span class="caps">HTML</span> file. */
 </style>
 <script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><meta name="author" content="Mathieu Dugue">
 <link rel="prev" href="../create-a-proxy-with-a-raspberry-pi-3-or-above/" title="Create a proxy with a Raspberry Pi 3 (or above)" type="text/html">
@@ -86,7 +86,7 @@ navbar-dark bg-dark
             <a href="." rel="bookmark">
             <time class="published dt-published" datetime="2020-09-26T11:21:58+02:00" itemprop="datePublished" title="2020-09-26">2020-09-26</time></a>
             </p>
-                <p class="commentline">            <a href="#disqus_thread" data-disqus-identifier="cache/posts/structuring-a-python-application.html">Comments</a>
+                <p class="commentline">        <a href="#disqus_thread" data-disqus-identifier="cache/posts/structuring-a-python-application.html">Comments</a>
 
 
             
@@ -95,18 +95,20 @@ navbar-dark bg-dark
         
     </header><div class="e-content entry-content small-middle-container mr-top" itemprop="articleBody text">
     <nav id="TOC" role="doc-toc"><ul>
-<li><a href="#single-python-file-containing-all-the-code">Single python file containing all the&nbsp;code</a></li>
-<li><a href="#installable-single-package">Installable Single&nbsp;Package</a></li>
+<li><a href="#single-python-file-containing-all-the-code" id="toc-single-python-file-containing-all-the-code">Single python file
+containing all the&nbsp;code</a></li>
+<li><a href="#installable-single-package" id="toc-installable-single-package">Installable Single&nbsp;Package</a></li>
 <li>
-<a href="#application-with-internal-packages">Application with internal packages</a>
+<a href="#application-with-internal-packages" id="toc-application-with-internal-packages">Application with internal
+packages</a>
 <ul>
-<li><a href="#bin">bin/</a></li>
-<li><a href="#data">data/</a></li>
-<li><a href="#docs">docs/</a></li>
+<li><a href="#bin" id="toc-bin">bin/</a></li>
+<li><a href="#data" id="toc-data">data/</a></li>
+<li><a href="#docs" id="toc-docs">docs/</a></li>
 </ul>
 </li>
-<li><a href="#django-web-application">Django web&nbsp;application</a></li>
-<li><a href="#flask">Flask</a></li>
+<li><a href="#django-web-application" id="toc-django-web-application">Django web&nbsp;application</a></li>
+<li><a href="#flask" id="toc-flask">Flask</a></li>
 </ul></nav><!--
 .. title: Structuring a Python application
 .. slug: structuring-a-python-application
@@ -118,211 +120,235 @@ navbar-dark bg-dark
 .. type: text
 .. medium: yes
 .. devto: yes
---><p>In this short article I will explain all the different ways of structuring a Python application, from a quick script to a more complex web&nbsp;application.</p>
-<h2 id="single-python-file-containing-all-the-code">Single python file containing all the&nbsp;code</h2>
-<p>That’s okay for code without dependencies or using a virtual environment. This is generally used for a quick script that doesn’t need complexity in its file&nbsp;structure.</p>
+--><p>In this short article I will explain all the different ways of
+structuring a Python application, from a quick script to a more complex
+web&nbsp;application.</p>
+<h2 id="single-python-file-containing-all-the-code">Single python file
+containing all the&nbsp;code</h2>
+<p>That’s okay for code without dependencies or using a virtual
+environment. This is generally used for a quick script that doesn’t need
+complexity in its file&nbsp;structure.</p>
 <!-- TEASER_END -->
-<div class="sourceCode" id="cb1"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1"></a>my-single-file-project/</span>
-<span id="cb1-2"><a href="#cb1-2"></a>├── .gitignore</span>
-<span id="cb1-3"><a href="#cb1-3"></a>├── helloworld.py</span>
-<span id="cb1-4"><a href="#cb1-4"></a>├── test.py</span>
-<span id="cb1-5"><a href="#cb1-5"></a>├── pyproject.toml</span>
-<span id="cb1-6"><a href="#cb1-6"></a>├── LICENSE</span>
-<span id="cb1-7"><a href="#cb1-7"></a>└── README.md</span></code></pre></div>
-<p>Example of the <code>helloworld.py</code> :</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">#!/usr/bin/env python</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="co"># helloworld.py</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="im">from</span> datetime <span class="im">import</span> datetime</span>
-<span id="cb2-5"><a href="#cb2-5"></a></span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="kw">def</span> do_hello():</span>
-<span id="cb2-7"><a href="#cb2-7"></a>    <span class="bu">print</span>(<span class="ss">f"Hello, today is </span><span class="sc">{</span>datetime<span class="sc">.</span>now()<span class="sc">.</span>date()<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb2-8"><a href="#cb2-8"></a></span>
-<span id="cb2-9"><a href="#cb2-9"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">'__main__'</span>:</span>
-<span id="cb2-10"><a href="#cb2-10"></a>    do_hello()</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>my-single-file-project/</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>├── .gitignore</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>├── helloworld.py</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>├── test.py</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>├── pyproject.toml</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>├── LICENSE</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>└── README.md</span></code></pre></div>
+<p>Example of&nbsp;the <code>helloworld.py</code> :</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/bin/env python</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># helloworld.py</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> datetime</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> do_hello():</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Hello, today is </span><span class="sc">{</span>datetime<span class="sc">.</span>now()<span class="sc">.</span>date()<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">'__main__'</span>:</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    do_hello()</span></code></pre></div>
 <h2 id="installable-single-package">Installable Single&nbsp;Package</h2>
-<p>When your app get more complex you generally wants to group your different files and helpers into a&nbsp;module.</p>
-<p>You also need to improve your tests so they cover all the files → test coverage. You can also add the use of a&nbsp;linter.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1"></a>my-single-package-app/</span>
-<span id="cb3-2"><a href="#cb3-2"></a>├── helloworld/</span>
-<span id="cb3-3"><a href="#cb3-3"></a>│   ├── __init__.py</span>
-<span id="cb3-4"><a href="#cb3-4"></a>│   ├── helloworld.py</span>
-<span id="cb3-5"><a href="#cb3-5"></a>│   └── utils.py</span>
-<span id="cb3-6"><a href="#cb3-6"></a>├── tests/</span>
-<span id="cb3-7"><a href="#cb3-7"></a>│   ├── __init__.py</span>
-<span id="cb3-8"><a href="#cb3-8"></a>│   ├── test_helloworld.py</span>
-<span id="cb3-9"><a href="#cb3-9"></a>│   └── test_utils.py</span>
-<span id="cb3-10"><a href="#cb3-10"></a>├── runtest.sh</span>
-<span id="cb3-11"><a href="#cb3-11"></a>├── .gitignore</span>
-<span id="cb3-12"><a href="#cb3-12"></a>├── pyproject.toml</span>
-<span id="cb3-13"><a href="#cb3-13"></a>├── LICENSE</span>
-<span id="cb3-14"><a href="#cb3-14"></a>└── README.md</span></code></pre></div>
-<p>Now we grouped the files from our app in two folders, the <code>helloworld</code> app folder and the <code>tests</code> folder.</p>
-<p>We match the <code>test_****.py</code> files name with the files in the app module&nbsp;folder.</p>
-<p>The <code>__init__.py</code> files are mandatory for python to know it is package and can be&nbsp;empty.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="co">#!/usr/bin/env python</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="co"># helloworld.py</span></span>
-<span id="cb4-3"><a href="#cb4-3"></a></span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="im">from</span> datetime <span class="im">import</span> datetime</span>
-<span id="cb4-5"><a href="#cb4-5"></a></span>
-<span id="cb4-6"><a href="#cb4-6"></a><span class="im">from</span> helloworld.utils <span class="im">import</span> show_message</span>
-<span id="cb4-7"><a href="#cb4-7"></a></span>
-<span id="cb4-8"><a href="#cb4-8"></a><span class="kw">def</span> do_hello():</span>
-<span id="cb4-9"><a href="#cb4-9"></a>    show_message(<span class="ss">f"Hello, today is </span><span class="sc">{</span>datetime<span class="sc">.</span>now()<span class="sc">.</span>date()<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb4-10"><a href="#cb4-10"></a></span>
-<span id="cb4-11"><a href="#cb4-11"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">'__main__'</span>:</span>
-<span id="cb4-12"><a href="#cb4-12"></a>    do_hello() <span class="co"># pragma: no cover</span></span></code></pre></div>
-<p><code>runtests.sh</code> file is a script to run all the test with the <code>coverage</code> dependency that you can install with <code>poetry add coverage -D</code> :</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a></span>
-<span id="cb5-3"><a href="#cb5-3"></a><span class="fu">find</span> . -name <span class="st">"*.pyc"</span> -exec rm {} <span class="dt">\;</span></span>
-<span id="cb5-4"><a href="#cb5-4"></a><span class="ex">coverage</span> run -p --source=tests,helloworld -m unittest <span class="co"># this is where you add the</span></span>
-<span id="cb5-5"><a href="#cb5-5"></a>                                                      <span class="co"># folders you want to test</span></span>
-<span id="cb5-6"><a href="#cb5-6"></a><span class="kw">if</span><span class="bu"> [</span> <span class="st">"</span><span class="va">$?</span><span class="st">"</span> <span class="ot">=</span> <span class="st">"0"</span><span class="bu"> ]</span>; <span class="kw">then</span></span>
-<span id="cb5-7"><a href="#cb5-7"></a>    <span class="ex">coverage</span> combine</span>
-<span id="cb5-8"><a href="#cb5-8"></a>    <span class="bu">echo</span> -e <span class="st">"\n\n================================================"</span></span>
-<span id="cb5-9"><a href="#cb5-9"></a>    <span class="bu">echo</span> <span class="st">"Test Coverage"</span></span>
-<span id="cb5-10"><a href="#cb5-10"></a>    <span class="ex">coverage</span> report</span>
-<span id="cb5-11"><a href="#cb5-11"></a>    <span class="bu">echo</span> -e <span class="st">"\nrun </span><span class="dt">\"</span><span class="st">coverage html</span><span class="dt">\"</span><span class="st"> for full report"</span></span>
-<span id="cb5-12"><a href="#cb5-12"></a>    <span class="bu">echo</span> -e <span class="st">"\n"</span></span>
-<span id="cb5-13"><a href="#cb5-13"></a></span>
-<span id="cb5-14"><a href="#cb5-14"></a>    <span class="co"># pyflakes or its like should go here</span></span>
-<span id="cb5-15"><a href="#cb5-15"></a><span class="kw">fi</span></span></code></pre></div>
+<p>When your app get more complex you generally wants to group your
+different files and helpers into a&nbsp;module.</p>
+<p>You also need to improve your tests so they cover all the files →
+test coverage. You can also add the use of a&nbsp;linter.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>my-single-package-app/</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>├── helloworld/</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>│   ├── __init__.py</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>│   ├── helloworld.py</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>│   └── utils.py</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>├── tests/</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>│   ├── __init__.py</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>│   ├── test_helloworld.py</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>│   └── test_utils.py</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>├── runtest.sh</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>├── .gitignore</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>├── pyproject.toml</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>├── LICENSE</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>└── README.md</span></code></pre></div>
+<p>Now we grouped the files from our app in two folders,&nbsp;the
+<code>helloworld</code> app folder and&nbsp;the <code>tests</code>
+folder.</p>
+<p>We match&nbsp;the <code>test_****.py</code> files name with the files in
+the app module&nbsp;folder.</p>
+<p>The <code>__init__.py</code> files are mandatory for python to know
+it is package and can be&nbsp;empty.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/bin/env python</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># helloworld.py</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> datetime</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> helloworld.utils <span class="im">import</span> show_message</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> do_hello():</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    show_message(<span class="ss">f"Hello, today is </span><span class="sc">{</span>datetime<span class="sc">.</span>now()<span class="sc">.</span>date()<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">'__main__'</span>:</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    do_hello() <span class="co"># pragma: no cover</span></span></code></pre></div>
+<p><code>runtests.sh</code> file is a script to run all the test with&nbsp;the <code>coverage</code> dependency that you can install&nbsp;with
+<code>poetry add coverage -D</code> :</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">find</span> . <span class="at">-name</span> <span class="st">"*.pyc"</span> <span class="at">-exec</span> rm {} <span class="dt">\;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="ex">coverage</span> run <span class="at">-p</span> <span class="at">--source</span><span class="op">=</span>tests,helloworld <span class="at">-m</span> unittest <span class="co"># this is where you add the</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>                                                      <span class="co"># folders you want to test</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="st">"</span><span class="va">$?</span><span class="st">"</span> <span class="ot">=</span> <span class="st">"0"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="ex">coverage</span> combine</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="at">-e</span> <span class="st">"\n\n================================================"</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Test Coverage"</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="ex">coverage</span> report</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="at">-e</span> <span class="st">"\nrun </span><span class="dt">\"</span><span class="st">coverage html</span><span class="dt">\"</span><span class="st"> for full report"</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="at">-e</span> <span class="st">"\n"</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># pyflakes or its like should go here</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span></code></pre></div>
 <h2 id="application-with-internal-packages">Application with internal&nbsp;packages</h2>
-<p>In bigger apps you will probably have multiple modules, particularly if you do a&nbsp;GUI.</p>
+<p>In bigger apps you will probably have multiple modules, particularly
+if you do a&nbsp;<span class="caps">GUI</span>.</p>
 <p>Possible additions to your application are&nbsp;:</p>
 <ul>
 <li>bin directory, wrapper for your entry&nbsp;point.</li>
 <li>data directory, always separate your data from your&nbsp;code</li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1"></a>app/</span>
-<span id="cb6-2"><a href="#cb6-2"></a>├── helloworld/</span>
-<span id="cb6-3"><a href="#cb6-3"></a>│   ├── __init__.py</span>
-<span id="cb6-4"><a href="#cb6-4"></a>│   ├── hello/</span>
-<span id="cb6-5"><a href="#cb6-5"></a>│   │   ├── __init__.py</span>
-<span id="cb6-6"><a href="#cb6-6"></a>│   │   ├── hello.py</span>
-<span id="cb6-7"><a href="#cb6-7"></a>│   │   └── utils.py</span>
-<span id="cb6-8"><a href="#cb6-8"></a>│   ├── world/</span>
-<span id="cb6-9"><a href="#cb6-9"></a>│   │   ├── __init__.py</span>
-<span id="cb6-10"><a href="#cb6-10"></a>│   │   └── world.py</span>
-<span id="cb6-11"><a href="#cb6-11"></a>├── tests/</span>
-<span id="cb6-12"><a href="#cb6-12"></a>│   ├── __init__.py</span>
-<span id="cb6-13"><a href="#cb6-13"></a>│   ├── hello/</span>
-<span id="cb6-14"><a href="#cb6-14"></a>│   │   ├── __init__.py</span>
-<span id="cb6-15"><a href="#cb6-15"></a>│   │   ├── test_hello.py</span>
-<span id="cb6-16"><a href="#cb6-16"></a>│   │   └── test_utils.py</span>
-<span id="cb6-17"><a href="#cb6-17"></a>│   ├── world/</span>
-<span id="cb6-18"><a href="#cb6-18"></a>│   │   ├── __init__.py</span>
-<span id="cb6-19"><a href="#cb6-19"></a>│   │   └── test_world.py</span>
-<span id="cb6-20"><a href="#cb6-20"></a>├── bin/</span>
-<span id="cb6-21"><a href="#cb6-21"></a>│   └── helloworld*</span>
-<span id="cb6-22"><a href="#cb6-22"></a>├── data/</span>
-<span id="cb6-23"><a href="#cb6-23"></a>│   └── translate.csv</span>
-<span id="cb6-24"><a href="#cb6-24"></a>├── docs/</span>
-<span id="cb6-25"><a href="#cb6-25"></a>│   ├── conf.py</span>
-<span id="cb6-26"><a href="#cb6-26"></a>│   ├── index.rst</span>
-<span id="cb6-27"><a href="#cb6-27"></a>│   ├── hello.rst</span>
-<span id="cb6-28"><a href="#cb6-28"></a>│   ├── world.rst</span>
-<span id="cb6-29"><a href="#cb6-29"></a>│   └── Makefile</span>
-<span id="cb6-30"><a href="#cb6-30"></a>├── runtest.sh</span>
-<span id="cb6-31"><a href="#cb6-31"></a>├── .gitignore</span>
-<span id="cb6-32"><a href="#cb6-32"></a>├── pyproject.toml</span>
-<span id="cb6-33"><a href="#cb6-33"></a>├── LICENSE</span>
-<span id="cb6-34"><a href="#cb6-34"></a>└── README.md</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>app/</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>├── helloworld/</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>│   ├── __init__.py</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>│   ├── hello/</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>│   │   ├── __init__.py</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>│   │   ├── hello.py</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>│   │   └── utils.py</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>│   ├── world/</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>│   │   ├── __init__.py</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>│   │   └── world.py</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>├── tests/</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>│   ├── __init__.py</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>│   ├── hello/</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>│   │   ├── __init__.py</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>│   │   ├── test_hello.py</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>│   │   └── test_utils.py</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>│   ├── world/</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>│   │   ├── __init__.py</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>│   │   └── test_world.py</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>├── bin/</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>│   └── helloworld*</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>├── data/</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>│   └── translate.csv</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>├── docs/</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>│   ├── conf.py</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>│   ├── index.rst</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>│   ├── hello.rst</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>│   ├── world.rst</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>│   └── Makefile</span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>├── runtest.sh</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>├── .gitignore</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>├── pyproject.toml</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>├── LICENSE</span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>└── README.md</span></code></pre></div>
 <h3 id="bin">bin/</h3>
-<p>This new folder holds any executable files the users will use. The script drop the <code>.py</code> ending. It should have very little code logic, it’s just a wrapper for the main module’s entry&nbsp;point.</p>
-<p>You can configure <code>setup.py</code> to package this if you build a wheel, the script will be put on the&nbsp;path.</p>
+<p>This new folder holds any executable files the users will use. The
+script drop&nbsp;the <code>.py</code> ending. It should have very little code
+logic, it’s just a wrapper for the main module’s entry&nbsp;point.</p>
+<p>You can&nbsp;configure <code>setup.py</code> to package this if you build
+a wheel, the script will be put on the&nbsp;path.</p>
 <h3 id="data">data/</h3>
-<p>If there are files that are not code that is usually where they should end up. It is also useful for test&nbsp;data.</p>
+<p>If there are files that are not code that is usually where they
+should end up. It is also useful for test&nbsp;data.</p>
 <h3 id="docs">docs/</h3>
-<p>The documentation is very important if you want to share your app with&nbsp;users.</p>
-<p>A very useful library for that is <code>sphinx</code>, it uses <code>pydoc</code> comments to build the doc&nbsp;automatically.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb7-1"><a href="#cb7-1"></a>poetry add sphinx -D</span>
-<span id="cb7-2"><a href="#cb7-2"></a>poetry add sphinx-rtd-theme -D</span>
-<span id="cb7-3"><a href="#cb7-3"></a>cd docs</span>
-<span id="cb7-4"><a href="#cb7-4"></a>sphinx-quickstarts</span>
-<span id="cb7-5"><a href="#cb7-5"></a>make html</span></code></pre></div>
-<p>The <code>.rst</code> files are generated by <code>sphinx-quickstart</code>.</p>
+<p>The documentation is very important if you want to share your app
+with&nbsp;users.</p>
+<p>A very useful library for that&nbsp;is <code>sphinx</code>, it&nbsp;uses
+<code>pydoc</code> comments to build the doc&nbsp;automatically.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>poetry add sphinx -D</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>poetry add sphinx-rtd-theme -D</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>cd docs</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>sphinx-quickstarts</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>make html</span></code></pre></div>
+<p>The <code>.rst</code> files are generated&nbsp;by
+<code>sphinx-quickstart</code>.</p>
 <h2 id="django-web-application">Django web&nbsp;application</h2>
-<p>After you’ve installed <code>Django</code> you can use this included command to generate the architecture of the project as Django expects it&nbsp;:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1"></a><span class="ex">django-admin</span> startproject django_world</span>
-<span id="cb8-2"><a href="#cb8-2"></a><span class="ex">django-admin</span> startapp hello</span></code></pre></div>
-<p>You will end up with this basic folder tree where just a few things has been manually added&nbsp;:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb9-1"><a href="#cb9-1"></a>django_world/</span>
-<span id="cb9-2"><a href="#cb9-2"></a>├── docs/</span>
-<span id="cb9-3"><a href="#cb9-3"></a>├── static/</span>
-<span id="cb9-4"><a href="#cb9-4"></a>│   └── style.css</span>
-<span id="cb9-5"><a href="#cb9-5"></a>├── templates/</span>
-<span id="cb9-6"><a href="#cb9-6"></a>│   └── base.html</span>
-<span id="cb9-7"><a href="#cb9-7"></a>├── resetdb.sh</span>
-<span id="cb9-8"><a href="#cb9-8"></a>├── runserver.sh</span>
-<span id="cb9-9"><a href="#cb9-9"></a>├── hello/</span>
-<span id="cb9-10"><a href="#cb9-10"></a>│   ├── __init__.py</span>
-<span id="cb9-11"><a href="#cb9-11"></a>│   ├── admin.py</span>
-<span id="cb9-12"><a href="#cb9-12"></a>│   ├── apps.py</span>
-<span id="cb9-13"><a href="#cb9-13"></a>│   ├── migrations/</span>
-<span id="cb9-14"><a href="#cb9-14"></a>│   │   └── __init__.py</span>
-<span id="cb9-15"><a href="#cb9-15"></a>│   ├── models.py</span>
-<span id="cb9-16"><a href="#cb9-16"></a>│   ├── tests.py</span>
-<span id="cb9-17"><a href="#cb9-17"></a>│   └── views.py</span>
-<span id="cb9-18"><a href="#cb9-18"></a>├── django_world/</span>
-<span id="cb9-19"><a href="#cb9-19"></a>│   ├── asgi.py</span>
-<span id="cb9-20"><a href="#cb9-20"></a>│   ├── settings.py</span>
-<span id="cb9-21"><a href="#cb9-21"></a>│   ├── urls.py</span>
-<span id="cb9-22"><a href="#cb9-22"></a>│   └── wsgi.py</span>
-<span id="cb9-23"><a href="#cb9-23"></a>└── manage.py</span></code></pre></div>
-<p>The <code>hello/</code> folder is where all the logic, model, views and so on&nbsp;live.</p>
+<p>After you’ve&nbsp;installed <code>Django</code> you can use this included
+command to generate the architecture of the project as Django expects it&nbsp;:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">django-admin</span> startproject django_world</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">django-admin</span> startapp hello</span></code></pre></div>
+<p>You will end up with this basic folder tree where just a few things
+has been manually added&nbsp;:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>django_world/</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>├── docs/</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>├── static/</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>│   └── style.css</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>├── templates/</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>│   └── base.html</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>├── resetdb.sh</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>├── runserver.sh</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>├── hello/</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>│   ├── __init__.py</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>│   ├── admin.py</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>│   ├── apps.py</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>│   ├── migrations/</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>│   │   └── __init__.py</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>│   ├── models.py</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>│   ├── tests.py</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>│   └── views.py</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>├── django_world/</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>│   ├── asgi.py</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>│   ├── settings.py</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>│   ├── urls.py</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>│   └── wsgi.py</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>└── manage.py</span></code></pre></div>
+<p>The <code>hello/</code> folder is where all the logic, model, views
+and so on&nbsp;live.</p>
 <p>The <code>static</code> folder contains all the static contents (css,&nbsp;js,…).</p>
 <p>The <code>templates</code> folder has all the html&nbsp;templates.</p>
 <p><code>runserver.sh</code> is a script that has only one line&nbsp;:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1"></a><span class="ex">python</span> manage.py runserver</span></code></pre></div>
-<p><code>resetdb.sh</code> is a script for wiping all the database and start from scratch, it is just a helper tool&nbsp;:</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb11-2"><a href="#cb11-2"></a></span>
-<span id="cb11-3"><a href="#cb11-3"></a><span class="fu">find</span> . -name <span class="st">"*.pyc"</span> -exec rm {} <span class="dt">\;</span></span>
-<span id="cb11-4"><a href="#cb11-4"></a><span class="fu">rm</span> db.sqlite3</span>
-<span id="cb11-5"><a href="#cb11-5"></a></span>
-<span id="cb11-6"><a href="#cb11-6"></a><span class="ex">python</span> manage.py migrate</span>
-<span id="cb11-7"><a href="#cb11-7"></a></span>
-<span id="cb11-8"><a href="#cb11-8"></a><span class="co"># python manage.py create_test_data</span></span>
-<span id="cb11-9"><a href="#cb11-9"></a><span class="co"># comment that last line to use premade test data</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> manage.py runserver</span></code></pre></div>
+<p><code>resetdb.sh</code> is a script for wiping all the database and
+start from scratch, it is just a helper tool&nbsp;:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">find</span> . <span class="at">-name</span> <span class="st">"*.pyc"</span> <span class="at">-exec</span> rm {} <span class="dt">\;</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> db.sqlite3</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> manage.py migrate</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="co"># python manage.py create_test_data</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="co"># comment that last line to use premade test data</span></span></code></pre></div>
 <h2 id="flask">Flask</h2>
-<p>Flask is proud to show a working web app with 10 lines of code, but in practice you’ll never do that. Here is a complete folder organization&nbsp;:</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb12-1"><a href="#cb12-1"></a>flaskr/</span>
-<span id="cb12-2"><a href="#cb12-2"></a>│</span>
-<span id="cb12-3"><a href="#cb12-3"></a>├── flaskr/</span>
-<span id="cb12-4"><a href="#cb12-4"></a>│   ├── ___init__.py</span>
-<span id="cb12-5"><a href="#cb12-5"></a>│   ├── db.py</span>
-<span id="cb12-6"><a href="#cb12-6"></a>│   ├── schema.sql</span>
-<span id="cb12-7"><a href="#cb12-7"></a>│   ├── auth.py</span>
-<span id="cb12-8"><a href="#cb12-8"></a>│   ├── blog.py</span>
-<span id="cb12-9"><a href="#cb12-9"></a>│   ├── templates/</span>
-<span id="cb12-10"><a href="#cb12-10"></a>│   │   ├── base.html</span>
-<span id="cb12-11"><a href="#cb12-11"></a>│   │   ├── auth/</span>
-<span id="cb12-12"><a href="#cb12-12"></a>│   │   │   ├── login.html</span>
-<span id="cb12-13"><a href="#cb12-13"></a>│   │   │   └── register.html</span>
-<span id="cb12-14"><a href="#cb12-14"></a>│   │   │</span>
-<span id="cb12-15"><a href="#cb12-15"></a>│   │   └── blog/</span>
-<span id="cb12-16"><a href="#cb12-16"></a>│   │       ├── create.html</span>
-<span id="cb12-17"><a href="#cb12-17"></a>│   │       ├── index.html</span>
-<span id="cb12-18"><a href="#cb12-18"></a>│   │       └── update.html</span>
-<span id="cb12-19"><a href="#cb12-19"></a>│   │</span>
-<span id="cb12-20"><a href="#cb12-20"></a>│   └── static/</span>
-<span id="cb12-21"><a href="#cb12-21"></a>│       └── style.css</span>
-<span id="cb12-22"><a href="#cb12-22"></a>│</span>
-<span id="cb12-23"><a href="#cb12-23"></a>├── tests/</span>
-<span id="cb12-24"><a href="#cb12-24"></a>│   ├── conftest.py</span>
-<span id="cb12-25"><a href="#cb12-25"></a>│   ├── data.sql</span>
-<span id="cb12-26"><a href="#cb12-26"></a>│   ├── test_factory.py</span>
-<span id="cb12-27"><a href="#cb12-27"></a>│   ├── test_db.py</span>
-<span id="cb12-28"><a href="#cb12-28"></a>│   ├── test_auth.py</span>
-<span id="cb12-29"><a href="#cb12-29"></a>│   └── test_blog.py</span>
-<span id="cb12-30"><a href="#cb12-30"></a>│</span>
-<span id="cb12-31"><a href="#cb12-31"></a>├── .gitignore</span>
-<span id="cb12-32"><a href="#cb12-32"></a>└── MANIFEST.in</span></code></pre></div>
+<p>Flask is proud to show a working web app with 10 lines of code, but
+in practice you’ll never do that. Here is a complete folder organization&nbsp;:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>flaskr/</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>│</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>├── flaskr/</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>│   ├── ___init__.py</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>│   ├── db.py</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>│   ├── schema.sql</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>│   ├── auth.py</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>│   ├── blog.py</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>│   ├── templates/</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>│   │   ├── base.html</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>│   │   ├── auth/</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>│   │   │   ├── login.html</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>│   │   │   └── register.html</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>│   │   │</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>│   │   └── blog/</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>│   │       ├── create.html</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>│   │       ├── index.html</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>│   │       └── update.html</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>│   │</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>│   └── static/</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>│       └── style.css</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>│</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>├── tests/</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>│   ├── conftest.py</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>│   ├── data.sql</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>│   ├── test_factory.py</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>│   ├── test_db.py</span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>│   ├── test_auth.py</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>│   └── test_blog.py</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>│</span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>├── .gitignore</span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>└── MANIFEST.in</span></code></pre></div>
 <p>We can see that flask really uses python package way of&nbsp;working.</p>
 <p><em>Source : <a href="https://realpython.com/python-application-layouts/">https://realpython.com/python-application-layouts/</a></em></p>
-
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
 <li><a class="tag p-category" href="../../categories/python/" rel="tag">python</a></li>
@@ -335,7 +361,7 @@ navbar-dark bg-dark
                 <a href="../traders-entrez-dans-la-zone/" rel="next" title="Traders : Entrez dans la zone">Next&nbsp;post</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
-                        <div id="disqus_thread"></div>
+                    <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="brainsorting",
             disqus_url="https://brainsorting.dev/posts/structuring-a-python-application/",
@@ -356,7 +382,7 @@ navbar-dark bg-dark
 
         </section></article><script>var disqus_shortname="brainsorting";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>
 <br>
-Contents © 2021  - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
+Contents © 2023  - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> - Icons from <a href="https://www.flaticon.com/">FlatIcon</a>
 </center>

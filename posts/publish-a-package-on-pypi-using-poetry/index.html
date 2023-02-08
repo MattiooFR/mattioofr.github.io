@@ -20,7 +20,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <style type="text/css">
 	# mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	   We recommend moving this block and the preceding <span class="caps">CSS</span> link to the <span class="caps">HEAD</span> of your <span class="caps">HTML</span> file. */
 </style>
 <script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><meta name="author" content="Mathieu Dugue">
 <link rel="prev" href="../environment-variable-flask-heroku/" title="Using environment variables in a Flask + Heroku project" type="text/html">
@@ -88,7 +88,7 @@ navbar-dark bg-dark
             <a href="." rel="bookmark">
             <time class="published dt-published" datetime="2020-04-23T21:31:25+02:00" itemprop="datePublished" title="2020-04-23">2020-04-23</time></a>
             </p>
-                <p class="commentline">            <a href="#disqus_thread" data-disqus-identifier="cache/posts/publish-a-package-on-pypi-using-poetry.html">Comments</a>
+                <p class="commentline">        <a href="#disqus_thread" data-disqus-identifier="cache/posts/publish-a-package-on-pypi-using-poetry.html">Comments</a>
 
 
             
@@ -97,11 +97,12 @@ navbar-dark bg-dark
         
     </header><div class="e-content entry-content small-middle-container mr-top" itemprop="articleBody text">
     <nav id="TOC" role="doc-toc"><ul>
-<li><a href="#install-poetry">Install&nbsp;Poetry</a></li>
-<li><a href="#create-the-package-you-want-to-publish-on-pypi">Create the package you want to publish on&nbsp;PyPi</a></li>
-<li><a href="#build-your-package">Build your&nbsp;package</a></li>
-<li><a href="#publish-your-package">Publish your&nbsp;package</a></li>
-<li><a href="#end-notes">End&nbsp;notes</a></li>
+<li><a href="#install-poetry" id="toc-install-poetry">Install&nbsp;Poetry</a></li>
+<li><a href="#create-the-package-you-want-to-publish-on-pypi" id="toc-create-the-package-you-want-to-publish-on-pypi">Create the
+package you want to publish on&nbsp;PyPi</a></li>
+<li><a href="#build-your-package" id="toc-build-your-package">Build your&nbsp;package</a></li>
+<li><a href="#publish-your-package" id="toc-publish-your-package">Publish your&nbsp;package</a></li>
+<li><a href="#end-notes" id="toc-end-notes">End&nbsp;notes</a></li>
 </ul></nav><!--
 .. title: Publish a package on PyPi using Poetry
 .. slug: publish-a-package-on-pypi-using-poetry
@@ -112,91 +113,133 @@ navbar-dark bg-dark
 .. description: Tutorial to publish a package on PyPi using Poetry
 .. type: text
 --><p>First thing first, you need Poetry if you don’t have it&nbsp;already.</p>
-<p>Poetry is the new standard for creating and managing virtual environment for your Python project. It is also a Python dependency management tool that is working differently as pip. It uses the new standard <code>pyproject.toml</code> decided by the Python Packaging Authority with PEP-518. This file merges all the previous config files that were necessary before, <a href="http://setup.py/"><code>setup.py</code></a>, <code>requirements.txt</code>, <code>setup.cfg</code>, <a href="http://manifest.in/"><code>MANIFEST.in</code></a> et <code>Pipfile</code>, in one unique file to rule them all ! Ok, enough of Lord of the&nbsp;Ring.</p>
-<p>I advise you to follow along with the <a href="https://python-poetry.org/docs/cli/">documentation</a> of poetry open. <!-- TEASER_END --></p>
+<p>Poetry is the new standard for creating and managing virtual
+environment for your Python project. It is also a Python dependency
+management tool that is working differently as pip. It uses the new&nbsp;standard <code>pyproject.toml</code> decided by the Python Packaging
+Authority with <span class="caps">PEP</span>-518. This file merges all the previous config files
+that were necessary before, <a href="http://setup.py/"><code>setup.py</code></a>,
+<code>requirements.txt</code>, <code>setup.cfg</code>, <a href="http://manifest.in/"><code>MANIFEST.in</code></a>&nbsp;et
+<code>Pipfile</code>, in one unique file to rule them all ! Ok, enough
+of Lord of the&nbsp;Ring.</p>
+<p>I advise you to follow along with the <a href="https://python-poetry.org/docs/cli/">documentation</a> of poetry
+open. <!-- TEASER_END --></p>
 <h2 id="install-poetry">Install&nbsp;Poetry</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="ex">curl</span> -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py <span class="kw">|</span> <span class="ex">python</span></span></code></pre></div>
-<p>Feel free to look <a href="https://python-poetry.org/docs/">here</a> for more instructions. Updating Poetry is very easy by the way <code>poetry update</code>.</p>
-<h2 id="create-the-package-you-want-to-publish-on-pypi">Create the package you want to publish on&nbsp;PyPi</h2>
-<p>Poetry has a nice command that can create your project tree at once <code>poetry new &lt;package_name&gt;</code>.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a>/<span class="op">&lt;</span><span class="ex">package_name</span><span class="op">&gt;</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>├── <span class="ex">README.rst</span> <span class="co"># I personnaly change it to .md as I prefer writing in Markdown</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a>├── <span class="op">&lt;</span><span class="ex">package_name</span><span class="op">&gt;</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a>│   └── <span class="ex">__init__.py</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a>├── <span class="ex">pyproject.toml</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a>└── <span class="ex">tests</span></span>
-<span id="cb2-7"><a href="#cb2-7"></a>    ├── <span class="ex">__init__.py</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a>    └── <span class="ex">test_package_name.py</span></span></code></pre></div>
-<p>You will need to add things to the generated <code>pyproject.toml</code> file, feel free to check the <a href="https://poetry.eustace.io/docs/pyproject/">poetry documentation</a> to see all the&nbsp;options.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1"></a><span class="kw">[</span><span class="at">tool.poetry</span><span class="kw">]</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="at">name = "vspoetry"</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="at">version = "0.1.0"</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="at">description = "Description of your package"</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a><span class="at">authors = ["MattiooFR &lt;dugue.mathieu@gmail.com&gt;"]</span></span>
-<span id="cb3-6"><a href="#cb3-6"></a><span class="at">keywords = ["keyword", "another_keyword"]</span></span>
-<span id="cb3-7"><a href="#cb3-7"></a><span class="at">readme = "README.md"</span></span>
-<span id="cb3-8"><a href="#cb3-8"></a><span class="at">license = "MIT"</span></span>
-<span id="cb3-9"><a href="#cb3-9"></a><span class="at">homepage = "https://github.com/MattiooFR/package_name"</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a><span class="at">repository = "https://github.com/MattiooFR/package_name"</span></span>
-<span id="cb3-11"><a href="#cb3-11"></a><span class="at">include = [</span></span>
-<span id="cb3-12"><a href="#cb3-12"></a><span class="at">    </span><span class="st">"LICENSE"</span><span class="at">,</span></span>
-<span id="cb3-13"><a href="#cb3-13"></a><span class="at">]</span></span>
-<span id="cb3-14"><a href="#cb3-14"></a></span>
-<span id="cb3-15"><a href="#cb3-15"></a><span class="kw">[</span><span class="at">tool.poetry.dependencies</span><span class="kw">]</span></span>
-<span id="cb3-16"><a href="#cb3-16"></a><span class="at">python = "^3.5"</span></span>
-<span id="cb3-17"><a href="#cb3-17"></a></span>
-<span id="cb3-18"><a href="#cb3-18"></a><span class="kw">[</span><span class="at">tool.poetry.dev-dependencies</span><span class="kw">]</span></span>
-<span id="cb3-19"><a href="#cb3-19"></a></span>
-<span id="cb3-20"><a href="#cb3-20"></a><span class="kw">[</span><span class="at">tool.poetry.scripts</span><span class="kw">]</span></span>
-<span id="cb3-21"><a href="#cb3-21"></a><span class="at">cli_command_name = 'package_name:function'</span></span>
-<span id="cb3-22"><a href="#cb3-22"></a></span>
-<span id="cb3-23"><a href="#cb3-23"></a><span class="kw">[</span><span class="at">build-system</span><span class="kw">]</span></span>
-<span id="cb3-24"><a href="#cb3-24"></a><span class="at">requires = ["poetry&gt;=0.12"]</span></span>
-<span id="cb3-25"><a href="#cb3-25"></a><span class="at">build-backend = "poetry.masonry.api"</span></span></code></pre></div>
-<p>The beginning of the file is pretty straightforward. Lets focus on those three part&nbsp;:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-sSL</span> https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py <span class="kw">|</span> <span class="ex">python</span></span></code></pre></div>
+<p>Feel free to look <a href="https://python-poetry.org/docs/">here</a>
+for more instructions. Updating Poetry is very easy by the&nbsp;way
+<code>poetry update</code>.</p>
+<h2 id="create-the-package-you-want-to-publish-on-pypi">Create the
+package you want to publish on&nbsp;PyPi</h2>
+<p>Poetry has a nice command that can create your project tree at&nbsp;once
+<code>poetry new &lt;package_name&gt;</code>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/</span><span class="op">&lt;</span>package_name<span class="op">&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> README.rst <span class="co"># I personnaly change it to .md as I prefer writing in Markdown</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> <span class="op">&lt;</span>package_name<span class="op">&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   └── __init__.py</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> pyproject.toml</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> tests</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="ex">├──</span> __init__.py</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="ex">└──</span> test_package_name.py</span></code></pre></div>
+<p>You will need to add things to the&nbsp;generated
+<code>pyproject.toml</code> file, feel free to check the <a href="https://poetry.eustace.io/docs/pyproject/">poetry
+documentation</a> to see all the&nbsp;options.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">[</span><span class="at">tool.poetry</span><span class="kw">]</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">name = "vspoetry"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">version = "0.1.0"</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="at">description = "Description of your package"</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="at">authors = ["MattiooFR &lt;dugue.mathieu@gmail.com&gt;"]</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="at">keywords = ["keyword", "another_keyword"]</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="at">readme = "README.md"</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="at">license = "MIT"</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="at">homepage = "https://github.com/MattiooFR/package_name"</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="at">repository = "https://github.com/MattiooFR/package_name"</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="at">include = [</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="st">"LICENSE"</span><span class="at">,</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="at">]</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="kw">[</span><span class="at">tool.poetry.dependencies</span><span class="kw">]</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="at">python = "^3.5"</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="kw">[</span><span class="at">tool.poetry.dev-dependencies</span><span class="kw">]</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="kw">[</span><span class="at">tool.poetry.scripts</span><span class="kw">]</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="at">cli_command_name = 'package_name:function'</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a><span class="kw">[</span><span class="at">build-system</span><span class="kw">]</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="at">requires = ["poetry&gt;=0.12"]</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="at">build-backend = "poetry.masonry.api"</span></span></code></pre></div>
+<p>The beginning of the file is pretty straightforward. Lets focus on
+those three part&nbsp;:</p>
 <ul>
-<li><p><strong>[tool.poetry.dependencies]</strong>: This is where you can list all the dependencies that your package needs to work. It’s like the old <code>requirements.txt</code> file. You can do it by hand and then call the command <code>poetry install</code> to install them all for your package development and working purposes. If you use <code>poetry add &lt;dependency_name&gt;</code> (equivalent to the <code>pip install &lt;dependency_name&gt;</code>), poetry will add it there for&nbsp;you.</p></li>
-<li><p><strong>[tool.poetry.dev-dependencies]</strong>: If you need development dependencies, that’s where they go. Again, you can also install them with <code>poetry add &lt;dependency_name&gt; --dev (or -D)</code> and poetry will also put that in the right place in your <code>pyproject.toml</code> file.</p></li>
+<li><p><strong>[tool.poetry.dependencies]</strong>: This is where you
+can list all the dependencies that your package needs to work. It’s like
+the&nbsp;old <code>requirements.txt</code> file. You can do it by hand and
+then call the&nbsp;command <code>poetry install</code> to install them all
+for your package development and working purposes. If you&nbsp;use
+<code>poetry add &lt;dependency_name&gt;</code> (equivalent to&nbsp;the
+<code>pip install &lt;dependency_name&gt;</code>), poetry will add it
+there for&nbsp;you.</p></li>
+<li><p><strong>[tool.poetry.dev-dependencies]</strong>: If you need
+development dependencies, that’s where they go. Again, you can also
+install them&nbsp;with
+<code>poetry add &lt;dependency_name&gt; --dev (or -D)</code> and poetry
+will also put that in the right place in&nbsp;your
+<code>pyproject.toml</code> file.</p></li>
 <li>
-<p><strong>[tool.poetry.scripts]</strong>: This last block is very important if you want your package to have script callable from the&nbsp;terminal.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1"></a><span class="at">script_name = '{package_name}:{function_name}'</span></span></code></pre></div>
+<p><strong>[tool.poetry.scripts]</strong>: This last block is very
+important if you want your package to have script callable from the&nbsp;terminal.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="at">script_name = '{package_name}:{function_name}'</span></span></code></pre></div>
 </li>
 </ul>
-<p>By the way, if you still need to have a <code>requirements.txt</code> with all the dependencies (if you use Heroku for example), you can easily have it with this command&nbsp;:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="ex">poetry</span> export -f requirements.txt <span class="op">&gt;</span> requirements.txt</span></code></pre></div>
+<p>By the way, if you still need to have&nbsp;a <code>requirements.txt</code>
+with all the dependencies (if you use Heroku for example), you can
+easily have it with this command&nbsp;:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">poetry</span> export <span class="at">-f</span> requirements.txt <span class="op">&gt;</span> requirements.txt</span></code></pre></div>
 <h2 id="build-your-package">Build your&nbsp;package</h2>
-<p>When your package is ready, simply do <code>poetry build</code> to create the package&nbsp;files</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a>❯ <span class="ex">poetry</span> build</span>
-<span id="cb6-2"><a href="#cb6-2"></a><span class="ex">Building</span> package_name (0.1.0)</span>
-<span id="cb6-3"><a href="#cb6-3"></a> <span class="ex">-</span> Building sdist</span>
-<span id="cb6-4"><a href="#cb6-4"></a> <span class="ex">-</span> Built package_name-0.1.0.tar.gz</span>
-<span id="cb6-5"><a href="#cb6-5"></a></span>
-<span id="cb6-6"><a href="#cb6-6"></a> <span class="ex">-</span> Building wheel</span>
-<span id="cb6-7"><a href="#cb6-7"></a> <span class="ex">-</span> Built package_name-0.1.0-py3-none-any.whl</span></code></pre></div>
+<p>When your package is ready, simply&nbsp;do <code>poetry build</code> to
+create the package&nbsp;files</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">❯</span> poetry build</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">Building</span> package_name <span class="er">(</span><span class="ex">0.1.0</span><span class="kw">)</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a> <span class="ex">-</span> Building sdist</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a> <span class="ex">-</span> Built package_name-0.1.0.tar.gz</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a> <span class="ex">-</span> Building wheel</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a> <span class="ex">-</span> Built package_name-0.1.0-py3-none-any.whl</span></code></pre></div>
 <p>You can test your package by&nbsp;doing</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1"></a><span class="ex">pip</span> install <span class="op">&lt;</span>path_to_package_name-0.1.0-py3-none-any.whl<span class="op">&gt;</span></span></code></pre></div>
-<p>If everything works, congrats ! Now lets publish it to PyPi so others can use your great package&nbsp;too.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="op">&lt;</span>path_to_package_name-0.1.0-py3-none-any.whl<span class="op">&gt;</span></span></code></pre></div>
+<p>If everything works, congrats ! Now lets publish it to PyPi so others
+can use your great package&nbsp;too.</p>
 <h2 id="publish-your-package">Publish your&nbsp;package</h2>
-<p>Before publishing you should first create an account on <a href="https://pypi.org/account/register/">PyPi</a>. You can also register an account on <a href="https://test.pypi.org/account/register/">TestPyPi</a> if you want publishing on a test repository before trying on the official&nbsp;one.</p>
-<p>Your package need to be built, so first run <code>poetry build</code> if you haven’t done it&nbsp;already.</p>
-<p>Then simply run <code>poetry publish</code> and your package will be publish on PyPi&nbsp;:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1"></a>❯ <span class="ex">poetry</span> publish</span>
-<span id="cb8-2"><a href="#cb8-2"></a></span>
-<span id="cb8-3"><a href="#cb8-3"></a><span class="ex">Publishing</span> vspoetry (0.1.0) <span class="ex">to</span> PyPI</span>
-<span id="cb8-4"><a href="#cb8-4"></a><span class="ex">Username</span>: Mattioo</span>
-<span id="cb8-5"><a href="#cb8-5"></a><span class="ex">Password</span>:</span>
-<span id="cb8-6"><a href="#cb8-6"></a> <span class="ex">-</span> Uploading vspoetry-0.1.0-py3-none-any.whl 100%</span>
-<span id="cb8-7"><a href="#cb8-7"></a> <span class="ex">-</span> Uploading vspoetry-0.1.0.tar.gz 100%</span></code></pre></div>
-<p>If you need to update your package, simply increment the version in the <code>pyproject.toml</code> file and use <code>poetry publish</code> (after you build the new package with <code>poetry build</code>).</p>
+<p>Before publishing you should first create an account on <a href="https://pypi.org/account/register/">PyPi</a>. You can also
+register an account on <a href="https://test.pypi.org/account/register/">TestPyPi</a> if you want
+publishing on a test repository before trying on the official&nbsp;one.</p>
+<p>Your package need to be built, so first&nbsp;run <code>poetry build</code>
+if you haven’t done it&nbsp;already.</p>
+<p>Then simply&nbsp;run <code>poetry publish</code> and your package will be
+publish on PyPi&nbsp;:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">❯</span> poetry publish</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="ex">Publishing</span> vspoetry <span class="er">(</span><span class="ex">0.1.0</span><span class="kw">)</span> <span class="ex">to</span> PyPI</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="ex">Username:</span> Mattioo</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="ex">Password:</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a> <span class="ex">-</span> Uploading vspoetry-0.1.0-py3-none-any.whl 100%</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a> <span class="ex">-</span> Uploading vspoetry-0.1.0.tar.gz 100%</span></code></pre></div>
+<p>If you need to update your package, simply increment the version in&nbsp;the <code>pyproject.toml</code> file and&nbsp;use <code>poetry publish</code>
+(after you build the new package&nbsp;with <code>poetry build</code>).</p>
 <p>Once you have done that you can then install your package&nbsp;:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1"></a><span class="ex">pip</span> install <span class="op">&lt;</span>your_package<span class="op">&gt;</span></span>
-<span id="cb9-2"><a href="#cb9-2"></a></span>
-<span id="cb9-3"><a href="#cb9-3"></a><span class="ex">poetry</span> add <span class="op">&lt;</span>your_package<span class="op">&gt;</span> <span class="co"># but lets be honest now you use Poetry so you would do this !</span></span></code></pre></div>
-<p>Congrats on publishing your package on PyPi and experiencing the simplicity of using a tool like&nbsp;Poetry.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="op">&lt;</span>your_package<span class="op">&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="ex">poetry</span> add <span class="op">&lt;</span>your_package<span class="op">&gt;</span> # but lets be honest now you use Poetry so you would do this !</span></code></pre></div>
+<p>Congrats on publishing your package on PyPi and experiencing the
+simplicity of using a tool like&nbsp;Poetry.</p>
 <p>Happy coding&nbsp;!</p>
 <h2 id="end-notes">End&nbsp;notes</h2>
-<p>I actually just published my first package, <a href="https://pypi.org/project/vspoetry/">vspoetry</a>, while writing this tutorial. It is a package that add the <code>vspoetry</code> script command to my terminal and this simply add the path of the current poetry virtual environment of the project to VScode <code>settings.json</code>. This tells to VScode where to grab the project python venv because VScode does not do that automatically&nbsp;yet.</p>
-
+<p>I actually just published my first package, <a href="https://pypi.org/project/vspoetry/">vspoetry</a>, while writing
+this tutorial. It is a package that add&nbsp;the <code>vspoetry</code> script
+command to my terminal and this simply add the path of the current
+poetry virtual environment of the project to&nbsp;VScode
+<code>settings.json</code>. This tells to VScode where to grab the
+project python venv because VScode does not do that automatically&nbsp;yet.</p>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
 <li><a class="tag p-category" href="../../categories/package/" rel="tag">package</a></li>
@@ -211,7 +254,7 @@ navbar-dark bg-dark
                 <a href="../blackjack-the-21-game/" rel="next" title="Blackjack, The 21 Game">Next&nbsp;post</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
-                        <div id="disqus_thread"></div>
+                    <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="brainsorting",
             disqus_url="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/",
@@ -232,7 +275,7 @@ navbar-dark bg-dark
 
         </section></article><script>var disqus_shortname="brainsorting";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>
 <br>
-Contents © 2021  - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
+Contents © 2023  - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> - Icons from <a href="https://www.flaticon.com/">FlatIcon</a>
 </center>

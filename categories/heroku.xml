@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about heroku)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/heroku.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2021 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about heroku)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/heroku.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2023 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 25 Oct 2021 13:38:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Wed, 08 Feb 2023 11:30:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#heroku"&gt;Heroku&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#environment-variable"&gt;Environment Variable&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#flask" id="toc-flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#heroku" id="toc-heroku"&gt;Heroku&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#environment-variable" id="toc-environment-variable"&gt;Environment Variable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#conclusion" id="toc-conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -22,6 +22,13 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 .. type: text
 .. previewimage: /images/coding.png
 --&gt;
-&lt;p&gt;Using environment variables is fundamental in a project. This is how you tell your app if you are running in &lt;code&gt;production&lt;/code&gt; or &lt;code&gt;locally&lt;/code&gt; for example. This is where you also store more sensible information like &lt;code&gt;SECRET_KEY&lt;/code&gt; or API credentials. Storing those directly in your web app code can be easy at first, but it is not safe when you will push your code in production, so taking good habits from the beginning is a good idea.&lt;/p&gt;
-&lt;p&gt;Before jumping in the topic of configuring environment variables, I will first make you set up and deploy a basic app.&lt;/p&gt;
+&lt;p&gt;Using environment variables is fundamental in a project. This is how
+you tell your app if you are running in &lt;code&gt;production&lt;/code&gt; or
+&lt;code&gt;locally&lt;/code&gt; for example. This is where you also store more
+sensible information like &lt;code&gt;SECRET_KEY&lt;/code&gt; or API credentials.
+Storing those directly in your web app code can be easy at first, but it
+is not safe when you will push your code in production, so taking good
+habits from the beginning is a good idea.&lt;/p&gt;
+&lt;p&gt;Before jumping in the topic of configuring environment variables, I
+will first make you set up and deploy a basic app.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>flask</category><category>heroku</category><category>python</category><guid>https://brainsorting.dev/posts/environment-variable-flask-heroku/</guid><pubDate>Sun, 19 Apr 2020 13:43:36 GMT</pubDate></item></channel></rss>

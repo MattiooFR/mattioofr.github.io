@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about ai)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/ai.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2023 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
+&lt;img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Wed, 08 Feb 2023 11:32:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Créer un compte OpenAI et obtenir sa clé API</title><link>https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/#cr%C3%A9er-un-compte-openai-et-obtenir-sa-cl%C3%A9-api" id="toc-créer-un-compte-openai-et-obtenir-sa-clé-api"&gt;Créer un compte
+OpenAI et obtenir sa clé API&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/#cr%C3%A9er-son-compte-sur-openai" id="toc-créer-son-compte-sur-openai"&gt;Créer son compte sur
+OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/#obtenir-sa-cl%C3%A9-api" id="toc-obtenir-sa-clé-api"&gt;Obtenir sa
+clé API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;!--
+.. title: Créer un compte OpenAI et obtenir sa clé API
+.. slug: creer-un-compte-openai-et-obtenir-sa-cle-api
+.. date: 2023-02-08 11:51:46 UTC+01:00
+.. tags: ai
+.. category: tutorial
+.. link:
+.. description: quick tutorial to create your openAI account and get your first API key
+.. type: text
+.. previewimage: /images/coding.png
+--&gt;
+&lt;h1 id="créer-un-compte-openai-et-obtenir-sa-clé-api"&gt;Créer un compte
+OpenAI et obtenir sa clé API&lt;/h1&gt;
+&lt;p&gt;Une clé API est un outil essentiel pour accéder à un serveur, une
+application ou un service web. Il s’agit d’un code spécifique à votre
+compte qui est utilisé pour authentifier votre accès et vous fournir des
+informations et des fonctionnalités spécifiques. Une clé API OpenAI est
+un code d’accès utilisé pour accéder au moteur GPT-3, un puissant
+générateur de texte et d’intelligence artificielle. GPT-3 est un système
+d’intelligence artificielle qui peut être utilisé pour générer et
+compléter automatiquement des phrases et des paragraphes, et est
+considéré comme l’un des systèmes les plus avancés à ce jour. La clé API
+OpenAI est nécessaire pour accéder au moteur GPT-3 et à ses
+fonctionnalités, et donc pour pouvoir en tirer parti.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>ai</category><guid>https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/</guid><pubDate>Wed, 08 Feb 2023 10:51:46 GMT</pubDate></item></channel></rss>

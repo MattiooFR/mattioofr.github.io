@@ -20,7 +20,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <style type="text/css">
 	# mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	   We recommend moving this block and the preceding <span class="caps">CSS</span> link to the <span class="caps">HEAD</span> of your <span class="caps">HTML</span> file. */
 </style>
 <script src="https://kit.fontawesome.com/3ee4098c15.js" crossorigin="anonymous"></script><meta name="author" content="Mathieu Dugue">
 <link rel="prev" href="../the-no-hello-policy/" title="Please Don't Say Just Hello In Chat" type="text/html">
@@ -89,7 +89,7 @@ navbar-dark bg-dark
             <a href="." rel="bookmark">
             <time class="published dt-published" datetime="2020-08-15T12:05:27+02:00" itemprop="datePublished" title="2020-08-15">2020-08-15</time></a>
             </p>
-                <p class="commentline">            <a href="#disqus_thread" data-disqus-identifier="cache/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask.html">Comments</a>
+                <p class="commentline">        <a href="#disqus_thread" data-disqus-identifier="cache/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask.html">Comments</a>
 
 
             
@@ -99,18 +99,23 @@ navbar-dark bg-dark
     </header><div class="e-content entry-content small-middle-container mr-top" itemprop="articleBody text">
     <nav id="TOC" role="doc-toc"><ul>
 <li>
-<a href="#gather-all-the-informations-we-need">Gather all the informations we need</a>
+<a href="#gather-all-the-informations-we-need" id="toc-gather-all-the-informations-we-need">Gather all the informations
+we need</a>
 <ul>
-<li><a href="#prerequisite">Prerequisite</a></li>
-<li><a href="#etherscan">Etherscan</a></li>
+<li><a href="#prerequisite" id="toc-prerequisite">Prerequisite</a></li>
+<li><a href="#etherscan" id="toc-etherscan">Etherscan</a></li>
 </ul>
 </li>
 <li>
-<a href="#how-can-i-send-my-own-custom-transaction">How can I send my own custom transaction</a>
+<a href="#how-can-i-send-my-own-custom-transaction" id="toc-how-can-i-send-my-own-custom-transaction">How can I send my own
+custom transaction</a>
 <ul>
-<li><a href="#enabling-the-custom-gas-settings-and-custom-nonce">Enabling the custom gas settings and custom&nbsp;nonce</a></li>
-<li><a href="#sending-a-custom-transaction-to-fix-the-pending-tx">Sending a custom transaction to fix the pending&nbsp;tx</a></li>
-<li><a href="#how-can-i-prevent-that-from-happening-again">How can I prevent that from happening&nbsp;again</a></li>
+<li><a href="#enabling-the-custom-gas-settings-and-custom-nonce" id="toc-enabling-the-custom-gas-settings-and-custom-nonce">Enabling the
+custom gas settings and custom&nbsp;nonce</a></li>
+<li><a href="#sending-a-custom-transaction-to-fix-the-pending-tx" id="toc-sending-a-custom-transaction-to-fix-the-pending-tx">Sending a
+custom transaction to fix the pending&nbsp;tx</a></li>
+<li><a href="#how-can-i-prevent-that-from-happening-again" id="toc-how-can-i-prevent-that-from-happening-again">How can I prevent
+that from happening&nbsp;again</a></li>
 </ul>
 </li>
 </ul></nav><!--
@@ -125,31 +130,51 @@ navbar-dark bg-dark
 .. previewimage: /images/ethereum.jpg
 .. medium: yes
 .. devto: yes
---><p>Having a <strong>pending transaction</strong> can be quite annoying and usually happens when the network is heavy loaded and the fees are sky rocketing. Your transaction may have a <strong>too low gas fee</strong> and miner are just ignoring it to prefer others transaction with higher&nbsp;fees.</p>
-<p>This result in you being stuck because until that transaction is resolved you cannot send any other transaction. Annoying right&nbsp;?</p>
+--><p>Having a <strong>pending transaction</strong> can be quite annoying
+and usually happens when the network is heavy loaded and the fees are
+sky rocketing. Your transaction may have a <strong>too low gas
+fee</strong> and miner are just ignoring it to prefer others transaction
+with higher&nbsp;fees.</p>
+<p>This result in you being stuck because until that transaction is
+resolved you cannot send any other transaction. Annoying right&nbsp;?</p>
 <p>Let’s dive right in on how to fix this&nbsp;!</p>
 <!-- TEASER_END -->
-<h2 id="gather-all-the-informations-we-need">Gather all the informations we&nbsp;need</h2>
+<h2 id="gather-all-the-informations-we-need">Gather all the informations
+we&nbsp;need</h2>
 <h3 id="prerequisite">Prerequisite</h3>
-<p>This tutorial is about using <strong>MetaMask</strong> to cancel the pending transactions so you need to have&nbsp;it.</p>
+<p>This tutorial is about using <strong>MetaMask</strong> to cancel the
+pending transactions so you need to have&nbsp;it.</p>
 <p>If you don’t have MetaMask installed on chrome, <a href="https://metamask.io/">here</a> is the official address to do&nbsp;so.</p>
 <h3 id="etherscan">Etherscan</h3>
-<p>The first step is to go on <strong>etherscan</strong> and paste the tx hash of your pending transaction. You can also paste your ethereum address and will be able to find all your pending&nbsp;transactions.</p>
+<p>The first step is to go on <strong>etherscan</strong> and paste the
+tx hash of your pending transaction. You can also paste your ethereum
+address and will be able to find all your pending&nbsp;transactions.</p>
 <p><img src="../../images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Untitled.png"></p>
-<p>Find the oldest pending transaction, click on it and then click on <strong>Click to see More ↓</strong> to get the <strong>Nonce</strong> number of that&nbsp;transaction.</p>
+<p>Find the oldest pending transaction, click on it and then click on
+<strong>Click to see More ↓</strong> to get the <strong>Nonce</strong>
+number of that&nbsp;transaction.</p>
 <p><img src="../../images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_10.54.48.png"></p>
-<p>All the transactions of an ethereum address have a nonce number that increment after each&nbsp;transaction.</p>
+<p>All the transactions of an ethereum address have a nonce number that
+increment after each&nbsp;transaction.</p>
 <p><img src="../../images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Untitled%201.png"></p>
-<p>Now the concept behind cancelling a pending transaction is to actually send a new transaction with the same <strong>Nonce</strong> but with a higher fees that the miner will verify and confirm. When this will be done, the previous pending transaction with the same nonce will simply be cancelled and forget by the network because only unique nonce transaction per ETH address can&nbsp;exists.</p>
+<p>Now the concept behind cancelling a pending transaction is to
+actually send a new transaction with the same <strong>Nonce</strong> but
+with a higher fees that the miner will verify and confirm. When this
+will be done, the previous pending transaction with the same nonce will
+simply be cancelled and forget by the network because only unique nonce
+transaction per <span class="caps">ETH</span> address can&nbsp;exists.</p>
 <p>You should have those informations for going to the next phase&nbsp;:</p>
 <ul>
 <li>Your Ethereum&nbsp;address</li>
 <li>The Nonce of your blocked pending&nbsp;transaction</li>
 <li>MetaMask installed and running with your Ethereum&nbsp;address</li>
 </ul>
-<h2 id="how-can-i-send-my-own-custom-transaction">How can I send my own custom&nbsp;transaction</h2>
-<p>The basic configuration of MetaMask doesn’t allow us to use custom Nonce, but you can enable that option in the&nbsp;configuration.</p>
-<h3 id="enabling-the-custom-gas-settings-and-custom-nonce">Enabling the custom gas settings and custom&nbsp;nonce</h3>
+<h2 id="how-can-i-send-my-own-custom-transaction">How can I send my own
+custom&nbsp;transaction</h2>
+<p>The basic configuration of MetaMask doesn’t allow us to use custom
+Nonce, but you can enable that option in the&nbsp;configuration.</p>
+<h3 id="enabling-the-custom-gas-settings-and-custom-nonce">Enabling the
+custom gas settings and custom&nbsp;nonce</h3>
 <ol type="1">
 <li>
 <p>Click on this&nbsp;button</p>
@@ -160,29 +185,49 @@ navbar-dark bg-dark
 <p><img src="../../images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_11.05.19.png"></p>
 </li>
 <li><p>Now click on <strong>Advanced</strong></p></li>
-<li><p>I suggest to enable both <strong>Advanced gas controls</strong> and <strong>Customize Transaction&nbsp;nonce</strong></p></li>
+<li><p>I suggest to enable both <strong>Advanced gas controls</strong>
+and <strong>Customize Transaction&nbsp;nonce</strong></p></li>
 </ol>
-<h3 id="sending-a-custom-transaction-to-fix-the-pending-tx">Sending a custom transaction to fix the pending&nbsp;tx</h3>
+<h3 id="sending-a-custom-transaction-to-fix-the-pending-tx">Sending a
+custom transaction to fix the pending&nbsp;tx</h3>
 <ol type="1">
 <li>
-<p>Once that’s done, quit the configuration and now click on the SEND&nbsp;button.</p>
+<p>Once that’s done, quit the configuration and now click on the
+<span class="caps">SEND</span>&nbsp;button.</p>
 <p><img src="../../images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_11.08.22.png"></p>
 </li>
 <li>
-<p>Paste your ETH address, and then add 10 GWEI to the transaction fee gas price to be sure you are above the network average Gas Price so this transaction won’t be stuck pending as well. Always verify on <a href="https://ethgasstation.info/">Eth Gas Station</a> and use a Gas Price above the FAST recommendation. Leave Gas Limit as it is&nbsp;(21000).</p>
+<p>Paste your <span class="caps">ETH</span> address, and then add 10 <span class="caps">GWEI</span> to the transaction
+fee gas price to be sure you are above the network average Gas Price so
+this transaction won’t be stuck pending as well. Always verify on <a href="https://ethgasstation.info/">Eth Gas Station</a> and use a Gas
+Price above the <span class="caps">FAST</span> recommendation. Leave Gas Limit as it is&nbsp;(21000).</p>
 <p>Click on Next when you are&nbsp;done.</p>
 <p><img src="../../images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_11.15.32.png"></p>
 </li>
 <li>
-<p>In this screen you should be able to set your own custom Nonce if you enable it properly in MetaMask config as explained in the beginning of that article. Write down the Nonce of your blocked pending transaction and click on&nbsp;Confirm.</p>
+<p>In this screen you should be able to set your own custom Nonce if
+you enable it properly in MetaMask config as explained in the beginning
+of that article. Write down the Nonce of your blocked pending
+transaction and click on&nbsp;Confirm.</p>
 <p><img src="../../images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_11.17.25.png"></p>
 </li>
-<li><p>MetaMask will ask you to sign your transaction and how will depend on if you are using a Ledger or something else. Once you did sign it, the transaction will be sent and if you were above the FAST Gas Price recommendation from Eth Gas Station website it should be confirmed in less than a minute and your blocked pending transaction should now be&nbsp;cancelled.</p></li>
-<li><p>If you had other pending transaction after that one that are still blocked after this, you will need to repeat the process for each one of them, from the oldest to the newest until you eventually cleared your whole pile of pending&nbsp;transactions.</p></li>
+<li><p>MetaMask will ask you to sign your transaction and how will
+depend on if you are using a Ledger or something else. Once you did sign
+it, the transaction will be sent and if you were above the <span class="caps">FAST</span> Gas
+Price recommendation from Eth Gas Station website it should be confirmed
+in less than a minute and your blocked pending transaction should now be&nbsp;cancelled.</p></li>
+<li><p>If you had other pending transaction after that one that are
+still blocked after this, you will need to repeat the process for each
+one of them, from the oldest to the newest until you eventually cleared
+your whole pile of pending&nbsp;transactions.</p></li>
 </ol>
-<h3 id="how-can-i-prevent-that-from-happening-again">How can I prevent that from happening&nbsp;again</h3>
-<p>Regularly keep an eye on the Eth Gas Station website to know the current average Gas Price, and don’t always trust pre configured gas price from MetaMask. If you are doing a transaction that is very important, you can always Edit the Gas Price MetaMask is choosing for you and set it to fast, or even a custom one that you&nbsp;decide.</p>
-
+<h3 id="how-can-i-prevent-that-from-happening-again">How can I prevent
+that from happening&nbsp;again</h3>
+<p>Regularly keep an eye on the Eth Gas Station website to know the
+current average Gas Price, and don’t always trust pre configured gas
+price from MetaMask. If you are doing a transaction that is very
+important, you can always Edit the Gas Price MetaMask is choosing for
+you and set it to fast, or even a custom one that you&nbsp;decide.</p>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
 <li><a class="tag p-category" href="../../categories/blockchain/" rel="tag">blockchain</a></li>
@@ -197,7 +242,7 @@ navbar-dark bg-dark
                 <a href="../create-a-proxy-with-a-raspberry-pi-3-or-above/" rel="next" title="Create a proxy with a Raspberry Pi 3 (or above)">Next&nbsp;post</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
-                        <div id="disqus_thread"></div>
+                    <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="brainsorting",
             disqus_url="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/",
@@ -218,7 +263,7 @@ navbar-dark bg-dark
 
         </section></article><script>var disqus_shortname="brainsorting";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>
 <br>
-Contents © 2021  - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
+Contents © 2023  - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> - Icons from <a href="https://www.flaticon.com/">FlatIcon</a>
 </center>
