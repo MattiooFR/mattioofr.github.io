@@ -969,6 +969,21 @@ CONTENT_FOOTER = """
 <center>
 """ + MAILCHIMP_SIGNUP + """
 <br>
+<div style="display: flex; justify-content:center;">
+    <div style="width:40%; text-align: left;">
+        <h4 style="margin-left:-10px">...Lets socialize</h4>
+        <p>• Say hi on <a href="https://twitter.com/mattioo81">Twitter</a></p>
+        <p>• Connect on <a href="https://www.linkedin.com/in/mathieudugue/">LinkedIn</a></p>
+        <p>• Send me an <a href="mailto:{email}">email</a></p>
+    </div>
+    <div style="width:30%; text-align: left;">
+        <h4 style="margin-left:-10px">...Read me here</h4>
+        <p>• On <a href="https://dev.to/mattioo">dev.to <i class="fab fa-dev" title="mattioo's DEV Profile"></i></a>
+        <p>• On <a href="https://medium.com/@mattioo">Medium</a></p>
+        <p>• Or stay <a href="https://brainsorting.dev">here</a></p>
+    </div>
+</div>
+</br>
 Contents &copy; {date} </a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> {license} - Icons from <a href="https://www.flaticon.com/">FlatIcon</a>
 </center>
 <br>
