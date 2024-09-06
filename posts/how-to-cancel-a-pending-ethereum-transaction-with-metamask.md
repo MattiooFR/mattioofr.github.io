@@ -32,15 +32,15 @@ If you don't have MetaMask installed on chrome, [here](https://metamask.io/) is 
 
 The first step is to go on **etherscan** and paste the tx hash of your pending transaction. You can also paste your ethereum address and will be able to find all your pending transactions.
 
-![](/images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Untitled.png)
+![](/images/cancelethereum/Untitled.png)
 
 Find the oldest pending transaction, click on it and then click on **Click to see More ↓** to get the **Nonce** number of that transaction.
 
-![](/images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_10.54.48.png)
+![](/images/cancelethereum/Capture_decran_2020-08-15_a_10.54.48.png)
 
 All the transactions of an ethereum address have a nonce number that increment after each transaction.
 
-![](/images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Untitled%201.png)
+![](/images/cancelethereum/Untitled%201.png)
 
 Now the concept behind cancelling a pending transaction is to actually send a new transaction with the same **Nonce** but with a higher fees that the miner will verify and confirm. When this will be done, the previous pending transaction with the same nonce will simply be cancelled and forget by the network because only unique nonce transaction per ETH address can exists.
 
@@ -58,11 +58,11 @@ The basic configuration of MetaMask doesn't allow us to use custom Nonce, but yo
 
 1. Click on this button
 
-    ![](/images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_11.03.58.png)
+    ![](/images/cancelethereum/Capture_decran_2020-08-15_a_11.03.58.png)
 
 2. The go into the settings
 
-    ![](/images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_11.05.19.png)
+    ![](/images/cancelethereum/Capture_decran_2020-08-15_a_11.05.19.png)
 
 3. Now click on **Advanced**
 4. I suggest to enable both **Advanced gas controls** and **Customize Transaction nonce**
@@ -71,17 +71,17 @@ The basic configuration of MetaMask doesn't allow us to use custom Nonce, but yo
 
 1. Once that's done, quit the configuration and now click on the SEND button.
 
-    ![](/images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_11.08.22.png)
+    ![](/images/cancelethereum/Capture_decran_2020-08-15_a_11.08.22.png)
 
 2. Paste your ETH address, and then add 10 GWEI to the transaction fee gas price to be sure you are above the network average Gas Price so this transaction won't be stuck pending as well. Always verify on [Eth Gas Station](https://ethgasstation.info/) and use a Gas Price above the FAST recommendation. Leave Gas Limit as it is (21000).
 
     Click on Next when you are done.
 
-    ![](/images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_11.15.32.png)
+    ![](/images/cancelethereum/Capture_decran_2020-08-15_a_11.15.32.png)
 
 3. In this screen you should be able to set your own custom Nonce if you enable it properly in MetaMask config as explained in the beginning of that article. Write down the Nonce of your blocked pending transaction and click on Confirm.
 
-    ![](/images/How%20to%20cancel%20a%20pending%20ethereum%20transaction%20with%20%20cad19359c1ff45df83833f5ee11b6e58/Capture_decran_2020-08-15_a_11.17.25.png)
+    ![](/images/cancelethereum/Capture_decran_2020-08-15_a_11.17.25.png)
 
 4. MetaMask will ask you to sign your transaction and how will depend on if you are using a Ledger or something else. Once you did sign it, the transaction will be sent and if you were above the FAST Gas Price recommendation from Eth Gas Station website it should be confirmed in less than a minute and your blocked pending transaction should now be cancelled.
 5. If you had other pending transaction after that one that are still blocked after this, you will need to repeat the process for each one of them, from the oldest to the newest until you eventually cleared your whole pile of pending transactions.

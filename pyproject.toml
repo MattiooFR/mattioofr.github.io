@@ -7,7 +7,6 @@ authors = ["MattiooFR <13595614+MattiooFR@users.noreply.github.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pypandoc = "^1.5"
-Nikola = {extras = ["extra"], version = "^8.0.4"}
 nbconvert = "^5.6.1"
 traitlets = "^4.3.3"
 ipython = "^7.13.0"
@@ -17,6 +16,8 @@ aiohttp = "^3.6.2"
 watchdog = "^0.10.2"
 ghp-import2 = "^1.0.1"
 tomli = "^2.0.1"
+nikola = {extras = ["extras"], version = "^8.2.3"}
+lxml = "^5.3.0"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^19.10b0", allow-prereleases = true}
