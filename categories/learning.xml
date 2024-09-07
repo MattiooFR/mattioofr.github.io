@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about learning)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/learning.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about learning)</title><link>https://brainsorting.com/</link><description></description><atom:link href="https://brainsorting.com/categories/learning.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 06 Sep 2024 21:34:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Learn efficiently</title><link>https://brainsorting.dev/posts/how-to-learn-efficiently/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 06 Sep 2024 22:42:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Learn efficiently</title><link>https://brainsorting.com/posts/how-to-learn-efficiently/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#the-pillar-of-effective-learning" id="toc-the-pillar-of-effective-learning"&gt;The pillar of effective
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#the-pillar-of-effective-learning" id="toc-the-pillar-of-effective-learning"&gt;The pillar of effective
 learning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#study-less-study-smart" id="toc-study-less-study-smart"&gt;Study Less Study Smart&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#when-you-read-a-textbook" id="toc-when-you-read-a-textbook"&gt;When you read a Textbook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#first-principles" id="toc-first-principles"&gt;First
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#study-less-study-smart" id="toc-study-less-study-smart"&gt;Study Less Study Smart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#when-you-read-a-textbook" id="toc-when-you-read-a-textbook"&gt;When you read a Textbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#first-principles" id="toc-first-principles"&gt;First
 Principles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#top-down-learning" id="toc-top-down-learning"&gt;Top Down
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#top-down-learning" id="toc-top-down-learning"&gt;Top Down
 Learning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#socratic-questioning" id="toc-socratic-questioning"&gt;Socratic Questioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#socratic-questioning" id="toc-socratic-questioning"&gt;Socratic Questioning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -33,5 +33,5 @@ are now. As everything in life, it has been studied, and some method
 were proven more useful to retain more information, and quicker.&lt;/p&gt;
 &lt;p&gt;Here I will list everything I found useful while I was learning how
 to learn.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://brainsorting.dev/images/learning/feynman.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>learning</category><category>self-development</category><guid>https://brainsorting.dev/posts/how-to-learn-efficiently/</guid><pubDate>Mon, 06 Sep 2021 09:38:28 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;img src="https://brainsorting.com/images/learning/feynman.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>learning</category><category>self-development</category><guid>https://brainsorting.com/posts/how-to-learn-efficiently/</guid><pubDate>Mon, 06 Sep 2021 09:38:28 GMT</pubDate></item></channel></rss>

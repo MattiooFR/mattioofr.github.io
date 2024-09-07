@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about books)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/books.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about books)</title><link>https://brainsorting.com/</link><description></description><atom:link href="https://brainsorting.com/categories/books.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 06 Sep 2024 21:34:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blackjack, The 21 Game</title><link>https://brainsorting.dev/posts/blackjack-the-21-game/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 06 Sep 2024 22:42:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blackjack, The 21 Game</title><link>https://brainsorting.com/posts/blackjack-the-21-game/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#introduction" id="toc-introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#how-to-play-black-jack" id="toc-how-to-play-black-jack"&gt;How to play Black Jack&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#introduction" id="toc-introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#how-to-play-black-jack" id="toc-how-to-play-black-jack"&gt;How to play Black Jack&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#insurance" id="toc-insurance"&gt;Insurance&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#hitting" id="toc-hitting"&gt;Hitting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#standing" id="toc-standing"&gt;Standing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#doubling-down" id="toc-doubling-down"&gt;Doubling
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#insurance" id="toc-insurance"&gt;Insurance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#hitting" id="toc-hitting"&gt;Hitting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#standing" id="toc-standing"&gt;Standing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#doubling-down" id="toc-doubling-down"&gt;Doubling
 Down&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#splitting-pairs" id="toc-splitting-pairs"&gt;Splitting
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#splitting-pairs" id="toc-splitting-pairs"&gt;Splitting
 Pairs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#surrender" id="toc-surrender"&gt;Surrender&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#the-dealers-hand" id="toc-the-dealers-hand"&gt;The dealer’s
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#surrender" id="toc-surrender"&gt;Surrender&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#the-dealers-hand" id="toc-the-dealers-hand"&gt;The dealer’s
 hand&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#basic-strategy-how-to-be-almost-break-even-with-the-house" id="toc-basic-strategy-how-to-be-almost-break-even-with-the-house"&gt;Basic
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#basic-strategy-how-to-be-almost-break-even-with-the-house" id="toc-basic-strategy-how-to-be-almost-break-even-with-the-house"&gt;Basic
 Strategy (how to be almost break even with the house)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#card-counting---the-red-seven-count" id="toc-card-counting---the-red-seven-count"&gt;Card counting - The Red
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#card-counting---the-red-seven-count" id="toc-card-counting---the-red-seven-count"&gt;Card counting - The Red
 Seven count&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#introduction-to-card-counting" id="toc-introduction-to-card-counting"&gt;Introduction to card
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#introduction-to-card-counting" id="toc-introduction-to-card-counting"&gt;Introduction to card
 counting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#betting-system" id="toc-betting-system"&gt;Betting
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#betting-system" id="toc-betting-system"&gt;Betting
 system&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#the-basic-red-seven-playing-strategy" id="toc-the-basic-red-seven-playing-strategy"&gt;The Basic Red Seven
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#the-basic-red-seven-playing-strategy" id="toc-the-basic-red-seven-playing-strategy"&gt;The Basic Red Seven
 Playing Strategy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#the-advanced-red-seven-count" id="toc-the-advanced-red-seven-count"&gt;The Advanced Red Seven
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#the-advanced-red-seven-count" id="toc-the-advanced-red-seven-count"&gt;The Advanced Red Seven
 Count&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#bankroll-management" id="toc-bankroll-management"&gt;Bankroll
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#bankroll-management" id="toc-bankroll-management"&gt;Bankroll
 management&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#the-profit-formula" id="toc-the-profit-formula"&gt;The Profit
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#the-profit-formula" id="toc-the-profit-formula"&gt;The Profit
 Formula&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#normal-fluctuation" id="toc-normal-fluctuation"&gt;Normal
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#normal-fluctuation" id="toc-normal-fluctuation"&gt;Normal
 Fluctuation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#so-how-big-should-your-playing-bankroll-be" id="toc-so-how-big-should-your-playing-bankroll-be"&gt;So how big should
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#so-how-big-should-your-playing-bankroll-be" id="toc-so-how-big-should-your-playing-bankroll-be"&gt;So how big should
 your playing bankroll be&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#game-strategy" id="toc-game-strategy"&gt;Game strategy&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#game-strategy" id="toc-game-strategy"&gt;Game strategy&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#estimating-the-remaining-deck" id="toc-estimating-the-remaining-deck"&gt;Estimating the remaining
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#estimating-the-remaining-deck" id="toc-estimating-the-remaining-deck"&gt;Estimating the remaining
 deck&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#betting-strategy" id="toc-betting-strategy"&gt;Betting
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#betting-strategy" id="toc-betting-strategy"&gt;Betting
 strategy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#how-not-to-be-busted-in-the-casino" id="toc-how-not-to-be-busted-in-the-casino"&gt;How not to be busted in the
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#how-not-to-be-busted-in-the-casino" id="toc-how-not-to-be-busted-in-the-casino"&gt;How not to be busted in the
 casino&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#idiot-camouflage" id="toc-idiot-camouflage"&gt;Idiot
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#idiot-camouflage" id="toc-idiot-camouflage"&gt;Idiot
 camouflage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#hitstand-camouflage" id="toc-hitstand-camouflage"&gt;Hit/Stand camouflage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#double-down-camouflage" id="toc-double-down-camouflage"&gt;Double-Down camouflage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#pair-split-camouflage" id="toc-pair-split-camouflage"&gt;Pair-split camouflage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#insurance-1" id="toc-insurance-1"&gt;Insurance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#hitstand-camouflage" id="toc-hitstand-camouflage"&gt;Hit/Stand camouflage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#double-down-camouflage" id="toc-double-down-camouflage"&gt;Double-Down camouflage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#pair-split-camouflage" id="toc-pair-split-camouflage"&gt;Pair-split camouflage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#insurance-1" id="toc-insurance-1"&gt;Insurance&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#high-rollers-survival-guide" id="toc-high-rollers-survival-guide"&gt;High Rollers survival guide&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#high-rollers-survival-guide" id="toc-high-rollers-survival-guide"&gt;High Rollers survival guide&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#tipping" id="toc-tipping"&gt;Tipping&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#dealers-who-cheat" id="toc-dealers-who-cheat"&gt;Dealers who
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#tipping" id="toc-tipping"&gt;Tipping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#dealers-who-cheat" id="toc-dealers-who-cheat"&gt;Dealers who
 cheat&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#team-play" id="toc-team-play"&gt;Team play&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#team-play" id="toc-team-play"&gt;Team play&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#two-persons-teams" id="toc-two-persons-teams"&gt;Two Persons
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#two-persons-teams" id="toc-two-persons-teams"&gt;Two Persons
 Teams&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#bpspotter-team" id="toc-bpspotter-team"&gt;BP/spotter
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#bpspotter-team" id="toc-bpspotter-team"&gt;BP/spotter
 Team&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#gorilla-bp" id="toc-gorilla-bp"&gt;Gorilla BP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#gorilla-bp" id="toc-gorilla-bp"&gt;Gorilla BP&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/#books-references" id="toc-books-references"&gt;Books /
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/#books-references" id="toc-books-references"&gt;Books /
 References&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
@@ -98,4 +98,4 @@ have a small advantage over the long run with easy methods to learn, and
 how and why they work. I tried to summarize many books that I read and
 kept only what I thought was useful and easily shareable. I’ll put the
 list of the book I read at the end if you want to dig deeper in the
-world of beating the blackjack game. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/blackjack-the-21-game/"&gt;Read more…&lt;/a&gt; (22 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blackjack</category><category>books</category><category>mathematic</category><guid>https://brainsorting.dev/posts/blackjack-the-21-game/</guid><pubDate>Mon, 27 Apr 2020 20:20:03 GMT</pubDate></item></channel></rss>
+world of beating the blackjack game. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.com/posts/blackjack-the-21-game/"&gt;Read more…&lt;/a&gt; (22 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blackjack</category><category>books</category><category>mathematic</category><guid>https://brainsorting.com/posts/blackjack-the-21-game/</guid><pubDate>Mon, 27 Apr 2020 20:20:03 GMT</pubDate></item></channel></rss>

@@ -1,4 +1,4 @@
-Sitemap: https://brainsorting.dev/sitemapindex.xml
+Sitemap: https://brainsorting.com/sitemapindex.xml
 
 User-Agent: *
-Host: brainsorting.dev
+Host: brainsorting.com

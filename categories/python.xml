@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about python)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/python.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about python)</title><link>https://brainsorting.com/</link><description></description><atom:link href="https://brainsorting.com/categories/python.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 06 Sep 2024 21:34:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Structuring a Python application</title><link>https://brainsorting.dev/posts/structuring-a-python-application/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 06 Sep 2024 22:42:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Structuring a Python application</title><link>https://brainsorting.com/posts/structuring-a-python-application/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#single-python-file-containing-all-the-code" id="toc-single-python-file-containing-all-the-code"&gt;Single python file
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#single-python-file-containing-all-the-code" id="toc-single-python-file-containing-all-the-code"&gt;Single python file
 containing all the code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#installable-single-package" id="toc-installable-single-package"&gt;Installable Single Package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#application-with-internal-packages" id="toc-application-with-internal-packages"&gt;Application with internal
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#installable-single-package" id="toc-installable-single-package"&gt;Installable Single Package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#application-with-internal-packages" id="toc-application-with-internal-packages"&gt;Application with internal
 packages&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#bin" id="toc-bin"&gt;bin/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#data" id="toc-data"&gt;data/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#docs" id="toc-docs"&gt;docs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#bin" id="toc-bin"&gt;bin/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#data" id="toc-data"&gt;data/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#docs" id="toc-docs"&gt;docs/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#django-web-application" id="toc-django-web-application"&gt;Django web application&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#flask" id="toc-flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#django-web-application" id="toc-django-web-application"&gt;Django web application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#flask" id="toc-flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -39,24 +39,24 @@ containing all the code&lt;/h2&gt;
 &lt;p&gt;That’s okay for code without dependencies or using a virtual
 environment. This is generally used for a quick script that doesn’t need
 complexity in its file structure.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>python</category><guid>https://brainsorting.dev/posts/structuring-a-python-application/</guid><pubDate>Sat, 26 Sep 2020 09:21:58 GMT</pubDate></item><item><title>Create a blog with Pelican, hosted on Github/Netlify</title><link>https://brainsorting.dev/posts/create-a-blog-with-pelican/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>python</category><guid>https://brainsorting.com/posts/structuring-a-python-application/</guid><pubDate>Sat, 26 Sep 2020 09:21:58 GMT</pubDate></item><item><title>Create a blog with Pelican, hosted on Github/Netlify</title><link>https://brainsorting.com/posts/create-a-blog-with-pelican/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#install-pelican" id="toc-install-pelican"&gt;Install
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#install-pelican" id="toc-install-pelican"&gt;Install
 Pelican&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#lets-see-how-your-blog-looks-like-no" id="toc-lets-see-how-your-blog-looks-like-no"&gt;Let’s see how your blog
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#lets-see-how-your-blog-looks-like-no" id="toc-lets-see-how-your-blog-looks-like-no"&gt;Let’s see how your blog
 looks like no ?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#hosting-your-blog-files" id="toc-hosting-your-blog-files"&gt;Hosting your blog files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#publishing-your-static-blog" id="toc-publishing-your-static-blog"&gt;Publishing your static
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#hosting-your-blog-files" id="toc-hosting-your-blog-files"&gt;Hosting your blog files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#publishing-your-static-blog" id="toc-publishing-your-static-blog"&gt;Publishing your static
 blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#writing-articles" id="toc-writing-articles"&gt;Writing
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#writing-articles" id="toc-writing-articles"&gt;Writing
 articles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#choosing-a-theme" id="toc-choosing-a-theme"&gt;Choosing a
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#choosing-a-theme" id="toc-choosing-a-theme"&gt;Choosing a
 theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#installing-the-jupyter-plugin" id="toc-installing-the-jupyter-plugin"&gt;Installing the Jupyter
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#installing-the-jupyter-plugin" id="toc-installing-the-jupyter-plugin"&gt;Installing the Jupyter
 Plugin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#useful-modules" id="toc-useful-modules"&gt;Useful
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#useful-modules" id="toc-useful-modules"&gt;Useful
 Modules&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#references" id="toc-references"&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#references" id="toc-references"&gt;References&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -85,79 +85,79 @@ free !&lt;/p&gt;
 &lt;li&gt;Python 3 and git installed on your workstation&lt;/li&gt;
 &lt;li&gt;VSCode or other IDE&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blogging</category><category>pelican</category><category>python</category><guid>https://brainsorting.dev/posts/create-a-blog-with-pelican/</guid><pubDate>Sat, 18 Jul 2020 14:20:03 GMT</pubDate></item><item><title>Create a blog using Nikola static website generator</title><link>https://brainsorting.dev/posts/create-a-blog-with-nikola/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blogging</category><category>pelican</category><category>python</category><guid>https://brainsorting.com/posts/create-a-blog-with-pelican/</guid><pubDate>Sat, 18 Jul 2020 14:20:03 GMT</pubDate></item><item><title>Create a blog using Nikola static website generator</title><link>https://brainsorting.com/posts/create-a-blog-with-nikola/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#installation" id="toc-installation"&gt;1)
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#installation" id="toc-installation"&gt;1)
 Installation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#create-the-blog" id="toc-create-the-blog"&gt;2) Create the
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#create-the-blog" id="toc-create-the-blog"&gt;2) Create the
 blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#add-a-post" id="toc-add-a-post"&gt;3) Add a Post&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#enable-jupyter-notebook-file-format" id="toc-enable-jupyter-notebook-file-format"&gt;4) Enable Jupyter Notebook
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#add-a-post" id="toc-add-a-post"&gt;3) Add a Post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#enable-jupyter-notebook-file-format" id="toc-enable-jupyter-notebook-file-format"&gt;4) Enable Jupyter Notebook
 file format&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#using-markdown-for-your-post" id="toc-using-markdown-for-your-post"&gt;5) Using Markdown for your
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#using-markdown-for-your-post" id="toc-using-markdown-for-your-post"&gt;5) Using Markdown for your
 post&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#pages-vs-posts" id="toc-pages-vs-posts"&gt;6) Pages vs
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#pages-vs-posts" id="toc-pages-vs-posts"&gt;6) Pages vs
 Posts&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#posts" id="toc-posts"&gt;POSTS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#pages" id="toc-pages"&gt;PAGES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#posts" id="toc-posts"&gt;POSTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#pages" id="toc-pages"&gt;PAGES&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#customizing-the-navigation-bar" id="toc-customizing-the-navigation-bar"&gt;7) Customizing the navigation
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#customizing-the-navigation-bar" id="toc-customizing-the-navigation-bar"&gt;7) Customizing the navigation
 bar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#indexes-as-a-list-of-links-or-list-of-posts" id="toc-indexes-as-a-list-of-links-or-list-of-posts"&gt;8) Indexes as
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#indexes-as-a-list-of-links-or-list-of-posts" id="toc-indexes-as-a-list-of-links-or-list-of-posts"&gt;8) Indexes as
 a list of links or list of posts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#enable-a-comment-system" id="toc-enable-a-comment-system"&gt;9) Enable a comment system&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#deploying-your-website" id="toc-deploying-your-website"&gt;10) Deploying your website&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#enable-a-comment-system" id="toc-enable-a-comment-system"&gt;9) Enable a comment system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#deploying-your-website" id="toc-deploying-your-website"&gt;10) Deploying your website&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#github-pages" id="toc-github-pages"&gt;Github Pages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#netlify-extra-steps" id="toc-netlify-extra-steps"&gt;Netlify
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#github-pages" id="toc-github-pages"&gt;Github Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#netlify-extra-steps" id="toc-netlify-extra-steps"&gt;Netlify
 extra steps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#archives" id="toc-archives"&gt;11) Archives&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#content-footer" id="toc-content-footer"&gt;12) Content
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#archives" id="toc-archives"&gt;11) Archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#content-footer" id="toc-content-footer"&gt;12) Content
 Footer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#rendering-math-equations" id="toc-rendering-math-equations"&gt;13) Rendering math equations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#implementing-google-tools" id="toc-implementing-google-tools"&gt;14) Implementing Google tools&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#rendering-math-equations" id="toc-rendering-math-equations"&gt;13) Rendering math equations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#implementing-google-tools" id="toc-implementing-google-tools"&gt;14) Implementing Google tools&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#google-search" id="toc-google-search"&gt;Google
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#google-search" id="toc-google-search"&gt;Google
 search&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#google-analytics" id="toc-google-analytics"&gt;Google
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#google-analytics" id="toc-google-analytics"&gt;Google
 Analytics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#customizing-your-blog" id="toc-customizing-your-blog"&gt;15)
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#customizing-your-blog" id="toc-customizing-your-blog"&gt;15)
 Customizing your blog&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#theme-template-customization" id="toc-theme-template-customization"&gt;Theme &amp;amp; Template
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#theme-template-customization" id="toc-theme-template-customization"&gt;Theme &amp;amp; Template
 customization&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#setting-your-favicon" id="toc-setting-your-favicon"&gt;Setting your favicon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#tweaking-the-css" id="toc-tweaking-the-css"&gt;Tweaking the
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#setting-your-favicon" id="toc-setting-your-favicon"&gt;Setting your favicon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#tweaking-the-css" id="toc-tweaking-the-css"&gt;Tweaking the
 CSS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#files-and-listings" id="toc-files-and-listings"&gt;Files and
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#files-and-listings" id="toc-files-and-listings"&gt;Files and
 Listings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#date-formatting" id="toc-date-formatting"&gt;Date
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#date-formatting" id="toc-date-formatting"&gt;Date
 formatting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#using-mailchimp-for-user-to-subscribe" id="toc-using-mailchimp-for-user-to-subscribe"&gt;Using mailchimp for user
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#using-mailchimp-for-user-to-subscribe" id="toc-using-mailchimp-for-user-to-subscribe"&gt;Using mailchimp for user
 to subscribe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#loading-bar" id="toc-loading-bar"&gt;Loading bar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#remove-.html-suffix-from-archive.html" id="toc-remove-.html-suffix-from-archive.html"&gt;Remove .html suffix from
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#loading-bar" id="toc-loading-bar"&gt;Loading bar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#remove-.html-suffix-from-archive.html" id="toc-remove-.html-suffix-from-archive.html"&gt;Remove .html suffix from
 archive.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#short-blog-post-teaser-in-index-page" id="toc-short-blog-post-teaser-in-index-page"&gt;Short blog post teaser in
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#short-blog-post-teaser-in-index-page" id="toc-short-blog-post-teaser-in-index-page"&gt;Short blog post teaser in
 index page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#optimizing-your-blog" id="toc-optimizing-your-blog"&gt;16)
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#optimizing-your-blog" id="toc-optimizing-your-blog"&gt;16)
 Optimizing your blog&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#filters" id="toc-filters"&gt;Filters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#posting-automatically-on-medium" id="toc-posting-automatically-on-medium"&gt;Posting automatically on
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#filters" id="toc-filters"&gt;Filters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#posting-automatically-on-medium" id="toc-posting-automatically-on-medium"&gt;Posting automatically on
 Medium&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#posting-automatically-on-dev.to" id="toc-posting-automatically-on-dev.to"&gt;Posting automatically on
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#posting-automatically-on-dev.to" id="toc-posting-automatically-on-dev.to"&gt;Posting automatically on
 Dev.to&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#other-plugin-i-didnt-try" id="toc-other-plugin-i-didnt-try"&gt;Other plugin I didn’t try&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#other-plugin-i-didnt-try" id="toc-other-plugin-i-didnt-try"&gt;Other plugin I didn’t try&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#conclusion" id="toc-conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#resources" id="toc-resources"&gt;Resources&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#conclusion" id="toc-conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#resources" id="toc-resources"&gt;Resources&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#themes" id="toc-themes"&gt;Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#themes" id="toc-themes"&gt;Themes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
@@ -184,18 +184,18 @@ all the experimentation I did. I hope you’ll enjoy ! 🙏🏼&lt;/p&gt;
 &lt;p&gt;The first step is to have Python 3 installed on your computer, I
 recommend using virtual environment management.&lt;/p&gt;
 &lt;p&gt;Once you have create your virtual environment :&lt;/p&gt;
-&lt;div class="sourceCode" id="cb1"&gt;&lt;pre class="sourceCode bash"&gt;&lt;code class="sourceCode bash"&gt;&lt;span id="cb1-1"&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#cb1-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="ex"&gt;pip&lt;/span&gt; install &lt;span class="at"&gt;--upgrade&lt;/span&gt; pip setuptools wheel&lt;/span&gt;
-&lt;span id="cb1-2"&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/#cb1-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="ex"&gt;pip&lt;/span&gt; install &lt;span class="at"&gt;--upgrade&lt;/span&gt; &lt;span class="st"&gt;"Nikola[extras]"&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-nikola/"&gt;Read more…&lt;/a&gt; (15 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blogging</category><category>nikola</category><category>python</category><guid>https://brainsorting.dev/posts/create-a-blog-with-nikola/</guid><pubDate>Tue, 05 May 2020 14:02:50 GMT</pubDate></item><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;div class="sourceCode" id="cb1"&gt;&lt;pre class="sourceCode bash"&gt;&lt;code class="sourceCode bash"&gt;&lt;span id="cb1-1"&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#cb1-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="ex"&gt;pip&lt;/span&gt; install &lt;span class="at"&gt;--upgrade&lt;/span&gt; pip setuptools wheel&lt;/span&gt;
+&lt;span id="cb1-2"&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/#cb1-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="ex"&gt;pip&lt;/span&gt; install &lt;span class="at"&gt;--upgrade&lt;/span&gt; &lt;span class="st"&gt;"Nikola[extras]"&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-nikola/"&gt;Read more…&lt;/a&gt; (15 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blogging</category><category>nikola</category><category>python</category><guid>https://brainsorting.com/posts/create-a-blog-with-nikola/</guid><pubDate>Tue, 05 May 2020 14:02:50 GMT</pubDate></item><item><title>Publish a package on PyPi using Poetry</title><link>https://brainsorting.com/posts/publish-a-package-on-pypi-using-poetry/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#install-poetry" id="toc-install-poetry"&gt;Install
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/publish-a-package-on-pypi-using-poetry/#install-poetry" id="toc-install-poetry"&gt;Install
 Poetry&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#create-the-package-you-want-to-publish-on-pypi" id="toc-create-the-package-you-want-to-publish-on-pypi"&gt;Create the
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/publish-a-package-on-pypi-using-poetry/#create-the-package-you-want-to-publish-on-pypi" id="toc-create-the-package-you-want-to-publish-on-pypi"&gt;Create the
 package you want to publish on PyPi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#build-your-package" id="toc-build-your-package"&gt;Build your
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/publish-a-package-on-pypi-using-poetry/#build-your-package" id="toc-build-your-package"&gt;Build your
 package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#publish-your-package" id="toc-publish-your-package"&gt;Publish your package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/#end-notes" id="toc-end-notes"&gt;End notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/publish-a-package-on-pypi-using-poetry/#publish-your-package" id="toc-publish-your-package"&gt;Publish your package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/publish-a-package-on-pypi-using-poetry/#end-notes" id="toc-end-notes"&gt;End notes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -219,12 +219,12 @@ that were necessary before, &lt;a href="http://setup.py/"&gt;&lt;code&gt;setup.p
 &lt;code&gt;Pipfile&lt;/code&gt;, in one unique file to rule them all ! Ok, enough
 of Lord of the Ring.&lt;/p&gt;
 &lt;p&gt;I advise you to follow along with the &lt;a href="https://python-poetry.org/docs/cli/"&gt;documentation&lt;/a&gt; of poetry
-open. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>package</category><category>poetry</category><category>python</category><guid>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</guid><pubDate>Thu, 23 Apr 2020 19:31:25 GMT</pubDate></item><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.dev/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+open. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.com/posts/publish-a-package-on-pypi-using-poetry/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>package</category><category>poetry</category><category>python</category><guid>https://brainsorting.com/posts/publish-a-package-on-pypi-using-poetry/</guid><pubDate>Thu, 23 Apr 2020 19:31:25 GMT</pubDate></item><item><title>Using environment variables in a Flask + Heroku project</title><link>https://brainsorting.com/posts/environment-variable-flask-heroku/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#flask" id="toc-flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#heroku" id="toc-heroku"&gt;Heroku&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#environment-variable" id="toc-environment-variable"&gt;Environment Variable&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/#conclusion" id="toc-conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/environment-variable-flask-heroku/#flask" id="toc-flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/environment-variable-flask-heroku/#heroku" id="toc-heroku"&gt;Heroku&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/environment-variable-flask-heroku/#environment-variable" id="toc-environment-variable"&gt;Environment Variable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/environment-variable-flask-heroku/#conclusion" id="toc-conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -247,4 +247,4 @@ is not safe when you will push your code in production, so taking good
 habits from the beginning is a good idea.&lt;/p&gt;
 &lt;p&gt;Before jumping in the topic of configuring environment variables, I
 will first make you set up and deploy a basic app.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/environment-variable-flask-heroku/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>flask</category><category>heroku</category><category>python</category><guid>https://brainsorting.dev/posts/environment-variable-flask-heroku/</guid><pubDate>Sun, 19 Apr 2020 13:43:36 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/environment-variable-flask-heroku/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>flask</category><category>heroku</category><category>python</category><guid>https://brainsorting.com/posts/environment-variable-flask-heroku/</guid><pubDate>Sun, 19 Apr 2020 13:43:36 GMT</pubDate></item></channel></rss>

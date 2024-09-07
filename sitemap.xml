@@ -6,203 +6,219 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://brainsorting.dev/</loc>
+  <loc>https://brainsorting.com/</loc>
   <lastmod>2024-09-06T21:34:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/archive/</loc>
+  <loc>https://brainsorting.com/archive/</loc>
+  <lastmod>2024-09-06T22:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.com/archive/2020/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/archive/2020/</loc>
-  <lastmod>2023-04-24T17:51:00Z</lastmod>
- </url>
- <url>
-  <loc>https://brainsorting.dev/archive/2021/</loc>
+  <loc>https://brainsorting.com/archive/2021/</loc>
   <lastmod>2023-04-24T17:32:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/archive/2023/</loc>
+  <loc>https://brainsorting.com/archive/2023/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/</loc>
+  <loc>https://brainsorting.com/archive/2024/</loc>
+  <lastmod>2024-09-06T22:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.com/categories/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/ai/</loc>
+  <loc>https://brainsorting.com/categories/ai/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/blackjack/</loc>
+  <loc>https://brainsorting.com/categories/blackjack/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/blockchain/</loc>
+  <loc>https://brainsorting.com/categories/blockchain/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/blogging/</loc>
+  <loc>https://brainsorting.com/categories/blogging/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/book/</loc>
+  <loc>https://brainsorting.com/categories/book/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/books/</loc>
+  <loc>https://brainsorting.com/categories/books/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/cat_random/</loc>
+  <loc>https://brainsorting.com/categories/cat_random/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/cat_tutorial/</loc>
+  <loc>https://brainsorting.com/categories/cat_tutorial/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/ethereum/</loc>
+  <loc>https://brainsorting.com/categories/ethereum/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/flask/</loc>
+  <loc>https://brainsorting.com/categories/flask/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/food/</loc>
+  <loc>https://brainsorting.com/categories/food/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/health/</loc>
+  <loc>https://brainsorting.com/categories/health/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/heroku/</loc>
+  <loc>https://brainsorting.com/categories/heroku/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/learning/</loc>
+  <loc>https://brainsorting.com/categories/learning/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/mathematic/</loc>
+  <loc>https://brainsorting.com/categories/mathematic/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/metamask/</loc>
+  <loc>https://brainsorting.com/categories/metamask/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/nikola/</loc>
+  <loc>https://brainsorting.com/categories/nikola/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/package/</loc>
+  <loc>https://brainsorting.com/categories/package/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/pelican/</loc>
+  <loc>https://brainsorting.com/categories/pelican/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/poetry/</loc>
+  <loc>https://brainsorting.com/categories/poetry/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/porn/</loc>
+  <loc>https://brainsorting.com/categories/porn/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/python/</loc>
+  <loc>https://brainsorting.com/categories/python/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/raspberry-pi/</loc>
+  <loc>https://brainsorting.com/categories/raspberry-pi/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/self-development/</loc>
+  <loc>https://brainsorting.com/categories/self-development/</loc>
   <lastmod>2023-04-24T17:32:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/categories/trading/</loc>
+  <loc>https://brainsorting.com/categories/trading/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/galleries/</loc>
+  <loc>https://brainsorting.com/galleries/</loc>
   <lastmod>2023-04-24T17:32:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/index-1.html</loc>
-  <lastmod>2024-09-06T21:34:00Z</lastmod>
+  <loc>https://brainsorting.com/index-1.html</loc>
+  <lastmod>2024-09-06T23:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/listings/</loc>
+  <loc>https://brainsorting.com/listings/</loc>
   <lastmod>2023-04-24T17:32:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/pages/hello/</loc>
+  <loc>https://brainsorting.com/pages/hello/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/blackjack-the-21-game/</loc>
+  <loc>https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/</loc>
+  <lastmod>2024-09-06T23:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.com/posts/blackjack-the-21-game/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/create-a-blog-with-nikola/</loc>
+  <loc>https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-s/</loc>
+  <lastmod>2024-09-06T22:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/</loc>
+  <lastmod>2024-09-06T23:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.com/posts/comment-recuperer-le-transcript-dune-video-youtube/</loc>
+  <lastmod>2024-09-06T23:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://brainsorting.com/posts/create-a-blog-with-nikola/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/create-a-blog-with-pelican/</loc>
+  <loc>https://brainsorting.com/posts/create-a-blog-with-pelican/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</loc>
+  <loc>https://brainsorting.com/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/</loc>
+  <loc>https://brainsorting.com/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/</loc>
   <lastmod>2023-04-24T17:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/environment-variable-flask-heroku/</loc>
+  <loc>https://brainsorting.com/posts/environment-variable-flask-heroku/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</loc>
+  <loc>https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/how-to-learn-efficiently/</loc>
+  <loc>https://brainsorting.com/posts/how-to-learn-efficiently/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/publish-a-package-on-pypi-using-poetry/</loc>
+  <loc>https://brainsorting.com/posts/publish-a-package-on-pypi-using-poetry/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/structuring-a-python-application/</loc>
+  <loc>https://brainsorting.com/posts/structuring-a-python-application/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/test/</loc>
-  <lastmod>2023-04-24T17:51:00Z</lastmod>
- </url>
- <url>
-  <loc>https://brainsorting.dev/posts/the-longevity-diet/</loc>
+  <loc>https://brainsorting.com/posts/the-longevity-diet/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/the-no-hello-policy/</loc>
+  <loc>https://brainsorting.com/posts/the-no-hello-policy/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/traders-entrez-dans-la-zone/</loc>
+  <loc>https://brainsorting.com/posts/traders-entrez-dans-la-zone/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
  <url>
-  <loc>https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/</loc>
+  <loc>https://brainsorting.com/posts/why-does-porn-grills-mens-brain/</loc>
   <lastmod>2023-04-24T17:33:00Z</lastmod>
  </url>
 </urlset>

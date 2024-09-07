@@ -1,13 +1,360 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting</title><link>https://brainsorting.dev/</link><description>Trying to sort my brain's thoughts</description><atom:link href="https://brainsorting.dev/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting</title><link>https://brainsorting.com/</link><description>Trying to sort my brain's thoughts</description><atom:link href="https://brainsorting.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 06 Sep 2024 21:34:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Créer un compte OpenAI et obtenir sa clé API</title><link>https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 07 Sep 2024 00:11:54 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>4 méthodes gratuites pour télécharger les sous titres d’une vidéo gratuite</title><link>https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/#cr%C3%A9er-son-compte-sur-openai" id="toc-créer-son-compte-sur-openai"&gt;Créer son compte sur
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#m%C3%A9thode-1-t%C3%A9l%C3%A9charger-les-transcriptions-de-vos-propres-vid%C3%A9os-youtube" id="toc-méthode-1-télécharger-les-transcriptions-de-vos-propres-vidéos-youtube"&gt;&lt;strong&gt;Méthode
+1 : Télécharger les transcriptions de vos propres vidéos
+YouTube&lt;/strong&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#%C3%A9tape-1-acc%C3%A9der-%C3%A0-youtube-studio" id="toc-étape-1-accéder-à-youtube-studio"&gt;&lt;strong&gt;Étape 1 : Accéder à
+YouTube Studio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#%C3%A9tape-2-naviguer-vers-la-section-sous-titres" id="toc-étape-2-naviguer-vers-la-section-sous-titres"&gt;&lt;strong&gt;Étape 2 :
+Naviguer vers la section Sous-titres&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#%C3%A9tape-3-trouver-le-sous-titre-auto-g%C3%A9n%C3%A9r%C3%A9" id="toc-étape-3-trouver-le-sous-titre-auto-généré"&gt;&lt;strong&gt;Étape 3 :
+Trouver le sous-titre auto-généré&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#%C3%A9tape-4-t%C3%A9l%C3%A9charger-votre-transcription" id="toc-étape-4-télécharger-votre-transcription"&gt;&lt;strong&gt;Étape 4 :
+Télécharger votre transcription&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#m%C3%A9thode-2-utiliser-un-site-pour-t%C3%A9l%C3%A9charger-les-sous-titres" id="toc-méthode-2-utiliser-un-site-pour-télécharger-les-sous-titres"&gt;Méthode
+2 : Utiliser un site pour télécharger les sous-titres&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#les-sites-pour-t%C3%A9l%C3%A9charger-juste-les-sous-titres" id="toc-les-sites-pour-télécharger-juste-les-sous-titres"&gt;Les sites pour
+télécharger juste les sous-titres&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#les-sites-pour-t%C3%A9l%C3%A9charger-les-sous-titres-avec-le-timestamp" id="toc-les-sites-pour-télécharger-les-sous-titres-avec-le-timestamp"&gt;Les
+sites pour télécharger les sous-titres avec le timestamp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#m%C3%A9thode-3-utiliser-un-outil-qui-va-%C3%A9couter-le-son-de-la-vid%C3%A9o-pour-recr%C3%A9er-des-sous-titres" id="toc-méthode-3-utiliser-un-outil-qui-va-écouter-le-son-de-la-vidéo-pour-recréer-des-sous-titres"&gt;Méthode
+3 : Utiliser un outil qui va écouter le son de la vidéo pour recréer des
+sous-titres&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#m%C3%A9thode-4-cr%C3%A9er-son-propre-script-python-pour-t%C3%A9l%C3%A9charger-les-sous-titres-dune-vid%C3%A9o-youtube" id="toc-méthode-4-créer-son-propre-script-python-pour-télécharger-les-sous-titres-dune-vidéo-youtube"&gt;Méthode
+4 : Créer son propre script Python pour télécharger les sous-titres
+d’une vidéo YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;!--
+.. title: 4 méthodes gratuites pour télécharger les sous titres d’une vidéo gratuite
+.. slug: 4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite
+.. date: 2024-09-07 02:11:18 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+.. previewimage: /images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_23.00.51.png
+--&gt;
+&lt;p&gt;Dans ma quête de faire un article à partir d’une vidéo YouTube, j’ai
+découvert pas mal de choses que j’avais envie de vous partager. Voici
+les différentes méthodes que j’ai trouvées, vous en trouverez bien une
+qui vous conviendra ! J’en profite pour vous dire que certains des
+outils que j’ai trouvés proposaient un programme d’affiliation,
+quelques-uns des liens sont donc des liens affiliés et me permettent de
+toucher un revenu pour le temps que je passe à chercher et à écrire ces
+tutoriels pour vous. Ce ne sont pas des contenus sponsorisés ; si un
+outil est nul, je ne vous en parlerai pas.&lt;/p&gt;
+&lt;p&gt;Voici les différentes méthodes, je les ai classées de la plus simple
+à la plus difficile.&lt;/p&gt;
+&lt;h2 id="méthode-1-télécharger-les-transcriptions-de-vos-propres-vidéos-youtube"&gt;&lt;strong&gt;Méthode
+1 : Télécharger les transcriptions de vos propres vidéos
+YouTube&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Bon, il va de soi que si c’est pour télécharger les sous-titres d’une
+de vos propres vidéos, vous pouvez le faire directement depuis votre
+compte YouTube. Voici comment procéder :&lt;/p&gt;
+&lt;h3 id="étape-1-accéder-à-youtube-studio"&gt;&lt;strong&gt;Étape 1 : Accéder à
+YouTube Studio&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Connectez-vous à votre compte YouTube et cliquez sur « &lt;a href="https://studio.youtube.com/"&gt;YouTube Studio&lt;/a&gt; » dans le menu
+déroulant de votre profil.&lt;/p&gt;
+&lt;h3 id="étape-2-naviguer-vers-la-section-sous-titres"&gt;&lt;strong&gt;Étape 2 :
+Naviguer vers la section Sous-titres&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Dans YouTube Studio, allez dans « Vidéos », sélectionnez la vidéo
+souhaitée, puis cliquez sur « Sous-titres ».&lt;/p&gt;
+&lt;h3 id="étape-3-trouver-le-sous-titre-auto-généré"&gt;&lt;strong&gt;Étape 3 :
+Trouver le sous-titre auto-généré&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Recherchez la ligne de langue indiquant « Automatique » dans l’onglet
+des sous-titres.&lt;/p&gt;
+&lt;h3 id="étape-4-télécharger-votre-transcription"&gt;&lt;strong&gt;Étape 4 :
+Télécharger votre transcription&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Cliquez sur les trois points à côté de « Automatique » et
+sélectionnez « Télécharger ». La transcription sera téléchargée au
+format .sbv.&lt;/p&gt;
+&lt;h2 id="méthode-2-utiliser-un-site-pour-télécharger-les-sous-titres"&gt;Méthode
+2 : Utiliser un site pour télécharger les sous-titres&lt;/h2&gt;
+&lt;p&gt;Voici la méthode la plus simple pour télécharger les sous-titres de
+n’importe quelle vidéo. Il existe probablement des dizaines de sites, je
+vais vous en donner plusieurs comme ça au cas où un des liens ne
+fonctionnerait plus, vous pourrez en essayer d’autres.&lt;/p&gt;
+&lt;p&gt;Il existe 2 types de sous-titres : ceux avec simplement le texte, et
+ceux avec ce qu’on appelle le timestamp.&lt;/p&gt;
+&lt;h3 id="les-sites-pour-télécharger-juste-les-sous-titres"&gt;Les sites pour
+télécharger juste les sous-titres&lt;/h3&gt;
+&lt;p&gt;Je vais commencer avec un exemple → &lt;a href="https://editby.ai/transcript?via=editbyai"&gt;Editby.ai&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src="https://brainsorting.com/images/4_m%C3%A9thodes_gratuites/Capture_decran_2024-09-06_a_21.54.27.png" alt="Capture d’écran 2024-09-06 à 21.54.27.png"&gt;
+&lt;figcaption aria-hidden="true"&gt;Capture d’écran 2024-09-06 à
+21.54.27.png&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Pour cette méthode, pas besoin de s’inscrire, vous pouvez directement
+mettre le lien de votre vidéo YouTube et vous aurez le texte du
+sous-titre tout d’affilée. Vous pouvez ensuite le télécharger en fichier
+txt ou le copier dans votre presse-papier.&lt;/p&gt;
+&lt;p&gt;Voici d’autres sites qui proposent exactement la même fonctionnalité
+:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtubechanneltranscripts.com/"&gt;YoutubeChannelTranscripts&lt;/a&gt;
+→ lui ne propose que le téléchargement des sous-titres, vous n’avez pas
+la possibilité de les voir directement sur le site web.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.yukitools.com/youtube-transcript"&gt;Yukitools.com&lt;/a&gt; →
+pareil que le premier site, mais juste avec les sous-titres en brut
+affichés, on ne peut pas télécharger de fichier texte.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Après avoir testé, je me suis dit pas mal, mais est-ce qu’on peut
+faire mieux ?&lt;/p&gt;
+&lt;h3 id="les-sites-pour-télécharger-les-sous-titres-avec-le-timestamp"&gt;Les
+sites pour télécharger les sous-titres avec le timestamp&lt;/h3&gt;
+&lt;p&gt;Ce qui peut être pratique avec les timestamps, c’est de savoir quand
+le texte a été prononcé. Si vous souhaitez rédiger un résumé avec l’IA
+par exemple, cette information supplémentaire lui permettra d’être plus
+efficace car dans les sites précédents, vous n’avez que le texte sans
+aucune ponctuation, pas évident.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.vidscript.co/"&gt;VidScript&lt;/a&gt; → Ce que j’aime
+bien avec lui, c’est qu’on a les 3 options : le texte brut, le fichier
+txt avec les retours à la ligne de chaque phrase, et le fichier csv avec
+les codes temporels (timestamps).&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://downsub.com/"&gt;DownSub&lt;/a&gt; → Permet de voir le
+fichier brut, et de télécharger un fichier &lt;code&gt;.srt&lt;/code&gt;, type de
+fichier officiel pour les sous-titres, avec les timestamps inclus. Il
+permet aussi de traduire les sous-titres directement dans la langue de
+son choix avant téléchargement. Pourquoi pas.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube-transcript.io/"&gt;Youtube-Transcript&lt;/a&gt;
+→ Celui-là est très cool, car on peut cliquer sur les sous-titres et
+cela lance la vidéo à l’endroit où la phrase est prononcée. Vous pouvez
+aussi voir toutes les langues de sous-titres trouvées sur la vidéo
+YouTube. Vous pouvez même générer un résumé directement sur leur page.
+Le seul problème, c’est que j’ai dû relancer l’outil 3 fois avant que ça
+fonctionne car YouTube bloquait leur programme.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="méthode-3-utiliser-un-outil-qui-va-écouter-le-son-de-la-vidéo-pour-recréer-des-sous-titres"&gt;Méthode
+3 : Utiliser un outil qui va écouter le son de la vidéo pour recréer des
+sous-titres&lt;/h2&gt;
+&lt;p&gt;Il y a 2 façons de faire, une gratuite est d’utiliser la
+reconnaissance vocale de Google Docs, oui oui. Il suffit de la lancer
+dans un document vierge, de monter le son à fond sur la vidéo avec les
+sous-titres que vous souhaitez récupérer, et de laisser le texte
+s’écrire. On est d’accord, c’est quand même long et relou.&lt;/p&gt;
+&lt;p&gt;La deuxième méthode est d’utiliser des sites web qui proposent cette
+solution, le problème c’est qu’ils sont tous payants.&lt;/p&gt;
+&lt;p&gt;Je vous en montre un qui est sympa, il s’appelle &lt;a href="https://maestra.ai/fr/outils/video-en-texte/generateur-de-transcription-youtube"&gt;Maestra&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src="https://brainsorting.com/images/4_m%C3%A9thodes_gratuites/Capture_decran_2024-09-06_a_22.33.47.png" alt="Capture d’écran 2024-09-06 à 22.33.47.png"&gt;
+&lt;figcaption aria-hidden="true"&gt;Capture d’écran 2024-09-06 à
+22.33.47.png&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Comme vous le voyez, vous avez carrément un éditeur de type
+professionnel pour gérer vos sous-titres sur une vidéo, mais si votre
+objectif n’est que de récupérer les sous-titres, vous pouvez faire «
+exporter » en haut à droite et choisir parmi les options.&lt;/p&gt;
+&lt;p&gt;Il en existe d’autres :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.happyscribe.com/fr/transcrire-youtube-en-texte"&gt;HappyScribe&lt;/a&gt;
+→ je ne l’ai pas testé mais ça a l’air d’être un truc bien pro.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.amberscript.com/fr/produits/transcription/"&gt;AmberScript&lt;/a&gt;
+→ un autre outil professionnel où la transcription peut carrément être
+faite par des humains, mais assez cher du coup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="méthode-4-créer-son-propre-script-python-pour-télécharger-les-sous-titres-dune-vidéo-youtube"&gt;Méthode
+4 : Créer son propre script Python pour télécharger les sous-titres
+d’une vidéo YouTube&lt;/h2&gt;
+&lt;p&gt;Il existe un package Python qui s’appelle
+&lt;code&gt;youtube-transcript-api&lt;/code&gt; et qui permet de faire exactement ce
+dont on a besoin.&lt;/p&gt;
+&lt;p&gt;On va créer un nouveau dossier qui contiendra le projet, une fois
+dedans avec le terminal on installe le package :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;J’utilise &lt;a href="https://python-poetry.org/"&gt;poetry&lt;/a&gt; pour gérer
+mes packages, et je vous recommande de faire de même
+&lt;code&gt;poetry add youtube-transcript-api&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vous pouvez ensuite demander à ChatGPT de vous aider à faire le
+script, exemple :&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src="https://brainsorting.com/images/4_m%C3%A9thodes_gratuites/Capture_decran_2024-09-06_a_22.49.45.png" alt="Capture d’écran 2024-09-06 à 22.49.45.png"&gt;
+&lt;figcaption aria-hidden="true"&gt;Capture d’écran 2024-09-06 à
+22.49.45.png&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Je vous donne le script :&lt;/p&gt;
+&lt;div class="sourceCode" id="cb1"&gt;&lt;pre class="sourceCode python"&gt;&lt;code class="sourceCode python"&gt;&lt;span id="cb1-1"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="im"&gt;from&lt;/span&gt; youtube_transcript_api &lt;span class="im"&gt;import&lt;/span&gt; YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound&lt;/span&gt;
+&lt;span id="cb1-2"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-3"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-3" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="kw"&gt;def&lt;/span&gt; get_video_id(url):&lt;/span&gt;
+&lt;span id="cb1-4"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-4" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="co"&gt;"""&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-5"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-5" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    Extract the video ID from a YouTube URL&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-6"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-6" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    """&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-7"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-7" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;if&lt;/span&gt; &lt;span class="st"&gt;'youtube.com/watch?v='&lt;/span&gt; &lt;span class="kw"&gt;in&lt;/span&gt; url:&lt;/span&gt;
+&lt;span id="cb1-8"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-8" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="cf"&gt;return&lt;/span&gt; url.split(&lt;span class="st"&gt;'v='&lt;/span&gt;)[&lt;span class="dv"&gt;1&lt;/span&gt;]&lt;/span&gt;
+&lt;span id="cb1-9"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-9" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;elif&lt;/span&gt; &lt;span class="st"&gt;'youtu.be/'&lt;/span&gt; &lt;span class="kw"&gt;in&lt;/span&gt; url:&lt;/span&gt;
+&lt;span id="cb1-10"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-10" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="cf"&gt;return&lt;/span&gt; url.split(&lt;span class="st"&gt;'be/'&lt;/span&gt;)[&lt;span class="dv"&gt;1&lt;/span&gt;]&lt;/span&gt;
+&lt;span id="cb1-11"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-11" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;else&lt;/span&gt;:&lt;/span&gt;
+&lt;span id="cb1-12"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-12" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="cf"&gt;raise&lt;/span&gt; &lt;span class="pp"&gt;ValueError&lt;/span&gt;(&lt;span class="st"&gt;"Invalid YouTube URL"&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-13"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-13" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-14"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-14" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="kw"&gt;def&lt;/span&gt; fetch_available_languages(video_id):&lt;/span&gt;
+&lt;span id="cb1-15"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-15" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="co"&gt;"""&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-16"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-16" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    Fetch available languages for the YouTube video transcript.&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-17"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-17" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    """&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-18"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-18" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;try&lt;/span&gt;:&lt;/span&gt;
+&lt;span id="cb1-19"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-19" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        transcript_list &lt;span class="op"&gt;=&lt;/span&gt; YouTubeTranscriptApi.list_transcripts(video_id)&lt;/span&gt;
+&lt;span id="cb1-20"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-20" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        languages &lt;span class="op"&gt;=&lt;/span&gt; []&lt;/span&gt;
+&lt;span id="cb1-21"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-21" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-22"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-22" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="co"&gt;# Iterate over the transcript list to get the languages&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-23"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-23" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="cf"&gt;for&lt;/span&gt; transcript &lt;span class="kw"&gt;in&lt;/span&gt; transcript_list:&lt;/span&gt;
+&lt;span id="cb1-24"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-24" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;            languages.append((transcript.language, transcript.language_code))&lt;/span&gt;
+&lt;span id="cb1-25"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-25" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-26"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-26" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="cf"&gt;return&lt;/span&gt; languages&lt;/span&gt;
+&lt;span id="cb1-27"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-27" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;except&lt;/span&gt; TranscriptsDisabled:&lt;/span&gt;
+&lt;span id="cb1-28"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-28" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="st"&gt;"Transcripts are disabled for this video."&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-29"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-29" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="cf"&gt;return&lt;/span&gt; []&lt;/span&gt;
+&lt;span id="cb1-30"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-30" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;except&lt;/span&gt; NoTranscriptFound:&lt;/span&gt;
+&lt;span id="cb1-31"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-31" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="st"&gt;"No transcripts found for this video."&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-32"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-32" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="cf"&gt;return&lt;/span&gt; []&lt;/span&gt;
+&lt;span id="cb1-33"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-33" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-34"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-34" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="kw"&gt;def&lt;/span&gt; choose_language(languages):&lt;/span&gt;
+&lt;span id="cb1-35"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-35" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="co"&gt;"""&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-36"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-36" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    Display available languages and allow the user to choose one.&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-37"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-37" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    """&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-38"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-38" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="st"&gt;"&lt;/span&gt;&lt;span class="ch"&gt;\n&lt;/span&gt;&lt;span class="st"&gt;Available languages:"&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-39"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-39" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;for&lt;/span&gt; idx, (language, code) &lt;span class="kw"&gt;in&lt;/span&gt; &lt;span class="bu"&gt;enumerate&lt;/span&gt;(languages):&lt;/span&gt;
+&lt;span id="cb1-40"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-40" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="ss"&gt;f"&lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;idx &lt;span class="op"&gt;+&lt;/span&gt; &lt;span class="dv"&gt;1&lt;/span&gt;&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ss"&gt;. &lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;language&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ss"&gt; (&lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;code&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ss"&gt;)"&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-41"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-41" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-42"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-42" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    choice &lt;span class="op"&gt;=&lt;/span&gt; &lt;span class="bu"&gt;int&lt;/span&gt;(&lt;span class="bu"&gt;input&lt;/span&gt;(&lt;span class="st"&gt;"&lt;/span&gt;&lt;span class="ch"&gt;\n&lt;/span&gt;&lt;span class="st"&gt;Enter the number of the language you want to select: "&lt;/span&gt;)) &lt;span class="op"&gt;-&lt;/span&gt; &lt;span class="dv"&gt;1&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-43"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-43" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;if&lt;/span&gt; choice &lt;span class="op"&gt;&amp;lt;&lt;/span&gt; &lt;span class="dv"&gt;0&lt;/span&gt; &lt;span class="kw"&gt;or&lt;/span&gt; choice &lt;span class="op"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="bu"&gt;len&lt;/span&gt;(languages):&lt;/span&gt;
+&lt;span id="cb1-44"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-44" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="st"&gt;"Invalid choice. Please run the program again."&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-45"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-45" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        exit()&lt;/span&gt;
+&lt;span id="cb1-46"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-46" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-47"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-47" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;return&lt;/span&gt; languages[choice][&lt;span class="dv"&gt;1&lt;/span&gt;]&lt;/span&gt;
+&lt;span id="cb1-48"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-48" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-49"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-49" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="kw"&gt;def&lt;/span&gt; download_transcript(video_id, language_code, output_file):&lt;/span&gt;
+&lt;span id="cb1-50"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-50" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="co"&gt;"""&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-51"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-51" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    Download the YouTube transcript in the selected language and save it to a .txt file.&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-52"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-52" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    """&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-53"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-53" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;try&lt;/span&gt;:&lt;/span&gt;
+&lt;span id="cb1-54"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-54" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        transcript &lt;span class="op"&gt;=&lt;/span&gt; YouTubeTranscriptApi.get_transcript(video_id, languages&lt;span class="op"&gt;=&lt;/span&gt;[language_code])&lt;/span&gt;
+&lt;span id="cb1-55"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-55" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="cf"&gt;with&lt;/span&gt; &lt;span class="bu"&gt;open&lt;/span&gt;(output_file, &lt;span class="st"&gt;'w'&lt;/span&gt;, encoding&lt;span class="op"&gt;=&lt;/span&gt;&lt;span class="st"&gt;'utf-8'&lt;/span&gt;) &lt;span class="im"&gt;as&lt;/span&gt; f:&lt;/span&gt;
+&lt;span id="cb1-56"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-56" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;            &lt;span class="cf"&gt;for&lt;/span&gt; entry &lt;span class="kw"&gt;in&lt;/span&gt; transcript:&lt;/span&gt;
+&lt;span id="cb1-57"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-57" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;                timestamp &lt;span class="op"&gt;=&lt;/span&gt; format_time(entry[&lt;span class="st"&gt;'start'&lt;/span&gt;])&lt;/span&gt;
+&lt;span id="cb1-58"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-58" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;                f.write(&lt;span class="ss"&gt;f"&lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;timestamp&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ss"&gt; - &lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;entry[&lt;span class="st"&gt;'text'&lt;/span&gt;]&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ch"&gt;\n&lt;/span&gt;&lt;span class="ss"&gt;"&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-59"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-59" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="ss"&gt;f"Transcript saved to &lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;output_file&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ss"&gt;"&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-60"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-60" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;except&lt;/span&gt; &lt;span class="pp"&gt;Exception&lt;/span&gt; &lt;span class="im"&gt;as&lt;/span&gt; e:&lt;/span&gt;
+&lt;span id="cb1-61"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-61" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="ss"&gt;f"Error fetching transcript: &lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;e&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ss"&gt;"&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-62"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-62" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-63"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-63" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="kw"&gt;def&lt;/span&gt; format_time(seconds):&lt;/span&gt;
+&lt;span id="cb1-64"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-64" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="co"&gt;"""&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-65"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-65" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    Format timestamp from seconds to HH:MM:SS.&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-66"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-66" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    """&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-67"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-67" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    mins, secs &lt;span class="op"&gt;=&lt;/span&gt; &lt;span class="bu"&gt;divmod&lt;/span&gt;(&lt;span class="bu"&gt;int&lt;/span&gt;(seconds), &lt;span class="dv"&gt;60&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-68"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-68" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    hrs, mins &lt;span class="op"&gt;=&lt;/span&gt; &lt;span class="bu"&gt;divmod&lt;/span&gt;(mins, &lt;span class="dv"&gt;60&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-69"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-69" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;return&lt;/span&gt; &lt;span class="ss"&gt;f"&lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;hrs&lt;span class="sc"&gt;:02}&lt;/span&gt;&lt;span class="ss"&gt;:&lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;mins&lt;span class="sc"&gt;:02}&lt;/span&gt;&lt;span class="ss"&gt;:&lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;secs&lt;span class="sc"&gt;:02}&lt;/span&gt;&lt;span class="ss"&gt;"&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-70"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-70" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-71"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-71" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="kw"&gt;def&lt;/span&gt; preview_transcript(output_file, lines&lt;span class="op"&gt;=&lt;/span&gt;&lt;span class="dv"&gt;5&lt;/span&gt;):&lt;/span&gt;
+&lt;span id="cb1-72"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-72" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="co"&gt;"""&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-73"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-73" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    Display the first 'n' lines of the transcript.&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-74"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-74" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="co"&gt;    """&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-75"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-75" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;try&lt;/span&gt;:&lt;/span&gt;
+&lt;span id="cb1-76"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-76" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="cf"&gt;with&lt;/span&gt; &lt;span class="bu"&gt;open&lt;/span&gt;(output_file, &lt;span class="st"&gt;'r'&lt;/span&gt;, encoding&lt;span class="op"&gt;=&lt;/span&gt;&lt;span class="st"&gt;'utf-8'&lt;/span&gt;) &lt;span class="im"&gt;as&lt;/span&gt; f:&lt;/span&gt;
+&lt;span id="cb1-77"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-77" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;            transcript_lines &lt;span class="op"&gt;=&lt;/span&gt; f.readlines()&lt;/span&gt;
+&lt;span id="cb1-78"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-78" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;            &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="st"&gt;"&lt;/span&gt;&lt;span class="ch"&gt;\n&lt;/span&gt;&lt;span class="st"&gt;Preview of the transcript:"&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-79"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-79" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;            &lt;span class="cf"&gt;for&lt;/span&gt; line &lt;span class="kw"&gt;in&lt;/span&gt; transcript_lines[:lines]:&lt;/span&gt;
+&lt;span id="cb1-80"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-80" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;                &lt;span class="bu"&gt;print&lt;/span&gt;(line.strip())&lt;/span&gt;
+&lt;span id="cb1-81"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-81" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;except&lt;/span&gt; &lt;span class="pp"&gt;Exception&lt;/span&gt; &lt;span class="im"&gt;as&lt;/span&gt; e:&lt;/span&gt;
+&lt;span id="cb1-82"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-82" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="ss"&gt;f"Error reading the transcript file: &lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;e&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ss"&gt;"&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-83"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-83" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-84"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-84" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;span class="cf"&gt;if&lt;/span&gt; &lt;span class="va"&gt;__name__&lt;/span&gt; &lt;span class="op"&gt;==&lt;/span&gt; &lt;span class="st"&gt;"__main__"&lt;/span&gt;:&lt;/span&gt;
+&lt;span id="cb1-85"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-85" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    url &lt;span class="op"&gt;=&lt;/span&gt; &lt;span class="bu"&gt;input&lt;/span&gt;(&lt;span class="st"&gt;"Enter the YouTube video URL: "&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-86"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-86" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    video_id &lt;span class="op"&gt;=&lt;/span&gt; get_video_id(url)&lt;/span&gt;
+&lt;span id="cb1-87"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-87" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-88"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-88" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="co"&gt;# Fetch available languages&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-89"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-89" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    languages &lt;span class="op"&gt;=&lt;/span&gt; fetch_available_languages(video_id)&lt;/span&gt;
+&lt;span id="cb1-90"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-90" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-91"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-91" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;if&lt;/span&gt; languages:&lt;/span&gt;
+&lt;span id="cb1-92"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-92" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="co"&gt;# Ask user to select a language&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-93"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-93" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        language_code &lt;span class="op"&gt;=&lt;/span&gt; choose_language(languages)&lt;/span&gt;
+&lt;span id="cb1-94"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-94" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-95"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-95" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="co"&gt;# Download transcript and save to file&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-96"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-96" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        output_file &lt;span class="op"&gt;=&lt;/span&gt; &lt;span class="ss"&gt;f"youtube_transcript_&lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;video_id&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ss"&gt;_&lt;/span&gt;&lt;span class="sc"&gt;{&lt;/span&gt;language_code&lt;span class="sc"&gt;}&lt;/span&gt;&lt;span class="ss"&gt;.txt"&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-97"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-97" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        download_transcript(video_id, language_code, output_file)&lt;/span&gt;
+&lt;span id="cb1-98"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-98" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id="cb1-99"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-99" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="co"&gt;# Preview the first 5 sentences of the transcript&lt;/span&gt;&lt;/span&gt;
+&lt;span id="cb1-100"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-100" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        preview_transcript(output_file, &lt;span class="dv"&gt;5&lt;/span&gt;)&lt;/span&gt;
+&lt;span id="cb1-101"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-101" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;    &lt;span class="cf"&gt;else&lt;/span&gt;:&lt;/span&gt;
+&lt;span id="cb1-102"&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/#cb1-102" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;        &lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="st"&gt;"No available languages for this video."&lt;/span&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Et quand on utilise le script, ça donne ça&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src="https://brainsorting.com/images/4_m%C3%A9thodes_gratuites/Capture_decran_2024-09-06_a_23.00.51.png" alt="Capture d’écran 2024-09-06 à 23.00.51.png"&gt;
+&lt;figcaption aria-hidden="true"&gt;Capture d’écran 2024-09-06 à
+23.00.51.png&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Avec ça, vous devriez pouvoir intégrer facilement la récupération de
+transcript dans un projet plus gros, d’automatisation de rédaction
+d’articles par exemple.&lt;/p&gt;
+&lt;p&gt;J’espère que vous avez pu trouver la solution qui vous convient.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Passionné(e) par l’IA et avide d’articles comme celui-ci ? Ne rate
+pas une miette de l’actu et des astuces sur l’intelligence
+artificielle.&lt;/p&gt;
+&lt;p&gt;Rejoins la communauté grandissante de &lt;strong&gt;La Minute IA&lt;/strong&gt;,
+la newsletter qui fait vibrer des milliers de curieux tech comme toi. &lt;a href="https://la-minute-ia.fr/"&gt;Inscris-toi maintenant&lt;/a&gt; et plonge
+dans le futur de l’IA, expliqué simplement, en français !&lt;/p&gt;
+&lt;p&gt;Si tu préfères les contenus vidéos, je t’invite à t’abonner à ma &lt;a href="https://www.youtube.com/@mattioo"&gt;chaîne YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Mathieu | IA &amp;amp; SEO&lt;/strong&gt; sur &lt;a href="https://x.com/Mattioo81"&gt;X (Twitter)&lt;/a&gt;, &lt;a href="https://www.linkedin.com/in/mathieudugue/"&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</description><guid>https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite/</guid><pubDate>Sat, 07 Sep 2024 00:11:18 GMT</pubDate></item><item><title>Cacher le notch des MacBook Pro pour voir toutes ses icônes dans la barre des menus</title><link>https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#alfred.app-le-d%C3%A9but-dune-solution-pour-cacherafficher-le-notch" id="toc-alfred.app-le-début-dune-solution-pour-cacherafficher-le-notch"&gt;Alfred.app,
+le début d’une solution pour cacher/afficher le notch&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#alfred-quel-est-cet-outil-puissant-sur-macos" id="toc-alfred-quel-est-cet-outil-puissant-sur-macos"&gt;Alfred, quel est
+cet outil puissant sur macOS ?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#fonctionnalit%C3%A9s-principales-dalfred" id="toc-fonctionnalités-principales-dalfred"&gt;Fonctionnalités principales
+d’Alfred :&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#say-no-to-notch-application-pour-cacher-ou-afficher-le-notch-des-macbook" id="toc-say-no-to-notch-application-pour-cacher-ou-afficher-le-notch-des-macbook"&gt;Say
+No To Notch, application pour cacher ou afficher le notch des
+MacBook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#raycast-mac-la-solution-alternative-%C3%A0-alfred.app" id="toc-raycast-mac-la-solution-alternative-à-alfred.app"&gt;Raycast Mac,
+la solution alternative à Alfred.app&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#raycast-vs-alfred.app" id="toc-raycast-vs-alfred.app"&gt;Raycast vs Alfred.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#comment-cacherafficher-le-notch-avec-raycast" id="toc-comment-cacherafficher-le-notch-avec-raycast"&gt;Comment
+cacher/afficher le notch avec Raycast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;!--
+.. title: Cacher le notch des MacBook Pro pour voir toutes ses icônes dans la barre des menus
+.. slug: cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus
+.. date: 2024-09-07 01:52:03 UTC+02:00
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+.. previewimage: /images/Cacher_le_notch_des_/image.png
+--&gt;
+&lt;p&gt;J’ai un problème qui m’embête depuis un bon moment sur mon MacBook
+Pro : le fait que mes icônes de la barre de menu soient cachées derrière
+le notch.&lt;/p&gt;
+&lt;p&gt;Je suis un utilisateur de &lt;a href="https://bjango.com/mac/istatmenus/"&gt;iStat Menus&lt;/a&gt; qui me permet
+d’afficher des informations supplémentaires dans ma barre de menu. C’est
+une application très pratique, mais avec toutes les autres applications
+que j’utilise qui ajoutent des icônes dans la barre des menus, je me
+retrouve à en avoir trop, et elles se retrouvent cachées derrière le «
+notch », cet espace noir au milieu de la barre de menu qui cache la
+caméra.&lt;/p&gt;
+&lt;p&gt;Je me retrouve à devoir déplacer des icônes dans cet espace noir
+jusqu’à trouver celle qui m’intéresse. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/</guid><pubDate>Fri, 06 Sep 2024 23:52:03 GMT</pubDate></item><item><title>Créer un compte OpenAI et obtenir sa clé API</title><link>https://brainsorting.com/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/#cr%C3%A9er-son-compte-sur-openai" id="toc-créer-son-compte-sur-openai"&gt;Créer son compte sur
 OpenAI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/#obtenir-sa-cl%C3%A9-api" id="toc-obtenir-sa-clé-api"&gt;Obtenir sa
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/#obtenir-sa-cl%C3%A9-api" id="toc-obtenir-sa-clé-api"&gt;Obtenir sa
 clé API&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
@@ -33,17 +380,17 @@ compléter automatiquement des phrases et des paragraphes, et est
 considéré comme l’un des systèmes les plus avancés à ce jour. La clé API
 OpenAI est nécessaire pour accéder au moteur GPT-3 et à ses
 fonctionnalités, et donc pour pouvoir en tirer parti.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>ai</category><guid>https://brainsorting.dev/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/</guid><pubDate>Wed, 08 Feb 2023 10:51:46 GMT</pubDate></item><item><title>How to Learn efficiently</title><link>https://brainsorting.dev/posts/how-to-learn-efficiently/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>ai</category><guid>https://brainsorting.com/posts/creer-un-compte-openai-et-obtenir-sa-cle-api/</guid><pubDate>Wed, 08 Feb 2023 10:51:46 GMT</pubDate></item><item><title>How to Learn efficiently</title><link>https://brainsorting.com/posts/how-to-learn-efficiently/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#the-pillar-of-effective-learning" id="toc-the-pillar-of-effective-learning"&gt;The pillar of effective
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#the-pillar-of-effective-learning" id="toc-the-pillar-of-effective-learning"&gt;The pillar of effective
 learning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#study-less-study-smart" id="toc-study-less-study-smart"&gt;Study Less Study Smart&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#when-you-read-a-textbook" id="toc-when-you-read-a-textbook"&gt;When you read a Textbook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#first-principles" id="toc-first-principles"&gt;First
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#study-less-study-smart" id="toc-study-less-study-smart"&gt;Study Less Study Smart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#when-you-read-a-textbook" id="toc-when-you-read-a-textbook"&gt;When you read a Textbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#first-principles" id="toc-first-principles"&gt;First
 Principles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#top-down-learning" id="toc-top-down-learning"&gt;Top Down
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#top-down-learning" id="toc-top-down-learning"&gt;Top Down
 Learning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/#socratic-questioning" id="toc-socratic-questioning"&gt;Socratic Questioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/#socratic-questioning" id="toc-socratic-questioning"&gt;Socratic Questioning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -63,34 +410,34 @@ are now. As everything in life, it has been studied, and some method
 were proven more useful to retain more information, and quicker.&lt;/p&gt;
 &lt;p&gt;Here I will list everything I found useful while I was learning how
 to learn.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://brainsorting.dev/images/learning/feynman.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/how-to-learn-efficiently/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>learning</category><category>self-development</category><guid>https://brainsorting.dev/posts/how-to-learn-efficiently/</guid><pubDate>Mon, 06 Sep 2021 09:38:28 GMT</pubDate></item><item><title>The Longevity Diet</title><link>https://brainsorting.dev/posts/the-longevity-diet/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;p&gt;&lt;img src="https://brainsorting.com/images/learning/feynman.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/how-to-learn-efficiently/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>learning</category><category>self-development</category><guid>https://brainsorting.com/posts/how-to-learn-efficiently/</guid><pubDate>Mon, 06 Sep 2021 09:38:28 GMT</pubDate></item><item><title>The Longevity Diet</title><link>https://brainsorting.com/posts/the-longevity-diet/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#full-disclaimer" id="toc-full-disclaimer"&gt;Full
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#full-disclaimer" id="toc-full-disclaimer"&gt;Full
 disclaimer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#what-do-my-body-gets-from-food" id="toc-what-do-my-body-gets-from-food"&gt;What do my body gets from
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#what-do-my-body-gets-from-food" id="toc-what-do-my-body-gets-from-food"&gt;What do my body gets from
 food&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#some-common-accepted-ideas-about-diet" id="toc-some-common-accepted-ideas-about-diet"&gt;Some common accepted
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#some-common-accepted-ideas-about-diet" id="toc-some-common-accepted-ideas-about-diet"&gt;Some common accepted
 ideas about diet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#mimicking-fasting-diet" id="toc-mimicking-fasting-diet"&gt;Mimicking Fasting Diet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#what-is-aging" id="toc-what-is-aging"&gt;What is « aging »
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#mimicking-fasting-diet" id="toc-mimicking-fasting-diet"&gt;Mimicking Fasting Diet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#what-is-aging" id="toc-what-is-aging"&gt;What is « aging »
 ?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#the-fasting-set-up" id="toc-the-fasting-set-up"&gt;The
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#the-fasting-set-up" id="toc-the-fasting-set-up"&gt;The
 fasting set up&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#expected-calendar" id="toc-expected-calendar"&gt;Expected
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#expected-calendar" id="toc-expected-calendar"&gt;Expected
 calendar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#what-can-i-eat" id="toc-what-can-i-eat"&gt;What can I
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#what-can-i-eat" id="toc-what-can-i-eat"&gt;What can I
 eat&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#getting-in-ketosis-fat-burning-mode" id="toc-getting-in-ketosis-fat-burning-mode"&gt;Getting in ketosis fat
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#getting-in-ketosis-fat-burning-mode" id="toc-getting-in-ketosis-fat-burning-mode"&gt;Getting in ketosis fat
 burning mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#how-to-detect-im-in-ketosis-mode" id="toc-how-to-detect-im-in-ketosis-mode"&gt;How to detect I’m in ketosis
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#how-to-detect-im-in-ketosis-mode" id="toc-how-to-detect-im-in-ketosis-mode"&gt;How to detect I’m in ketosis
 mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#benefits" id="toc-benefits"&gt;Benefits&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/#useful-resources-i-wrote-this-from" id="toc-useful-resources-i-wrote-this-from"&gt;Useful resources I wrote
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#benefits" id="toc-benefits"&gt;Benefits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/#useful-resources-i-wrote-this-from" id="toc-useful-resources-i-wrote-this-from"&gt;Useful resources I wrote
 this from&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
@@ -123,35 +470,35 @@ is not a very dangerous experimentation, but I would recommend anybody
 reading that article to be cautious and not to take everything said here
 for absolute truth. Don’t do anything stupid if you are not feeling
 healthy and &lt;strong&gt;talk with your doctor before&lt;/strong&gt;.
-&lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/the-longevity-diet/"&gt;Read more…&lt;/a&gt; (12 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>book</category><category>food</category><category>health</category><guid>https://brainsorting.dev/posts/the-longevity-diet/</guid><pubDate>Mon, 26 Jul 2021 10:00:36 GMT</pubDate></item><item><title>Traders : Entrez dans la zone</title><link>https://brainsorting.dev/posts/traders-entrez-dans-la-zone/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.com/posts/the-longevity-diet/"&gt;Read more…&lt;/a&gt; (12 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>book</category><category>food</category><category>health</category><guid>https://brainsorting.com/posts/the-longevity-diet/</guid><pubDate>Mon, 26 Jul 2021 10:00:36 GMT</pubDate></item><item><title>Traders : Entrez dans la zone</title><link>https://brainsorting.com/posts/traders-entrez-dans-la-zone/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#introduction" id="toc-introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#analyse-technique" id="toc-analyse-technique"&gt;Analyse
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#introduction" id="toc-introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#analyse-technique" id="toc-analyse-technique"&gt;Analyse
 Technique&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#mises-en-gardes" id="toc-mises-en-gardes"&gt;Mises en
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#mises-en-gardes" id="toc-mises-en-gardes"&gt;Mises en
 gardes&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#quest-ce-que-le-risque" id="toc-quest-ce-que-le-risque"&gt;Qu’est-ce que le risque ?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#nos-r%C3%A9actions-face-aux-erreurs" id="toc-nos-réactions-face-aux-erreurs"&gt;Nos réactions face aux
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#quest-ce-que-le-risque" id="toc-quest-ce-que-le-risque"&gt;Qu’est-ce que le risque ?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#nos-r%C3%A9actions-face-aux-erreurs" id="toc-nos-réactions-face-aux-erreurs"&gt;Nos réactions face aux
 erreurs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#quest-ce-que-la-bourse" id="toc-quest-ce-que-la-bourse"&gt;Qu’est-ce que la bourse ?&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#quest-ce-que-la-bourse" id="toc-quest-ce-que-la-bourse"&gt;Qu’est-ce que la bourse ?&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#le-but-dun-trader" id="toc-le-but-dun-trader"&gt;Le but d’un
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#le-but-dun-trader" id="toc-le-but-dun-trader"&gt;Le but d’un
 trader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#le-plan-de-trade" id="toc-le-plan-de-trade"&gt;Le plan de
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#le-plan-de-trade" id="toc-le-plan-de-trade"&gt;Le plan de
 trade&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#la-r%C3%A9alit%C3%A9-des-march%C3%A9s" id="toc-la-réalité-des-marchés"&gt;La
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#la-r%C3%A9alit%C3%A9-des-march%C3%A9s" id="toc-la-réalité-des-marchés"&gt;La
 réalité des marchés&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#nos-attentes-du-march%C3%A9" id="toc-nos-attentes-du-marché"&gt;Nos attentes du marché&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#nos-attentes-du-march%C3%A9" id="toc-nos-attentes-du-marché"&gt;Nos attentes du marché&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#comment-devenir-un-bon-trader" id="toc-comment-devenir-un-bon-trader"&gt;Comment devenir un bon trader&lt;/a&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#comment-devenir-un-bon-trader" id="toc-comment-devenir-un-bon-trader"&gt;Comment devenir un bon trader&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#pr%C3%A9d%C3%A9finir-le-risque" id="toc-prédéfinir-le-risque"&gt;Prédéfinir le risque&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#r%C3%A9fl%C3%A9chir-en-terme-de-probabilit%C3%A9" id="toc-réfléchir-en-terme-de-probabilité"&gt;Réfléchir en terme de
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#pr%C3%A9d%C3%A9finir-le-risque" id="toc-prédéfinir-le-risque"&gt;Prédéfinir le risque&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#r%C3%A9fl%C3%A9chir-en-terme-de-probabilit%C3%A9" id="toc-réfléchir-en-terme-de-probabilité"&gt;Réfléchir en terme de
 probabilité&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#supprimer-ses-attentes" id="toc-supprimer-ses-attentes"&gt;Supprimer ses attentes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/#les-%C3%A9tapes-de-la-r%C3%A9ussites" id="toc-les-étapes-de-la-réussites"&gt;Les étapes de la réussites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#supprimer-ses-attentes" id="toc-supprimer-ses-attentes"&gt;Supprimer ses attentes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/#les-%C3%A9tapes-de-la-r%C3%A9ussites" id="toc-les-étapes-de-la-réussites"&gt;Les étapes de la réussites&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
@@ -179,20 +526,20 @@ action, matière première ou instrument financier.&lt;/p&gt;
 &lt;p&gt;Les analystes fondamentaux pourraient avoir raison sur une prédiction
 future, mais entre temps les oscillations de prix dûs aux autres traders
 seront telles qu’il serait &lt;strong&gt;très difficile de conserver une
-position pour atteindre l’objectif&lt;/strong&gt;. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/traders-entrez-dans-la-zone/"&gt;Read more…&lt;/a&gt; (10 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>book</category><category>trading</category><guid>https://brainsorting.dev/posts/traders-entrez-dans-la-zone/</guid><pubDate>Mon, 24 May 2021 20:29:57 GMT</pubDate></item><item><title>Structuring a Python application</title><link>https://brainsorting.dev/posts/structuring-a-python-application/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+position pour atteindre l’objectif&lt;/strong&gt;. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.com/posts/traders-entrez-dans-la-zone/"&gt;Read more…&lt;/a&gt; (10 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>book</category><category>trading</category><guid>https://brainsorting.com/posts/traders-entrez-dans-la-zone/</guid><pubDate>Mon, 24 May 2021 20:29:57 GMT</pubDate></item><item><title>Structuring a Python application</title><link>https://brainsorting.com/posts/structuring-a-python-application/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#single-python-file-containing-all-the-code" id="toc-single-python-file-containing-all-the-code"&gt;Single python file
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#single-python-file-containing-all-the-code" id="toc-single-python-file-containing-all-the-code"&gt;Single python file
 containing all the code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#installable-single-package" id="toc-installable-single-package"&gt;Installable Single Package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#application-with-internal-packages" id="toc-application-with-internal-packages"&gt;Application with internal
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#installable-single-package" id="toc-installable-single-package"&gt;Installable Single Package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#application-with-internal-packages" id="toc-application-with-internal-packages"&gt;Application with internal
 packages&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#bin" id="toc-bin"&gt;bin/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#data" id="toc-data"&gt;data/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#docs" id="toc-docs"&gt;docs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#bin" id="toc-bin"&gt;bin/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#data" id="toc-data"&gt;data/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#docs" id="toc-docs"&gt;docs/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#django-web-application" id="toc-django-web-application"&gt;Django web application&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/#flask" id="toc-flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#django-web-application" id="toc-django-web-application"&gt;Django web application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/#flask" id="toc-flask"&gt;Flask&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -215,15 +562,15 @@ containing all the code&lt;/h2&gt;
 &lt;p&gt;That’s okay for code without dependencies or using a virtual
 environment. This is generally used for a quick script that doesn’t need
 complexity in its file structure.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/structuring-a-python-application/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>python</category><guid>https://brainsorting.dev/posts/structuring-a-python-application/</guid><pubDate>Sat, 26 Sep 2020 09:21:58 GMT</pubDate></item><item><title>Create a proxy with a Raspberry Pi 3 (or above)</title><link>https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/structuring-a-python-application/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>python</category><guid>https://brainsorting.com/posts/structuring-a-python-application/</guid><pubDate>Sat, 26 Sep 2020 09:21:58 GMT</pubDate></item><item><title>Create a proxy with a Raspberry Pi 3 (or above)</title><link>https://brainsorting.com/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#install-and-configure-your-raspberry-pi-os" id="toc-install-and-configure-your-raspberry-pi-os"&gt;Install and
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#install-and-configure-your-raspberry-pi-os" id="toc-install-and-configure-your-raspberry-pi-os"&gt;Install and
 configure your Raspberry Pi OS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#setting-up-the-raspberry-pi" id="toc-setting-up-the-raspberry-pi"&gt;Setting up the raspberry
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#setting-up-the-raspberry-pi" id="toc-setting-up-the-raspberry-pi"&gt;Setting up the raspberry
 pi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#access-your-raspberry-pi-with-ssh-outside-your-home-local-network" id="toc-access-your-raspberry-pi-with-ssh-outside-your-home-local-network"&gt;Access
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#access-your-raspberry-pi-with-ssh-outside-your-home-local-network" id="toc-access-your-raspberry-pi-with-ssh-outside-your-home-local-network"&gt;Access
 your Raspberry Pi with SSH outside your home local network&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#useful-commands" id="toc-useful-commands"&gt;Useful
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/#useful-commands" id="toc-useful-commands"&gt;Useful
 Commands&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
@@ -255,22 +602,22 @@ Flash!.&lt;/li&gt;
 &lt;p&gt;While the image disk is getting installed, we will create the file
 that contains the wifi information so the raspberry can connect to it
 automatically. Open a text note and paste this inside :&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>raspberry-pi</category><guid>https://brainsorting.dev/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</guid><pubDate>Thu, 27 Aug 2020 09:12:16 GMT</pubDate></item><item><title>How to cancel a pending ethereum transaction with MetaMask</title><link>https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>raspberry-pi</category><guid>https://brainsorting.com/posts/create-a-proxy-with-a-raspberry-pi-3-or-above/</guid><pubDate>Thu, 27 Aug 2020 09:12:16 GMT</pubDate></item><item><title>How to cancel a pending ethereum transaction with MetaMask</title><link>https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#gather-all-the-informations-we-need" id="toc-gather-all-the-informations-we-need"&gt;Gather all the informations
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#gather-all-the-informations-we-need" id="toc-gather-all-the-informations-we-need"&gt;Gather all the informations
 we need&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#prerequisite" id="toc-prerequisite"&gt;Prerequisite&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#etherscan" id="toc-etherscan"&gt;Etherscan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#prerequisite" id="toc-prerequisite"&gt;Prerequisite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#etherscan" id="toc-etherscan"&gt;Etherscan&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#how-can-i-send-my-own-custom-transaction" id="toc-how-can-i-send-my-own-custom-transaction"&gt;How can I send my own
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#how-can-i-send-my-own-custom-transaction" id="toc-how-can-i-send-my-own-custom-transaction"&gt;How can I send my own
 custom transaction&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#enabling-the-custom-gas-settings-and-custom-nonce" id="toc-enabling-the-custom-gas-settings-and-custom-nonce"&gt;Enabling the
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#enabling-the-custom-gas-settings-and-custom-nonce" id="toc-enabling-the-custom-gas-settings-and-custom-nonce"&gt;Enabling the
 custom gas settings and custom nonce&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#sending-a-custom-transaction-to-fix-the-pending-tx" id="toc-sending-a-custom-transaction-to-fix-the-pending-tx"&gt;Sending a
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#sending-a-custom-transaction-to-fix-the-pending-tx" id="toc-sending-a-custom-transaction-to-fix-the-pending-tx"&gt;Sending a
 custom transaction to fix the pending tx&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#how-can-i-prevent-that-from-happening-again" id="toc-how-can-i-prevent-that-from-happening-again"&gt;How can I prevent
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/#how-can-i-prevent-that-from-happening-again" id="toc-how-can-i-prevent-that-from-happening-again"&gt;How can I prevent
 that from happening again&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -296,94 +643,14 @@ with higher fees.&lt;/p&gt;
 &lt;p&gt;This result in you being stuck because until that transaction is
 resolved you cannot send any other transaction. Annoying right ?&lt;/p&gt;
 &lt;p&gt;Let’s dive right in on how to fix this !&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blockchain</category><category>ethereum</category><category>metamask</category><guid>https://brainsorting.dev/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</guid><pubDate>Sat, 15 Aug 2020 10:05:27 GMT</pubDate></item><item><title>Please Don't Say Just Hello In Chat</title><link>https://brainsorting.dev/posts/the-no-hello-policy/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;figure&gt;&lt;img src="https://brainsorting.dev/images/nohello.png"&gt;&lt;/figure&gt; &lt;div&gt;&lt;div class="sourceCode" id="cb1"&gt;&lt;pre class="sourceCode txt"&gt;&lt;code class="sourceCode default"&gt;&lt;span id="cb1-1"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb1-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:12 you: Hi&lt;/span&gt;
-&lt;span id="cb1-2"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb1-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:15 co-worker: Hello.&lt;/span&gt;
-&lt;span id="cb1-3"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb1-3" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;# CO-WORKER WAITS WHILE YOU PHRASE YOUR QUESTION&lt;/span&gt;
-&lt;span id="cb1-4"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb1-4" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:34:01 you: I'm working on [something] and I'm trying to do [etc...]&lt;/span&gt;
-&lt;span id="cb1-5"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb1-5" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:35:21 co-worker: Oh, that's [answer...]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blockchain</category><category>ethereum</category><category>metamask</category><guid>https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</guid><pubDate>Sat, 15 Aug 2020 10:05:27 GMT</pubDate></item><item><title>Please Don't Say Just Hello In Chat</title><link>https://brainsorting.com/posts/the-no-hello-policy/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;figure&gt;&lt;img src="https://brainsorting.com/images/nohello.png"&gt;&lt;/figure&gt; &lt;div&gt;&lt;div class="sourceCode" id="cb1"&gt;&lt;pre class="sourceCode txt"&gt;&lt;code class="sourceCode default"&gt;&lt;span id="cb1-1"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:12 you: Hi&lt;/span&gt;
+&lt;span id="cb1-2"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:15 co-worker: Hello.&lt;/span&gt;
+&lt;span id="cb1-3"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-3" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;# CO-WORKER WAITS WHILE YOU PHRASE YOUR QUESTION&lt;/span&gt;
+&lt;span id="cb1-4"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-4" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:34:01 you: I'm working on [something] and I'm trying to do [etc...]&lt;/span&gt;
+&lt;span id="cb1-5"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-5" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:35:21 co-worker: Oh, that's [answer...]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;It’s as if you called someone on the phone and said “Hi!” and then
 put them on hold!&lt;/p&gt;
 &lt;p&gt;Please do this instead:&lt;/p&gt;
-&lt;div class="sourceCode" id="cb2"&gt;&lt;pre class="sourceCode txt"&gt;&lt;code class="sourceCode default"&gt;&lt;span id="cb2-1"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb2-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:12 you: Hi -- I'm working on [something] and I'm trying to do [etc...]&lt;/span&gt;
-&lt;span id="cb2-2"&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/#cb2-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:33:32 co-worker: [answers question]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/the-no-hello-policy/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://brainsorting.dev/posts/the-no-hello-policy/</guid><pubDate>Thu, 30 Jul 2020 07:07:23 GMT</pubDate></item><item><title>Create a blog with Pelican, hosted on Github/Netlify</title><link>https://brainsorting.dev/posts/create-a-blog-with-pelican/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#install-pelican" id="toc-install-pelican"&gt;Install
-Pelican&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#lets-see-how-your-blog-looks-like-no" id="toc-lets-see-how-your-blog-looks-like-no"&gt;Let’s see how your blog
-looks like no ?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#hosting-your-blog-files" id="toc-hosting-your-blog-files"&gt;Hosting your blog files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#publishing-your-static-blog" id="toc-publishing-your-static-blog"&gt;Publishing your static
-blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#writing-articles" id="toc-writing-articles"&gt;Writing
-articles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#choosing-a-theme" id="toc-choosing-a-theme"&gt;Choosing a
-theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#installing-the-jupyter-plugin" id="toc-installing-the-jupyter-plugin"&gt;Installing the Jupyter
-Plugin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#useful-modules" id="toc-useful-modules"&gt;Useful
-Modules&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#references" id="toc-references"&gt;References&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;!--
-.. title: Create a blog with Pelican, hosted on Github/Netlify
-.. slug: create-a-blog-with-pelican
-.. date: 2020-07-18 16:20:03 UTC+02:00
-.. tags: python, pelican, blogging
-.. category: tutorial
-.. link:
-.. description: Full tutorial on how to start blogging with a static website generated by the Pelican python package.
-.. type: text
-.. previewimage: /images/pelican.jpeg
---&gt;
-&lt;p&gt;I hope this article / tutorial will give you the essential knowledge
-and steps to create and deploy your Pelican static blog on Netlify for
-free !&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Goals&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Install Pelican&lt;/li&gt;
-&lt;li&gt;Create a website running on Pelican&lt;/li&gt;
-&lt;li&gt;Deploy a Pelican based site to &lt;a href="http://netlify.com/"&gt;Netlify.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Basic knowledge about git and python&lt;/li&gt;
-&lt;li&gt;Python 3 and git installed on your workstation&lt;/li&gt;
-&lt;li&gt;VSCode or other IDE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blogging</category><category>pelican</category><category>python</category><guid>https://brainsorting.dev/posts/create-a-blog-with-pelican/</guid><pubDate>Sat, 18 Jul 2020 14:20:03 GMT</pubDate></item><item><title>Why does porn grills men's brain ?</title><link>https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/#desensitization" id="toc-desensitization"&gt;Desensitization&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/#did-i-said-addiction" id="toc-did-i-said-addiction"&gt;Did I
-said addiction?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/#the-3-fatal-mistakes-made-by-people-who-decide-to-quit" id="toc-the-3-fatal-mistakes-made-by-people-who-decide-to-quit"&gt;The 3
-fatal mistakes made by people who decide to quit:&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/#a-lot-of-time-but-how-long-exactly" id="toc-a-lot-of-time-but-how-long-exactly"&gt;A lot of time? But how long
-exactly?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/#how-to-speed-up-the-healing-process" id="toc-how-to-speed-up-the-healing-process"&gt;How to speed up the healing
-process?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/#bibliography" id="toc-bibliography"&gt;Bibliography&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;!--
-.. title: Why does porn grills men's brain ?
-.. slug: why-does-porn-grills-mens-brain
-.. date: 2020-06-08 17:36:21 UTC+02:00
-.. tags: porn, self-development
-.. category: random
-.. link:
-.. description: Did you ever asked yourself if watching as much pornography as we do nowadays wasn't harmful ?
-.. type: text
---&gt;
-&lt;p&gt;Beyond this catchy title hides a reality unfortunately similar.
-Before explaining why, let’s do a quick history of this particular
-cinematographic art.&lt;/p&gt;
-&lt;p&gt;Before talking about cinema, eroticism and pornography have been the
-focus of novels since the very beginning of writing. Whether through
-representations of the sexual act, desire and its many signs, this genre
-has always attracted interest over the centuries.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;But what is an erotic book?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A text that arouses excitement to read?&lt;/p&gt;
-&lt;p&gt;It is a very subjective definition, a simple poetry can awaken some
-enthusiasts but leave others of marble. &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/"&gt;Read more…&lt;/a&gt; (13 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>porn</category><category>self-development</category><guid>https://brainsorting.dev/posts/why-does-porn-grills-mens-brain/</guid><pubDate>Mon, 08 Jun 2020 15:36:21 GMT</pubDate></item></channel></rss>
+&lt;div class="sourceCode" id="cb2"&gt;&lt;pre class="sourceCode txt"&gt;&lt;code class="sourceCode default"&gt;&lt;span id="cb2-1"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb2-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:12 you: Hi -- I'm working on [something] and I'm trying to do [etc...]&lt;/span&gt;
+&lt;span id="cb2-2"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb2-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:33:32 co-worker: [answers question]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://brainsorting.com/posts/the-no-hello-policy/</guid><pubDate>Thu, 30 Jul 2020 07:07:23 GMT</pubDate></item></channel></rss>

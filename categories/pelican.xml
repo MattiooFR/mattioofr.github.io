@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about pelican)</title><link>https://brainsorting.dev/</link><description></description><atom:link href="https://brainsorting.dev/categories/pelican.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brain Sorting (Posts about pelican)</title><link>https://brainsorting.com/</link><description></description><atom:link href="https://brainsorting.com/categories/pelican.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:dugue.mathieu@gmail.com"&gt;Mathieu Dugue&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 06 Sep 2024 21:34:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Create a blog with Pelican, hosted on Github/Netlify</title><link>https://brainsorting.dev/posts/create-a-blog-with-pelican/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 06 Sep 2024 22:42:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Create a blog with Pelican, hosted on Github/Netlify</title><link>https://brainsorting.com/posts/create-a-blog-with-pelican/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#install-pelican" id="toc-install-pelican"&gt;Install
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#install-pelican" id="toc-install-pelican"&gt;Install
 Pelican&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#lets-see-how-your-blog-looks-like-no" id="toc-lets-see-how-your-blog-looks-like-no"&gt;Let’s see how your blog
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#lets-see-how-your-blog-looks-like-no" id="toc-lets-see-how-your-blog-looks-like-no"&gt;Let’s see how your blog
 looks like no ?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#hosting-your-blog-files" id="toc-hosting-your-blog-files"&gt;Hosting your blog files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#publishing-your-static-blog" id="toc-publishing-your-static-blog"&gt;Publishing your static
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#hosting-your-blog-files" id="toc-hosting-your-blog-files"&gt;Hosting your blog files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#publishing-your-static-blog" id="toc-publishing-your-static-blog"&gt;Publishing your static
 blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#writing-articles" id="toc-writing-articles"&gt;Writing
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#writing-articles" id="toc-writing-articles"&gt;Writing
 articles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#choosing-a-theme" id="toc-choosing-a-theme"&gt;Choosing a
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#choosing-a-theme" id="toc-choosing-a-theme"&gt;Choosing a
 theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#installing-the-jupyter-plugin" id="toc-installing-the-jupyter-plugin"&gt;Installing the Jupyter
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#installing-the-jupyter-plugin" id="toc-installing-the-jupyter-plugin"&gt;Installing the Jupyter
 Plugin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#useful-modules" id="toc-useful-modules"&gt;Useful
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#useful-modules" id="toc-useful-modules"&gt;Useful
 Modules&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/#references" id="toc-references"&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#references" id="toc-references"&gt;References&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;!--
@@ -49,4 +49,4 @@ free !&lt;/p&gt;
 &lt;li&gt;Python 3 and git installed on your workstation&lt;/li&gt;
 &lt;li&gt;VSCode or other IDE&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.dev/posts/create-a-blog-with-pelican/"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blogging</category><category>pelican</category><category>python</category><guid>https://brainsorting.dev/posts/create-a-blog-with-pelican/</guid><pubDate>Sat, 18 Jul 2020 14:20:03 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blogging</category><category>pelican</category><category>python</category><guid>https://brainsorting.com/posts/create-a-blog-with-pelican/</guid><pubDate>Sat, 18 Jul 2020 14:20:03 GMT</pubDate></item></channel></rss>
