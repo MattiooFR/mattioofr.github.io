@@ -14,7 +14,9 @@
 Dans ma quête de faire un article à partir d'une vidéo YouTube, j'ai découvert pas mal de choses que j'avais envie de vous partager. Voici les différentes méthodes que j'ai trouvées, vous en trouverez bien une qui vous conviendra ! J'en profite pour vous dire que certains des outils que j'ai trouvés proposaient un programme d'affiliation, quelques-uns des liens sont donc des liens affiliés et me permettent de toucher un revenu pour le temps que je passe à chercher et à écrire ces tutoriels pour vous. Ce ne sont pas des contenus sponsorisés ; si un outil est nul, je ne vous en parlerai pas.
 
 Voici les différentes méthodes, je les ai classées de la plus simple à la plus difficile.
+
 <!-- TEASER_END -->
+
 ## Méthode 1 : Télécharger les transcriptions de vos propres vidéos YouTube
 
 Bon, il va de soi que si c'est pour télécharger les sous-titres d'une de vos propres vidéos, vous pouvez le faire directement depuis votre compte YouTube. Voici comment procéder :
