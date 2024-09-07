@@ -20,6 +20,7 @@ Voici les différentes méthodes, je les ai classées de la plus simple à la pl
 
 Bon, il va de soi que si c'est pour télécharger les sous-titres d'une de vos propres vidéos, vous pouvez le faire directement depuis votre compte YouTube. Voici comment procéder :
 <!-- TEASER_END -->
+
 ### Étape 1 : Accéder à YouTube Studio
 
 Connectez-vous à votre compte YouTube et cliquez sur « [YouTube Studio](https://studio.youtube.com/) » dans le menu déroulant de votre profil.
