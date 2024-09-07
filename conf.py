@@ -20,10 +20,10 @@ BLOG_AUTHOR = "Mathieu Dugue"  # (translatable)
 BLOG_TITLE = "Brain Sorting"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://brainsorting.dev/"
+SITE_URL = "https://brainsorting.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://brainsorting.dev/"
+# BASE_URL = "https://brainsorting.com/"
 BLOG_EMAIL = "dugue.mathieu@gmail.com"
 BLOG_DESCRIPTION = "Trying to sort my brain's thoughts"  # (translatable)
 
@@ -980,7 +980,7 @@ CONTENT_FOOTER = """
         <h4 style="margin-left:-10px">...Read me here</h4>
         <p>• On <a href="https://dev.to/mattioo">dev.to <i class="fab fa-dev" title="mattioo's DEV Profile"></i></a>
         <p>• On <a href="https://medium.com/@mattioo">Medium</a></p>
-        <p>• Or stay <a href="https://brainsorting.dev">here</a></p>
+        <p>• Or stay <a href="https://brainsorting.com">here</a></p>
     </div>
 </div>
 </br>

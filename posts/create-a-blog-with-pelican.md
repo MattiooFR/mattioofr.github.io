@@ -196,7 +196,7 @@ Netlify require a requirements.txt file to properly build your blog. Enter this 
 
 `poetry export -f requirements.txt > requirements.txt`
 
-Now your blog is almost ready, simply commit and push a new change in your blog, like adding a new article, and Netlify will automatically detect a change in your git repository. It will then build your files and deploy your static blog. In the settings you can specify the name of your blog. I personally decided to buy a domain name so I can have my own url like [www.brainsorting.dev](http://www.brainsorting.dev) instead of www.brainsorting.netlify.com.
+Now your blog is almost ready, simply commit and push a new change in your blog, like adding a new article, and Netlify will automatically detect a change in your git repository. It will then build your files and deploy your static blog. In the settings you can specify the name of your blog. I personally decided to buy a domain name so I can have my own url like [www.brainsorting.com](http://www.brainsorting.com) instead of www.brainsorting.netlify.com.
 
 The procedure is to directly buy the domain with Netlify, or buy it through [https://domains.google/](https://domains.google/) and then follow the instruction in Netlify to use that domain.
 

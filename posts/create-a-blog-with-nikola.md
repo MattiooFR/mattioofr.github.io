@@ -334,7 +334,7 @@ nikola github_deploy
 
 ### Netlify extra steps
 
-Because of [all these reasons](https://dev.to/eroberts/why-you-should-use-netlify-instead-of-github-pages-3on1) I wanted to use Netlify for deploying my blog with a custom domains, www.brainsorting.dev. I simply configured a trigger on Netlify to start building my blog when it detects any new push on my GitHub blog repository. It is as simple as said, everything kind of works out of the box and the service provided by Netlify has been very stable and giving me very good SEO statistics.
+Because of [all these reasons](https://dev.to/eroberts/why-you-should-use-netlify-instead-of-github-pages-3on1) I wanted to use Netlify for deploying my blog with a custom domains, www.brainsorting.com. I simply configured a trigger on Netlify to start building my blog when it detects any new push on my GitHub blog repository. It is as simple as said, everything kind of works out of the box and the service provided by Netlify has been very stable and giving me very good SEO statistics.
 
 ## 11) Archives
 
