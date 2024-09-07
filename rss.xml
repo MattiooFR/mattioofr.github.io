@@ -3,7 +3,53 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 07 Sep 2024 13:45:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>4 méthodes gratuites pour télécharger les sous titres d’une vidéo YouTube</title><link>https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-youtube/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 07 Sep 2024 13:52:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cacher le notch des MacBook Pro pour voir toutes ses icônes dans la barre des menus</title><link>https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#alfred.app-le-d%C3%A9but-dune-solution-pour-cacherafficher-le-notch" id="toc-alfred.app-le-début-dune-solution-pour-cacherafficher-le-notch"&gt;Alfred.app,
+le début d’une solution pour cacher/afficher le notch&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#alfred-quel-est-cet-outil-puissant-sur-macos" id="toc-alfred-quel-est-cet-outil-puissant-sur-macos"&gt;Alfred, quel est
+cet outil puissant sur macOS ?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#fonctionnalit%C3%A9s-principales-dalfred" id="toc-fonctionnalités-principales-dalfred"&gt;Fonctionnalités principales
+d’Alfred :&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#say-no-to-notch-application-pour-cacher-ou-afficher-le-notch-des-macbook" id="toc-say-no-to-notch-application-pour-cacher-ou-afficher-le-notch-des-macbook"&gt;Say
+No To Notch, application pour cacher ou afficher le notch des
+MacBook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#raycast-mac-la-solution-alternative-%C3%A0-alfred.app" id="toc-raycast-mac-la-solution-alternative-à-alfred.app"&gt;Raycast Mac,
+la solution alternative à Alfred.app&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#raycast-vs-alfred.app" id="toc-raycast-vs-alfred.app"&gt;Raycast vs Alfred.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#comment-cacherafficher-le-notch-avec-raycast" id="toc-comment-cacherafficher-le-notch-avec-raycast"&gt;Comment
+cacher/afficher le notch avec Raycast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;!--
+.. title: Cacher le notch des MacBook Pro pour voir toutes ses icônes dans la barre des menus
+.. slug: cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus
+.. date: 2024-09-07 15:51:40 UTC+02:00
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+.. previewimage: /images/Cacher_le_notch_des_/image 1.png
+--&gt;
+&lt;p&gt;J’ai un problème qui m’embête depuis un bon moment sur mon MacBook
+Pro : le fait que mes icônes de la barre de menu soient cachées derrière
+le notch.&lt;/p&gt;
+&lt;p&gt;Je suis un utilisateur de &lt;a href="https://bjango.com/mac/istatmenus/"&gt;iStat Menus&lt;/a&gt; qui me permet
+d’afficher des informations supplémentaires dans ma barre de menu. C’est
+une application très pratique, mais avec toutes les autres applications
+que j’utilise qui ajoutent des icônes dans la barre des menus, je me
+retrouve à en avoir trop, et elles se retrouvent cachées derrière le «
+notch », cet espace noir au milieu de la barre de menu qui cache la
+caméra.&lt;/p&gt;
+&lt;p&gt;Je me retrouve à devoir déplacer des icônes dans cet espace noir
+jusqu’à trouver celle qui m’intéresse.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://brainsorting.com/images/Cacher_le_notch_des_/image.png"&gt;&lt;/p&gt;
+&lt;p&gt;Aujourd’hui, j’en ai eu marre ! &lt;/p&gt;&lt;p&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/</guid><pubDate>Sat, 07 Sep 2024 13:51:40 GMT</pubDate></item><item><title>4 méthodes gratuites pour télécharger les sous titres d’une vidéo YouTube</title><link>https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-youtube/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.com/posts/4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-youtube/#m%C3%A9thode-1-t%C3%A9l%C3%A9charger-les-transcriptions-de-vos-propres-vid%C3%A9os-youtube" id="toc-méthode-1-télécharger-les-transcriptions-de-vos-propres-vidéos-youtube"&gt;Méthode
 1 : Télécharger les transcriptions de vos propres vidéos YouTube&lt;/a&gt;
@@ -363,50 +409,4 @@ put them on hold!&lt;/p&gt;
 &lt;p&gt;Please do this instead:&lt;/p&gt;
 &lt;div class="sourceCode" id="cb2"&gt;&lt;pre class="sourceCode txt"&gt;&lt;code class="sourceCode default"&gt;&lt;span id="cb2-1"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb2-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:12 you: Hi -- I'm working on [something] and I'm trying to do [etc...]&lt;/span&gt;
 &lt;span id="cb2-2"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb2-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:33:32 co-worker: [answers question]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://brainsorting.com/posts/the-no-hello-policy/</guid><pubDate>Thu, 30 Jul 2020 07:07:23 GMT</pubDate></item><item><title>Create a blog with Pelican, hosted on Github/Netlify</title><link>https://brainsorting.com/posts/create-a-blog-with-pelican/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#install-pelican" id="toc-install-pelican"&gt;Install
-Pelican&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#lets-see-how-your-blog-looks-like-no" id="toc-lets-see-how-your-blog-looks-like-no"&gt;Let’s see how your blog
-looks like no ?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#hosting-your-blog-files" id="toc-hosting-your-blog-files"&gt;Hosting your blog files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#publishing-your-static-blog" id="toc-publishing-your-static-blog"&gt;Publishing your static
-blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#writing-articles" id="toc-writing-articles"&gt;Writing
-articles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#choosing-a-theme" id="toc-choosing-a-theme"&gt;Choosing a
-theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#installing-the-jupyter-plugin" id="toc-installing-the-jupyter-plugin"&gt;Installing the Jupyter
-Plugin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#useful-modules" id="toc-useful-modules"&gt;Useful
-Modules&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/#references" id="toc-references"&gt;References&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;!--
-.. title: Create a blog with Pelican, hosted on Github/Netlify
-.. slug: create-a-blog-with-pelican
-.. date: 2020-07-18 16:20:03 UTC+02:00
-.. tags: python, pelican, blogging
-.. category: tutorial
-.. link:
-.. description: Full tutorial on how to start blogging with a static website generated by the Pelican python package.
-.. type: text
-.. previewimage: /images/pelican.jpeg
---&gt;
-&lt;p&gt;I hope this article / tutorial will give you the essential knowledge
-and steps to create and deploy your Pelican static blog on Netlify for
-free !&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Goals&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Install Pelican&lt;/li&gt;
-&lt;li&gt;Create a website running on Pelican&lt;/li&gt;
-&lt;li&gt;Deploy a Pelican based site to &lt;a href="http://netlify.com/"&gt;Netlify.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Basic knowledge about git and python&lt;/li&gt;
-&lt;li&gt;Python 3 and git installed on your workstation&lt;/li&gt;
-&lt;li&gt;VSCode or other IDE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.com/posts/create-a-blog-with-pelican/"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blogging</category><category>pelican</category><category>python</category><guid>https://brainsorting.com/posts/create-a-blog-with-pelican/</guid><pubDate>Sat, 18 Jul 2020 14:20:03 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://brainsorting.com/posts/the-no-hello-policy/</guid><pubDate>Thu, 30 Jul 2020 07:07:23 GMT</pubDate></item></channel></rss>
