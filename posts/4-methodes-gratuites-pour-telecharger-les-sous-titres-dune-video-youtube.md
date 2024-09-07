@@ -1,13 +1,14 @@
 <!--
-.. title: 4 méthodes gratuites pour télécharger les sous titres d’une vidéo gratuite
-.. slug: 4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-gratuite
-.. date: 2024-09-07 02:33:03 UTC+02:00
+.. title: 4 méthodes gratuites pour télécharger les sous titres d’une vidéo YouTube
+.. slug: 4-methodes-gratuites-pour-telecharger-les-sous-titres-dune-video-youtube
+.. date: 2024-09-07 15:02:28 UTC+02:00
 .. tags:
 .. category:
 .. link:
 .. description:
 .. type: text
 .. previewimage: /images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_23.00.51.png
+.. medium: yes
 -->
 
 
@@ -15,12 +16,10 @@ Dans ma quête de faire un article à partir d'une vidéo YouTube, j'ai découve
 
 Voici les différentes méthodes, je les ai classées de la plus simple à la plus difficile.
 
-<!-- TEASER_END -->
-
 ## Méthode 1 : Télécharger les transcriptions de vos propres vidéos YouTube
 
 Bon, il va de soi que si c'est pour télécharger les sous-titres d'une de vos propres vidéos, vous pouvez le faire directement depuis votre compte YouTube. Voici comment procéder :
-
+<!-- TEASER_END -->
 ### Étape 1 : Accéder à YouTube Studio
 
 Connectez-vous à votre compte YouTube et cliquez sur « [YouTube Studio](https://studio.youtube.com/) » dans le menu déroulant de votre profil.
@@ -47,7 +46,7 @@ Il existe 2 types de sous-titres : ceux avec simplement le texte, et ceux avec c
 
 Je vais commencer avec un exemple → [Editby.ai](https://editby.ai/transcript?via=editbyai)
 
-![Capture d'écran 2024-09-06 à 21.54.27.png](/images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_21.54.27.png)
+![](/images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_21.54.27.png)
 
 Pour cette méthode, pas besoin de s'inscrire, vous pouvez directement mettre le lien de votre vidéo YouTube et vous aurez le texte du sous-titre tout d'affilée. Vous pouvez ensuite le télécharger en fichier txt ou le copier dans votre presse-papier.
 
@@ -74,7 +73,7 @@ La deuxième méthode est d'utiliser des sites web qui proposent cette solution,
 
 Je vous en montre un qui est sympa, il s'appelle [Maestra](https://maestra.ai/fr/outils/video-en-texte/generateur-de-transcription-youtube)
 
-![Capture d'écran 2024-09-06 à 22.33.47.png](/images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_22.33.47.png)
+![](/images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_22.33.47.png)
 
 Comme vous le voyez, vous avez carrément un éditeur de type professionnel pour gérer vos sous-titres sur une vidéo, mais si votre objectif n'est que de récupérer les sous-titres, vous pouvez faire « exporter » en haut à droite et choisir parmi les options.
 
@@ -94,15 +93,15 @@ On va créer un nouveau dossier qui contiendra le projet, une fois dedans avec l
 
 Vous pouvez ensuite demander à ChatGPT de vous aider à faire le script, exemple :
 
-![Capture d'écran 2024-09-06 à 22.49.45.png](/images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_22.49.45.png)
+![](/images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_22.49.45.png)
 
 Je vous donne le script :
 
-[https://gist.github.com/MattiooFR/acff7bd103bd4adffa23e5afb8943201](https://gist.github.com/MattiooFR/acff7bd103bd4adffa23e5afb8943201)
+<script src="https://gist.github.com/MattiooFR/acff7bd103bd4adffa23e5afb8943201.js"></script>
 
 Et quand on utilise le script, ça donne ça
 
-![Capture d'écran 2024-09-06 à 23.00.51.png](/images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_23.00.51.png)
+![](/images/4_méthodes_gratuites/Capture_decran_2024-09-06_a_23.00.51.png)
 
 Avec ça, vous devriez pouvoir intégrer facilement la récupération de transcript dans un projet plus gros, d'automatisation de rédaction d'articles par exemple.
 
