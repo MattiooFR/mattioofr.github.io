@@ -15,23 +15,23 @@ Dans ma quête de faire un article à partir d'une vidéo YouTube, j'ai découve
 
 Voici les différentes méthodes, je les ai classées de la plus simple à la plus difficile.
 <!-- TEASER_END -->
-## **Méthode 1 : Télécharger les transcriptions de vos propres vidéos YouTube**
+## Méthode 1 : Télécharger les transcriptions de vos propres vidéos YouTube
 
 Bon, il va de soi que si c'est pour télécharger les sous-titres d'une de vos propres vidéos, vous pouvez le faire directement depuis votre compte YouTube. Voici comment procéder :
 
-### **Étape 1 : Accéder à YouTube Studio**
+### Étape 1 : Accéder à YouTube Studio
 
 Connectez-vous à votre compte YouTube et cliquez sur « [YouTube Studio](https://studio.youtube.com/) » dans le menu déroulant de votre profil.
 
-### **Étape 2 : Naviguer vers la section Sous-titres**
+### Étape 2 : Naviguer vers la section Sous-titres
 
 Dans YouTube Studio, allez dans « Vidéos », sélectionnez la vidéo souhaitée, puis cliquez sur « Sous-titres ».
 
-### **Étape 3 : Trouver le sous-titre auto-généré**
+### Étape 3 : Trouver le sous-titre auto-généré
 
 Recherchez la ligne de langue indiquant « Automatique » dans l'onglet des sous-titres.
 
-### **Étape 4 : Télécharger votre transcription**
+### Étape 4 : Télécharger votre transcription
 
 Cliquez sur les trois points à côté de « Automatique » et sélectionnez « Télécharger ». La transcription sera téléchargée au format .sbv.
 
