@@ -3,7 +3,78 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 07 Sep 2024 13:52:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cacher le notch des MacBook Pro pour voir toutes ses icônes dans la barre des menus</title><link>https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Sep 2024 09:43:32 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Comment rédiger votre lettre de motivation avec l’IA</title><link>https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#comment-r%C3%A9diger-votre-lettre-de-motivation-avec-lia" id="toc-comment-rédiger-votre-lettre-de-motivation-avec-lia"&gt;Comment
+rédiger votre lettre de motivation avec l’IA&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#choisissez-votre-ia" id="toc-choisissez-votre-ia"&gt;Choisissez votre IA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#%C3%A9crire-tr%C3%A8s-rapidement-une-lettre-de-motivation" id="toc-écrire-très-rapidement-une-lettre-de-motivation"&gt;Écrire très
+rapidement une lettre de motivation&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#mod%C3%A8le-de-prompt-pour-une-lettre-de-motivation-qui-r%C3%A9pond-%C3%A0-une-offre-demploi" id="toc-modèle-de-prompt-pour-une-lettre-de-motivation-qui-répond-à-une-offre-demploi"&gt;Modèle
+de prompt pour une lettre de motivation qui répond à une offre
+d’emploi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#mod%C3%A8le-de-prompt-pour-une-lettre-de-motivation-en-candidature-spontan%C3%A9e" id="toc-modèle-de-prompt-pour-une-lettre-de-motivation-en-candidature-spontanée"&gt;Modèle
+de prompt pour une lettre de motivation en candidature
+spontanée&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#%C3%A9crire-une-lettre-de-motivation-de-mani%C3%A8re-plus-d%C3%A9taill%C3%A9e" id="toc-écrire-une-lettre-de-motivation-de-manière-plus-détaillée"&gt;Écrire
+une lettre de motivation de manière plus détaillée&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#demandez-%C3%A0-lia-de-cr%C3%A9er-une-structure-pour-votre-lettre-de-motivation" id="toc-demandez-à-lia-de-créer-une-structure-pour-votre-lettre-de-motivation"&gt;Demandez
+à l’IA de créer une structure pour votre lettre de motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#g%C3%A9n%C3%A9rez-le-contenu-de-votre-lettre-de-motivation-avec-lia" id="toc-générez-le-contenu-de-votre-lettre-de-motivation-avec-lia"&gt;Générez
+le contenu de votre lettre de motivation avec l’IA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#personnalisez-et-affinez" id="toc-personnalisez-et-affinez"&gt;Personnalisez et affinez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#demandez-une-r%C3%A9vision-%C3%A0-lia" id="toc-demandez-une-révision-à-lia"&gt;Demandez une révision à
+l’IA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#relisez-et-finalisez-votre-lettre-de-motivation" id="toc-relisez-et-finalisez-votre-lettre-de-motivation"&gt;Relisez et
+finalisez votre lettre de motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#formatez-et-envoyez" id="toc-formatez-et-envoyez"&gt;Formatez
+et envoyez&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#f.a.q." id="toc-f.a.q."&gt;F.A.Q.&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#combien-de-temps-faut-il-pour-r%C3%A9diger-une-lettre-de-motivation-avec-lia" id="toc-combien-de-temps-faut-il-pour-rédiger-une-lettre-de-motivation-avec-lia"&gt;Combien
+de temps faut-il pour rédiger une lettre de motivation avec l’IA
+?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#comment-faire-une-bonne-lettre-de-motivation" id="toc-comment-faire-une-bonne-lettre-de-motivation"&gt;Comment faire une
+bonne lettre de motivation ?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#faut-il-signer-une-lettre-de-motivation" id="toc-faut-il-signer-une-lettre-de-motivation"&gt;Faut-il signer une
+lettre de motivation ?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#comment-commencer-une-lettre-de-motivation" id="toc-comment-commencer-une-lettre-de-motivation"&gt;Comment commencer
+une lettre de motivation ?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/#quelle-ia-est-la-meilleure-pour-r%C3%A9diger-une-lettre-de-motivation" id="toc-quelle-ia-est-la-meilleure-pour-rédiger-une-lettre-de-motivation"&gt;Quelle
+IA est la meilleure pour rédiger une lettre de motivation ?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;!--
+.. title: Comment rédiger votre lettre de motivation avec l’IA
+.. slug: comment-rediger-votre-lettre-de-motivation-avec-lia
+.. date: 2024-09-08 11:42:55 UTC+02:00
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+.. previewimage: /images/Comment_rédiger_votr/ia-redige-lettre-motivation.png
+--&gt;
+&lt;h1 id="comment-rédiger-votre-lettre-de-motivation-avec-lia"&gt;Comment
+rédiger votre lettre de motivation avec l’IA&lt;/h1&gt;
+&lt;p&gt;&lt;img src="https://brainsorting.com/images/Comment_r%C3%A9diger_votr/ia-redige-lettre-motivation.png"&gt;&lt;/p&gt;
+&lt;p&gt;Aujourd’hui, je vais vous expliquer comment rédiger votre lettre de
+motivation très facilement en vous aidant de l’IA.&lt;/p&gt;
+&lt;p&gt;Ce dont vous aurez besoin pour le tutoriel :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un compte pour utiliser votre IA préférée, je vous recommande Claude
+ou ChatGPT.&lt;/li&gt;
+&lt;li&gt;Votre CV en PDF.&lt;/li&gt;
+&lt;li&gt;Le lien vers l’annonce de l’offre d’emploi s’il y en a une.&lt;/li&gt;
+&lt;li&gt;Le maximum d’informations sur le poste et l’entreprise chez laquelle
+vous comptez postuler. &lt;p&gt;&lt;a href="https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><guid>https://brainsorting.com/posts/comment-rediger-votre-lettre-de-motivation-avec-lia/</guid><pubDate>Sun, 08 Sep 2024 09:42:55 GMT</pubDate></item><item><title>Cacher le notch des MacBook Pro pour voir toutes ses icônes dans la barre des menus</title><link>https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;div&gt;&lt;nav id="TOC" role="doc-toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://brainsorting.com/posts/cacher-le-notch-des-macbook-pro-pour-voir-toutes-ses-icones-dans-la-barre-des-menus/#alfred.app-le-d%C3%A9but-dune-solution-pour-cacherafficher-le-notch" id="toc-alfred.app-le-début-dune-solution-pour-cacherafficher-le-notch"&gt;Alfred.app,
 le début d’une solution pour cacher/afficher le notch&lt;/a&gt;
@@ -399,14 +470,4 @@ with higher fees.&lt;/p&gt;
 &lt;p&gt;This result in you being stuck because until that transaction is
 resolved you cannot send any other transaction. Annoying right ?&lt;/p&gt;
 &lt;p&gt;Let’s dive right in on how to fix this !&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blockchain</category><category>ethereum</category><category>metamask</category><guid>https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</guid><pubDate>Sat, 15 Aug 2020 10:05:27 GMT</pubDate></item><item><title>Please Don't Say Just Hello In Chat</title><link>https://brainsorting.com/posts/the-no-hello-policy/</link><dc:creator>Mathieu Dugue</dc:creator><description>&lt;figure&gt;&lt;img src="https://brainsorting.com/images/nohello.png"&gt;&lt;/figure&gt; &lt;div&gt;&lt;div class="sourceCode" id="cb1"&gt;&lt;pre class="sourceCode txt"&gt;&lt;code class="sourceCode default"&gt;&lt;span id="cb1-1"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:12 you: Hi&lt;/span&gt;
-&lt;span id="cb1-2"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:15 co-worker: Hello.&lt;/span&gt;
-&lt;span id="cb1-3"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-3" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;# CO-WORKER WAITS WHILE YOU PHRASE YOUR QUESTION&lt;/span&gt;
-&lt;span id="cb1-4"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-4" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:34:01 you: I'm working on [something] and I'm trying to do [etc...]&lt;/span&gt;
-&lt;span id="cb1-5"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb1-5" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:35:21 co-worker: Oh, that's [answer...]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;It’s as if you called someone on the phone and said “Hi!” and then
-put them on hold!&lt;/p&gt;
-&lt;p&gt;Please do this instead:&lt;/p&gt;
-&lt;div class="sourceCode" id="cb2"&gt;&lt;pre class="sourceCode txt"&gt;&lt;code class="sourceCode default"&gt;&lt;span id="cb2-1"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb2-1" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:32:12 you: Hi -- I'm working on [something] and I'm trying to do [etc...]&lt;/span&gt;
-&lt;span id="cb2-2"&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/#cb2-2" aria-hidden="true" tabindex="-1"&gt;&lt;/a&gt;2010-07-19 12:33:32 co-worker: [answers question]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://brainsorting.com/posts/the-no-hello-policy/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://brainsorting.com/posts/the-no-hello-policy/</guid><pubDate>Thu, 30 Jul 2020 07:07:23 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>blockchain</category><category>ethereum</category><category>metamask</category><guid>https://brainsorting.com/posts/how-to-cancel-a-pending-ethereum-transaction-with-metamask/</guid><pubDate>Sat, 15 Aug 2020 10:05:27 GMT</pubDate></item></channel></rss>
